@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pigiausias Kuras</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007AFF">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>⛽ Pigiausias Kuras</h1>
+            <p>Raskite geriausią kainą savo mieste</p>
+        </header>
+
+        <main class="app-content">
+            <section class="controls">
+                <div class="input-group">
+                    <label for="city-select">Pasirinkite miestą arba nustatykite pagal internetą</label>
+                    <div style="display: flex; gap: 10px;">
+                        <select id="city-select" style="flex: 1;">
+                            <option value="Vilnius">Vilnius</option>
+                            <option value="Kaunas">Kaunas</option>
+                            <option value="Klaipėda">Klaipėda</option>
+                        </select>
+                        <button id="use-gps-btn" class="fuel-btn" style="flex: 0 0 auto; padding: 0 16px; background: #E5E5EA; border: none; border-radius: 12px; font-size: 20px;" title="Rasti pagal IP adresą">📍</button>
+                    </div>
+                </div>
+                
+                <div id="gps-status" class="gps-status hidden">
+                    <span class="pulse-dot"></span>
+                    <span id="location-text">Ieškoma jūsų vietovės...</span>
+                </div>
+
+                <div class="input-group">
+                    <label for="radius-select">Paieškos spindulys</label>
+                    <select id="radius-select">
+                        <option value="5">5 km spinduliu</option>
+                        <option value="10">10 km spinduliu</option>
+                        <option value="all" selected>Rodyti viską (visas miestas)</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Kuro tipas</label>
+                    <div class="fuel-buttons" id="fuel-type-container">
+                        <button class="fuel-btn active" data-type="A95">A95</button>
+                        <button class="fuel-btn" data-type="Diesel">Dyzelinas</button>
+                        <button class="fuel-btn" data-type="LPG">Dujos (LPG)</button>
+                    </div>
+                </div>
+
+                <button id="find-cheapest-btn" class="primary-btn hidden">Rasti arčiausią ir pigiausią</button>
+            </section>
+
+            <section id="results-container" class="results-section hidden">
+                <h2>Pigiausia degalinė:</h2>
+                <div id="cheapest-card" class="result-card highlight">
+                    <!-- Javascript will populate this -->
+                </div>
+
+                <h3 class="other-options-title" style="margin-top: 20px;">Degalinės žemėlapyje:</h3>
+                <div id="map" style="height: 400px; width: 100%; border-radius: 12px; margin-top: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); z-index: 1;">
+                    <!-- Leaflet map will render here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => console.log('ServiceWorker registered'))
+                    .catch(error => console.log('ServiceWorker registration failed: ', error));
+            });
+        }
+    </script>
+</body>
+</html>
