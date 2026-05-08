@@ -1,0 +1,37 @@
+name: Atnaujinti Kuro Kainas
+
+on:
+  schedule:
+    - cron: '0 3,12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Atsisiųsti repozitorijos failus
+      uses: actions/checkout@v4
+
+    - name: Paruošti Python aplinką
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Įdiegti bibliotekas
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    - name: Paleisti duomenų siurbimo skriptą
+      run: python scraper.py
+      
+    - name: Išsaugoti pakeitimus (Commit)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data.js coords_cache.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Automatinis kuro kainų atnaujinimas"
+        git push
