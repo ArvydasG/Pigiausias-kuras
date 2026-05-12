@@ -2,8 +2,10 @@ name: Atnaujinti Kuro Kainas
 
 on:
   schedule:
-    - cron: '0 3,12 * * *'
-  workflow_dispatch:
+    # Paleidžiama kiekvieną dieną 10:15, 12:00, 14:00, 16:00, 18:00 Lietuvos laiku (UTC yra 3 valandom atgal)
+    - cron: '15 7 * * *'
+    - cron: '0 9,11,13,15 * * *'
+  workflow_dispatch: # Leidžia paleisti rankiniu būdu iš GitHub
 
 jobs:
   update-data:
@@ -33,5 +35,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data.js coords_cache.json
+        # Patikriname ar yra pakeitimų, jei taip - išsaugome
         git diff --quiet && git diff --staged --quiet || git commit -m "Automatinis kuro kainų atnaujinimas"
         git push
