@@ -486,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // User Location Marker
         const userIcon = L.divIcon({
-            html: `<div style="${iconStyle}">🚧</div>`,
+            html: `<div style="${iconStyle}">🚗</div>`,
             className: '',
             iconSize: [30, 30],
             iconAnchor: [15, 15]
