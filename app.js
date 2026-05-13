@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let isMapView = true;
     let watchId = null;
     let userMarker = null;
+    let autoCenterMap = true;
+    let centerBtn = null;
 
     // Make find button visible by default now since we have a fallback
     findBtn.classList.remove('hidden');
@@ -208,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (userMarker) {
                             userMarker.setLatLng([userLocation.lat, userLocation.lng]);
                         }
-                        if (map && isMapView) {
+                        if (map && isMapView && autoCenterMap) {
                             map.panTo([userLocation.lat, userLocation.lng]);
                         }
                     }
@@ -399,6 +401,45 @@ document.addEventListener('DOMContentLoaded', () => {
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; OpenStreetMap contributors'
             }).addTo(map);
+
+            const CenterControl = L.Control.extend({
+                options: { position: 'topleft' },
+                onAdd: function () {
+                    centerBtn = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+                    centerBtn.style.backgroundColor = 'white';
+                    centerBtn.style.width = '34px';
+                    centerBtn.style.height = '34px';
+                    centerBtn.style.display = 'flex';
+                    centerBtn.style.justifyContent = 'center';
+                    centerBtn.style.alignItems = 'center';
+                    centerBtn.style.cursor = 'pointer';
+                    centerBtn.style.fontSize = '18px';
+                    centerBtn.title = 'Auto-centravimas įjungtas';
+                    centerBtn.innerHTML = '🎯';
+
+                    centerBtn.onclick = function(e) {
+                        e.stopPropagation();
+                        autoCenterMap = !autoCenterMap;
+                        centerBtn.innerHTML = autoCenterMap ? '🎯' : '🔓';
+                        centerBtn.title = autoCenterMap ? 'Auto-centravimas įjungtas' : 'Auto-centravimas išjungtas';
+                        if (autoCenterMap && usingGps && userLocation) {
+                            map.panTo([userLocation.lat, userLocation.lng]);
+                        }
+                    };
+                    return centerBtn;
+                }
+            });
+            map.addControl(new CenterControl());
+
+            map.on('dragstart', () => {
+                if (autoCenterMap) {
+                    autoCenterMap = false;
+                    if (centerBtn) {
+                        centerBtn.innerHTML = '🔓';
+                        centerBtn.title = 'Auto-centravimas išjungtas';
+                    }
+                }
+            });
         } else {
             // Clear existing markers
             map.eachLayer((layer) => {
