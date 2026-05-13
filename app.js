@@ -406,7 +406,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="station-info">
                     <div class="station-logo">${cheapest.logo}</div>
                     <div class="station-details">
-                        <h4>${cheapest.name} <span class="distance-badge">${cheapest.distance.toFixed(1)} km</span></h4>
+                        <h4>${cheapest.name} <span class="distance-badge" title="Apytikslis atstumas tiesia linija">~ ${cheapest.distance.toFixed(1)} km</span></h4>
                         <p>📍 ${cheapest.address}, ${cheapest.city}<br><span style="font-size: 10px; color: var(--primary-color);">Spauskite naviguoti</span></p>
                     </div>
                 </div>
@@ -531,7 +531,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .bindPopup(`
                 <b>${cheapest.name} (Pigiausia)</b><br>
                 <strong style="color: var(--success-color); font-size: 16px;">${cheapest.prices[selectedFuel].toFixed(2)} €/L</strong><br>
-                <span style="font-size: 12px; color: #666;">Atstumas: ${cheapest.distance.toFixed(1)} km</span><br>
+                <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${cheapest.distance.toFixed(1)} km</span><br>
                 <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
             `);
 
@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .bindPopup(`
                     <b>${station.name}</b><br>
                     <strong>${station.prices[selectedFuel].toFixed(2)} €/L</strong><br>
-                    <span style="font-size: 12px; color: #666;">Atstumas: ${station.distance.toFixed(1)} km</span><br>
+                    <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${station.distance.toFixed(1)} km</span><br>
                     <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
                 `);
         });
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="station-info">
                         <div class="station-logo">${station.logo}</div>
                         <div class="station-details">
-                            <h4>${station.name} <span class="distance-badge">${station.distance.toFixed(1)} km</span></h4>
+                            <h4>${station.name} <span class="distance-badge" title="Apytikslis atstumas tiesia linija">~ ${station.distance.toFixed(1)} km</span></h4>
                             <p>📍 ${station.address}, ${station.city}</p>
                         </div>
                     </div>
