@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const networkCheckboxes = document.querySelectorAll('.network-cb');
     const addressInput = document.getElementById('address-input');
     const searchAddressBtn = document.getElementById('search-address-btn');
+    const navAppSelect = document.getElementById('nav-app-select');
     let map = null; // Leaflet map instance
     let isMapView = true;
     let watchId = null;
@@ -32,6 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Make find button visible by default now since we have a fallback
     findBtn.classList.remove('hidden');
+
+    const savedNavApp = localStorage.getItem('navAppPref');
+    if (savedNavApp) {
+        navAppSelect.value = savedNavApp;
+    }
+    navAppSelect.addEventListener('change', (e) => {
+        localStorage.setItem('navAppPref', e.target.value);
+        if (!resultsContainer.classList.contains('hidden')) {
+            findCheapestFuel();
+        }
+    });
 
     // Populate cities dynamically
     const uniqueCities = [...new Set(stationsData.map(s => s.city))].sort();
@@ -365,14 +377,24 @@ document.addEventListener('DOMContentLoaded', () => {
         renderResults(cheapest, others);
     }
 
-    function createGoogleMapsLink(station) {
+    function createNavLink(station) {
+        const app = navAppSelect.value;
         const query = `${station.name} ${station.address}, ${station.city}`;
-        let url = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(query)}`;
-        if (userLocation && userLocation.lat && userLocation.lng) {
-            url += `&origin=${userLocation.lat},${userLocation.lng}`;
+        
+        if (app === 'waze') {
+            if (station.lat && station.lng) {
+                return `https://waze.com/ul?ll=${station.lat},${station.lng}&navigate=yes`;
+            } else {
+                return `https://waze.com/ul?q=${encodeURIComponent(query)}&navigate=yes`;
+            }
+        } else {
+            let url = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(query)}`;
+            if (userLocation && userLocation.lat && userLocation.lng) {
+                url += `&origin=${userLocation.lat},${userLocation.lng}`;
+            }
+            url += `&travelmode=driving&dir_action=navigate`;
+            return url;
         }
-        url += `&travelmode=driving&dir_action=navigate`;
-        return url;
     }
 
     function renderResults(cheapest, others) {
@@ -380,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Render cheapest as a clickable link
         cheapestCard.innerHTML = `
-            <a href="${createGoogleMapsLink(cheapest)}" target="_blank" class="result-card highlight" style="display:flex; width:100%; border:none; box-shadow:none; padding:0; margin:0;">
+            <a href="${createNavLink(cheapest)}" target="_blank" class="result-card highlight" style="display:flex; width:100%; border:none; box-shadow:none; padding:0; margin:0;">
                 <div class="station-info">
                     <div class="station-logo">${cheapest.logo}</div>
                     <div class="station-details">
@@ -510,7 +532,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <b>${cheapest.name} (Pigiausia)</b><br>
                 <strong style="color: var(--success-color); font-size: 16px;">${cheapest.prices[selectedFuel].toFixed(2)} €/L</strong><br>
                 <span style="font-size: 12px; color: #666;">Atstumas: ${cheapest.distance.toFixed(1)} km</span><br>
-                <a href="${createGoogleMapsLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
+                <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
             `);
 
         // Other Stations Markers
@@ -536,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <b>${station.name}</b><br>
                     <strong>${station.prices[selectedFuel].toFixed(2)} €/L</strong><br>
                     <span style="font-size: 12px; color: #666;">Atstumas: ${station.distance.toFixed(1)} km</span><br>
-                    <a href="${createGoogleMapsLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
+                    <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
                 `);
         });
 
@@ -554,7 +576,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             others.forEach(station => {
                 const card = document.createElement('a');
-                card.href = createGoogleMapsLink(station);
+                card.href = createNavLink(station);
                 card.target = "_blank";
                 card.className = 'result-card';
                 card.innerHTML = `

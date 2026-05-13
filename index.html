@@ -29,7 +29,7 @@
         <main class="app-content">
             <section class="controls">
                 <div class="input-group">
-                    <label for="city-select">Pasirinkite miestą arba nustatykite pagal Gps</label>
+                    <label for="city-select">Įveskite lokaciją, arba nustatykite pagal Gps</label>
                     <div style="display: flex; gap: 10px;">
                         <select id="city-select" style="flex: 1;">
                             <option value="Vilnius">Vilnius</option>
@@ -46,7 +46,9 @@
                     <label for="address-input">Tikslesniam atstumui – įveskite adresą (nebūtina)</label>
                     <div style="display: flex; gap: 10px;">
                         <input type="text" id="address-input" class="text-input" placeholder="Pvz. Laisvės al. 1">
-                        <button id="search-address-btn" class="fuel-btn" style="flex: 0 0 auto; padding: 0 16px; background: #E5E5EA; border: none; border-radius: 12px; font-size: 16px;" title="Ieškoti adreso">🔍</button>
+                        <button id="search-address-btn" class="fuel-btn"
+                            style="flex: 0 0 auto; padding: 0 16px; background: #E5E5EA; border: none; border-radius: 12px; font-size: 16px;"
+                            title="Ieškoti adreso">🔍</button>
                     </div>
                 </div>
 
@@ -70,15 +72,24 @@
                             <span class="dropdown-icon">▼</span>
                         </div>
                         <div class="custom-select-options hidden" id="network-dropdown-options">
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="all" checked> Visi</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Circle K"> Circle K</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Neste"> Neste</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Viada"> Viada</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Baltic Petroleum"> Baltic Petroleum</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Emsi"> Emsi</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Jozita"> Jozita</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Saurida"> Saurida</label>
-                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Orlen"> Orlen</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="all" checked>
+                                Visi</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Circle K">
+                                Circle K</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Neste">
+                                Neste</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Viada">
+                                Viada</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb"
+                                    value="Baltic Petroleum"> Baltic Petroleum</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Emsi">
+                                Emsi</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Jozita">
+                                Jozita</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Saurida">
+                                Saurida</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Orlen">
+                                Orlen</label>
                         </div>
                     </div>
                 </div>
@@ -116,6 +127,18 @@
                 </div>
             </section>
         </main>
+        <footer class="app-footer">
+            <div class="footer-content">
+                <span class="footer-title">⚙️ Nustatymai</span>
+                <div class="footer-setting">
+                    <label for="nav-app-select">Navigacija:</label>
+                    <select id="nav-app-select" class="footer-select">
+                        <option value="google">Google Maps</option>
+                        <option value="waze">Waze</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="data.js"></script>
