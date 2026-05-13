@@ -14,8 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const findBtn = document.getElementById('find-cheapest-btn');
     const resultsContainer = document.getElementById('results-container');
     const cheapestCard = document.getElementById('cheapest-card');
+    const otherStationsList = document.getElementById('other-stations-list');
+    const mapContainer = document.getElementById('map');
+    const toggleViewBtn = document.getElementById('toggle-view-btn');
     const radiusSelect = document.getElementById('radius-select');
+    const networkContainer = document.getElementById('network-container');
+    const networkBtns = document.querySelectorAll('.network-btn');
+    const addressInput = document.getElementById('address-input');
+    const searchAddressBtn = document.getElementById('search-address-btn');
     let map = null; // Leaflet map instance
+    let isMapView = true;
+    let watchId = null;
+    let userMarker = null;
 
     // Make find button visible by default now since we have a fallback
     findBtn.classList.remove('hidden');
@@ -41,6 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event Listeners
     citySelect.addEventListener('change', (e) => {
         usingGps = false;
+        if (watchId) {
+            navigator.geolocation.clearWatch(watchId);
+            watchId = null;
+        }
         gpsStatus.classList.add('hidden');
         
         const selectedCity = e.target.value;
@@ -56,6 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     useGpsBtn.addEventListener('click', () => {
         initLocation();
+    });
+
+    searchAddressBtn.addEventListener('click', () => {
+        searchByAddress();
+    });
+
+    addressInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            searchByAddress();
+        }
     });
 
     fuelContainer.addEventListener('click', (e) => {
@@ -79,6 +103,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    networkContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('network-btn')) {
+            const network = e.target.getAttribute('data-network');
+            
+            if (network === 'all') {
+                networkBtns.forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+            } else {
+                const allBtn = document.querySelector('.network-btn[data-network="all"]');
+                if (allBtn) allBtn.classList.remove('active');
+                
+                e.target.classList.toggle('active');
+                
+                const anyActive = document.querySelectorAll('.network-btn.active').length > 0;
+                if (!anyActive) {
+                    if (allBtn) allBtn.classList.add('active');
+                }
+            }
+            
+            if (!resultsContainer.classList.contains('hidden')) {
+                findCheapestFuel();
+            }
+        }
+    });
+
+    toggleViewBtn.addEventListener('click', () => {
+        isMapView = !isMapView;
+        if (isMapView) {
+            mapContainer.classList.remove('hidden');
+            otherStationsList.classList.add('hidden');
+            toggleViewBtn.innerText = 'Rodyti sąrašą';
+            if (map) {
+                map.invalidateSize();
+            }
+        } else {
+            mapContainer.classList.add('hidden');
+            otherStationsList.classList.remove('hidden');
+            toggleViewBtn.innerText = 'Rodyti žemėlapį';
+        }
+    });
+
     // Haversine formula to calculate distance between two coordinates
     function calculateDistance(lat1, lon1, lat2, lon2) {
         const R = 6371; // Radius of the earth in km
@@ -94,30 +159,48 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function initLocation() {
+        if (watchId) {
+            navigator.geolocation.clearWatch(watchId);
+            watchId = null;
+        }
+
         gpsStatus.classList.remove('hidden');
         locationText.innerText = "Nustatoma jūsų vieta...";
         document.querySelector('.pulse-dot').style.backgroundColor = 'var(--primary-color)';
         document.querySelector('.pulse-dot').style.animation = 'pulse 1.5s infinite';
 
         if ("geolocation" in navigator) {
-            navigator.geolocation.getCurrentPosition(
+            watchId = navigator.geolocation.watchPosition(
                 (position) => {
+                    const isFirstTime = !usingGps;
                     usingGps = true;
                     userLocation = {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
                     };
-                    locationText.innerText = "Tiksli GPS vieta nustatyta!";
+                    locationText.innerText = "Tiksli GPS vieta sekama!";
                     document.querySelector('.pulse-dot').style.backgroundColor = 'var(--success-color)';
                     document.querySelector('.pulse-dot').style.animation = 'none';
-                    updateCityFromLocation();
-                    findCheapestFuel();
+                    
+                    if (isFirstTime || resultsContainer.classList.contains('hidden')) {
+                        updateCityFromLocation();
+                        findCheapestFuel();
+                    } else {
+                        if (userMarker) {
+                            userMarker.setLatLng([userLocation.lat, userLocation.lng]);
+                        }
+                        if (map && isMapView) {
+                            map.panTo([userLocation.lat, userLocation.lng]);
+                        }
+                    }
                 },
                 (error) => {
-                    console.warn("GPS failed or blocked, falling back to IP.", error);
-                    fetchIPLocation();
+                    if (!usingGps) {
+                        console.warn("GPS failed or blocked, falling back to IP.", error);
+                        fetchIPLocation();
+                    }
                 },
-                { timeout: 5000 }
+                { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 }
             );
         } else {
             fetchIPLocation();
@@ -152,6 +235,55 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    async function searchByAddress() {
+        const address = addressInput.value.trim();
+        const city = citySelect.value;
+        if (!address) {
+            alert("Prašome įvesti adresą.");
+            return;
+        }
+
+        gpsStatus.classList.remove('hidden');
+        locationText.innerText = "Ieškoma adreso...";
+        document.querySelector('.pulse-dot').style.backgroundColor = 'var(--primary-color)';
+        document.querySelector('.pulse-dot').style.animation = 'pulse 1.5s infinite';
+
+        const query = encodeURIComponent(`${address}, ${city}, Lithuania`);
+        try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
+            if (!response.ok) throw new Error('Network error');
+            const data = await response.json();
+            
+            if (data && data.length > 0) {
+                usingGps = false;
+                if (watchId) {
+                    navigator.geolocation.clearWatch(watchId);
+                    watchId = null;
+                }
+                userLocation = {
+                    lat: parseFloat(data[0].lat),
+                    lng: parseFloat(data[0].lon)
+                };
+                
+                locationText.innerText = `Adresas rastas: ${data[0].display_name.split(',')[0]}, ${city}`;
+                document.querySelector('.pulse-dot').style.backgroundColor = 'var(--success-color)';
+                document.querySelector('.pulse-dot').style.animation = 'none';
+                
+                updateCityFromLocation();
+                findCheapestFuel();
+            } else {
+                locationText.innerText = "Adresas nerastas. Patikrinkite, ar teisingai įvedėte.";
+                document.querySelector('.pulse-dot').style.backgroundColor = 'red';
+                document.querySelector('.pulse-dot').style.animation = 'none';
+            }
+        } catch (error) {
+            console.error("Address search failed", error);
+            locationText.innerText = "Klaida ieškant adreso.";
+            document.querySelector('.pulse-dot').style.backgroundColor = 'red';
+            document.querySelector('.pulse-dot').style.animation = 'none';
+        }
+    }
+
     function updateCityFromLocation() {
         if (!userLocation) return;
         let minDistance = Infinity;
@@ -173,6 +305,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function findCheapestFuel() {
         if (!userLocation) return;
 
+        const selectedCity = citySelect.value;
+        const activeNetworkBtns = document.querySelectorAll('.network-btn.active');
+        const selectedNetworks = Array.from(activeNetworkBtns).map(btn => btn.getAttribute('data-network'));
+        const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
+
         // Add distance to each station and filter out those without the selected fuel
         let availableStations = stationsData.map(station => {
             const dist = calculateDistance(userLocation.lat, userLocation.lng, station.lat, station.lng);
@@ -181,10 +318,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // Must have the selected fuel
             if (station.prices[selectedFuel] == null) return false;
             
-            const radius = radiusSelect.value;
+            // Network filter
+            if (!selectedNetworks.includes('all')) {
+                const matchesNetwork = selectedNetworks.some(net => station.name.toLowerCase().includes(net.toLowerCase()));
+                if (!matchesNetwork) return false;
+            }
             
-            if (radius !== 'all') {
-                return station.distance <= parseInt(radius);
+            if (maxRadius !== Infinity) {
+                return station.distance <= maxRadius;
             } else {
                 return station.city === citySelect.value;
             }
@@ -267,14 +408,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // User Location Marker
         const userIcon = L.divIcon({
-            html: `<div style="${iconStyle}">📍</div>`,
+            html: `<div style="${iconStyle}">🚗</div>`,
             className: '',
             iconSize: [30, 30],
-            iconAnchor: [15, 30]
+            iconAnchor: [15, 15]
         });
-        L.marker([userLocation.lat, userLocation.lng], {icon: userIcon, zIndexOffset: 1000})
+        userMarker = L.marker([userLocation.lat, userLocation.lng], {icon: userIcon, zIndexOffset: 1000})
             .addTo(map)
-            .bindPopup("<b>Jūsų vieta</b><br>Pagal IP/GPS");
+            .bindPopup("<b>Jūsų vieta</b><br>Sekama gyvai");
 
         // Cheapest Station Marker
         const cheapestIcon = L.divIcon({
@@ -316,5 +457,32 @@ document.addEventListener('DOMContentLoaded', () => {
             L.marker([cheapest.lat, cheapest.lng])
         ]);
         map.fitBounds(group.getBounds().pad(0.3));
+
+        // Render others (List)
+        otherStationsList.innerHTML = '';
+        if (others.length === 0) {
+            otherStationsList.innerHTML = '<p style="color: var(--text-secondary); font-size: 14px;">Daugiau degalinių nerasta.</p>';
+        } else {
+            others.forEach(station => {
+                const card = document.createElement('a');
+                card.href = createGoogleMapsLink(station);
+                card.target = "_blank";
+                card.className = 'result-card';
+                card.innerHTML = `
+                    <div class="station-info">
+                        <div class="station-logo">${station.logo}</div>
+                        <div class="station-details">
+                            <h4>${station.name} <span class="distance-badge">${station.distance.toFixed(1)} km</span></h4>
+                            <p>📍 ${station.address}, ${station.city}</p>
+                        </div>
+                    </div>
+                    <div class="price-tag">
+                        <div class="price-value" style="color: var(--text-primary); font-size: 18px;">${station.prices[selectedFuel].toFixed(2)}</div>
+                        <div class="price-currency">€ / L</div>
+                    </div>
+                `;
+                otherStationsList.appendChild(card);
+            });
+        }
     }
 });

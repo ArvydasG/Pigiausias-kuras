@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pigiausias Kuras</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007AFF">
+    <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,12 +44,38 @@
                 </div>
 
                 <div class="input-group">
+                    <label for="address-input">Tikslesniam atstumui – įveskite adresą (nebūtina)</label>
+                    <div style="display: flex; gap: 10px;">
+                        <input type="text" id="address-input" class="text-input" placeholder="Pvz. Laisvės al. 1">
+                        <button id="search-address-btn" class="fuel-btn" style="flex: 0 0 auto; padding: 0 16px; background: #E5E5EA; border: none; border-radius: 12px; font-size: 16px;" title="Ieškoti adreso">🔍</button>
+                    </div>
+                </div>
+
+                <div class="input-group">
                     <label for="radius-select">Paieškos spindulys</label>
                     <select id="radius-select">
-                        <option value="5">5 km spinduliu</option>
-                        <option value="10">10 km spinduliu</option>
-                        <option value="all" selected>Rodyti viską (visas miestas)</option>
+                        <option value="1">1Km spinduliu</option>
+                        <option value="2">2Km spinduliu</option>
+                        <option value="3">3Km spinduliu</option>
+                        <option value="5">5Km spinduliu</option>
+                        <option value="10">10Km spinduliu</option>
+                        <option value="all" selected>Rodyti viską (Visas miestas)</option>
                     </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Degalinių tinklai</label>
+                    <div id="network-container" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <button class="network-btn active" data-network="all">Visi</button>
+                        <button class="network-btn" data-network="Circle K">Circle K</button>
+                        <button class="network-btn" data-network="Neste">Neste</button>
+                        <button class="network-btn" data-network="Viada">Viada</button>
+                        <button class="network-btn" data-network="Baltic Petroleum">Baltic Petroleum</button>
+                        <button class="network-btn" data-network="Emsi">Emsi</button>
+                        <button class="network-btn" data-network="Jozita">Jozita</button>
+                        <button class="network-btn" data-network="Saurida">Saurida</button>
+                        <button class="network-btn" data-network="Orlen">Orlen</button>
+                    </div>
                 </div>
 
                 <div class="input-group">
@@ -67,9 +96,15 @@
                     <!-- Javascript will populate this -->
                 </div>
 
-                <h3 class="other-options-title" style="margin-top: 20px;">Degalinės žemėlapyje:</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                    <h3 class="other-options-title" style="margin: 0;">Degalinės:</h3>
+                    <button id="toggle-view-btn" class="fuel-btn" style="padding: 6px 12px; font-size: 12px; flex: none; width: auto; background: #E5E5EA;">Rodyti sąrašą</button>
+                </div>
                 <div id="map" style="height: 400px; width: 100%; border-radius: 12px; margin-top: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); z-index: 1;">
                     <!-- Leaflet map will render here -->
+                </div>
+                <div id="other-stations-list" class="stations-list hidden" style="margin-top: 10px;">
+                    <!-- Javascript will populate this -->
                 </div>
             </section>
         </main>
@@ -77,5 +112,14 @@
 
     <script src="data.js"></script>
     <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => console.log('ServiceWorker registered'))
+                    .catch(error => console.log('ServiceWorker registration failed: ', error));
+            });
+        }
+    </script>
 </body>
 </html>
