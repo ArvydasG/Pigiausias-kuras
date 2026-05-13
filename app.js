@@ -14,13 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const findBtn = document.getElementById('find-cheapest-btn');
     const resultsContainer = document.getElementById('results-container');
     const cheapestCard = document.getElementById('cheapest-card');
-    const otherStationsList = document.getElementById('other-stations-list');
-    const mapContainer = document.getElementById('map');
-    const toggleViewBtn = document.getElementById('toggle-view-btn');
     const radiusSelect = document.getElementById('radius-select');
-    const networkSelect = document.getElementById('network-select');
     let map = null; // Leaflet map instance
-    let isMapView = true;
 
     // Make find button visible by default now since we have a fallback
     findBtn.classList.remove('hidden');
@@ -81,28 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     radiusSelect.addEventListener('change', () => {
         if (!resultsContainer.classList.contains('hidden')) {
             findCheapestFuel();
-        }
-    });
-
-    networkSelect.addEventListener('change', () => {
-        if (!resultsContainer.classList.contains('hidden')) {
-            findCheapestFuel();
-        }
-    });
-
-    toggleViewBtn.addEventListener('click', () => {
-        isMapView = !isMapView;
-        if (isMapView) {
-            mapContainer.classList.remove('hidden');
-            otherStationsList.classList.add('hidden');
-            toggleViewBtn.innerText = 'Rodyti sąrašą';
-            if (map) {
-                map.invalidateSize();
-            }
-        } else {
-            mapContainer.classList.add('hidden');
-            otherStationsList.classList.remove('hidden');
-            toggleViewBtn.innerText = 'Rodyti žemėlapį';
         }
     });
 
@@ -200,10 +173,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function findCheapestFuel() {
         if (!userLocation) return;
 
-        const selectedCity = citySelect.value;
-        const selectedNetwork = networkSelect.value;
-        const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
-
         // Add distance to each station and filter out those without the selected fuel
         let availableStations = stationsData.map(station => {
             const dist = calculateDistance(userLocation.lat, userLocation.lng, station.lat, station.lng);
@@ -212,12 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Must have the selected fuel
             if (station.prices[selectedFuel] == null) return false;
             
-            // Network filter
-            const matchesNetwork = selectedNetwork === 'all' || station.name.toLowerCase().includes(selectedNetwork.toLowerCase());
-            if (!matchesNetwork) return false;
+            const radius = radiusSelect.value;
             
-            if (maxRadius !== Infinity) {
-                return station.distance <= maxRadius;
+            if (radius !== 'all') {
+                return station.distance <= parseInt(radius);
             } else {
                 return station.city === citySelect.value;
             }
@@ -349,32 +316,5 @@ document.addEventListener('DOMContentLoaded', () => {
             L.marker([cheapest.lat, cheapest.lng])
         ]);
         map.fitBounds(group.getBounds().pad(0.3));
-
-        // Render others (List)
-        otherStationsList.innerHTML = '';
-        if (others.length === 0) {
-            otherStationsList.innerHTML = '<p style="color: var(--text-secondary); font-size: 14px;">Daugiau degalinių nerasta.</p>';
-        } else {
-            others.forEach(station => {
-                const card = document.createElement('a');
-                card.href = createGoogleMapsLink(station);
-                card.target = "_blank";
-                card.className = 'result-card';
-                card.innerHTML = `
-                    <div class="station-info">
-                        <div class="station-logo">${station.logo}</div>
-                        <div class="station-details">
-                            <h4>${station.name} <span class="distance-badge">${station.distance.toFixed(1)} km</span></h4>
-                            <p>📍 ${station.address}, ${station.city}</p>
-                        </div>
-                    </div>
-                    <div class="price-tag">
-                        <div class="price-value" style="color: var(--text-primary); font-size: 18px;">${station.prices[selectedFuel].toFixed(2)}</div>
-                        <div class="price-currency">€ / L</div>
-                    </div>
-                `;
-                otherStationsList.appendChild(card);
-            });
-        }
     }
 });

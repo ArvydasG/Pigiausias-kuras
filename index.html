@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pigiausias Kuras</title>
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#007AFF">
-    <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,21 +50,6 @@
                 </div>
 
                 <div class="input-group">
-                    <label for="network-select">Degalinių tinklas</label>
-                    <select id="network-select">
-                        <option value="all" selected>Visi tinklai</option>
-                        <option value="Circle K">Circle K</option>
-                        <option value="Neste">Neste</option>
-                        <option value="Viada">Viada</option>
-                        <option value="Baltic Petroleum">Baltic Petroleum</option>
-                        <option value="Emsi">Emsi</option>
-                        <option value="Jozita">Jozita</option>
-                        <option value="Saurida">Saurida</option>
-                        <option value="Orlen">Orlen</option>
-                    </select>
-                </div>
-
-                <div class="input-group">
                     <label>Kuro tipas</label>
                     <div class="fuel-buttons" id="fuel-type-container">
                         <button class="fuel-btn active" data-type="A95">A95</button>
@@ -85,15 +67,9 @@
                     <!-- Javascript will populate this -->
                 </div>
 
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                    <h3 class="other-options-title" style="margin: 0;">Degalinės:</h3>
-                    <button id="toggle-view-btn" class="fuel-btn" style="padding: 6px 12px; font-size: 12px; flex: none; width: auto; background: #E5E5EA;">Rodyti sąrašą</button>
-                </div>
+                <h3 class="other-options-title" style="margin-top: 20px;">Degalinės žemėlapyje:</h3>
                 <div id="map" style="height: 400px; width: 100%; border-radius: 12px; margin-top: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); z-index: 1;">
                     <!-- Leaflet map will render here -->
-                </div>
-                <div id="other-stations-list" class="stations-list hidden" style="margin-top: 10px;">
-                    <!-- Javascript will populate this -->
                 </div>
             </section>
         </main>
@@ -101,14 +77,5 @@
 
     <script src="data.js"></script>
     <script src="app.js"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
-                    .then(registration => console.log('ServiceWorker registered'))
-                    .catch(error => console.log('ServiceWorker registration failed: ', error));
-            });
-        }
-    </script>
 </body>
 </html>
