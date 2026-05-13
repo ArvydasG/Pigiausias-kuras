@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kuro-kainos-cache-v2';
+const CACHE_NAME = 'kuro-kainos-v3'; // Versija atnaujinama, kad priverstų SW persikrauti
 const urlsToCache = [
   './',
   './index.html',
@@ -11,7 +11,9 @@ const urlsToCache = [
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
 ];
 
+// Instaliavimo metu iškart perimame kontrolę
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
@@ -20,23 +22,40 @@ self.addEventListener('install', event => {
   );
 });
 
-self.addEventListener('fetch', event => {
-  // For data.js, always try network first, then fallback to cache
-  if (event.request.url.includes('data.js')) {
-      event.respondWith(
-          fetch(event.request).catch(() => caches.match(event.request))
+// Aktyvavimo metu išvalome senas talpyklas
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cacheName => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('Ištrinama sena talpykla:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
       );
-      return;
-  }
+    })
+  );
+  return self.clients.claim();
+});
 
-  // For other requests, cache first, then network
+// Tinklo pirmumo (Network First) strategija
+self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request)
+    fetch(event.request)
       .then(response => {
-        if (response) {
-          return response;
+        // Jei gavome sėkmingą atsakymą, atnaujiname talpyklą
+        if (response && response.status === 200 && response.type === 'basic') {
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, responseToCache);
+          });
         }
-        return fetch(event.request);
+        return response;
+      })
+      .catch(() => {
+        // Jei tinklo nėra, bandome grąžinti iš talpyklos
+        return caches.match(event.request);
       })
   );
 });
