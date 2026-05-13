@@ -430,10 +430,11 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup("<b>Jūsų vieta</b><br>Sekama gyvai");
 
-        const minPrice = cheapest.prices[selectedFuel];
-        const maxPrice = availableStations[availableStations.length - 1].prices[selectedFuel];
+        const minPrice = parseFloat(cheapest.prices[selectedFuel]);
+        const maxPrice = others.length > 0 ? parseFloat(others[others.length - 1].prices[selectedFuel]) : minPrice;
         
-        function getPriceStyle(price) {
+        function getPriceStyle(priceVal) {
+            const price = parseFloat(priceVal);
             if (minPrice === maxPrice) {
                 return { bg: 'var(--success-color)', color: 'white' };
             }
