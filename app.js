@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const citySelect = document.getElementById('city-select');
     const useGpsBtn = document.getElementById('use-gps-btn');
-    const gpsStatus = document.getElementById('gps-status');
-    const locationText = document.getElementById('location-text');
+    const addressInputGroup = document.getElementById('address-input-group');
     const fuelContainer = document.getElementById('fuel-type-container');
     const fuelBtns = document.querySelectorAll('.fuel-btn');
     const findBtn = document.getElementById('find-cheapest-btn');
@@ -55,7 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.geolocation.clearWatch(watchId);
             watchId = null;
         }
-        gpsStatus.classList.add('hidden');
+        useGpsBtn.style.background = '#FF3B30';
+        useGpsBtn.style.color = 'white';
+        addressInputGroup.classList.remove('hidden');
         
         const selectedCity = e.target.value;
         const firstStationInCity = stationsData.find(s => s.city === selectedCity);
@@ -164,10 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
             watchId = null;
         }
 
-        gpsStatus.classList.remove('hidden');
-        locationText.innerText = "Nustatoma jūsų vieta...";
-        document.querySelector('.pulse-dot').style.backgroundColor = 'var(--primary-color)';
-        document.querySelector('.pulse-dot').style.animation = 'pulse 1.5s infinite';
+        useGpsBtn.style.background = '#FF9500'; // Orange while loading
 
         if ("geolocation" in navigator) {
             watchId = navigator.geolocation.watchPosition(
@@ -178,9 +176,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
                     };
-                    locationText.innerText = "Tiksli GPS vieta sekama!";
-                    document.querySelector('.pulse-dot').style.backgroundColor = 'var(--success-color)';
-                    document.querySelector('.pulse-dot').style.animation = 'none';
+                    useGpsBtn.style.background = 'var(--success-color)';
+                    useGpsBtn.style.color = 'white';
+                    addressInputGroup.classList.add('hidden');
                     
                     if (isFirstTime || resultsContainer.classList.contains('hidden')) {
                         updateCityFromLocation();
@@ -208,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchIPLocation() {
-        locationText.innerText = "Ieškoma apytikslės vietos pagal IP...";
+        useGpsBtn.style.background = '#FF9500';
         try {
             const response = await fetch('https://get.geojs.io/v1/ip/geo.json');
             if (!response.ok) throw new Error('Network error');
@@ -220,18 +218,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 lng: parseFloat(data.longitude)
             };
             
-            locationText.innerText = `Apytikslė vieta (IP): ${data.city || 'Nežinoma'}`;
-            document.querySelector('.pulse-dot').style.backgroundColor = '#FF9500'; // Orange to indicate approximate
-            document.querySelector('.pulse-dot').style.animation = 'none';
+            useGpsBtn.style.background = 'var(--success-color)';
+            useGpsBtn.style.color = 'white';
+            addressInputGroup.classList.add('hidden');
             
             updateCityFromLocation();
             findCheapestFuel();
         } catch (error) {
             console.error("IP geocoding failed", error);
             usingGps = false;
-            locationText.innerText = "Nepavyko nustatyti vietovės.";
-            document.querySelector('.pulse-dot').style.backgroundColor = 'red';
-            document.querySelector('.pulse-dot').style.animation = 'none';
+            useGpsBtn.style.background = '#FF3B30';
+            useGpsBtn.style.color = 'white';
+            addressInputGroup.classList.remove('hidden');
         }
     }
 
@@ -243,10 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        gpsStatus.classList.remove('hidden');
-        locationText.innerText = "Ieškoma adreso...";
-        document.querySelector('.pulse-dot').style.backgroundColor = 'var(--primary-color)';
-        document.querySelector('.pulse-dot').style.animation = 'pulse 1.5s infinite';
+        // User is typing an address, leave the GPS button red
 
         const query = encodeURIComponent(`${address}, ${city}, Lithuania`);
         try {
@@ -265,22 +260,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     lng: parseFloat(data[0].lon)
                 };
                 
-                locationText.innerText = `Adresas rastas: ${data[0].display_name.split(',')[0]}, ${city}`;
-                document.querySelector('.pulse-dot').style.backgroundColor = 'var(--success-color)';
-                document.querySelector('.pulse-dot').style.animation = 'none';
+                useGpsBtn.style.background = '#FF3B30';
+                useGpsBtn.style.color = 'white';
                 
                 updateCityFromLocation();
                 findCheapestFuel();
             } else {
-                locationText.innerText = "Adresas nerastas. Patikrinkite, ar teisingai įvedėte.";
-                document.querySelector('.pulse-dot').style.backgroundColor = 'red';
-                document.querySelector('.pulse-dot').style.animation = 'none';
+                alert("Adresas nerastas. Patikrinkite, ar teisingai įvedėte.");
             }
         } catch (error) {
             console.error("Address search failed", error);
-            locationText.innerText = "Klaida ieškant adreso.";
-            document.querySelector('.pulse-dot').style.backgroundColor = 'red';
-            document.querySelector('.pulse-dot').style.animation = 'none';
+            alert("Klaida ieškant adreso.");
         }
     }
 
