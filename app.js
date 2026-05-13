@@ -420,15 +420,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Initialize or update Map
         if (!map) {
             map = L.map('map').setView([userLocation.lat, userLocation.lng], 12);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; OpenStreetMap contributors'
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap contributors, &copy; CARTO'
             }).addTo(map);
 
             const CenterControl = L.Control.extend({
                 options: { position: 'topleft' },
                 onAdd: function () {
                     centerBtn = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
-                    centerBtn.style.backgroundColor = 'white';
+                    centerBtn.style.backgroundColor = '#111';
+                    centerBtn.style.border = '2px solid #333';
+                    centerBtn.style.color = '#FFF';
                     centerBtn.style.width = '34px';
                     centerBtn.style.height = '34px';
                     centerBtn.style.display = 'flex';
@@ -484,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // User Location Marker
         const userIcon = L.divIcon({
-            html: `<div style="${iconStyle}">🚗</div>`,
+            html: `<div style="${iconStyle}">🚧</div>`,
             className: '',
             iconSize: [30, 30],
             iconAnchor: [15, 15]
@@ -505,9 +507,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (ratio < 0.33) {
                 return { bg: 'var(--success-color)', color: 'white' };
             } else if (ratio < 0.66) {
-                return { bg: '#FFCC00', color: 'black' }; // Yellow
+                return { bg: '#FFD700', color: '#111' }; // Yellow
             } else {
-                return { bg: '#FF3B30', color: 'white' }; // Red
+                return { bg: '#F44336', color: 'white' }; // Red
             }
         }
 
@@ -516,10 +518,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const cheapestIcon = L.divIcon({
             html: `
                 <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
-                    <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border-radius: 6px; font-weight: bold; font-size: 14px; box-shadow: 0 2px 4px rgba(0,0,0,0.3); white-space: nowrap; margin-bottom: -4px; z-index: 2;">
+                    <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 14px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -4px; z-index: 2;">
                         ${cheapest.prices[selectedFuel].toFixed(2)} €
                     </div>
-                    <div style="${iconStyle}; font-size: 30px; z-index: 1;">🏆</div>
+                    <div style="${iconStyle}; font-size: 30px; z-index: 1;">⚡</div>
                 </div>
             `,
             className: '',
@@ -530,7 +532,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup(`
                 <b>${cheapest.name} (Pigiausia)</b><br>
-                <strong style="color: var(--success-color); font-size: 16px;">${cheapest.prices[selectedFuel].toFixed(2)} €/L</strong><br>
+                <strong style="color: var(--primary-color); font-family: 'Black Ops One', system-ui; font-size: 16px;">${cheapest.prices[selectedFuel].toFixed(2)} €/L</strong><br>
                 <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${cheapest.distance.toFixed(1)} km</span><br>
                 <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
             `);
@@ -542,7 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const icon = L.divIcon({
                 html: `
                     <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
-                        <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border-radius: 4px; font-weight: bold; font-size: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); white-space: nowrap; margin-bottom: -2px; z-index: 2;">
+                        <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 12px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -2px; z-index: 2;">
                             ${price.toFixed(2)} €
                         </div>
                         <div style="${iconStyle}; font-size: 18px; filter: grayscale(20%); z-index: 1;">${station.logo}</div>
@@ -556,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .addTo(map)
                 .bindPopup(`
                     <b>${station.name}</b><br>
-                    <strong>${station.prices[selectedFuel].toFixed(2)} €/L</strong><br>
+                    <strong style="font-family: 'Black Ops One', system-ui; font-size: 14px;">${station.prices[selectedFuel].toFixed(2)} €/L</strong><br>
                     <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${station.distance.toFixed(1)} km</span><br>
                     <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
                 `);

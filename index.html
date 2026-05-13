@@ -9,11 +9,7 @@
     <meta name="theme-color" content="#007AFF">
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <!-- Google Fonts imported in styles.css -->
     <!-- Leaflet CSS and JS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -22,7 +18,7 @@
 <body>
     <div class="app-container">
         <header class="app-header">
-            <h1>⛽ Pigiausias Kuras</h1>
+            <h1>🚧 Pigiausias Kuras 🚧</h1>
             <p>Raskite geriausią kainą savo mieste</p>
         </header>
 
@@ -37,7 +33,7 @@
                             <option value="Klaipėda">Klaipėda</option>
                         </select>
                         <button id="use-gps-btn" class="fuel-btn"
-                            style="flex: 0 0 auto; padding: 0 16px; background: #FF3B30; color: white; font-weight: bold; border: none; border-radius: 12px; font-size: 16px;"
+                            style="flex: 0 0 auto; padding: 0 16px; background: var(--danger-color); color: #111; font-weight: bold; border: 2px solid #111; border-radius: var(--border-radius); font-size: 16px; box-shadow: 2px 2px 0 #111;"
                             title="Rasti pagal GPS">GPS</button>
                     </div>
                 </div>
@@ -47,7 +43,7 @@
                     <div style="display: flex; gap: 10px;">
                         <input type="text" id="address-input" class="text-input" placeholder="Pvz. Laisvės al. 1">
                         <button id="search-address-btn" class="fuel-btn"
-                            style="flex: 0 0 auto; padding: 0 16px; background: #E5E5EA; border: none; border-radius: 12px; font-size: 16px;"
+                            style="flex: 0 0 auto; padding: 0 16px; background: #333; color: var(--primary-color); border: 2px solid #111; border-radius: var(--border-radius); font-size: 16px; box-shadow: 2px 2px 0 #111;"
                             title="Ieškoti adreso">🔍</button>
                     </div>
                 </div>
@@ -115,11 +111,11 @@
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
                     <h3 class="other-options-title" style="margin: 0;">Degalinės:</h3>
                     <button id="toggle-view-btn" class="fuel-btn"
-                        style="padding: 6px 12px; font-size: 12px; flex: none; width: auto; background: #E5E5EA;">Rodyti
+                        style="padding: 6px 12px; font-size: 12px; flex: none; width: auto; background: #333; color: var(--primary-color); border: 2px solid #111; border-radius: var(--border-radius); box-shadow: 2px 2px 0 #111;">Rodyti
                         sąrašą</button>
                 </div>
                 <div id="map"
-                    style="height: 400px; width: 100%; border-radius: 12px; margin-top: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); z-index: 1;">
+                    style="height: 400px; width: 100%; border-radius: var(--border-radius); border: var(--border-style); margin-top: 10px; box-shadow: 4px 4px 0px #000; z-index: 1;">
                     <!-- Leaflet map will render here -->
                 </div>
                 <div id="other-stations-list" class="stations-list hidden" style="margin-top: 10px;">
