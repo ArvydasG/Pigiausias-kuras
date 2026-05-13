@@ -17,8 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const mapContainer = document.getElementById('map');
     const toggleViewBtn = document.getElementById('toggle-view-btn');
     const radiusSelect = document.getElementById('radius-select');
-    const networkContainer = document.getElementById('network-container');
-    const networkBtns = document.querySelectorAll('.network-btn');
+    const networkDropdownBtn = document.getElementById('network-dropdown-btn');
+    const networkDropdownText = document.getElementById('network-dropdown-text');
+    const networkDropdownOptions = document.getElementById('network-dropdown-options');
+    const networkCheckboxes = document.querySelectorAll('.network-cb');
     const addressInput = document.getElementById('address-input');
     const searchAddressBtn = document.getElementById('search-address-btn');
     let map = null; // Leaflet map instance
@@ -57,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         useGpsBtn.style.background = '#FF3B30';
         useGpsBtn.style.color = 'white';
         addressInputGroup.classList.remove('hidden');
+        findBtn.classList.remove('hidden');
         
         const selectedCity = e.target.value;
         const firstStationInCity = stationsData.find(s => s.city === selectedCity);
@@ -104,25 +107,42 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    networkContainer.addEventListener('click', (e) => {
-        if (e.target.classList.contains('network-btn')) {
-            const network = e.target.getAttribute('data-network');
-            
-            if (network === 'all') {
-                networkBtns.forEach(btn => btn.classList.remove('active'));
-                e.target.classList.add('active');
+    networkDropdownBtn.addEventListener('click', () => {
+        networkDropdownOptions.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.custom-select-container')) {
+            networkDropdownOptions.classList.add('hidden');
+        }
+    });
+
+    networkDropdownOptions.addEventListener('change', (e) => {
+        if (e.target.classList.contains('network-cb')) {
+            const val = e.target.value;
+            if (val === 'all') {
+                if (e.target.checked) {
+                    networkCheckboxes.forEach(cb => { if (cb.value !== 'all') cb.checked = false; });
+                }
             } else {
-                const allBtn = document.querySelector('.network-btn[data-network="all"]');
-                if (allBtn) allBtn.classList.remove('active');
-                
-                e.target.classList.toggle('active');
-                
-                const anyActive = document.querySelectorAll('.network-btn.active').length > 0;
-                if (!anyActive) {
-                    if (allBtn) allBtn.classList.add('active');
+                const allCb = document.querySelector('.network-cb[value="all"]');
+                if (e.target.checked) {
+                    if (allCb) allCb.checked = false;
+                } else {
+                    const anyChecked = document.querySelectorAll('.network-cb:checked').length > 0;
+                    if (!anyChecked && allCb) allCb.checked = true;
                 }
             }
             
+            const checked = Array.from(document.querySelectorAll('.network-cb:checked'));
+            if (checked.length === 0 || (checked.length === 1 && checked[0].value === 'all')) {
+                networkDropdownText.innerText = 'Visi tinklai';
+            } else if (checked.length === 1) {
+                networkDropdownText.innerText = checked[0].parentNode.textContent.trim();
+            } else {
+                networkDropdownText.innerText = `Pasirinkta: ${checked.length}`;
+            }
+
             if (!resultsContainer.classList.contains('hidden')) {
                 findCheapestFuel();
             }
@@ -179,6 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     useGpsBtn.style.background = 'var(--success-color)';
                     useGpsBtn.style.color = 'white';
                     addressInputGroup.classList.add('hidden');
+                    findBtn.classList.add('hidden');
                     
                     if (isFirstTime || resultsContainer.classList.contains('hidden')) {
                         updateCityFromLocation();
@@ -221,6 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
             useGpsBtn.style.background = 'var(--success-color)';
             useGpsBtn.style.color = 'white';
             addressInputGroup.classList.add('hidden');
+            findBtn.classList.add('hidden');
             
             updateCityFromLocation();
             findCheapestFuel();
@@ -230,6 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
             useGpsBtn.style.background = '#FF3B30';
             useGpsBtn.style.color = 'white';
             addressInputGroup.classList.remove('hidden');
+            findBtn.classList.remove('hidden');
         }
     }
 
@@ -296,8 +319,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!userLocation) return;
 
         const selectedCity = citySelect.value;
-        const activeNetworkBtns = document.querySelectorAll('.network-btn.active');
-        const selectedNetworks = Array.from(activeNetworkBtns).map(btn => btn.getAttribute('data-network'));
+        const activeCheckboxes = document.querySelectorAll('.network-cb:checked');
+        const selectedNetworks = Array.from(activeCheckboxes).map(cb => cb.value);
         const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
 
         // Add distance to each station and filter out those without the selected fuel

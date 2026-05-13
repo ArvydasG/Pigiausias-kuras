@@ -64,16 +64,22 @@
 
                 <div class="input-group">
                     <label>Degalinių tinklai</label>
-                    <div id="network-container" style="display: flex; flex-wrap: wrap; gap: 8px;">
-                        <button class="network-btn active" data-network="all">Visi</button>
-                        <button class="network-btn" data-network="Circle K">Circle K</button>
-                        <button class="network-btn" data-network="Neste">Neste</button>
-                        <button class="network-btn" data-network="Viada">Viada</button>
-                        <button class="network-btn" data-network="Baltic Petroleum">Baltic Petroleum</button>
-                        <button class="network-btn" data-network="Emsi">Emsi</button>
-                        <button class="network-btn" data-network="Jozita">Jozita</button>
-                        <button class="network-btn" data-network="Saurida">Saurida</button>
-                        <button class="network-btn" data-network="Orlen">Orlen</button>
+                    <div class="custom-select-container">
+                        <div class="custom-select-header" id="network-dropdown-btn">
+                            <span id="network-dropdown-text">Visi tinklai</span>
+                            <span class="dropdown-icon">▼</span>
+                        </div>
+                        <div class="custom-select-options hidden" id="network-dropdown-options">
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="all" checked> Visi</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Circle K"> Circle K</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Neste"> Neste</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Viada"> Viada</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Baltic Petroleum"> Baltic Petroleum</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Emsi"> Emsi</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Jozita"> Jozita</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Saurida"> Saurida</label>
+                            <label class="custom-option"><input type="checkbox" class="network-cb" value="Orlen"> Orlen</label>
+                        </div>
                     </div>
                 </div>
 
