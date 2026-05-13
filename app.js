@@ -430,12 +430,37 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup("<b>Jūsų vieta</b><br>Sekama gyvai");
 
+        const minPrice = cheapest.prices[selectedFuel];
+        const maxPrice = availableStations[availableStations.length - 1].prices[selectedFuel];
+        
+        function getPriceStyle(price) {
+            if (minPrice === maxPrice) {
+                return { bg: 'var(--success-color)', color: 'white' };
+            }
+            const ratio = (price - minPrice) / (maxPrice - minPrice);
+            if (ratio < 0.33) {
+                return { bg: 'var(--success-color)', color: 'white' };
+            } else if (ratio < 0.66) {
+                return { bg: '#FFCC00', color: 'black' }; // Yellow
+            } else {
+                return { bg: '#FF3B30', color: 'white' }; // Red
+            }
+        }
+
         // Cheapest Station Marker
+        const cStyle = getPriceStyle(cheapest.prices[selectedFuel]);
         const cheapestIcon = L.divIcon({
-            html: `<div style="${iconStyle}; font-size: 30px;">🏆</div>`,
+            html: `
+                <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                    <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border-radius: 6px; font-weight: bold; font-size: 14px; box-shadow: 0 2px 4px rgba(0,0,0,0.3); white-space: nowrap; margin-bottom: -4px; z-index: 2;">
+                        ${cheapest.prices[selectedFuel].toFixed(2)} €
+                    </div>
+                    <div style="${iconStyle}; font-size: 30px; z-index: 1;">🏆</div>
+                </div>
+            `,
             className: '',
-            iconSize: [40, 40],
-            iconAnchor: [20, 40]
+            iconSize: [60, 60],
+            iconAnchor: [30, 56]
         });
         L.marker([cheapest.lat, cheapest.lng], {icon: cheapestIcon, zIndexOffset: 999})
             .addTo(map)
@@ -448,11 +473,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Other Stations Markers
         others.forEach(station => {
+            const price = station.prices[selectedFuel];
+            const pStyle = getPriceStyle(price);
             const icon = L.divIcon({
-                html: `<div style="${iconStyle}; font-size: 18px; filter: grayscale(50%);">${station.logo}</div>`,
+                html: `
+                    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                        <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border-radius: 4px; font-weight: bold; font-size: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); white-space: nowrap; margin-bottom: -2px; z-index: 2;">
+                            ${price.toFixed(2)} €
+                        </div>
+                        <div style="${iconStyle}; font-size: 18px; filter: grayscale(20%); z-index: 1;">${station.logo}</div>
+                    </div>
+                `,
                 className: '',
-                iconSize: [24, 24],
-                iconAnchor: [12, 24]
+                iconSize: [50, 50],
+                iconAnchor: [25, 48]
             });
             L.marker([station.lat, station.lng], {icon: icon})
                 .addTo(map)
