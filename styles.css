@@ -479,9 +479,12 @@ select:focus {
 }
 
 .settings-section h3 {
-    font-family: 'Black Ops One', system-ui;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 14px;
-    color: var(--text-primary);
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
     margin-bottom: 12px;
     border-bottom: 1px dashed #333;
     padding-bottom: 5px;
