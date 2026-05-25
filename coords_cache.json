@@ -59,7 +59,7 @@
         "lat": 55.0096018,
         "lng": 24.8883492
     },
-    "Šakių g. 51, Kudirkos Naumiestis, Šakių, Lietuva": {
+    "Kudirkos Naumiestis, Šakių, Lietuva": {
         "lat": 54.7841309,
         "lng": 22.8733826
     },
@@ -163,35 +163,11 @@
         "lat": 55.5903811,
         "lng": 26.4633608
     },
-    "Vilnius, Antakalnio g. 128, Vilnius, Lietuva": {
-        "lat": 54.7219118,
-        "lng": 25.3366162
-    },
     "Gudžionių k., Plento g. 24, Jonavos, Lietuva": {
         "lat": 55.1168377,
         "lng": 24.2815728
     },
-    "Vilnius, Gerosios Vilties g. 33, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Savanorių pr. 121, Vilnius, Lietuva": {
-        "lat": 54.6621953,
-        "lng": 25.2343407
-    },
-    "Kaunas, Raudondvario pl. 82, Kaunas, Lietuva": {
-        "lat": 54.9158711,
-        "lng": 23.8338251
-    },
-    "Kaunas, Jonavos g. 60A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Jaučiakių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Klaipėda, Šilutės pl. 1, Klaipėda, Lietuva": {
+    "Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
@@ -263,10 +239,6 @@
         "lat": 56.2274045,
         "lng": 21.6899322
     },
-    "Vilnius  Kalvarijų g. 161A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Trakai, Vilniaus g. 33, Trakų, Lietuva": {
         "lat": 54.6510344,
         "lng": 24.9333479
@@ -275,21 +247,13 @@
         "lat": 55.2282306,
         "lng": 25.4148997
     },
-    "Kaunas, Minkovskių g. 132, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Varėna, Čiurlionio g. 63, Varėnos, Lietuva": {
         "lat": 54.1725666,
         "lng": 24.4183024
     },
-    "Klaipėda, Tilžės g. 90, Klaipėda, Lietuva": {
+    "Tilžės g. 90, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
-    },
-    "Vilnius, Metalo g. 4B, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Šalčininkai, Vilniaus g. 5A, Šalčininkų, Lietuva": {
         "lat": 54.3173722,
@@ -299,17 +263,9 @@
         "lat": 55.0096018,
         "lng": 24.8883492
     },
-    "Kaunas, Chemijos g. 6, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "N. Akmenė, V. Kudirkos g. 21A, Akmenės, Lietuva": {
         "lat": 56.2415748,
         "lng": 22.8625876
-    },
-    "Vilkaraisčio k., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Panevėžys, Smėlynės g. 169, Panevėžio, Lietuva": {
         "lat": 55.7575994,
@@ -331,22 +287,6 @@
         "lat": 54.6792304,
         "lng": 23.2004406
     },
-    "Vilnius, Molėtų pl. 27A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, S. Batoro g. 15, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Užubalių k. Senasis Ukmergės kelias 4, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Rinktinės g. 59, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Marijampolė, Vasaros g. 15, Marijampolės, Lietuva": {
         "lat": 54.6792304,
         "lng": 23.2004406
@@ -363,14 +303,6 @@
         "lat": 55.8042338,
         "lng": 23.5894747
     },
-    "Kaunas, Vaidoto g. 153, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Pagirių k., Marijampolės g. 1, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Spanėnų k., Plento g. 46, Jonavos, Lietuva": {
         "lat": 55.1168377,
         "lng": 24.2815728
@@ -383,17 +315,9 @@
         "lat": 56.2596823,
         "lng": 22.2867095
     },
-    "Kaunas, Taikos pr. 120, Kaunas, Lietuva": {
-        "lat": 54.9211336,
-        "lng": 24.00626
-    },
     "Kalnujų k. 1, Raseinių, Lietuva": {
         "lat": 55.3735907,
         "lng": 23.1211369
-    },
-    "Klaipėda, Liepų g. 79A, Klaipėda, Lietuva": {
-        "lat": 55.7127529,
-        "lng": 21.1350469
     },
     "Mažeikiai, M. Daukšos g. 17, Mažeikių, Lietuva": {
         "lat": 56.2596823,
@@ -419,25 +343,13 @@
         "lat": 54.8510876,
         "lng": 23.170468
     },
-    "Vilnius, Brazdžionio g. 2, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Likiškėlių k., Alytaus, Lietuva": {
-        "lat": 54.3904058,
-        "lng": 24.0222291
+        "lat": 54.3966595,
+        "lng": 24.0162804
     },
     "Šiauliai, Kupiškio g. 4, Šiaulių, Lietuva": {
         "lat": 55.9398236,
         "lng": 23.3937822
-    },
-    "Grigaičiai, Pavilnės g., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Ringaudų k., Gėlių g. 1A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Visalaukio g. 2, Vilnius, Lietuva": {
         "lat": 54.779293,
@@ -470,10 +382,6 @@
     "Girkalnio k., Žemaičių g. 39, Raseinių, Lietuva": {
         "lat": 55.3764559,
         "lng": 23.1988999
-    },
-    "Vilnius, Zujūnų g. 2A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Tirkšliai, Laukų g. 10, Mažeikių, Lietuva": {
         "lat": 56.2596823,
@@ -588,8 +496,8 @@
         "lng": 25.2463301
     },
     "Kareivių g. 13, Vilnius, Vilnius, Lietuva": {
-        "lat": 54.7185811,
-        "lng": 25.3006212
+        "lat": 54.7160835,
+        "lng": 25.2982236
     },
     "A. Goštauto g. 13, Vilnius, Vilnius, Lietuva": {
         "lat": 54.6942218,
@@ -611,17 +519,9 @@
         "lat": 54.9162183,
         "lng": 23.9866766
     },
-    "Baltijos g. 1, Mastaičių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Raudondvario pl. 107A, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9081595,
         "lng": 23.8652652
-    },
-    "Sudervės g. 2G, Avižienių k., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "R. Kalantos g. 159, Kaunas, Kaunas, Lietuva": {
         "lat": 54.8940105,
@@ -664,7 +564,7 @@
         "lng": 25.0309026
     },
     "Kretingos g. 56, Palanga, Palangos, Lietuva": {
-        "lat": 55.9146665,
+        "lat": 55.9146664,
         "lng": 21.0779032
     },
     "Plento g. 1, Kuršėnai, Šiaulių, Lietuva": {
@@ -672,8 +572,8 @@
         "lng": 22.9896575
     },
     "Minijos g. 90, Klaipėda, Klaipėda, Lietuva": {
-        "lat": 55.6864932,
-        "lng": 21.145677
+        "lat": 55.6883791,
+        "lng": 21.1444616
     },
     "Taikos pr. 61B, Klaipėda, Klaipėda, Lietuva": {
         "lat": 55.692392,
@@ -759,13 +659,9 @@
         "lat": 55.2482942,
         "lng": 22.3030291
     },
-    "Panevėžio aplinkl. 20, Šilagalio k., Panevėžio, Lietuva": {
+    "Šilagalio k., Panevėžio, Lietuva": {
         "lat": 55.9155086,
         "lng": 25.0309026
-    },
-    "Vakarinis aplinkkelis 10, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Žemaičių pl. 19, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9252968,
@@ -784,7 +680,7 @@
         "lng": 25.2663978
     },
     "Taikos pr. 52A, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.9119499,
+        "lat": 54.9119498,
         "lng": 23.9567415
     },
     "Briedžių takas 6B, Kaunas, Kaunas, Lietuva": {
@@ -811,7 +707,7 @@
         "lat": 54.1607523,
         "lng": 23.6775875
     },
-    "Vilkaviškio g. 10, Serdokų k., Vilkaviškio, Lietuva": {
+    "Serdokų k., Vilkaviškio, Lietuva": {
         "lat": 54.5770716,
         "lng": 22.9419043
     },
@@ -887,17 +783,9 @@
         "lat": 54.9283514,
         "lng": 23.9739193
     },
-    "Tvirtovės alėja 33a, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Sukilėlių pr. 120, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9283933,
         "lng": 23.92897
-    },
-    "K. Baršausko g. 57, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8990388,
-        "lng": 23.9599289
     },
     "Jonavos g. 38, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9015997,
@@ -906,10 +794,6 @@
     "Tilžės g. 25, Šiauliai, Šiaulių, Lietuva": {
         "lat": 55.9126827,
         "lng": 23.2739983
-    },
-    "Tilžės g. 56A, Klaipėda, Klaipėda, Lietuva": {
-        "lat": 55.7041492,
-        "lng": 21.1608983
     },
     "Jūrininkų pr. 31, Klaipėda, Klaipėda, Lietuva": {
         "lat": 55.6566409,
@@ -922,10 +806,6 @@
     "Klaipėdos g. 92A, Panevėžys, Panevėžio, Lietuva": {
         "lat": 55.7287147,
         "lng": 24.3389488
-    },
-    "Molėtų g. 15, Didžiosios Riešės k., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Vievis, Kauno g. 55A, Elektrėnų, Lietuva": {
         "lat": 54.763291,
@@ -975,21 +855,9 @@
         "lat": 54.9218463,
         "lng": 24.0477225
     },
-    "Bukiškio k. Ukmergės g.437, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Draugystės g.8B, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9080536,
         "lng": 23.9920719
-    },
-    "Vilnius, Spyglių g. 2, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Ilgakiemio k., Kauno g.25, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Jeruzalės 2, Vilnius, Vilnius, Lietuva": {
         "lat": 54.7398609,
@@ -1027,7 +895,7 @@
         "lat": 54.7234552,
         "lng": 25.2329482
     },
-    "Lazdijų sen., Janaslavo k.11, Lazdijų, Lietuva": {
+    "Janaslavo k.11, Lazdijų, Lietuva": {
         "lat": 54.1607523,
         "lng": 23.6775875
     },
@@ -1043,25 +911,13 @@
         "lat": 54.8592253,
         "lng": 23.8371192
     },
-    "Mokyklos g. 26, Maišiagalos mstl., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Stoties g. 6B, Marijampolė, Marijampolės, Lietuva": {
         "lat": 54.5651422,
         "lng": 23.3685518
     },
     "Masiulio g.16C, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8800596,
-        "lng": 24.0114719
-    },
-    "Marijampolės g. 58, Mastaičių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Medininkų k., Pasieniečių g.10, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
+        "lat": 54.8815326,
+        "lng": 24.0094241
     },
     "Minijos g.154A, Klaipėda, Klaipėda, Lietuva": {
         "lat": 55.6684939,
@@ -1070,10 +926,6 @@
     "Savanorių pr.402A, Kaunas, Kaunas, Lietuva": {
         "lat": 54.927502,
         "lng": 23.9722133
-    },
-    "Taikos g.1, Kreivalaužių k., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Nemuno g.79A, Panevėžys, Panevėžio, Lietuva": {
         "lat": 55.7317427,
@@ -1151,10 +1003,6 @@
         "lat": 54.6581148,
         "lng": 23.0332434
     },
-    "Žemaitkiemis, Stasio Krasausko g. 21, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Alytaus pl. 2, Mardosų k., Prienų, Lietuva": {
         "lat": 54.6334424,
         "lng": 24.2204708
@@ -1183,7 +1031,7 @@
         "lat": 55.919887,
         "lng": 21.8570671
     },
-    "Telšių g. 2 b, Rainių k., Telšių, Lietuva": {
+    "Rainių k., Telšių, Lietuva": {
         "lat": 56.0130975,
         "lng": 22.1366723
     },
@@ -1223,7 +1071,7 @@
         "lat": 56.3137433,
         "lng": 22.3682032
     },
-    "Skuodo g. 7, Stripinių k., Skuodo, Lietuva": {
+    "Stripinių k., Skuodo, Lietuva": {
         "lat": 56.2274045,
         "lng": 21.6899322
     },
@@ -1242,10 +1090,6 @@
     "Skabeikių k. 4, Akmenės, Lietuva": {
         "lat": 56.2415748,
         "lng": 22.8625876
-    },
-    "Kalnuotės 1 k., Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Beržų g. 24/Drąsiųjų 7, Tryškiai, Telšių, Lietuva": {
         "lat": 56.0130975,
@@ -1316,8 +1160,8 @@
         "lng": 22.9419043
     },
     "S. Daukanto g. 66, Jurbarkas, Jurbarko, Lietuva": {
-        "lat": 55.0825362,
-        "lng": 22.7889958
+        "lat": 55.0824636,
+        "lng": 22.7886714
     },
     "Kauno g. 68, Girėnų k., Šakių, Lietuva": {
         "lat": 54.9148731,
@@ -1331,59 +1175,19 @@
         "lat": 55.5252224,
         "lng": 22.2160078
     },
-    "Vilnius, Ukmergės g. 130, Vilnius, Lietuva": {
-        "lat": 54.7024407,
-        "lng": 25.2594241
+    "Ukmergės g. 130, Vilnius, Lietuva": {
+        "lat": 54.7032325,
+        "lng": 25.2573699
     },
-    "Vilnius, Parko g. 64, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Pramonės g. 18, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Rudamina, Jašiūnų g. 2, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Baltosios Vokės g 35, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Kaunas, Kuršių 13A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Jonavos g. 51, Kaunas, Lietuva": {
+    "Jonavos g. 51, Kaunas, Lietuva": {
         "lat": 54.9346828,
         "lng": 23.9165278
-    },
-    "Kaunas, Betygalos g. 8, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Baltų pr. 141A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Partizanų g. 87G, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Garliava, Vytauto g. 111A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Ramučiai, K. Bielinio g. 2A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Klipščių k., Šilelių g.1, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
-    "Klaipėda, Taikos pr. 157, Klaipėda, Lietuva": {
+    "Taikos pr. 157, Klaipėda, Lietuva": {
         "lat": 55.695369,
         "lng": 21.1481735
     },
@@ -1443,7 +1247,7 @@
         "lat": 55.9155086,
         "lng": 25.0309026
     },
-    "Klaipėda, Priestočio g. 26, Klaipėda, Lietuva": {
+    "Priestočio g. 26, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
@@ -1471,7 +1275,7 @@
         "lat": 55.9538411,
         "lng": 25.6812626
     },
-    "Telšių g. 66, LT-88238, Luokė, Telšių, Lietuva": {
+    "Telšių, Lietuva": {
         "lat": 55.9013437,
         "lng": 22.5062918
     },
@@ -1479,7 +1283,7 @@
         "lat": 55.2382714,
         "lng": 22.297675
     },
-    "Kėdainių g. 44 Šingalių k., Kėdainių, Lietuva": {
+    "Kėdainių, Lietuva": {
         "lat": 55.339637,
         "lng": 24.0118376
     },
@@ -1502,10 +1306,6 @@
     "Gineikių k., Šilalės, Lietuva": {
         "lat": 55.5252224,
         "lng": 22.2160078
-    },
-    "Pagirių k., Durpių g.45, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Kalvelių k., Lazdijų pl. 29, Lazdijų, Lietuva": {
         "lat": 54.1607523,
@@ -1604,8 +1404,8 @@
         "lng": 25.270971
     },
     "Savanorių pr. 187, Vilnius, Vilnius, Lietuva": {
-        "lat": 54.6468852,
-        "lng": 25.2102272
+        "lat": 54.646852,
+        "lng": 25.2103082
     },
     "Kedrų g. 2, Vilnius, Vilnius, Lietuva": {
         "lat": 54.6771369,
@@ -1715,25 +1515,13 @@
         "lat": 54.9364848,
         "lng": 23.8863425
     },
-    "Vijoklių g. 1C, Ramučių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Tunelio g. 26, Kaunas, Kaunas, Lietuva": {
         "lat": 54.8946555,
         "lng": 23.9442777
     },
-    "Vakarų g. 14, Kumpių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Savanorių pr. 441C, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9293519,
         "lng": 23.9734688
-    },
-    "Vakarinis aplinkkelis 18, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Europos pr. 43, Kaunas, Kaunas, Lietuva": {
         "lat": 54.8758012,
@@ -1762,10 +1550,6 @@
     "Smiltelės g. 17, Klaipėda, Klaipėda, Lietuva": {
         "lat": 55.6698479,
         "lng": 21.1929514
-    },
-    "Šilutės pl. 5C, Klaipėda, Klaipėda, Lietuva": {
-        "lat": 55.7031833,
-        "lng": 21.1647917
     },
     "Vilniaus pl. 9, Jakų k., Klaipėda, Lietuva": {
         "lat": 55.7127529,
@@ -1810,14 +1594,6 @@
     "Klaipėdos g. 144B, Panevėžys, Panevėžio, Lietuva": {
         "lat": 55.73063,
         "lng": 24.316109
-    },
-    "Panevėžio aplinkl. 7, Šilagalio k., Panevėžio, Lietuva": {
-        "lat": 55.9155086,
-        "lng": 25.0309026
-    },
-    "Panevėžio aplinkl. 22, Šilagalio k., Panevėžio, Lietuva": {
-        "lat": 55.9155086,
-        "lng": 25.0309026
     },
     "Santaikos g. 34A, Alytus, Alytaus, Lietuva": {
         "lat": 54.3870841,
@@ -1924,8 +1700,8 @@
         "lng": 23.8178211
     },
     "Kalvarijos g. 138, Kaunas, Kaunas, Lietuva": {
-        "lat": 54.8601136,
-        "lng": 23.864553
+        "lat": 54.8645084,
+        "lng": 23.8720189
     },
     "Pramonės pr. 37, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9158016,
@@ -2004,8 +1780,8 @@
         "lng": 22.2266776
     },
     "Juodasis kl. 32, Vilnius, Vilnius, Lietuva": {
-        "lat": 54.6627298,
-        "lng": 25.3403501
+        "lat": 54.6598413,
+        "lng": 25.3599938
     },
     "O. Milašiaus g. 31, Vilnius, Vilnius, Lietuva": {
         "lat": 54.7280491,
@@ -2076,8 +1852,8 @@
         "lng": 23.9657416
     },
     "Algirdo g. 42, Mažeikiai, Mažeikių, Lietuva": {
-        "lat": 56.3159426,
-        "lng": 22.3142841
+        "lat": 56.3185082,
+        "lng": 22.3181309
     },
     "Daukšos g. 29/Žemaitijos g. 69, Mažeikiai, Mažeikių, Lietuva": {
         "lat": 56.2596823,
@@ -2119,7 +1895,7 @@
         "lat": 56.2415748,
         "lng": 22.8625876
     },
-    "Akmenės I kaimas Plento g. 1, Akmenės, Lietuva": {
+    "Akmenės, Lietuva": {
         "lat": 56.2415748,
         "lng": 22.8625876
     },
@@ -2146,10 +1922,6 @@
     "Skuodas Vytauto g. 20, Skuodo, Lietuva": {
         "lat": 56.2274045,
         "lng": 21.6899322
-    },
-    "Klaipėda Jūrininkų pr. 29, Klaipėda, Lietuva": {
-        "lat": 55.7127529,
-        "lng": 21.1350469
     },
     "Šilalė Rytinio kelio g. 19, Šilalės, Lietuva": {
         "lat": 55.5252224,
@@ -2187,18 +1959,6 @@
         "lat": 54.6334424,
         "lng": 24.2204708
     },
-    "Domeikava Muitinės g. 2, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas Garažų g. 20, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Babtai Vandžiogalos g. 3, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Lėkėčių km. Šakių g. 3, Šakių, Lietuva": {
         "lat": 54.9148731,
         "lng": 23.078048
@@ -2223,25 +1983,9 @@
         "lat": 54.7106736,
         "lng": 25.1564879
     },
-    "Zujūnai Buivydiškių g. 1A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
     "Visaginas Kosmoso g. 1, Visagino, Lietuva": {
         "lat": 55.5853627,
         "lng": 26.4823701
-    },
-    "Vilnius, Jankiškių g. 43a, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Rygos g. 2, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius Stanevičiaus g. 3A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Skaistgirys, Liepų g.22, Joniškio, Lietuva": {
         "lat": 56.2246299,
@@ -2255,25 +1999,9 @@
         "lat": 55.7319393,
         "lng": 21.1423197
     },
-    "Kaunas, Ašigalio g. 1 A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Marvelės g. 106 D, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Virbališkių k., Verslo g. 2, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Pasvalys, Mūšos g. 2 E, Pasvalio, Lietuva": {
         "lat": 56.0706909,
         "lng": 24.3842838
-    },
-    "Vilnius, J.Kazlausko g. 34, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
     },
     "Kantališkių k., Marijampolės, Lietuva": {
         "lat": 54.6792304,
@@ -2283,7 +2011,7 @@
         "lat": 54.7231463,
         "lng": 25.2410592
     },
-    "Alytaus k., Alytaus, Lietuva": {
+    "Alytaus, Lietuva": {
         "lat": 54.4071385,
         "lng": 24.1017634
     },
@@ -2299,10 +2027,6 @@
         "lat": 54.6334424,
         "lng": 24.2204708
     },
-    "Erdvės g. 78, Ramučių k., Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
     "Žemdirbių g. 15, Paliūniškio k., Panevėžio, Lietuva": {
         "lat": 55.9155086,
         "lng": 25.0309026
@@ -2316,16 +2040,16 @@
         "lng": 23.2069152
     },
     "Minijos g. 90, Klaipėda, Klaipėda, Lietuva": {
-        "lat": 55.6883791,
-        "lng": 21.1444616
+        "lat": 55.6864932,
+        "lng": 21.145677
     },
     "Palangos g. 66, Utena, Utenos, Lietuva": {
         "lat": 55.4985476,
         "lng": 25.5839697
     },
     "Elijos g.26 Palanga (Šventoji), Palangos, Lietuva": {
-        "lat": 56.0128416,
-        "lng": 21.1035918
+        "lat": 55.9725989,
+        "lng": 21.0946759
     },
     "Tartoko k., Šalčininkų, Lietuva": {
         "lat": 54.4568792,
@@ -2340,8 +2064,8 @@
         "lng": 25.0200782
     },
     "Gėlyno g.25, Marijampolė, Marijampolės, Lietuva": {
-        "lat": 54.5812862,
-        "lng": 23.3732496
+        "lat": 54.5824175,
+        "lng": 23.3629687
     },
     "Linkuvos g. 77, Kaunas, Kaunas, Lietuva": {
         "lat": 54.9142998,
@@ -2463,101 +2187,25 @@
         "lat": 54.7397108,
         "lng": 25.2804959
     },
-    "Kaunas, A. Juozapavičiaus pr. 90, Kaunas, Lietuva": {
+    "A. Juozapavičiaus pr. 90, Kaunas, Lietuva": {
         "lat": 54.8776399,
         "lng": 23.9344807
     },
-    "Kaunas, Ateities pl. 105, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Ateities pl. 37A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Baltijos g. 90B, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Biruliškių g. 18A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Didžioji g. 84, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Islandijos pl. 61A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, K. Baršausko g. 64, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Karaliaus Mindaugo pr. 54, Kaunas, Lietuva": {
+    "Karaliaus Mindaugo pr. 54, Kaunas, Lietuva": {
         "lat": 54.8914648,
         "lng": 23.9194883
     },
-    "Kaunas, Marijampolės pl. 29, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Miežėnų g. 18, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, P. Lukšio g. 66A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Pramonės pr. 44, Kaunas, Lietuva": {
+    "Pramonės pr. 44, Kaunas, Lietuva": {
         "lat": 54.9270186,
         "lng": 23.9730388
     },
-    "Kaunas, Raudondvario pl. 288, Kaunas, Lietuva": {
+    "Raudondvario pl. 288, Kaunas, Lietuva": {
         "lat": 54.9158711,
         "lng": 23.8338251
-    },
-    "Kaunas, Statybininkų g. 3A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, T. Masiulio g. 22B, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Veiverių g. 117, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kaunas, Veiverių g. 124B, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Giraitės k., Automagistralės g. 4, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Ilgakiemio k., Prienų g. 22, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kampiškių k., Baltijos g. 41, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
-    },
-    "Kumpių k., Verslo g. 13A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Margavos k., Kaunas, Lietuva": {
         "lat": 54.9561472,
         "lng": 23.9534738
-    },
-    "Zapyškis, Vytauto g. 20A, Kaunas, Lietuva": {
-        "lat": 54.8982139,
-        "lng": 23.9044817
     },
     "Ąžuolų Būdos k., Kazlų Rūdos, Lietuva": {
         "lat": 54.7901401,
@@ -2571,23 +2219,23 @@
         "lat": 55.339637,
         "lng": 24.0118376
     },
-    "Klaipėda, Liepojos g. 242, Klaipėda, Lietuva": {
+    "Liepojos g. 242, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
-    "Klaipėda, Nemuno g. 139, Klaipėda, Lietuva": {
-        "lat": 55.6890819,
-        "lng": 21.1413946
+    "Nemuno g. 139, Klaipėda, Lietuva": {
+        "lat": 55.6951154,
+        "lng": 21.1335756
     },
-    "Klaipėda, Priestočio g. 28, Klaipėda, Lietuva": {
+    "Priestočio g. 28, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
-    "Klaipėda, Šilutės pl. 52, Klaipėda, Lietuva": {
+    "Šilutės pl. 52, Klaipėda, Lietuva": {
         "lat": 55.6817397,
         "lng": 21.1851383
     },
-    "Klaipėda, Taikos pr. 70A-1, Klaipėda, Lietuva": {
+    "Taikos pr. 70A-1, Klaipėda, Lietuva": {
         "lat": 55.7127529,
         "lng": 21.1350469
     },
@@ -2851,79 +2499,19 @@
         "lat": 54.6379827,
         "lng": 23.0084464
     },
-    "Avižienių k., Ožiarūčių g. 1a, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Ateities g. 17B, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Dariaus ir Girėno g. 30A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Gariūnų g. 16A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Grigiškės, Kovo 11-osios g. 75, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Justiniškių g. 12, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Kirtimų g. 29, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Laisvės pr. 8, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Liepkalnio g. 128A, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Naugarduko g. 74, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Nemenčinės pl. 5, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Olandų g. 57, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Ozo g. 12, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Pilaitės pr. 13, Vilnius, Lietuva": {
+    "Pilaitės pr. 13, Vilnius, Lietuva": {
         "lat": 54.7035238,
         "lng": 25.2064706
     },
-    "Vilnius, Pilaitės pr. 28, Vilnius, Lietuva": {
+    "Pilaitės pr. 28, Vilnius, Lietuva": {
         "lat": 54.7035238,
         "lng": 25.2064706
     },
-    "Vilnius, Saltoniškių g. 12, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Sodų g. 22, Vilnius, Lietuva": {
+    "Sodų g. 22, Vilnius, Lietuva": {
         "lat": 54.6707057,
         "lng": 25.2818457
     },
-    "Vilnius, Verkių g. 52, Vilnius, Lietuva": {
-        "lat": 54.6870458,
-        "lng": 25.2829111
-    },
-    "Vilnius, Vilkpėdės g. 2, Vilnius, Lietuva": {
+    "Vilkpėdės g. 2, Vilnius, Lietuva": {
         "lat": 54.6722734,
         "lng": 25.2353243
     },
@@ -2966,5 +2554,461 @@
     "Jonava, Taurostos g. 16a, Jonavos, Lietuva": {
         "lat": 55.1168377,
         "lng": 24.2815728
+    },
+    "g. 51, Kudirkos Naumiestis, Šakių, Lietuva": {
+        "lat": 54.7740817,
+        "lng": 22.8633002
+    },
+    "Antakalnio g. 128, Vilnius, Lietuva": {
+        "lat": 54.7222342,
+        "lng": 25.3171326
+    },
+    "Gerosios Vilties g. 33, Vilnius, Lietuva": {
+        "lat": 54.6667672,
+        "lng": 25.2507937
+    },
+    "Savanorių pr. 121, Vilnius, Lietuva": {
+        "lat": 54.6608115,
+        "lng": 25.2333764
+    },
+    "Raudondvario pl. 82, Kaunas, Lietuva": {
+        "lat": 54.9077624,
+        "lng": 23.874128
+    },
+    "Jonavos g. 60A, Kaunas, Lietuva": {
+        "lat": 54.9050351,
+        "lng": 23.8995849
+    },
+    "Jaučiakių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Šilutės pl. 1, Klaipėda, Lietuva": {
+        "lat": 55.7049579,
+        "lng": 21.1635571
+    },
+    "Kalvarijų g. 161A, Vilnius, Lietuva": {
+        "lat": 54.724045,
+        "lng": 25.2823617
+    },
+    "Minkovskių g. 132, Kaunas, Lietuva": {
+        "lat": 54.8857026,
+        "lng": 23.9119704
+    },
+    "Metalo g. 4B, Vilnius, Lietuva": {
+        "lat": 54.6404777,
+        "lng": 25.2674802
+    },
+    "Chemijos g. 6, Kaunas, Lietuva": {
+        "lat": 54.903137,
+        "lng": 23.9827343
+    },
+    "Vilkaraisčio k., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Molėtų pl. 27A, Vilnius, Lietuva": {
+        "lat": 54.7676771,
+        "lng": 25.2725427
+    },
+    "S. Batoro g. 15, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Užubalių k. Senasis Ukmergės kelias 4, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Rinktinės g. 59, Vilnius, Lietuva": {
+        "lat": 54.7028044,
+        "lng": 25.2882429
+    },
+    "Vaidoto g. 153, Kaunas, Lietuva": {
+        "lat": 54.8613556,
+        "lng": 23.9588064
+    },
+    "Pagirių k., Marijampolės g. 1, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Taikos pr. 120, Kaunas, Lietuva": {
+        "lat": 54.9173777,
+        "lng": 24.0348003
+    },
+    "Liepų g. 79A, Klaipėda, Lietuva": {
+        "lat": 55.7208199,
+        "lng": 21.1524938
+    },
+    "Brazdžionio g. 2, Vilnius, Lietuva": {
+        "lat": 54.6139256,
+        "lng": 25.3090004
+    },
+    "Grigaičiai, Pavilnės g., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Ringaudų k., Gėlių g. 1A, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Zujūnų g. 2A, Vilnius, Lietuva": {
+        "lat": 54.7111087,
+        "lng": 25.161795
+    },
+    "Baltijos g. 1, Mastaičių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Sudervės g. 2G, Avižienių k., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "aplinkl. 20, Šilagalio k., Panevėžio, Lietuva": {
+        "lat": 55.9155086,
+        "lng": 25.0309026
+    },
+    "Vakarinis aplinkkelis 10, Kaunas, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "g. 10, Serdokų k., Vilkaviškio, Lietuva": {
+        "lat": 54.5770716,
+        "lng": 22.9419043
+    },
+    "Tvirtovės alėja 33a, Kaunas, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "K. Baršausko g. 57, Kaunas, Kaunas, Lietuva": {
+        "lat": 54.8990388,
+        "lng": 23.9599289
+    },
+    "Tilžės g. 56A, Klaipėda, Klaipėda, Lietuva": {
+        "lat": 55.7041492,
+        "lng": 21.1608983
+    },
+    "Molėtų g. 15, Didžiosios Riešės k., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Bukiškio k. Ukmergės g.437, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Spyglių g. 2, Vilnius, Lietuva": {
+        "lat": 54.6684024,
+        "lng": 25.1116773
+    },
+    "Ilgakiemio k., Kauno g.25, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "sen., Janaslavo k.11, Lazdijų, Lietuva": {
+        "lat": 54.1607523,
+        "lng": 23.6775875
+    },
+    "Mokyklos g. 26, Maišiagalos mstl., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Marijampolės g. 58, Mastaičių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Medininkų k., Pasieniečių g.10, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Taikos g.1, Kreivalaužių k., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Žemaitkiemis, Stasio Krasausko g. 21, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "g. 2 b, Rainių k., Telšių, Lietuva": {
+        "lat": 56.0130975,
+        "lng": 22.1366723
+    },
+    "g. 7, Stripinių k., Skuodo, Lietuva": {
+        "lat": 56.2274045,
+        "lng": 21.6899322
+    },
+    "Kalnuotės 1 k., Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Parko g. 64, Vilnius, Lietuva": {
+        "lat": 54.6859077,
+        "lng": 25.4305922
+    },
+    "Pramonės g. 18, Vilnius, Lietuva": {
+        "lat": 54.695952,
+        "lng": 25.4320796
+    },
+    "Rudamina, Jašiūnų g. 2, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Baltosios Vokės g 35, Vilnius, Lietuva": {
+        "lat": 54.6133594,
+        "lng": 25.1837307
+    },
+    "Kuršių 13A, Kaunas, Lietuva": {
+        "lat": 54.9361261,
+        "lng": 23.895943
+    },
+    "Betygalos g. 8, Kaunas, Lietuva": {
+        "lat": 54.9045123,
+        "lng": 23.8797231
+    },
+    "Baltų pr. 141A, Kaunas, Lietuva": {
+        "lat": 54.922867,
+        "lng": 23.8698791
+    },
+    "Partizanų g. 87G, Kaunas, Lietuva": {
+        "lat": 54.9273436,
+        "lng": 23.9992055
+    },
+    "Garliava, Vytauto g. 111A, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Ramučiai, K. Bielinio g. 2A, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "g. 66, LT-88238, Luokė, Telšių, Lietuva": {
+        "lat": 55.9013437,
+        "lng": 22.5062918
+    },
+    "g. 44 Šingalių k., Kėdainių, Lietuva": {
+        "lat": 55.339637,
+        "lng": 24.0118376
+    },
+    "Pagirių k., Durpių g.45, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Vijoklių g. 1C, Ramučių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Vakarų g. 14, Kumpių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Vakarinis aplinkkelis 18, Kaunas, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Šilutės pl. 5C, Klaipėda, Klaipėda, Lietuva": {
+        "lat": 55.7031833,
+        "lng": 21.1647917
+    },
+    "aplinkl. 7, Šilagalio k., Panevėžio, Lietuva": {
+        "lat": 55.9155086,
+        "lng": 25.0309026
+    },
+    "aplinkl. 22, Šilagalio k., Panevėžio, Lietuva": {
+        "lat": 55.9155086,
+        "lng": 25.0309026
+    },
+    "I kaimas Plento g. 1, Akmenės, Lietuva": {
+        "lat": 56.2415748,
+        "lng": 22.8625876
+    },
+    "Jūrininkų pr. 29, Klaipėda, Lietuva": {
+        "lat": 55.6568391,
+        "lng": 21.1838207
+    },
+    "Domeikava Muitinės g. 2, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Garažų g. 20, Kaunas, Lietuva": {
+        "lat": 54.9236841,
+        "lng": 24.0008424
+    },
+    "Babtai Vandžiogalos g. 3, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Zujūnai Buivydiškių g. 1A, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Jankiškių g. 43a, Vilnius, Lietuva": {
+        "lat": 54.6518904,
+        "lng": 25.1856677
+    },
+    "Rygos g. 2, Vilnius, Lietuva": {
+        "lat": 54.71563,
+        "lng": 25.2287063
+    },
+    "Stanevičiaus g. 3A, Vilnius, Lietuva": {
+        "lat": 54.721161,
+        "lng": 25.2558321
+    },
+    "Ašigalio g. 1 A, Kaunas, Lietuva": {
+        "lat": 54.9331247,
+        "lng": 23.9434984
+    },
+    "Marvelės g. 106 D, Kaunas, Lietuva": {
+        "lat": 54.9012375,
+        "lng": 23.8544016
+    },
+    "Virbališkių k., Verslo g. 2, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "J.Kazlausko g. 34, Vilnius, Lietuva": {
+        "lat": 54.7231706,
+        "lng": 25.2768132
+    },
+    "k., Alytaus, Lietuva": {
+        "lat": 55.7319393,
+        "lng": 21.1423197
+    },
+    "Erdvės g. 78, Ramučių k., Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Ateities pl. 105, Kaunas, Lietuva": {
+        "lat": 54.9271996,
+        "lng": 24.0430425
+    },
+    "Ateities pl. 37A, Kaunas, Lietuva": {
+        "lat": 54.9182066,
+        "lng": 24.0396673
+    },
+    "Baltijos g. 90B, Kaunas, Lietuva": {
+        "lat": 54.9180088,
+        "lng": 23.8736664
+    },
+    "Biruliškių g. 18A, Kaunas, Lietuva": {
+        "lat": 54.9105791,
+        "lng": 24.0232261
+    },
+    "Didžioji g. 84, Kaunas, Lietuva": {
+        "lat": 54.8551079,
+        "lng": 24.0131202
+    },
+    "Islandijos pl. 61A, Kaunas, Lietuva": {
+        "lat": 54.9335293,
+        "lng": 23.9684792
+    },
+    "K. Baršausko g. 64, Kaunas, Lietuva": {
+        "lat": 54.8975719,
+        "lng": 23.9583731
+    },
+    "Marijampolės pl. 29, Kaunas, Lietuva": {
+        "lat": 54.8495447,
+        "lng": 23.967082
+    },
+    "Miežėnų g. 18, Kaunas, Lietuva": {
+        "lat": 54.9176824,
+        "lng": 23.8630548
+    },
+    "P. Lukšio g. 66A, Kaunas, Lietuva": {
+        "lat": 54.9249064,
+        "lng": 23.9423227
+    },
+    "Statybininkų g. 3A, Kaunas, Lietuva": {
+        "lat": 54.9201003,
+        "lng": 23.9487458
+    },
+    "T. Masiulio g. 22B, Kaunas, Lietuva": {
+        "lat": 54.8809124,
+        "lng": 24.0097867
+    },
+    "Veiverių g. 117, Kaunas, Lietuva": {
+        "lat": 54.8664488,
+        "lng": 23.8894647
+    },
+    "Veiverių g. 124B, Kaunas, Lietuva": {
+        "lat": 54.8833359,
+        "lng": 23.893637
+    },
+    "Giraitės k., Automagistralės g. 4, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Ilgakiemio k., Prienų g. 22, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Kampiškių k., Baltijos g. 41, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Kumpių k., Verslo g. 13A, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Zapyškis, Vytauto g. 20A, Kaunas, Lietuva": {
+        "lat": 54.8982139,
+        "lng": 23.9044817
+    },
+    "Avižienių k., Ožiarūčių g. 1a, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Ateities g. 17B, Vilnius, Lietuva": {
+        "lat": 54.7357486,
+        "lng": 25.2584251
+    },
+    "Dariaus ir Girėno g. 30A, Vilnius, Lietuva": {
+        "lat": 54.6529651,
+        "lng": 25.2722027
+    },
+    "Gariūnų g. 16A, Vilnius, Lietuva": {
+        "lat": 54.6673496,
+        "lng": 25.1738401
+    },
+    "Grigiškės, Kovo 11-osios g. 75, Vilnius, Lietuva": {
+        "lat": 54.6870458,
+        "lng": 25.2829111
+    },
+    "Justiniškių g. 12, Vilnius, Lietuva": {
+        "lat": 54.7031393,
+        "lng": 25.2194217
+    },
+    "Kirtimų g. 29, Vilnius, Lietuva": {
+        "lat": 54.633282,
+        "lng": 25.1507159
+    },
+    "Laisvės pr. 8, Vilnius, Lietuva": {
+        "lat": 54.6742091,
+        "lng": 25.222726
+    },
+    "Liepkalnio g. 128A, Vilnius, Lietuva": {
+        "lat": 54.6474889,
+        "lng": 25.3040772
+    },
+    "Naugarduko g. 74, Vilnius, Lietuva": {
+        "lat": 54.6711189,
+        "lng": 25.2622548
+    },
+    "Nemenčinės pl. 5, Vilnius, Lietuva": {
+        "lat": 54.7263391,
+        "lng": 25.3265596
+    },
+    "Olandų g. 57, Vilnius, Lietuva": {
+        "lat": 54.6819306,
+        "lng": 25.3140091
+    },
+    "Ozo g. 12, Vilnius, Lietuva": {
+        "lat": 54.7137984,
+        "lng": 25.2770784
+    },
+    "Saltoniškių g. 12, Vilnius, Lietuva": {
+        "lat": 54.6992459,
+        "lng": 25.2601956
+    },
+    "Verkių g. 52, Vilnius, Lietuva": {
+        "lat": 54.7203664,
+        "lng": 25.2943022
     }
 }

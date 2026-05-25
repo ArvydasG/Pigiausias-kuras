@@ -37,7 +37,15 @@ def save_cache():
 
 def geocode_address(address, city):
     """Fetches coordinates for a given address using Nominatim (OpenStreetMap)."""
-    search_query = f"{address}, {city}, Lietuva".replace('\u200b', '').strip()
+    
+    # Šaliname miesto pavadinimą iš adreso pradžios, pvz. "Kaunas, K. Baršausko g. 64" -> "K. Baršausko g. 64"
+    clean_address = address
+    if clean_address.lower().startswith(city.lower() + ","):
+        clean_address = clean_address[len(city)+1:].strip()
+    elif clean_address.lower().startswith(city.lower() + " "):
+        clean_address = clean_address[len(city)+1:].strip()
+        
+    search_query = f"{clean_address}, {city}, Lietuva".replace('\u200b', '').strip()
     if search_query in coords_cache:
         return coords_cache[search_query]
 
