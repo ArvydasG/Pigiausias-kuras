@@ -36,75 +36,50 @@ def save_cache():
         json.dump(coords_cache, f, ensure_ascii=False, indent=4)
 
 def geocode_address(address, city):
-    """Fetches coordinates for a given address using Nominatim (OpenStreetMap)."""
-    
+    """Fetches coordinates for a given address using ArcGIS Geocoding API."""
+    import re, random
+    # Šaliname miesto pavadinimą iš adreso pradžios arba pabaigos
     clean_address = address.replace('\xa0', ' ').replace('\u200b', '')
-    import re
     clean_address = re.sub(rf'^{city}\s*,\s*', '', clean_address, flags=re.IGNORECASE)
     clean_address = re.sub(rf'\s*,?\s*{city}$', '', clean_address, flags=re.IGNORECASE)
+        
     search_query = f"{clean_address.strip()}, {city}, Lietuva"
     if search_query in coords_cache:
         return coords_cache[search_query]
-
-    # Use ASCII logging to avoid Windows cp1257 encoding errors
-    print(f"Ieskoma koordinaciu: {search_query.encode('ascii', 'ignore').decode('ascii')}...")
+        
+    print(f"Ieskoma koordinaciu su ArcGIS: {search_query}...")
+    
+    url = "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
+    params = {
+        "SingleLine": search_query,
+        "f": "json",
+        "maxLocations": 1,
+        "outFields": "Match_addr"
+    }
+    
     try:
-        # Nominatim API
-        url = "https://nominatim.openstreetmap.org/search"
-        params = {
-            "q": search_query,
-            "format": "json",
-            "limit": 1
-        }
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, params=params, headers=headers, timeout=10)
+        time.sleep(0.4) # Trumpesnis laukimas, nes ArcGIS greitas
+        res = requests.get(url, params=params).json()
         
-        if response.status_code != 200:
-            print(f"Nominatim klaida: {response.status_code}")
-            time.sleep(1)
-            # Return a dummy coordinate so the script doesn't skip the station entirely
-            return {"lat": 54.6872, "lng": 25.2797} # Default to Vilnius center
-            
-        data = response.json()
-        
-        if data:
-            coords = {
-                "lat": float(data[0]["lat"]),
-                "lng": float(data[0]["lon"])
-            }
+        if res.get('candidates') and len(res['candidates']) > 0:
+            location = res['candidates'][0]['location']
+            coords = {"lat": float(location['y']), "lng": float(location['x'])}
             coords_cache[search_query] = coords
-            time.sleep(1.2) # Be nice to Nominatim
             return coords
         else:
-            # Pabandom be namo numerio (tik gatvė)
-            import re, random
-            street_only = re.sub(r'\s*\d+[a-zA-Z]*\s*', '', search_query.split(',')[0])
-            street_query = f"{street_only}, {city}, Lietuva"
-            print(f"NERASTA: {search_query}. Bandoma ieškoti tik gatvės: {street_query}")
-            time.sleep(1.2)
-            res_street = requests.get(url, params={"q": street_query, "format": "json", "limit": 1}, headers=headers).json()
-            if res_street:
-                coords = {"lat": float(res_street[0]["lat"]), "lng": float(res_street[0]["lon"])}
+            print(f"NERASTA: {search_query}. Metama į miesto centrą su triukšmu...")
+            time.sleep(0.4)
+            res_city = requests.get(url, params={"SingleLine": f"{city}, Lietuva", "f": "json", "maxLocations": 1}).json()
+            if res_city.get('candidates'):
+                loc = res_city['candidates'][0]['location']
+                lat_noise = random.uniform(-0.005, 0.005)
+                lng_noise = random.uniform(-0.005, 0.005)
+                coords = {"lat": float(loc['y']) + lat_noise, "lng": float(loc['x']) + lng_noise}
                 coords_cache[search_query] = coords
-                time.sleep(1.2)
                 return coords
-            else:
-                # Jei neranda net gatvės, metam į miesto centrą, bet pridedam atsitiktinio triukšmo, kad nesidubliuotų 100%
-                print(f"NERASTA GATVĖ. Metama į miesto centrą su triukšmu...")
-                time.sleep(1.2)
-                res_city = requests.get(url, params={"q": f"{city}, Lietuva", "format": "json", "limit": 1}, headers=headers).json()
-                if res_city:
-                    # random offset ~100 meters
-                    lat_noise = random.uniform(-0.002, 0.002)
-                    lng_noise = random.uniform(-0.002, 0.002)
-                    coords = {"lat": float(res_city[0]["lat"]) + lat_noise, "lng": float(res_city[0]["lon"]) + lng_noise}
-                    coords_cache[search_query] = coords
-                    return coords
-
+            
     except Exception as e:
-        print(f"Klaida ieškant koordinačių: {e}")
+        print(f"Klaida ieškant koordinačių su ArcGIS: {e}")
     
     return {"lat": 54.6872, "lng": 25.2797}
 
