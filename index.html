@@ -35,6 +35,9 @@
                         <button id="use-gps-btn" class="fuel-btn"
                             style="flex: 0 0 auto; padding: 0 16px; background: var(--danger-color); color: #111; font-weight: bold; border: 2px solid #111; border-radius: var(--border-radius); font-size: 16px; box-shadow: 2px 2px 0 #111;"
                             title="Rasti pagal GPS">GPS</button>
+                        <button id="open-settings-btn" class="fuel-btn"
+                            style="flex: 0 0 auto; padding: 0 12px; background: #333; color: white; border: 2px solid #111; border-radius: var(--border-radius); font-size: 20px; box-shadow: 2px 2px 0 #111;"
+                            title="Nustatymai">⚙️</button>
                     </div>
                 </div>
 
@@ -90,14 +93,7 @@
                     </div>
                 </div>
 
-                <div class="input-group">
-                    <label>Kuro tipas</label>
-                    <div class="fuel-buttons" id="fuel-type-container">
-                        <button class="fuel-btn active" data-type="A95">A95</button>
-                        <button class="fuel-btn" data-type="Diesel">Dyzelinas</button>
-                        <button class="fuel-btn" data-type="LPG">Dujos (LPG)</button>
-                    </div>
-                </div>
+
 
                 <button id="find-cheapest-btn" class="primary-btn hidden">Rasti arčiausią ir pigiausią</button>
             </section>
@@ -123,11 +119,6 @@
                 </div>
             </section>
         </main>
-        <footer class="app-footer">
-            <div class="footer-content" style="justify-content: center;">
-                <button id="open-settings-btn" class="primary-btn" style="width: auto; padding: 10px 20px;">⚙️ Nustatymai / Nuolaidos</button>
-            </div>
-        </footer>
     </div>
 
     <!-- Settings Modal -->
@@ -140,10 +131,11 @@
             </div>
             <div class="modal-body">
                 <div class="settings-section">
-                    <h3>Skaičiavimo režimas</h3>
-                    <div class="radio-group" id="calc-mode-group">
-                        <label class="radio-label"><input type="radio" name="calc-mode" value="with_discount" checked> Skaičiuoti su nuolaida</label>
-                        <label class="radio-label"><input type="radio" name="calc-mode" value="no_discount"> Rodyti be nuolaidos</label>
+                    <h3>Kuro tipas</h3>
+                    <div class="fuel-buttons" id="fuel-type-container">
+                        <button class="fuel-btn active" data-type="A95">A95</button>
+                        <button class="fuel-btn" data-type="Diesel">Dyzelinas</button>
+                        <button class="fuel-btn" data-type="LPG">Dujos (LPG)</button>
                     </div>
                 </div>
 
@@ -153,6 +145,14 @@
                         <option value="google">Google Maps</option>
                         <option value="waze">Waze</option>
                     </select>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Skaičiavimo režimas</h3>
+                    <div class="radio-group" id="calc-mode-group">
+                        <label class="radio-label"><input type="radio" name="calc-mode" value="with_discount" checked> Skaičiuoti su nuolaida</label>
+                        <label class="radio-label"><input type="radio" name="calc-mode" value="no_discount"> Rodyti be nuolaidos</label>
+                    </div>
                 </div>
 
                 <div class="settings-section">
