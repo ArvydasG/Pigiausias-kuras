@@ -577,3 +577,16 @@ select:focus {
     background: rgba(76, 175, 80, 0.1);
     white-space: nowrap;
 }
+
+.app-footer {
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    border-top: var(--border-style);
+    background-color: var(--card-bg);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    line-height: 1.5;
+}

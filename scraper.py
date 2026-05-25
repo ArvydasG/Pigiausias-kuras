@@ -38,14 +38,11 @@ def save_cache():
 def geocode_address(address, city):
     """Fetches coordinates for a given address using Nominatim (OpenStreetMap)."""
     
-    # Šaliname miesto pavadinimą iš adreso pradžios, pvz. "Kaunas, K. Baršausko g. 64" -> "K. Baršausko g. 64"
-    clean_address = address
-    if clean_address.lower().startswith(city.lower() + ","):
-        clean_address = clean_address[len(city)+1:].strip()
-    elif clean_address.lower().startswith(city.lower() + " "):
-        clean_address = clean_address[len(city)+1:].strip()
-        
-    search_query = f"{clean_address}, {city}, Lietuva".replace('\u200b', '').strip()
+    clean_address = address.replace('\xa0', ' ').replace('\u200b', '')
+    import re
+    clean_address = re.sub(rf'^{city}\s*,\s*', '', clean_address, flags=re.IGNORECASE)
+    clean_address = re.sub(rf'\s*,?\s*{city}$', '', clean_address, flags=re.IGNORECASE)
+    search_query = f"{clean_address.strip()}, {city}, Lietuva"
     if search_query in coords_cache:
         return coords_cache[search_query]
 
@@ -81,18 +78,31 @@ def geocode_address(address, city):
             time.sleep(1.2) # Be nice to Nominatim
             return coords
         else:
-            # Fallback to city center if address not found
-            print(f"NERASTA: {search_query}. Bandoma ieškoti tik pagal miestą...")
+            # Pabandom be namo numerio (tik gatvė)
+            import re, random
+            street_only = re.sub(r'\s*\d+[a-zA-Z]*\s*', '', search_query.split(',')[0])
+            street_query = f"{street_only}, {city}, Lietuva"
+            print(f"NERASTA: {search_query}. Bandoma ieškoti tik gatvės: {street_query}")
             time.sleep(1.2)
-            res_city = requests.get(url, params={"q": f"{city}, Lietuva", "format": "json", "limit": 1}, headers=headers).json()
-            if res_city:
-                coords = {"lat": float(res_city[0]["lat"]), "lng": float(res_city[0]["lon"])}
+            res_street = requests.get(url, params={"q": street_query, "format": "json", "limit": 1}, headers=headers).json()
+            if res_street:
+                coords = {"lat": float(res_street[0]["lat"]), "lng": float(res_street[0]["lon"])}
                 coords_cache[search_query] = coords
                 time.sleep(1.2)
                 return coords
             else:
-                return {"lat": 54.6872, "lng": 25.2797}
-            
+                # Jei neranda net gatvės, metam į miesto centrą, bet pridedam atsitiktinio triukšmo, kad nesidubliuotų 100%
+                print(f"NERASTA GATVĖ. Metama į miesto centrą su triukšmu...")
+                time.sleep(1.2)
+                res_city = requests.get(url, params={"q": f"{city}, Lietuva", "format": "json", "limit": 1}, headers=headers).json()
+                if res_city:
+                    # random offset ~100 meters
+                    lat_noise = random.uniform(-0.002, 0.002)
+                    lng_noise = random.uniform(-0.002, 0.002)
+                    coords = {"lat": float(res_city[0]["lat"]) + lat_noise, "lng": float(res_city[0]["lon"]) + lng_noise}
+                    coords_cache[search_query] = coords
+                    return coords
+
     except Exception as e:
         print(f"Klaida ieškant koordinačių: {e}")
     
