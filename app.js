@@ -24,12 +24,129 @@ document.addEventListener('DOMContentLoaded', () => {
     const addressInput = document.getElementById('address-input');
     const searchAddressBtn = document.getElementById('search-address-btn');
     const navAppSelect = document.getElementById('nav-app-select');
+    
+    const settingsModal = document.getElementById('settings-modal');
+    const openSettingsBtn = document.getElementById('open-settings-btn');
+    const closeSettingsBtn = document.getElementById('close-settings-btn');
+    const saveSettingsBtn = document.getElementById('save-settings-btn');
+    const discountsContainer = document.getElementById('discounts-container');
+    const calcModeRadios = document.getElementsByName('calc-mode');
+
     let map = null; // Leaflet map instance
     let isMapView = true;
     let watchId = null;
     let userMarker = null;
     let autoCenterMap = true;
     let centerBtn = null;
+
+    // Load settings from localStorage
+    let userDiscounts = JSON.parse(localStorage.getItem('userDiscounts')) || {};
+    let calcMode = localStorage.getItem('calcMode') || 'with_discount';
+    
+    // Set initial radio
+    calcModeRadios.forEach(radio => {
+        if (radio.value === calcMode) radio.checked = true;
+    });
+
+    const networksData = [
+        { name: "Circle K", logo: "🔴" },
+        { name: "Neste", logo: "🟢" },
+        { name: "Viada", logo: "🦌" },
+        { name: "Baltic Petroleum", logo: "🔵" },
+        { name: "Emsi", logo: "🛢️" },
+        { name: "Jozita", logo: "🟡" },
+        { name: "Saurida", logo: "⛽" },
+        { name: "Orlen", logo: "⛽" }
+    ];
+
+    function renderDiscountsModal() {
+        if (!discountsContainer) return;
+        discountsContainer.innerHTML = '';
+        networksData.forEach(network => {
+            // defaultDiscounts comes from data.js
+            const defaultDisc = (typeof defaultDiscounts !== 'undefined' ? defaultDiscounts[network.name] : 0) || 0;
+            const defaultDiscCt = (defaultDisc * 100).toFixed(1);
+            
+            const savedSetting = userDiscounts[network.name] || { type: 'auto', customValue: 0 };
+            
+            const item = document.createElement('div');
+            item.className = 'discount-item';
+            
+            item.innerHTML = `
+                <div class="discount-header">
+                    <span>${network.logo}</span>
+                    <span>${network.name}</span>
+                </div>
+                <div class="discount-controls">
+                    <label>
+                        <input type="radio" name="disc-${network.name.replace(/\s+/g, '-')}" value="auto" ${savedSetting.type === 'auto' ? 'checked' : ''}>
+                        Automatinė (${defaultDiscCt} ct/l)
+                    </label>
+                    <label>
+                        <input type="radio" name="disc-${network.name.replace(/\s+/g, '-')}" value="manual" ${savedSetting.type === 'manual' ? 'checked' : ''}>
+                        Įvesti ranka
+                    </label>
+                    <div class="custom-discount-input ${savedSetting.type === 'auto' ? 'hidden' : ''}">
+                        <input type="number" step="0.1" min="0" max="50" class="manual-disc-input" data-network="${network.name}" value="${savedSetting.customValue}">
+                        <span style="color: var(--text-secondary); font-size: 12px;">ct/l</span>
+                    </div>
+                </div>
+            `;
+            
+            const radios = item.querySelectorAll(`input[type="radio"]`);
+            const customInputDiv = item.querySelector('.custom-discount-input');
+            radios.forEach(radio => {
+                radio.addEventListener('change', (e) => {
+                    if (e.target.value === 'manual') {
+                        customInputDiv.classList.remove('hidden');
+                    } else {
+                        customInputDiv.classList.add('hidden');
+                    }
+                });
+            });
+            
+            discountsContainer.appendChild(item);
+        });
+    }
+
+    if (openSettingsBtn) {
+        openSettingsBtn.addEventListener('click', () => {
+            renderDiscountsModal();
+            settingsModal.classList.remove('hidden');
+        });
+    }
+
+    if (closeSettingsBtn) {
+        closeSettingsBtn.addEventListener('click', () => {
+            settingsModal.classList.add('hidden');
+        });
+    }
+
+    if (saveSettingsBtn) {
+        saveSettingsBtn.addEventListener('click', () => {
+            const selectedMode = document.querySelector('input[name="calc-mode"]:checked').value;
+            calcMode = selectedMode;
+            localStorage.setItem('calcMode', calcMode);
+            
+            if (navAppSelect) localStorage.setItem('navAppPref', navAppSelect.value);
+            
+            networksData.forEach(network => {
+                const selectedType = document.querySelector(`input[name="disc-${network.name.replace(/\s+/g, '-')}"]:checked`).value;
+                const customVal = document.querySelector(`input.manual-disc-input[data-network="${network.name}"]`).value;
+                userDiscounts[network.name] = {
+                    type: selectedType,
+                    customValue: parseFloat(customVal) || 0
+                };
+            });
+            localStorage.setItem('userDiscounts', JSON.stringify(userDiscounts));
+            
+            settingsModal.classList.add('hidden');
+            
+            if (!resultsContainer.classList.contains('hidden')) {
+                findCheapestFuel();
+            }
+        });
+    }
 
     // Make find button visible by default now since we have a fallback
     findBtn.classList.remove('hidden');
@@ -337,13 +454,46 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedNetworks = Array.from(activeCheckboxes).map(cb => cb.value);
         const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
 
-        // Add distance to each station and filter out those without the selected fuel
+        // Add distance and apply discounts to each station
         let availableStations = stationsData.map(station => {
             const dist = calculateDistance(userLocation.lat, userLocation.lng, station.lat, station.lng);
-            return { ...station, distance: dist };
+            
+            let calculatedPrices = {};
+            let appliedDiscounts = {};
+            
+            let matchedNetwork = networksData.find(net => station.name.toLowerCase().includes(net.name.toLowerCase()));
+            let discountValue = 0; // in Euros
+            
+            if (calcMode === 'with_discount' && matchedNetwork) {
+                const netName = matchedNetwork.name;
+                const setting = userDiscounts[netName] || { type: 'auto', customValue: 0 };
+                
+                if (setting.type === 'manual') {
+                    discountValue = setting.customValue / 100;
+                } else {
+                    discountValue = (typeof defaultDiscounts !== 'undefined' ? defaultDiscounts[netName] : 0) || 0;
+                }
+            }
+            
+            for (let fuelType in station.prices) {
+                if (station.prices[fuelType] !== null) {
+                    calculatedPrices[fuelType] = Math.max(0, station.prices[fuelType] - discountValue);
+                    appliedDiscounts[fuelType] = discountValue;
+                } else {
+                    calculatedPrices[fuelType] = null;
+                }
+            }
+            
+            return { 
+                ...station, 
+                distance: dist,
+                calculatedPrices: calculatedPrices,
+                appliedDiscounts: appliedDiscounts,
+                originalPrices: station.prices
+            };
         }).filter(station => {
             // Must have the selected fuel
-            if (station.prices[selectedFuel] == null) return false;
+            if (station.originalPrices[selectedFuel] == null) return false;
             
             // Network filter
             if (!selectedNetworks.includes('all')) {
@@ -363,12 +513,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Sort by price ascending, then by distance
+        // Sort by calculated price ascending, then by distance
         availableStations.sort((a, b) => {
-            if (a.prices[selectedFuel] === b.prices[selectedFuel]) {
+            if (a.calculatedPrices[selectedFuel] === b.calculatedPrices[selectedFuel]) {
                 return a.distance - b.distance;
             }
-            return a.prices[selectedFuel] - b.prices[selectedFuel];
+            return a.calculatedPrices[selectedFuel] - b.calculatedPrices[selectedFuel];
         });
 
         const cheapest = availableStations[0];
@@ -400,6 +550,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderResults(cheapest, others) {
         resultsContainer.classList.remove('hidden');
 
+        function formatPriceHTML(station) {
+            const finalPrice = station.calculatedPrices[selectedFuel].toFixed(2);
+            const discountCt = station.appliedDiscounts[selectedFuel] * 100;
+            let html = `<div class="price-value">${finalPrice}</div><div class="price-currency">€ / L</div>`;
+            if (discountCt > 0) {
+                html += `<div style="font-size: 11px; color: var(--success-color); margin-top: 4px; font-family: 'Share Tech Mono';">(-${discountCt.toFixed(1)} ct)</div>`;
+            }
+            return html;
+        }
+
         // Render cheapest as a clickable link
         cheapestCard.innerHTML = `
             <a href="${createNavLink(cheapest)}" target="_blank" class="result-card highlight" style="display:flex; width:100%; border:none; box-shadow:none; padding:0; margin:0;">
@@ -410,9 +570,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>📍 ${cheapest.address}, ${cheapest.city}<br><span style="font-size: 10px; color: var(--primary-color);">Spauskite naviguoti</span></p>
                     </div>
                 </div>
-                <div class="price-tag">
-                    <div class="price-value">${cheapest.prices[selectedFuel].toFixed(2)}</div>
-                    <div class="price-currency">€ / L</div>
+                <div class="price-tag" style="text-align: right;">
+                    ${formatPriceHTML(cheapest)}
                 </div>
             </a>
         `;
@@ -495,8 +654,8 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup("<b>Jūsų vieta</b><br>Sekama gyvai");
 
-        const minPrice = parseFloat(cheapest.prices[selectedFuel]);
-        const maxPrice = others.length > 0 ? parseFloat(others[others.length - 1].prices[selectedFuel]) : minPrice;
+        const minPrice = parseFloat(cheapest.calculatedPrices[selectedFuel]);
+        const maxPrice = others.length > 0 ? parseFloat(others[others.length - 1].calculatedPrices[selectedFuel]) : minPrice;
         
         function getPriceStyle(priceVal) {
             const price = parseFloat(priceVal);
@@ -514,12 +673,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Cheapest Station Marker
-        const cStyle = getPriceStyle(cheapest.prices[selectedFuel]);
+        const cStyle = getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
+        const cDiscount = cheapest.appliedDiscounts[selectedFuel] * 100;
+        const cDiscountBadge = cDiscount > 0 ? `<div style="font-size: 10px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -12px; white-space: nowrap;">-${cDiscount.toFixed(1)} ct</div>` : '';
+        
         const cheapestIcon = L.divIcon({
             html: `
                 <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                    ${cDiscountBadge}
                     <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 14px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -4px; z-index: 2;">
-                        ${cheapest.prices[selectedFuel].toFixed(2)} €
+                        ${cheapest.calculatedPrices[selectedFuel].toFixed(2)} €
                     </div>
                     <div style="${iconStyle}; font-size: 30px; z-index: 1;">⚡</div>
                 </div>
@@ -532,18 +695,24 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup(`
                 <b>${cheapest.name} (Pigiausia)</b><br>
-                <strong style="color: var(--primary-color); font-family: 'Black Ops One', system-ui; font-size: 16px;">${cheapest.prices[selectedFuel].toFixed(2)} €/L</strong><br>
+                <strong style="color: var(--primary-color); font-family: 'Black Ops One', system-ui; font-size: 16px;">${cheapest.calculatedPrices[selectedFuel].toFixed(2)} €/L</strong>
+                ${cDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (su -${cDiscount.toFixed(1)} ct/l nuolaida)</span>` : ''}<br>
                 <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${cheapest.distance.toFixed(1)} km</span><br>
                 <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
             `);
 
         // Other Stations Markers
         others.forEach(station => {
-            const price = station.prices[selectedFuel];
+            const price = station.calculatedPrices[selectedFuel];
             const pStyle = getPriceStyle(price);
+            
+            const sDiscount = station.appliedDiscounts[selectedFuel] * 100;
+            const sDiscountBadge = sDiscount > 0 ? `<div style="font-size: 9px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -10px; white-space: nowrap;">-${sDiscount.toFixed(1)}</div>` : '';
+            
             const icon = L.divIcon({
                 html: `
                     <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                        ${sDiscountBadge}
                         <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 12px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -2px; z-index: 2;">
                             ${price.toFixed(2)} €
                         </div>
@@ -558,7 +727,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 .addTo(map)
                 .bindPopup(`
                     <b>${station.name}</b><br>
-                    <strong style="font-family: 'Black Ops One', system-ui; font-size: 14px;">${station.prices[selectedFuel].toFixed(2)} €/L</strong><br>
+                    <strong style="font-family: 'Black Ops One', system-ui; font-size: 14px;">${price.toFixed(2)} €/L</strong>
+                    ${sDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (su -${sDiscount.toFixed(1)} ct/l)</span>` : ''}<br>
                     <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${station.distance.toFixed(1)} km</span><br>
                     <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
                 `);
@@ -589,9 +759,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p>📍 ${station.address}, ${station.city}</p>
                         </div>
                     </div>
-                    <div class="price-tag">
-                        <div class="price-value" style="color: var(--text-primary); font-size: 18px;">${station.prices[selectedFuel].toFixed(2)}</div>
+                    <div class="price-tag" style="text-align: right;">
+                        <div class="price-value" style="color: var(--text-primary); font-size: 18px;">${station.calculatedPrices[selectedFuel].toFixed(2)}</div>
                         <div class="price-currency">€ / L</div>
+                        ${station.appliedDiscounts[selectedFuel] > 0 ? `<div style="font-size: 10px; color: var(--success-color); margin-top: 4px; font-family: 'Share Tech Mono';">(-${(station.appliedDiscounts[selectedFuel]*100).toFixed(1)} ct)</div>` : ''}
                     </div>
                 `;
                 otherStationsList.appendChild(card);

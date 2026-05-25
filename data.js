@@ -1,4 +1,14 @@
 // Automatiškai sugeneruoti duomenys iš degalukaina.lt
+const defaultDiscounts = {
+    "Circle K": 0.035,
+    "Neste": 0.035,
+    "Viada": 0.03,
+    "Baltic Petroleum": 0.0,
+    "Emsi": 0.0,
+    "Jozita": 0.0,
+    "Saurida": 0.0,
+    "Orlen": 0.0
+};
 const stationsData = [
     {
         "id": 1,

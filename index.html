@@ -124,19 +124,49 @@
             </section>
         </main>
         <footer class="app-footer">
-            <div class="footer-content">
-                <span class="footer-title">⚙️ Nustatymai</span>
-                <div class="footer-setting">
-                    <label for="nav-app-select">Navigacija:</label>
-                    <select id="nav-app-select" class="footer-select">
-                        <option value="google">Google Maps</option>
-                        <option value="waze">Waze</option>
-                    </select>
-                </div>
+            <div class="footer-content" style="justify-content: center;">
+                <button id="open-settings-btn" class="primary-btn" style="width: auto; padding: 10px 20px;">⚙️ Nustatymai / Nuolaidos</button>
             </div>
         </footer>
     </div>
 
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>⚙️ Nustatymai</h2>
+                <button id="close-settings-btn" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="settings-section">
+                    <h3>Skaičiavimo režimas</h3>
+                    <div class="radio-group" id="calc-mode-group">
+                        <label class="radio-label"><input type="radio" name="calc-mode" value="with_discount" checked> Skaičiuoti su nuolaida</label>
+                        <label class="radio-label"><input type="radio" name="calc-mode" value="no_discount"> Rodyti be nuolaidos</label>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Navigacija</h3>
+                    <select id="nav-app-select" class="text-input" style="width: 100%;">
+                        <option value="google">Google Maps</option>
+                        <option value="waze">Waze</option>
+                    </select>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Tinklų Nuolaidos (ct/l)</h3>
+                    <div id="discounts-container" class="discounts-list">
+                        <!-- Javascript will populate this -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="save-settings-btn" class="primary-btn">Išsaugoti</button>
+            </div>
+        </div>
+    </div>
     <script src="data.js"></script>
     <script src="app.js"></script>
     <script>

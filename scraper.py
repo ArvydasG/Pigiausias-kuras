@@ -71,6 +71,16 @@ def geocode_address(address, city):
     return None
 
 def fetch_data():
+    default_discounts = {
+        "Circle K": 0.035,
+        "Neste": 0.035,
+        "Viada": 0.030,
+        "Baltic Petroleum": 0.000,
+        "Emsi": 0.000,
+        "Jozita": 0.000,
+        "Saurida": 0.000,
+        "Orlen": 0.000
+    }
     print("Pradedamas degalų kainų duomenų siuntimas iš degalukaina.lt...")
     response = requests.get("https://degalukaina.lt/")
     soup = BeautifulSoup(response.text, "html.parser")
@@ -164,14 +174,14 @@ def fetch_data():
         if count % 10 == 0:
             save_cache()
             # Also save data.js incrementally so we can see updates live
-            js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
+            js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
             with open(DATA_FILE, "w", encoding="utf-8") as f:
                 f.write(js_content)
             
     save_cache()
     
     # Final Save to data.js
-    js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
+    js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(js_content)
         
