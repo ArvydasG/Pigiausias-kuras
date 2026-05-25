@@ -1,8 +1,26 @@
 import os
+import sys
 import json
 import time
+import subprocess
+
+def ensure_packages():
+    required = {"requests", "beautifulsoup4", "openpyxl"}
+    try:
+        import pkg_resources
+        installed = {pkg.key for pkg in pkg_resources.working_set}
+        missing = required - installed
+        if missing:
+            print(f"Diegiami trukstami paketai: {missing}...")
+            subprocess.check_call([sys.executable, "-m", "pip", "install", *missing])
+    except Exception as e:
+        print(f"Nepavyko patikrinti paketu: {e}. Bandoma tesi...")
+
+ensure_packages()
+
 import requests
 from bs4 import BeautifulSoup
+import openpyxl
 
 DATA_FILE = "data.js"
 CACHE_FILE = "coords_cache.json"
@@ -64,11 +82,13 @@ def geocode_address(address, city):
                 coords_cache[search_query] = coords
                 time.sleep(1.2)
                 return coords
+            else:
+                return {"lat": 54.6872, "lng": 25.2797}
             
     except Exception as e:
         print(f"Klaida ieškant koordinačių: {e}")
     
-    return None
+    return {"lat": 54.6872, "lng": 25.2797}
 
 def fetch_data():
     default_discounts = {
@@ -81,66 +101,89 @@ def fetch_data():
         "Saurida": 0.000,
         "Orlen": 0.000
     }
-    print("Pradedamas degalų kainų duomenų siuntimas iš degalukaina.lt...")
-    response = requests.get("https://degalukaina.lt/")
-    soup = BeautifulSoup(response.text, "html.parser")
+    print("Pradedamas degalų kainų duomenų siuntimas iš LEA (ena.lt)...")
     
-    table = soup.find("table")
-    if not table:
-        print("Klaida: nerasta duomenų lentelė.")
+    # 1. Fetch ENA homepage to find SharePoint link
+    res = requests.get("https://www.ena.lt/degalu-kainos-degalinese/")
+    soup = BeautifulSoup(res.text, "html.parser")
+    
+    links = soup.find_all("a", href=True)
+    excel_url = None
+    for a in links:
+        if "sharepoint.com" in a["href"] and ("Naujausios" in a.text or "Degalų kainos" in a.get("title", "")):
+            excel_url = a["href"]
+            break
+            
+    if not excel_url:
+        print("Klaida: Nerasta nuoroda į LEA Excel failą.")
         return
+        
+    print(f"Rasta Excel nuoroda: {excel_url}")
     
-    rows = table.find("tbody").find_all("tr")
+    # 2. Add download flag for Sharepoint
+    if "?" in excel_url:
+        download_url = excel_url + "&download=1"
+    else:
+        download_url = excel_url + "?download=1"
+        
+    # 3. Download the Excel file
+    print("Siunčiamas Excel failas...")
+    excel_data = requests.get(download_url).content
+    temp_file = "temp_lea.xlsx"
+    with open(temp_file, "wb") as f:
+        f.write(excel_data)
+        
+    # 4. Parse Excel file using openpyxl
+    print("Skaitomas Excel failas...")
+    wb = openpyxl.load_workbook(temp_file, data_only=True)
+    sheet = wb.active
     
     stations = []
     
-    print(f"Rasta eilučių: {len(rows)}")
-    
-    count = 0
-    for row in rows:
-        tds = row.find_all("td")
-        if len(tds) < 5:
-            continue # Probably a header or empty row
+    # Find the header row index
+    header_row_idx = None
+    for idx, row in enumerate(sheet.iter_rows(values_only=True), start=1):
+        if row[0] and str(row[0]).strip().lower() == "data":
+            header_row_idx = idx
+            break
+            
+    if not header_row_idx:
+        print("Nepavyko rasti duomenų antraštės Excel faile.")
+        return
         
-        # 1. City / Municipality
-        city = tds[0].get("data-place", "").replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
-        if not city:
+    # Iterate through rows below the header
+    count = 0
+    for row in sheet.iter_rows(min_row=header_row_idx + 1, values_only=True):
+        if not row[1]: # No company name means end of data or empty row
             continue
             
-        # 2. Name
-        name_tag = tds[0].find("span", class_="fw-semibold")
-        if not name_tag:
-            continue
-        name = name_tag.text.strip()
+        name = str(row[1]).strip()
+        city = str(row[2]).strip().replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
+        address = str(row[3]).strip()
         
-        # 3. Address
-        address_tag = tds[0].find("div", class_="text-light")
-        if not address_tag:
-            continue
-        address_full = address_tag.get_text(separator=" ", strip=True)
-        address = address_full.replace('\u200b', '').strip()
-        
-        # Prices
-        def extract_price(td):
-            val = td.text.strip()
-            if val == '–' or not val:
+        def extract_price(val):
+            if val is None:
                 return None
             try:
+                # Replace comma with dot if string
+                if isinstance(val, str):
+                    val = val.replace(',', '.').strip()
+                    if val.lower() == 'neprekiauja' or val == '-' or not val:
+                        return None
                 return float(val)
             except ValueError:
                 return None
                 
-        price_diesel = extract_price(tds[1])
-        price_a95 = extract_price(tds[2])
-        price_a98 = extract_price(tds[3])
-        price_lpg = extract_price(tds[4])
+        price_a95 = extract_price(row[4])
+        price_diesel = extract_price(row[5])
+        price_lpg = extract_price(row[6])
         
-        # Clean up city names
+        if price_a95 is None and price_diesel is None and price_lpg is None:
+            continue
+            
         display_city = city.replace("Vilniaus", "Vilnius").replace("Kauno", "Kaunas").replace("Klaipėdos", "Klaipėda")
         
         coords = geocode_address(address, display_city)
-        if not coords:
-            coords = {"lat": 54.6872, "lng": 25.2797} # Fallback to Vilnius center
             
         # Determine logo emoji
         logo = "⛽"
@@ -151,6 +194,8 @@ def fetch_data():
         elif "baltic petroleum" in name_lower: logo = "🔵"
         elif "emsi" in name_lower: logo = "🛢️"
         elif "jozita" in name_lower: logo = "🟡"
+        elif "saurida" in name_lower: logo = "🔥"
+        elif "orlen" in name_lower: logo = "🦅"
             
         station = {
             "id": count + 1,
@@ -162,7 +207,7 @@ def fetch_data():
             "lng": coords["lng"],
             "prices": {
                 "A95": price_a95,
-                "A98": price_a98,
+                "A98": None, # LEA does not track A98
                 "Diesel": price_diesel,
                 "LPG": price_lpg
             }
@@ -173,15 +218,15 @@ def fetch_data():
         # Save cache every 10 items
         if count % 10 == 0:
             save_cache()
-            # Also save data.js incrementally so we can see updates live
-            js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
-            with open(DATA_FILE, "w", encoding="utf-8") as f:
-                f.write(js_content)
             
+    # Cleanup temp file
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
+        
     save_cache()
     
     # Final Save to data.js
-    js_content = f"// Automatiškai sugeneruoti duomenys iš degalukaina.lt\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
+    js_content = f"// Automatiškai sugeneruoti duomenys iš LEA Excel\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(js_content)
         
