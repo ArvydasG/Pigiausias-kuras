@@ -1,7 +1,7 @@
 name: Automatinis kuro kainu atnaujinimas
 on:
   schedule:
-    # Kasdien 10:30 valandą Lietuvos laiku (07:30 UTC vasaros laiku)
+    # Kasdien 10:37 valandą Lietuvos laiku (07:37 UTC vasaros laiku)
     - cron: '25 7 * * *'
   workflow_dispatch: # Leidžia paleisti veiksmą rankiniu būdu iš GitHub
 permissions:
@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Atsisiųsti kodo kopiją (Checkout repo)
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Paruošti Python aplinką
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     - name: Įdiegti bibliotekas
