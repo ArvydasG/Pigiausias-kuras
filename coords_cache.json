@@ -3034,5 +3034,21 @@
     "Jonava, Taurostos g. 16a, Jonavos, Lietuva": {
         "lat": 55.070245320311,
         "lng": 24.293809404831
+    },
+    "Islandijos pl. 191D, Kaunas, Lietuva": {
+        "lat": 54.931600040259,
+        "lng": 23.95113133078
+    },
+    "Basanavičiaus g. 91E, Kėdainiai, Kėdainių, Lietuva": {
+        "lat": 55.27800846625,
+        "lng": 23.959992594998
+    },
+    "Kretingos 51, Kartena, Kretingos, Lietuva": {
+        "lat": 55.916981061882,
+        "lng": 21.467490690512
+    },
+    "Gegužių g. 28, Šiaulių, Lietuva": {
+        "lat": 55.905942849771,
+        "lng": 23.259168175635
     }
 }
