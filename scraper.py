@@ -3,6 +3,7 @@ import sys
 import json
 import time
 import subprocess
+import random
 
 def ensure_packages():
     required = {"requests", "beautifulsoup4", "openpyxl"}
@@ -37,13 +38,8 @@ def save_cache():
 
 def geocode_address(address, city):
     """Fetches coordinates for a given address using ArcGIS Geocoding API."""
-    import re, random
-    # Šaliname miesto pavadinimą iš adreso pradžios arba pabaigos
-    clean_address = address.replace('\xa0', ' ').replace('\u200b', '')
-    clean_address = re.sub(rf'^{city}\s*,\s*', '', clean_address, flags=re.IGNORECASE)
-    clean_address = re.sub(rf'\s*,?\s*{city}$', '', clean_address, flags=re.IGNORECASE)
-        
-    search_query = f"{clean_address.strip()}, {city}, Lietuva"
+    clean_address = address.replace('\\xa0', ' ').replace('\\u200b', '').strip()
+    search_query = f"{clean_address}, {city}, Lietuva"
     if search_query in coords_cache:
         return coords_cache[search_query]
         
