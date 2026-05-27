@@ -49,10 +49,10 @@ const stationsData = [
         "lat": 55.511886028346,
         "lng": 25.599999374524,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.734,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.859
+            "Diesel": 1.834,
+            "LPG": 0.799
         }
     },
     {
@@ -64,10 +64,10 @@ const stationsData = [
         "lat": 55.599254418909,
         "lng": 26.420027365172,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.859
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -79,9 +79,9 @@ const stationsData = [
         "lat": 54.923692678531,
         "lng": 24.068998659062,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.889,
             "LPG": null
         }
     },
@@ -94,10 +94,10 @@ const stationsData = [
         "lat": 54.72086327836,
         "lng": 25.284837216737,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.734,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.899
+            "Diesel": 1.834,
+            "LPG": 0.774
         }
     },
     {
@@ -109,10 +109,10 @@ const stationsData = [
         "lat": 54.651210291614,
         "lng": 25.150220498978,
         "prices": {
-            "A95": 1.819,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.919,
-            "LPG": 0.849
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -124,10 +124,10 @@ const stationsData = [
         "lat": 54.665560738493,
         "lng": 25.274983367545,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.779,
             "A98": null,
-            "Diesel": 2.029,
-            "LPG": 0.899
+            "Diesel": 1.819,
+            "LPG": 0.799
         }
     },
     {
@@ -139,10 +139,10 @@ const stationsData = [
         "lat": 55.244490450828,
         "lng": 24.750026783324,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.734,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.839
+            "Diesel": 1.834,
+            "LPG": 0.774
         }
     },
     {
@@ -154,10 +154,10 @@ const stationsData = [
         "lat": 55.594037899558,
         "lng": 25.833465888087,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.734,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.859
+            "Diesel": 1.834,
+            "LPG": 0.774
         }
     },
     {
@@ -166,12 +166,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Anykščių",
         "address": "Bajorų k.",
-        "lat": 55.692070556,
-        "lng": 25.343274275,
+        "lat": 55.7081,
+        "lng": 25.33397,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 1.899,
+            "Diesel": 1.889,
             "LPG": 0.879
         }
     },
@@ -199,10 +199,10 @@ const stationsData = [
         "lat": 54.677411492298,
         "lng": 25.07904246686,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.779,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.859
+            "Diesel": 1.819,
+            "LPG": 0.799
         }
     },
     {
@@ -214,9 +214,9 @@ const stationsData = [
         "lat": 54.605368866867,
         "lng": 23.405129799342,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.899,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -229,10 +229,10 @@ const stationsData = [
         "lat": 54.562824715191,
         "lng": 23.366521663669,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.819
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -244,10 +244,10 @@ const stationsData = [
         "lat": 55.024590257101,
         "lng": 24.985641243395,
         "prices": {
-            "A95": 1.839,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.829
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -256,8 +256,8 @@ const stationsData = [
         "logo": "⛽",
         "city": "Šakių",
         "address": "Šakių g. 51, Kudirkos Naumiestis",
-        "lat": 54.784158381999,
-        "lng": 22.8733413773,
+        "lat": 54.783590587699,
+        "lng": 22.873239078782,
         "prices": {
             "A95": 1.839,
             "A98": null,
@@ -274,9 +274,9 @@ const stationsData = [
         "lat": 54.20413051462,
         "lng": 25.621030659238,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.899,
             "LPG": 0.899
         }
     },
@@ -304,10 +304,10 @@ const stationsData = [
         "lat": 55.332132887716,
         "lng": 26.16724659976,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.869
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -319,10 +319,10 @@ const stationsData = [
         "lat": 54.703463453196,
         "lng": 25.41579179718,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.749,
             "A98": null,
-            "Diesel": 1.899,
-            "LPG": 0.809
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
@@ -334,9 +334,9 @@ const stationsData = [
         "lat": 54.565969940539,
         "lng": 23.380467306534,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -349,10 +349,10 @@ const stationsData = [
         "lat": 55.495520027119,
         "lng": 25.581640743456,
         "prices": {
-            "A95": 1.854,
+            "A95": 1.734,
             "A98": null,
-            "Diesel": 1.934,
-            "LPG": 0.834
+            "Diesel": 1.834,
+            "LPG": 0.774
         }
     },
     {
@@ -364,9 +364,9 @@ const stationsData = [
         "lat": 54.669124011262,
         "lng": 25.278784812092,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -379,9 +379,9 @@ const stationsData = [
         "lat": 54.710865092795,
         "lng": 25.240554532614,
         "prices": {
-            "A95": 1.869,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -394,10 +394,10 @@ const stationsData = [
         "lat": 54.388342911558,
         "lng": 23.820264257407,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.749,
             "A98": null,
-            "Diesel": 1.909,
-            "LPG": 0.839
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
@@ -409,9 +409,9 @@ const stationsData = [
         "lat": 54.727835596878,
         "lng": 25.235623291338,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.899,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -421,12 +421,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Rokiškio",
         "address": "Dariaus ir Girėno g. 36, Obeliai",
-        "lat": 55.948492701141,
-        "lng": 25.814124059777,
+        "lat": 55.949059510945,
+        "lng": 25.814285128571,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
@@ -439,10 +439,10 @@ const stationsData = [
         "lat": 55.522445801423,
         "lng": 25.090014713393,
         "prices": {
-            "A95": 1.739,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.799
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -450,7 +450,7 @@ const stationsData = [
         "name": "Andopas",
         "logo": "⛽",
         "city": "Šilutės",
-        "address": "Ramučių g.43",
+        "address": "Ramučių g.43,  Barzdūnų k.",
         "lat": 55.358862525485,
         "lng": 21.503372528359,
         "prices": {
@@ -484,7 +484,7 @@ const stationsData = [
         "lat": 55.923471379058,
         "lng": 23.350175276096,
         "prices": {
-            "A95": 1.839,
+            "A95": 1.829,
             "A98": null,
             "Diesel": 1.919,
             "LPG": 0.839
@@ -499,10 +499,10 @@ const stationsData = [
         "lat": 55.917981693483,
         "lng": 23.297652091504,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.839,
             "A98": null,
             "Diesel": 1.939,
-            "LPG": 0.859
+            "LPG": 0.85
         }
     },
     {
@@ -514,7 +514,7 @@ const stationsData = [
         "lat": 55.904981403567,
         "lng": 23.328047806084,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.839,
             "A98": null,
             "Diesel": 1.939,
             "LPG": null
@@ -529,10 +529,10 @@ const stationsData = [
         "lat": 55.916729604787,
         "lng": 23.246900925062,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.839,
             "A98": null,
             "Diesel": 1.939,
-            "LPG": 0.859
+            "LPG": 0.85
         }
     },
     {
@@ -544,10 +544,10 @@ const stationsData = [
         "lat": 55.940609269748,
         "lng": 23.326278637781,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.839,
             "A98": null,
             "Diesel": 1.939,
-            "LPG": 0.859
+            "LPG": 0.85
         }
     },
     {
@@ -562,7 +562,7 @@ const stationsData = [
             "A95": 1.83,
             "A98": null,
             "Diesel": 1.93,
-            "LPG": 0.86
+            "LPG": 0.85
         }
     },
     {
@@ -574,7 +574,7 @@ const stationsData = [
         "lat": 55.815451236356,
         "lng": 23.543532538946,
         "prices": {
-            "A95": 1.875,
+            "A95": 1.879,
             "A98": null,
             "Diesel": 1.999,
             "LPG": 0.899
@@ -589,9 +589,9 @@ const stationsData = [
         "lat": 55.63478358818,
         "lng": 23.733496136839,
         "prices": {
-            "A95": 1.86,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.97,
+            "Diesel": 1.979,
             "LPG": 0.87
         }
     },
@@ -601,13 +601,13 @@ const stationsData = [
         "logo": "⛽",
         "city": "Joniškio",
         "address": "Radikių k.",
-        "lat": 56.212274673,
-        "lng": 23.576134361,
+        "lat": 56.209791953925,
+        "lng": 23.570105921554,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.959,
-            "LPG": 0.865
+            "Diesel": 1.889,
+            "LPG": 0.829
         }
     },
     {
@@ -627,21 +627,6 @@ const stationsData = [
     },
     {
         "id": 42,
-        "name": "Autograndas",
-        "logo": "⛽",
-        "city": "Visagino",
-        "address": "Taikos pr. 47",
-        "lat": 55.590458407807,
-        "lng": 26.463235405489,
-        "prices": {
-            "A95": 1.876,
-            "A98": null,
-            "Diesel": 1.976,
-            "LPG": null
-        }
-    },
-    {
-        "id": 43,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -656,22 +641,22 @@ const stationsData = [
         }
     },
     {
-        "id": 44,
+        "id": 43,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Jonavos",
         "address": "Gudžionių k., Plento g. 24",
-        "lat": 55.099158349959,
-        "lng": 24.315934639571,
+        "lat": 55.064506975498,
+        "lng": 24.278262427206,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.959,
             "LPG": 0.879
         }
     },
     {
-        "id": 45,
+        "id": 44,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -686,7 +671,7 @@ const stationsData = [
         }
     },
     {
-        "id": 46,
+        "id": 45,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -701,7 +686,7 @@ const stationsData = [
         }
     },
     {
-        "id": 47,
+        "id": 46,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -716,7 +701,7 @@ const stationsData = [
         }
     },
     {
-        "id": 48,
+        "id": 47,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -731,7 +716,7 @@ const stationsData = [
         }
     },
     {
-        "id": 49,
+        "id": 48,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -739,14 +724,14 @@ const stationsData = [
         "lat": 55.0308,
         "lng": 23.60344,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.899,
             "LPG": 0.889
         }
     },
     {
-        "id": 50,
+        "id": 49,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Klaipėda",
@@ -754,14 +739,14 @@ const stationsData = [
         "lat": 55.704919498276,
         "lng": 21.163292062079,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.919,
             "LPG": 0.809
         }
     },
     {
-        "id": 51,
+        "id": 50,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Palangos",
@@ -769,20 +754,20 @@ const stationsData = [
         "lat": 55.915435690393,
         "lng": 21.078105606641,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.829
         }
     },
     {
-        "id": 52,
+        "id": 51,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šilutės",
         "address": "Šilutė, Klaipėdos g. 4A",
-        "lat": 55.352913813303,
-        "lng": 21.462581633678,
+        "lat": 55.35290881775,
+        "lng": 21.463035625156,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -791,7 +776,7 @@ const stationsData = [
         }
     },
     {
-        "id": 53,
+        "id": 52,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Neringos",
@@ -806,7 +791,7 @@ const stationsData = [
         }
     },
     {
-        "id": 54,
+        "id": 53,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Alytaus",
@@ -814,14 +799,14 @@ const stationsData = [
         "lat": 54.386612132372,
         "lng": 24.033146744609,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.769,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.829
         }
     },
     {
-        "id": 55,
+        "id": 54,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Druskininkų sav.",
@@ -829,14 +814,14 @@ const stationsData = [
         "lat": 53.999919902533,
         "lng": 23.988011453295,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.999,
             "LPG": 0.929
         }
     },
     {
-        "id": 56,
+        "id": 55,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Lazdijų",
@@ -847,11 +832,11 @@ const stationsData = [
             "A95": 1.839,
             "A98": null,
             "Diesel": 1.939,
-            "LPG": null
+            "LPG": 0.789
         }
     },
     {
-        "id": 57,
+        "id": 56,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Telšių",
@@ -866,7 +851,7 @@ const stationsData = [
         }
     },
     {
-        "id": 58,
+        "id": 57,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Joniškio",
@@ -874,14 +859,14 @@ const stationsData = [
         "lat": 56.223351650975,
         "lng": 23.597612745873,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.749,
             "A98": null,
-            "Diesel": 1.899,
-            "LPG": 0.829
+            "Diesel": 1.839,
+            "LPG": 0.799
         }
     },
     {
-        "id": 59,
+        "id": 58,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Radviliškio",
@@ -896,7 +881,7 @@ const stationsData = [
         }
     },
     {
-        "id": 60,
+        "id": 59,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Panevėžio",
@@ -904,29 +889,29 @@ const stationsData = [
         "lat": 55.721850691234,
         "lng": 24.391548961583,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.869
         }
     },
     {
-        "id": 61,
+        "id": 60,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Utenos",
         "address": "Utena, Basanavičiaus g. 1B",
-        "lat": 55.495435701524,
-        "lng": 25.574870444235,
+        "lat": 55.495274437356,
+        "lng": 25.574904291693,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.839
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 62,
+        "id": 61,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Raseinių",
@@ -941,7 +926,7 @@ const stationsData = [
         }
     },
     {
-        "id": 63,
+        "id": 62,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Jurbarko",
@@ -956,43 +941,13 @@ const stationsData = [
         }
     },
     {
-        "id": 64,
+        "id": 63,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Prienų",
         "address": "Prienai, Vilniaus g. 3A",
         "lat": 54.628495543557,
         "lng": 23.958851566519,
-        "prices": {
-            "A95": 1.879,
-            "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.839
-        }
-    },
-    {
-        "id": 65,
-        "name": "Baltic Petroleum",
-        "logo": "🔵",
-        "city": "Kėdainių",
-        "address": "Kėdainiai, J. Basanavičiaus g. 95B",
-        "lat": 55.27707014496,
-        "lng": 23.95592628756,
-        "prices": {
-            "A95": 1.879,
-            "A98": null,
-            "Diesel": 1.969,
-            "LPG": 0.899
-        }
-    },
-    {
-        "id": 66,
-        "name": "Baltic Petroleum",
-        "logo": "🔵",
-        "city": "Ukmergės",
-        "address": "Ukmergė, Kauno g. 49",
-        "lat": 55.240905343201,
-        "lng": 24.739769932227,
         "prices": {
             "A95": 1.859,
             "A98": null,
@@ -1001,7 +956,37 @@ const stationsData = [
         }
     },
     {
-        "id": 67,
+        "id": 64,
+        "name": "Baltic Petroleum",
+        "logo": "🔵",
+        "city": "Kėdainių",
+        "address": "Kėdainiai, J. Basanavičiaus g. 95B",
+        "lat": 55.276893002576,
+        "lng": 23.95585453322,
+        "prices": {
+            "A95": 1.869,
+            "A98": null,
+            "Diesel": 1.959,
+            "LPG": 0.899
+        }
+    },
+    {
+        "id": 65,
+        "name": "Baltic Petroleum",
+        "logo": "🔵",
+        "city": "Ukmergės",
+        "address": "Ukmergė, Kauno g. 49",
+        "lat": 55.240905343201,
+        "lng": 24.739769932227,
+        "prices": {
+            "A95": 1.739,
+            "A98": null,
+            "Diesel": 1.839,
+            "LPG": 0.779
+        }
+    },
+    {
+        "id": 66,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Biržų r. sav.",
@@ -1009,20 +994,20 @@ const stationsData = [
         "lat": 56.191197122,
         "lng": 24.712076828,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.939,
             "LPG": 0.909
         }
     },
     {
-        "id": 68,
+        "id": 67,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šakių",
         "address": "Šakiai, Sodų g. 1",
-        "lat": 54.900428516234,
-        "lng": 22.848479466481,
+        "lat": 54.945583359779,
+        "lng": 23.045778499472,
         "prices": {
             "A95": 1.85,
             "A98": null,
@@ -1031,7 +1016,7 @@ const stationsData = [
         }
     },
     {
-        "id": 69,
+        "id": 68,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Skuodo",
@@ -1039,14 +1024,14 @@ const stationsData = [
         "lat": 56.259137096935,
         "lng": 21.530235941303,
         "prices": {
-            "A95": 1.819,
+            "A95": 1.749,
             "A98": null,
-            "Diesel": 1.909,
-            "LPG": 0.82
+            "Diesel": 1.839,
+            "LPG": 0.77
         }
     },
     {
-        "id": 70,
+        "id": 69,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1054,20 +1039,20 @@ const stationsData = [
         "lat": 54.724007078784,
         "lng": 25.28240612954,
         "prices": {
-            "A95": 1.819,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.919,
-            "LPG": 0.799
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 71,
+        "id": 70,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Trakų",
         "address": "Trakai, Vilniaus g. 33",
-        "lat": 54.6564426,
-        "lng": 24.871846845,
+        "lat": 54.627357281105,
+        "lng": 24.948585100914,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -1076,7 +1061,7 @@ const stationsData = [
         }
     },
     {
-        "id": 72,
+        "id": 71,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Molėtų",
@@ -1091,7 +1076,7 @@ const stationsData = [
         }
     },
     {
-        "id": 73,
+        "id": 72,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1099,20 +1084,20 @@ const stationsData = [
         "lat": 54.885755723755,
         "lng": 23.912020951469,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.959,
-            "LPG": 0.919
+            "Diesel": 1.919,
+            "LPG": 0.889
         }
     },
     {
-        "id": 74,
+        "id": 73,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Varėnos",
         "address": "Varėna, Čiurlionio g. 63",
-        "lat": 54.217998503099,
-        "lng": 24.566479414711,
+        "lat": 54.218344462206,
+        "lng": 24.565665481875,
         "prices": {
             "A95": 1.879,
             "A98": null,
@@ -1121,7 +1106,7 @@ const stationsData = [
         }
     },
     {
-        "id": 75,
+        "id": 74,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Klaipėda",
@@ -1136,7 +1121,7 @@ const stationsData = [
         }
     },
     {
-        "id": 76,
+        "id": 75,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1147,11 +1132,11 @@ const stationsData = [
             "A95": 1.859,
             "A98": null,
             "Diesel": 1.939,
-            "LPG": 0.839
+            "LPG": 0.819
         }
     },
     {
-        "id": 77,
+        "id": 76,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šalčininkų",
@@ -1162,11 +1147,11 @@ const stationsData = [
             "A95": 1.919,
             "A98": null,
             "Diesel": 2.039,
-            "LPG": 0.939
+            "LPG": 0.859
         }
     },
     {
-        "id": 78,
+        "id": 77,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Širvintų",
@@ -1174,14 +1159,14 @@ const stationsData = [
         "lat": 55.032285891954,
         "lng": 24.96716811553,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.899,
-            "LPG": 0.829
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 79,
+        "id": 78,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1196,22 +1181,22 @@ const stationsData = [
         }
     },
     {
-        "id": 80,
+        "id": 79,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Akmenės",
         "address": "N. Akmenė, V. Kudirkos g. 21A",
-        "lat": 56.318906269185,
-        "lng": 22.885267065319,
+        "lat": 56.318582715043,
+        "lng": 22.884753448639,
         "prices": {
             "A95": 1.799,
             "A98": null,
-            "Diesel": 1.909,
+            "Diesel": 1.879,
             "LPG": 0.84
         }
     },
     {
-        "id": 81,
+        "id": 80,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1221,12 +1206,12 @@ const stationsData = [
         "prices": {
             "A95": 1.79,
             "A98": null,
-            "Diesel": 1.87,
+            "Diesel": 1.89,
             "LPG": 0.79
         }
     },
     {
-        "id": 82,
+        "id": 81,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Panevėžio",
@@ -1234,20 +1219,20 @@ const stationsData = [
         "lat": 55.757761320918,
         "lng": 24.367231048815,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.869,
             "LPG": 0.869
         }
     },
     {
-        "id": 83,
+        "id": 82,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Pakruojo",
         "address": "Pakruojis, Statybininkų g. 28",
-        "lat": 55.974737606385,
-        "lng": 23.869302212828,
+        "lat": 55.974424465548,
+        "lng": 23.868955319686,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -1256,22 +1241,22 @@ const stationsData = [
         }
     },
     {
-        "id": 84,
+        "id": 83,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šilalės",
         "address": "Šilalė, Rytinio Kelio g. 2",
-        "lat": 55.490415947486,
-        "lng": 22.199531148195,
+        "lat": 55.490070281313,
+        "lng": 22.200059640314,
         "prices": {
             "A95": 1.799,
             "A98": null,
-            "Diesel": 1.899,
+            "Diesel": 1.889,
             "LPG": 0.829
         }
     },
     {
-        "id": 85,
+        "id": 84,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Marijampolės",
@@ -1286,7 +1271,7 @@ const stationsData = [
         }
     },
     {
-        "id": 86,
+        "id": 85,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Marijampolės",
@@ -1294,14 +1279,14 @@ const stationsData = [
         "lat": 54.586962291313,
         "lng": 23.384465306711,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.889
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 87,
+        "id": 86,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1309,20 +1294,20 @@ const stationsData = [
         "lat": 54.767666275039,
         "lng": 25.272410374727,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.809,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.909,
             "LPG": 0.799
         }
     },
     {
-        "id": 88,
+        "id": 87,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
         "address": "Vilnius, S. Batoro g. 15",
-        "lat": 54.692801642362,
-        "lng": 25.377766140677,
+        "lat": 54.692183926093,
+        "lng": 25.346600946666,
         "prices": {
             "A95": 1.819,
             "A98": null,
@@ -1331,7 +1316,7 @@ const stationsData = [
         }
     },
     {
-        "id": 89,
+        "id": 88,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1339,14 +1324,14 @@ const stationsData = [
         "lat": 54.76795796527,
         "lng": 25.196966959721,
         "prices": {
-            "A95": 1.839,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.919,
             "LPG": 0.799
         }
     },
     {
-        "id": 90,
+        "id": 89,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1354,14 +1339,14 @@ const stationsData = [
         "lat": 54.702819932579,
         "lng": 25.288207999099,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.919,
             "LPG": 0.799
         }
     },
     {
-        "id": 91,
+        "id": 90,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Marijampolės",
@@ -1369,20 +1354,20 @@ const stationsData = [
         "lat": 54.555439797489,
         "lng": 23.375386196829,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.889
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 92,
+        "id": 91,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Telšių",
         "address": "Ožtakių k., Dariaus ir Girėno g. 77",
-        "lat": 55.976073679749,
-        "lng": 22.230385661148,
+        "lat": 55.730429736772,
+        "lng": 22.376885610808,
         "prices": {
             "A95": 1.879,
             "A98": null,
@@ -1391,7 +1376,7 @@ const stationsData = [
         }
     },
     {
-        "id": 93,
+        "id": 92,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Rokiškio",
@@ -1406,13 +1391,13 @@ const stationsData = [
         }
     },
     {
-        "id": 94,
+        "id": 93,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Radviliškio",
         "address": "Užuovėjos k.",
-        "lat": 55.758165357,
-        "lng": 23.722738493,
+        "lat": 55.765111389119,
+        "lng": 23.718871519531,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -1421,7 +1406,7 @@ const stationsData = [
         }
     },
     {
-        "id": 95,
+        "id": 94,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1436,7 +1421,7 @@ const stationsData = [
         }
     },
     {
-        "id": 96,
+        "id": 95,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaišiadorių r. sav.",
@@ -1451,7 +1436,7 @@ const stationsData = [
         }
     },
     {
-        "id": 97,
+        "id": 96,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1466,7 +1451,7 @@ const stationsData = [
         }
     },
     {
-        "id": 98,
+        "id": 97,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Jonavos",
@@ -1481,22 +1466,22 @@ const stationsData = [
         }
     },
     {
-        "id": 99,
+        "id": 98,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Klaipėda",
         "address": "Priekulė, Klaipėdos g. 61",
-        "lat": 55.748298575952,
-        "lng": 21.162382471107,
+        "lat": 55.748638834687,
+        "lng": 21.16306608597,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.86,
             "A98": null,
             "Diesel": 1.97,
             "LPG": 0.91
         }
     },
     {
-        "id": 100,
+        "id": 99,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Mažeikių",
@@ -1504,14 +1489,14 @@ const stationsData = [
         "lat": 56.163938374335,
         "lng": 22.101548138122,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.849
         }
     },
     {
-        "id": 101,
+        "id": 100,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1519,20 +1504,20 @@ const stationsData = [
         "lat": 54.917400006632,
         "lng": 24.034813653694,
         "prices": {
-            "A95": 1.839,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.919,
-            "LPG": 0.869
+            "Diesel": 1.899,
+            "LPG": 0.799
         }
     },
     {
-        "id": 102,
+        "id": 101,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Raseinių",
         "address": "Kalnujų k. 1",
-        "lat": 55.331094518,
-        "lng": 23.106724854,
+        "lat": 55.29814,
+        "lng": 23.06251,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -1541,7 +1526,7 @@ const stationsData = [
         }
     },
     {
-        "id": 103,
+        "id": 102,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Klaipėda",
@@ -1549,14 +1534,14 @@ const stationsData = [
         "lat": 55.72061394142,
         "lng": 21.152902273998,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.919,
             "LPG": 0.799
         }
     },
     {
-        "id": 104,
+        "id": 103,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Mažeikių",
@@ -1571,7 +1556,7 @@ const stationsData = [
         }
     },
     {
-        "id": 105,
+        "id": 104,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Druskininkų sav.",
@@ -1579,14 +1564,14 @@ const stationsData = [
         "lat": 54.030274420059,
         "lng": 23.983576336868,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.999,
             "LPG": 0.929
         }
     },
     {
-        "id": 106,
+        "id": 105,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Varėnos",
@@ -1601,7 +1586,7 @@ const stationsData = [
         }
     },
     {
-        "id": 107,
+        "id": 106,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Rietavo",
@@ -1616,7 +1601,7 @@ const stationsData = [
         }
     },
     {
-        "id": 108,
+        "id": 107,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Jonavos",
@@ -1631,13 +1616,13 @@ const stationsData = [
         }
     },
     {
-        "id": 109,
+        "id": 108,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Varėnos",
         "address": "Senoji Varėna, Vilniaus g. 6A",
-        "lat": 54.256950551317,
-        "lng": 24.547126489077,
+        "lat": 54.256575579874,
+        "lng": 24.547035109506,
         "prices": {
             "A95": 1.879,
             "A98": null,
@@ -1646,7 +1631,7 @@ const stationsData = [
         }
     },
     {
-        "id": 110,
+        "id": 109,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šakių",
@@ -1661,7 +1646,7 @@ const stationsData = [
         }
     },
     {
-        "id": 111,
+        "id": 110,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1676,7 +1661,7 @@ const stationsData = [
         }
     },
     {
-        "id": 112,
+        "id": 111,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Alytaus",
@@ -1686,12 +1671,12 @@ const stationsData = [
         "prices": {
             "A95": 1.779,
             "A98": null,
-            "Diesel": 1.909,
+            "Diesel": 1.899,
             "LPG": 0.829
         }
     },
     {
-        "id": 113,
+        "id": 112,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šiaulių",
@@ -1701,18 +1686,18 @@ const stationsData = [
         "prices": {
             "A95": 1.789,
             "A98": null,
-            "Diesel": 1.899,
+            "Diesel": 1.879,
             "LPG": 0.84
         }
     },
     {
-        "id": 114,
+        "id": 113,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
         "address": "Grigaičiai, Pavilnės g.",
-        "lat": 54.668804854,
-        "lng": 25.419102468,
+        "lat": 54.680975378164,
+        "lng": 25.410861279321,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -1721,7 +1706,7 @@ const stationsData = [
         }
     },
     {
-        "id": 115,
+        "id": 114,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kaunas",
@@ -1736,7 +1721,7 @@ const stationsData = [
         }
     },
     {
-        "id": 116,
+        "id": 115,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1751,13 +1736,13 @@ const stationsData = [
         }
     },
     {
-        "id": 117,
+        "id": 116,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Zarasų",
         "address": "Sarakiškių k., Vytauto g. 61",
-        "lat": 55.73713149325,
-        "lng": 26.26967786227,
+        "lat": 55.755513495988,
+        "lng": 25.851320078964,
         "prices": {
             "A95": 1.859,
             "A98": null,
@@ -1766,7 +1751,7 @@ const stationsData = [
         }
     },
     {
-        "id": 118,
+        "id": 117,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Kupiškio",
@@ -1776,12 +1761,12 @@ const stationsData = [
         "prices": {
             "A95": 1.739,
             "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.849
+            "Diesel": 1.839,
+            "LPG": 0.829
         }
     },
     {
-        "id": 119,
+        "id": 118,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Jurbarko",
@@ -1796,13 +1781,13 @@ const stationsData = [
         }
     },
     {
-        "id": 120,
+        "id": 119,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Zarasų",
         "address": "Padustėlis, V. Striogos g. 4A",
-        "lat": 55.739566178871,
-        "lng": 25.852484510211,
+        "lat": 55.739357127618,
+        "lng": 25.85239438205,
         "prices": {
             "A95": 1.859,
             "A98": null,
@@ -1811,22 +1796,22 @@ const stationsData = [
         }
     },
     {
-        "id": 121,
+        "id": 120,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Šilalės",
         "address": "Bučių k.",
-        "lat": 55.573911107,
-        "lng": 22.176612711,
+        "lat": 55.57744,
+        "lng": 22.18167,
         "prices": {
-            "A95": 1.83,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.95,
+            "Diesel": 1.93,
             "LPG": 0.84
         }
     },
     {
-        "id": 122,
+        "id": 121,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Tauragės",
@@ -1837,17 +1822,17 @@ const stationsData = [
             "A95": 1.779,
             "A98": null,
             "Diesel": 1.889,
-            "LPG": 0.81
+            "LPG": 0.77
         }
     },
     {
-        "id": 123,
+        "id": 122,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Raseinių",
         "address": "Girkalnio k., Žemaičių g. 39",
-        "lat": 55.318311590384,
-        "lng": 23.210783891012,
+        "lat": 55.342827232249,
+        "lng": 23.160463973489,
         "prices": {
             "A95": 1.819,
             "A98": null,
@@ -1856,7 +1841,7 @@ const stationsData = [
         }
     },
     {
-        "id": 124,
+        "id": 123,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Vilnius",
@@ -1871,28 +1856,28 @@ const stationsData = [
         }
     },
     {
-        "id": 125,
+        "id": 124,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Mažeikių",
         "address": "Tirkšliai, Laukų g. 10",
-        "lat": 56.262555153231,
-        "lng": 22.310452909353,
+        "lat": 56.306715796844,
+        "lng": 22.345287512217,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": null
         }
     },
     {
-        "id": 126,
+        "id": 125,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Plungės",
         "address": "Plateliai,  Ž. Kalvarijos g. 1A",
-        "lat": 56.047837852,
-        "lng": 21.791394931,
+        "lat": 56.103855341062,
+        "lng": 22.000731338848,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -1901,22 +1886,22 @@ const stationsData = [
         }
     },
     {
-        "id": 127,
+        "id": 126,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Prienų",
         "address": "Veiverių k.",
-        "lat": 54.768104595,
-        "lng": 23.707001922,
+        "lat": 54.74263,
+        "lng": 23.71685,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.049,
-            "LPG": 0.89
+            "Diesel": 2.019,
+            "LPG": 0.91
         }
     },
     {
-        "id": 128,
+        "id": 127,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Marijampolės",
@@ -1924,14 +1909,14 @@ const stationsData = [
         "lat": 54.533820899452,
         "lng": 23.35318840265,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.939,
-            "LPG": 0.849
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 129,
+        "id": 128,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Radviliškio",
@@ -1946,7 +1931,7 @@ const stationsData = [
         }
     },
     {
-        "id": 130,
+        "id": 129,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Druskininkų sav.",
@@ -1961,7 +1946,7 @@ const stationsData = [
         }
     },
     {
-        "id": 131,
+        "id": 130,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Palangos",
@@ -1976,22 +1961,22 @@ const stationsData = [
         }
     },
     {
-        "id": 132,
+        "id": 131,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Pasvalio",
         "address": "Aukštikalnio k., Mūšos g. 19",
-        "lat": 56.071351704221,
-        "lng": 24.407354884039,
+        "lat": 56.070536983717,
+        "lng": 24.413586111767,
         "prices": {
-            "A95": 1.79,
+            "A95": 1.76,
             "A98": null,
-            "Diesel": 1.89,
+            "Diesel": 1.87,
             "LPG": null
         }
     },
     {
-        "id": 133,
+        "id": 132,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Anykščių",
@@ -1999,20 +1984,20 @@ const stationsData = [
         "lat": 55.509000264811,
         "lng": 25.100598626351,
         "prices": {
-            "A95": 1.779,
+            "A95": 1.739,
             "A98": null,
-            "Diesel": 1.889,
-            "LPG": 0.789
+            "Diesel": 1.839,
+            "LPG": 0.779
         }
     },
     {
-        "id": 134,
+        "id": 133,
         "name": "Baltic Petroleum",
         "logo": "🔵",
         "city": "Klaipėda",
         "address": "Gargždai, Dariaus ir Girėno g. 10",
-        "lat": 55.720654005152,
-        "lng": 21.122202648826,
+        "lat": 55.720905254465,
+        "lng": 21.121846233086,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -2021,7 +2006,7 @@ const stationsData = [
         }
     },
     {
-        "id": 135,
+        "id": 134,
         "name": "Bemija",
         "logo": "⛽",
         "city": "Ukmergės",
@@ -2036,7 +2021,7 @@ const stationsData = [
         }
     },
     {
-        "id": 136,
+        "id": 135,
         "name": "Bonsa",
         "logo": "⛽",
         "city": "Tauragės",
@@ -2047,17 +2032,17 @@ const stationsData = [
             "A95": 1.729,
             "A98": null,
             "Diesel": 1.829,
-            "LPG": 0.769
+            "LPG": 0.749
         }
     },
     {
-        "id": 137,
+        "id": 136,
         "name": "Bonsa",
         "logo": "⛽",
         "city": "Tauragės",
         "address": "Vaidatonių k. 1",
-        "lat": 55.469290149,
-        "lng": 22.677993551,
+        "lat": 55.492840114,
+        "lng": 22.617067212,
         "prices": {
             "A95": 1.78,
             "A98": null,
@@ -2066,7 +2051,7 @@ const stationsData = [
         }
     },
     {
-        "id": 138,
+        "id": 137,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Šiaulių",
@@ -2074,14 +2059,14 @@ const stationsData = [
         "lat": 55.956221654059,
         "lng": 23.342757124148,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 2.009,
             "LPG": 0.939
         }
     },
     {
-        "id": 139,
+        "id": 138,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Kelmės",
@@ -2089,14 +2074,14 @@ const stationsData = [
         "lat": 55.634763806888,
         "lng": 22.94546287644,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 2.009,
             "LPG": 0.919
         }
     },
     {
-        "id": 140,
+        "id": 139,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Kelmės",
@@ -2104,14 +2089,14 @@ const stationsData = [
         "lat": 55.641788009387,
         "lng": 22.922542646026,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.049,
             "LPG": 0.929
         }
     },
     {
-        "id": 141,
+        "id": 140,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Kaunas",
@@ -2119,14 +2104,14 @@ const stationsData = [
         "lat": 54.903978190806,
         "lng": 23.835469532681,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
             "Diesel": 2.049,
             "LPG": 0.94
         }
     },
     {
-        "id": 142,
+        "id": 141,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Elektrėnų",
@@ -2134,29 +2119,29 @@ const stationsData = [
         "lat": 54.785304625123,
         "lng": 24.710382299064,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.049,
             "LPG": 0.929
         }
     },
     {
-        "id": 143,
+        "id": 142,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Molėtų",
         "address": "Smėlinkos k.",
-        "lat": 55.392480636,
-        "lng": 25.219607032,
+        "lat": 55.265755418135,
+        "lng": 25.482754225472,
         "prices": {
-            "A95": 1.92,
+            "A95": 1.86,
             "A98": null,
-            "Diesel": 2.01,
+            "Diesel": 1.95,
             "LPG": 0.87
         }
     },
     {
-        "id": 144,
+        "id": 143,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Utenos",
@@ -2164,35 +2149,35 @@ const stationsData = [
         "lat": 55.512401054386,
         "lng": 25.643881152218,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": 0.879
         }
     },
     {
-        "id": 145,
+        "id": 144,
         "name": "Boost Petrol",
         "logo": "⛽",
         "city": "Kelmės",
         "address": "Maironių k., Kuršių g. 2",
-        "lat": 55.602042787,
-        "lng": 23.050161505,
+        "lat": 55.600505208411,
+        "lng": 23.042750285493,
         "prices": {
-            "A95": 1.79,
+            "A95": 1.78,
             "A98": null,
-            "Diesel": 1.89,
+            "Diesel": 1.88,
             "LPG": 0.84
         }
     },
     {
-        "id": 146,
+        "id": 145,
         "name": "Borusta",
         "logo": "⛽",
         "city": "Trakų",
         "address": "Vilniaus g. 2a, Aukštadvaris",
-        "lat": 54.577977938847,
-        "lng": 24.521586561818,
+        "lat": 54.577824697357,
+        "lng": 24.521613066587,
         "prices": {
             "A95": 1.82,
             "A98": null,
@@ -2201,13 +2186,13 @@ const stationsData = [
         }
     },
     {
-        "id": 147,
+        "id": 146,
         "name": "Borusta",
         "logo": "⛽",
         "city": "Prienų",
         "address": "Piliakalnio g. 3, Stakliškės",
-        "lat": 54.582242986458,
-        "lng": 24.317723505347,
+        "lat": 54.572492767233,
+        "lng": 24.38436197857,
         "prices": {
             "A95": 1.79,
             "A98": null,
@@ -2216,7 +2201,7 @@ const stationsData = [
         }
     },
     {
-        "id": 148,
+        "id": 147,
         "name": "Borusta",
         "logo": "⛽",
         "city": "Birštono",
@@ -2231,7 +2216,7 @@ const stationsData = [
         }
     },
     {
-        "id": 149,
+        "id": 148,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2239,14 +2224,14 @@ const stationsData = [
         "lat": 54.670981105729,
         "lng": 25.236656277085,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 150,
+        "id": 149,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2254,14 +2239,14 @@ const stationsData = [
         "lat": 54.735965540044,
         "lng": 25.265453478911,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.969,
             "LPG": 0.899
         }
     },
     {
-        "id": 151,
+        "id": 150,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2269,14 +2254,14 @@ const stationsData = [
         "lat": 54.695313100096,
         "lng": 25.218175102593,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 152,
+        "id": 151,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2284,9 +2269,24 @@ const stationsData = [
         "lat": 54.69507635324,
         "lng": 25.298108451673,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.039,
+            "LPG": null
+        }
+    },
+    {
+        "id": 152,
+        "name": "Circle K",
+        "logo": "🔴",
+        "city": "Vilnius",
+        "address": "Ukmergės g. 231, Vilnius",
+        "lat": 54.72032390289,
+        "lng": 25.24612120597,
+        "prices": {
+            "A95": 1.919,
+            "A98": null,
+            "Diesel": 2.029,
             "LPG": null
         }
     },
@@ -2295,14 +2295,14 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Ukmergės g. 231, Vilnius",
-        "lat": 54.72032390289,
-        "lng": 25.24612120597,
+        "address": "Kareivių g. 13, Vilnius",
+        "lat": 54.7185389347,
+        "lng": 25.30056552277,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.059,
-            "LPG": null
+            "Diesel": 1.999,
+            "LPG": 0.959
         }
     },
     {
@@ -2310,33 +2310,18 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Kareivių g. 13, Vilnius",
-        "lat": 54.7185389347,
-        "lng": 25.30056552277,
-        "prices": {
-            "A95": 1.959,
-            "A98": null,
-            "Diesel": 2.054,
-            "LPG": 0.959
-        }
-    },
-    {
-        "id": 155,
-        "name": "Circle K",
-        "logo": "🔴",
-        "city": "Vilnius",
         "address": "A. Goštauto g. 13, Vilnius",
         "lat": 54.694355551477,
         "lng": 25.263428997837,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.999,
             "LPG": null
         }
     },
     {
-        "id": 156,
+        "id": 155,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2351,7 +2336,7 @@ const stationsData = [
         }
     },
     {
-        "id": 157,
+        "id": 156,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2359,14 +2344,14 @@ const stationsData = [
         "lat": 54.623161845199,
         "lng": 25.110203616838,
         "prices": {
-            "A95": 1.984,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.064,
-            "LPG": 0.929
+            "Diesel": 2.044,
+            "LPG": 0.919
         }
     },
     {
-        "id": 158,
+        "id": 157,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2376,12 +2361,12 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 159,
+        "id": 158,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2389,14 +2374,14 @@ const stationsData = [
         "lat": 54.916191294285,
         "lng": 23.986586529755,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.974,
             "LPG": 0.909
         }
     },
     {
-        "id": 160,
+        "id": 159,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2404,14 +2389,14 @@ const stationsData = [
         "lat": 54.818866460034,
         "lng": 23.858143586599,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.969
         }
     },
     {
-        "id": 161,
+        "id": 160,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2419,14 +2404,14 @@ const stationsData = [
         "lat": 54.908183433538,
         "lng": 23.864909375024,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.864,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.964,
             "LPG": 0.899
         }
     },
     {
-        "id": 162,
+        "id": 161,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2434,14 +2419,14 @@ const stationsData = [
         "lat": 54.760318782535,
         "lng": 25.201651605406,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.984,
             "LPG": 0.859
         }
     },
     {
-        "id": 163,
+        "id": 162,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2449,14 +2434,14 @@ const stationsData = [
         "lat": 54.894161221988,
         "lng": 24.006781049076,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.974,
             "LPG": 0.919
         }
     },
     {
-        "id": 164,
+        "id": 163,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Alytaus",
@@ -2464,14 +2449,14 @@ const stationsData = [
         "lat": 54.424589404103,
         "lng": 24.003451840954,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.949,
             "LPG": 0.909
         }
     },
     {
-        "id": 165,
+        "id": 164,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2479,14 +2464,14 @@ const stationsData = [
         "lat": 54.919677327815,
         "lng": 23.951192518673,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.989,
             "LPG": null
         }
     },
     {
-        "id": 166,
+        "id": 165,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2494,14 +2479,14 @@ const stationsData = [
         "lat": 54.880898578503,
         "lng": 23.894048223223,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.024,
             "LPG": null
         }
     },
     {
-        "id": 167,
+        "id": 166,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šiaulių",
@@ -2509,14 +2494,14 @@ const stationsData = [
         "lat": 55.928815596704,
         "lng": 23.297616216958,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": 0.959
         }
     },
     {
-        "id": 168,
+        "id": 167,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2524,29 +2509,29 @@ const stationsData = [
         "lat": 54.713429242705,
         "lng": 25.209111080137,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.979,
             "LPG": 0.969
         }
     },
     {
-        "id": 169,
+        "id": 168,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šiaulių",
         "address": "Pramonės g. 17a, Šiauliai",
-        "lat": 55.909309273543,
-        "lng": 23.319464318137,
+        "lat": 55.909258059662,
+        "lng": 23.319423717171,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": 0.899
         }
     },
     {
-        "id": 170,
+        "id": 169,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Elektrėnų",
@@ -2554,14 +2539,14 @@ const stationsData = [
         "lat": 54.789087569708,
         "lng": 24.675974764245,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.049,
             "LPG": 0.929
         }
     },
     {
-        "id": 171,
+        "id": 170,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Utenos",
@@ -2569,14 +2554,14 @@ const stationsData = [
         "lat": 55.505150121406,
         "lng": 25.620955892662,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.009,
             "LPG": 0.899
         }
     },
     {
-        "id": 172,
+        "id": 171,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Panevėžio",
@@ -2584,14 +2569,14 @@ const stationsData = [
         "lat": 55.810596899041,
         "lng": 24.369100297042,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.069,
-            "LPG": 0.929
+            "Diesel": 1.944,
+            "LPG": 0.909
         }
     },
     {
-        "id": 173,
+        "id": 172,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Palangos",
@@ -2599,14 +2584,14 @@ const stationsData = [
         "lat": 55.914658059326,
         "lng": 21.077908045183,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.019,
-            "LPG": 0.885
+            "Diesel": 2.009,
+            "LPG": 0.889
         }
     },
     {
-        "id": 174,
+        "id": 173,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šiaulių",
@@ -2614,14 +2599,14 @@ const stationsData = [
         "lat": 55.999263271689,
         "lng": 22.989648498124,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 175,
+        "id": 174,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -2629,14 +2614,14 @@ const stationsData = [
         "lat": 55.68767050546,
         "lng": 21.145004593369,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.909,
             "A98": null,
             "Diesel": 2.019,
             "LPG": 0.949
         }
     },
     {
-        "id": 176,
+        "id": 175,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -2644,14 +2629,14 @@ const stationsData = [
         "lat": 55.692374932436,
         "lng": 21.153683467374,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.909,
             "A98": null,
             "Diesel": 2.019,
             "LPG": null
         }
     },
     {
-        "id": 177,
+        "id": 176,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -2659,14 +2644,14 @@ const stationsData = [
         "lat": 55.730400567749,
         "lng": 21.124714939447,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.959,
             "A98": null,
             "Diesel": 2.049,
             "LPG": null
         }
     },
     {
-        "id": 178,
+        "id": 177,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Marijampolės",
@@ -2674,14 +2659,14 @@ const stationsData = [
         "lat": 54.576373726398,
         "lng": 23.37149313808,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.009,
-            "LPG": 0.879
+            "Diesel": 2.004,
+            "LPG": 0.819
         }
     },
     {
-        "id": 179,
+        "id": 178,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Alytaus",
@@ -2689,14 +2674,14 @@ const stationsData = [
         "lat": 54.395039046367,
         "lng": 24.038235062751,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.074,
+            "Diesel": 1.944,
             "LPG": 0.889
         }
     },
     {
-        "id": 180,
+        "id": 179,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Druskininkų sav.",
@@ -2704,14 +2689,14 @@ const stationsData = [
         "lat": 54.010236390871,
         "lng": 23.993363466111,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 2.019,
             "LPG": 0.959
         }
     },
     {
-        "id": 181,
+        "id": 180,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Panevėžio",
@@ -2719,14 +2704,14 @@ const stationsData = [
         "lat": 55.717691548969,
         "lng": 24.371199796149,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
-            "LPG": 0.88
+            "Diesel": 1.924,
+            "LPG": 0.879
         }
     },
     {
-        "id": 182,
+        "id": 181,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Panevėžio",
@@ -2736,12 +2721,12 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.949,
             "LPG": 0.879
         }
     },
     {
-        "id": 183,
+        "id": 182,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Marijampolės",
@@ -2749,14 +2734,14 @@ const stationsData = [
         "lat": 54.557178665212,
         "lng": 23.354024748948,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.984,
             "LPG": null
         }
     },
     {
-        "id": 184,
+        "id": 183,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kėdainių",
@@ -2764,14 +2749,14 @@ const stationsData = [
         "lat": 55.286600755195,
         "lng": 23.972262695419,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
     {
-        "id": 185,
+        "id": 184,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Ukmergės",
@@ -2779,14 +2764,14 @@ const stationsData = [
         "lat": 55.311756690644,
         "lng": 24.787242852518,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.969
         }
     },
     {
-        "id": 186,
+        "id": 185,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Telšių",
@@ -2794,14 +2779,14 @@ const stationsData = [
         "lat": 55.977122013446,
         "lng": 22.265377464828,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.939
         }
     },
     {
-        "id": 187,
+        "id": 186,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šilutės",
@@ -2809,14 +2794,14 @@ const stationsData = [
         "lat": 55.350441269274,
         "lng": 21.474502487795,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.875,
             "A98": null,
             "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 188,
+        "id": 187,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Varėnos",
@@ -2831,7 +2816,7 @@ const stationsData = [
         }
     },
     {
-        "id": 189,
+        "id": 188,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Mažeikių",
@@ -2839,14 +2824,14 @@ const stationsData = [
         "lat": 56.302358171112,
         "lng": 22.345265886907,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.989,
             "LPG": 0.899
         }
     },
     {
-        "id": 190,
+        "id": 189,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Joniškio",
@@ -2854,14 +2839,14 @@ const stationsData = [
         "lat": 56.2584164209,
         "lng": 23.621872572052,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.979,
             "LPG": 0.869
         }
     },
     {
-        "id": 191,
+        "id": 190,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Rokiškio",
@@ -2869,14 +2854,14 @@ const stationsData = [
         "lat": 55.952248925321,
         "lng": 25.589676893125,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 192,
+        "id": 191,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Jonavos",
@@ -2884,14 +2869,14 @@ const stationsData = [
         "lat": 55.070560092605,
         "lng": 24.263210959855,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 2.019,
             "LPG": 0.899
         }
     },
     {
-        "id": 193,
+        "id": 192,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2899,14 +2884,14 @@ const stationsData = [
         "lat": 54.702363998956,
         "lng": 25.264950229444,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 194,
+        "id": 193,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kretingos",
@@ -2914,14 +2899,14 @@ const stationsData = [
         "lat": 55.863618513506,
         "lng": 21.217477378071,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 195,
+        "id": 194,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -2931,12 +2916,12 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 196,
+        "id": 195,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Radviliškio",
@@ -2944,14 +2929,14 @@ const stationsData = [
         "lat": 55.811746686609,
         "lng": 23.549941342114,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": 0.9
         }
     },
     {
-        "id": 197,
+        "id": 196,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Tauragės",
@@ -2959,14 +2944,14 @@ const stationsData = [
         "lat": 55.24833124841,
         "lng": 22.303034422129,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.019,
             "LPG": 0.929
         }
     },
     {
-        "id": 198,
+        "id": 197,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Panevėžio",
@@ -2974,14 +2959,14 @@ const stationsData = [
         "lat": 55.672298262675,
         "lng": 24.3365127986,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.069,
-            "LPG": 0.929
+            "Diesel": 1.944,
+            "LPG": 0.909
         }
     },
     {
-        "id": 199,
+        "id": 198,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -2989,14 +2974,14 @@ const stationsData = [
         "lat": 54.93560193802,
         "lng": 23.870450735032,
         "prices": {
-            "A95": 1.964,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.064,
+            "Diesel": 1.919,
             "LPG": 0.939
         }
     },
     {
-        "id": 200,
+        "id": 199,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3004,14 +2989,14 @@ const stationsData = [
         "lat": 54.925271326176,
         "lng": 23.890608709255,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.944,
             "LPG": 0.919
         }
     },
     {
-        "id": 201,
+        "id": 200,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šilalės",
@@ -3019,14 +3004,14 @@ const stationsData = [
         "lat": 55.484175749814,
         "lng": 22.588463370962,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.969
         }
     },
     {
-        "id": 202,
+        "id": 201,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3034,14 +3019,14 @@ const stationsData = [
         "lat": 55.711540866509,
         "lng": 21.262928164221,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.9
         }
     },
     {
-        "id": 203,
+        "id": 202,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -3049,14 +3034,14 @@ const stationsData = [
         "lat": 54.7514191292,
         "lng": 25.266494678923,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": null
         }
     },
     {
-        "id": 204,
+        "id": 203,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3064,14 +3049,14 @@ const stationsData = [
         "lat": 54.912015430123,
         "lng": 23.956753827611,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.974,
             "LPG": null
         }
     },
     {
-        "id": 205,
+        "id": 204,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Biržų r. sav.",
@@ -3079,14 +3064,14 @@ const stationsData = [
         "lat": 56.195071403028,
         "lng": 24.771803638326,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.94
+            "Diesel": 1.969,
+            "LPG": 0.93
         }
     },
     {
-        "id": 206,
+        "id": 205,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3094,14 +3079,14 @@ const stationsData = [
         "lat": 54.935630185034,
         "lng": 23.965701090156,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 207,
+        "id": 206,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3109,14 +3094,14 @@ const stationsData = [
         "lat": 54.933770324538,
         "lng": 23.965671502038,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": null
         }
     },
     {
-        "id": 208,
+        "id": 207,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3124,14 +3109,14 @@ const stationsData = [
         "lat": 54.89414890059,
         "lng": 23.913935629611,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.024,
             "LPG": null
         }
     },
     {
-        "id": 209,
+        "id": 208,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Trakų",
@@ -3139,14 +3124,14 @@ const stationsData = [
         "lat": 54.686401460639,
         "lng": 25.054046625762,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.969
         }
     },
     {
-        "id": 210,
+        "id": 209,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Utenos",
@@ -3154,20 +3139,20 @@ const stationsData = [
         "lat": 55.495602882232,
         "lng": 25.583575035251,
         "prices": {
-            "A95": 1.944,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.024,
+            "Diesel": 1.909,
             "LPG": 0.909
         }
     },
     {
-        "id": 211,
+        "id": 210,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Lazdijų",
         "address": "Nekrūnų k. 1",
-        "lat": 54.227167023,
-        "lng": 23.531676839,
+        "lat": 54.226855438218,
+        "lng": 23.524869273472,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -3176,7 +3161,7 @@ const stationsData = [
         }
     },
     {
-        "id": 212,
+        "id": 211,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilkaviškio",
@@ -3184,14 +3169,14 @@ const stationsData = [
         "lat": 54.636415897234,
         "lng": 23.074796061532,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.979,
             "LPG": 0.92
         }
     },
     {
-        "id": 213,
+        "id": 212,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3199,14 +3184,14 @@ const stationsData = [
         "lat": 55.666464960979,
         "lng": 21.17278674672,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.969,
             "LPG": 0.87
         }
     },
     {
-        "id": 214,
+        "id": 213,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3214,29 +3199,29 @@ const stationsData = [
         "lat": 55.692750735065,
         "lng": 21.179687902881,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 2.014,
             "LPG": 0.939
         }
     },
     {
-        "id": 215,
+        "id": 214,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Raseinių",
         "address": "Pikelių k. 1",
-        "lat": 55.460730759,
-        "lng": 22.691661484,
+        "lat": 55.461295305577,
+        "lng": 22.693870370643,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.969
         }
     },
     {
-        "id": 216,
+        "id": 215,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kalvarijos",
@@ -3244,14 +3229,14 @@ const stationsData = [
         "lat": 54.322808456757,
         "lng": 23.141138992804,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": null
         }
     },
     {
-        "id": 217,
+        "id": 216,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kalvarijos",
@@ -3259,14 +3244,14 @@ const stationsData = [
         "lat": 54.368078612894,
         "lng": 23.183745966844,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": null
         }
     },
     {
-        "id": 218,
+        "id": 217,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šiaulių",
@@ -3274,9 +3259,24 @@ const stationsData = [
         "lat": 55.924822667579,
         "lng": 23.334056624833,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.939,
+            "LPG": null
+        }
+    },
+    {
+        "id": 218,
+        "name": "Circle K",
+        "logo": "🔴",
+        "city": "Kaunas",
+        "address": "R. Kalantos g. 68, Kaunas",
+        "lat": 54.893119099966,
+        "lng": 23.995837971566,
+        "prices": {
+            "A95": 1.844,
+            "A98": null,
+            "Diesel": 1.944,
             "LPG": null
         }
     },
@@ -3285,13 +3285,13 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
-        "address": "R. Kalantos g. 68, Kaunas",
-        "lat": 54.893119099966,
-        "lng": 23.995837971566,
+        "address": "Varnių g. 46, Kaunas",
+        "lat": 54.914408295841,
+        "lng": 23.900526260911,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
@@ -3299,14 +3299,14 @@ const stationsData = [
         "id": 220,
         "name": "Circle K",
         "logo": "🔴",
-        "city": "Kaunas",
-        "address": "Varnių g. 46, Kaunas",
-        "lat": 54.914408295841,
-        "lng": 23.900526260911,
+        "city": "Vilnius",
+        "address": "Oslo g. 12, Vilnius",
+        "lat": 54.670969622522,
+        "lng": 25.192081567455,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
@@ -3314,14 +3314,14 @@ const stationsData = [
         "id": 221,
         "name": "Circle K",
         "logo": "🔴",
-        "city": "Vilnius",
-        "address": "Oslo g. 12, Vilnius",
-        "lat": 54.670969622522,
-        "lng": 25.192081567455,
+        "city": "Tauragės",
+        "address": "Dariaus ir Girėno g. 83A, Tauragė",
+        "lat": 55.267041248859,
+        "lng": 22.309648665744,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.989,
             "LPG": null
         }
     },
@@ -3329,14 +3329,14 @@ const stationsData = [
         "id": 222,
         "name": "Circle K",
         "logo": "🔴",
-        "city": "Tauragės",
-        "address": "Dariaus ir Girėno g. 83A, Tauragė",
-        "lat": 55.267041248859,
-        "lng": 22.309648665744,
+        "city": "Kaunas",
+        "address": "Islandijos pl. 32, Kaunas",
+        "lat": 54.939640464699,
+        "lng": 23.893488060633,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.884,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.954,
             "LPG": null
         }
     },
@@ -3344,15 +3344,15 @@ const stationsData = [
         "id": 223,
         "name": "Circle K",
         "logo": "🔴",
-        "city": "Kaunas",
-        "address": "Islandijos pl. 32, Kaunas",
-        "lat": 54.939640464699,
-        "lng": 23.893488060633,
+        "city": "Vilnius",
+        "address": "Savanorių pr. 118, Vilnius",
+        "lat": 54.661845879006,
+        "lng": 25.235448696295,
         "prices": {
-            "A95": 1.964,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.029,
-            "LPG": null
+            "Diesel": 2.024,
+            "LPG": 0.919
         }
     },
     {
@@ -3360,14 +3360,14 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Savanorių pr. 118, Vilnius",
-        "lat": 54.661845879006,
-        "lng": 25.235448696295,
+        "address": "P. Žadeikos g. 1a, Vilnius",
+        "lat": 54.730460473676,
+        "lng": 25.239041515272,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.884,
             "A98": null,
-            "Diesel": 2.049,
-            "LPG": 0.919
+            "Diesel": 1.984,
+            "LPG": 0.949
         }
     },
     {
@@ -3375,14 +3375,14 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "P. Žadeikos g. 1a, Vilnius",
-        "lat": 54.730460473676,
-        "lng": 25.239041515272,
+        "address": "Savanorių pr. 119A, Vilnius",
+        "lat": 54.662804098177,
+        "lng": 25.234888701343,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.949
+            "Diesel": 2.024,
+            "LPG": 0.919
         }
     },
     {
@@ -3390,14 +3390,14 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Savanorių pr. 119A, Vilnius",
-        "lat": 54.662804098177,
-        "lng": 25.234888701343,
+        "address": "Kareivių g. 3, Vilnius",
+        "lat": 54.715540895572,
+        "lng": 25.291017110129,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.049,
-            "LPG": 0.919
+            "Diesel": 1.949,
+            "LPG": 0.909
         }
     },
     {
@@ -3405,14 +3405,14 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Kareivių g. 3, Vilnius",
-        "lat": 54.715540895572,
-        "lng": 25.291017110129,
+        "address": "Geležinio Vilko g. 4, Vilnius",
+        "lat": 54.702841809347,
+        "lng": 25.263941048302,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 1.989,
-            "LPG": 0.909
+            "Diesel": 1.999,
+            "LPG": 0.959
         }
     },
     {
@@ -3420,33 +3420,18 @@ const stationsData = [
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
-        "address": "Geležinio Vilko g. 4, Vilnius",
-        "lat": 54.702841809347,
-        "lng": 25.263941048302,
-        "prices": {
-            "A95": 1.939,
-            "A98": null,
-            "Diesel": 2.059,
-            "LPG": 0.959
-        }
-    },
-    {
-        "id": 229,
-        "name": "Circle K",
-        "logo": "🔴",
-        "city": "Vilnius",
         "address": "Gariūnų g. 45, Vilnius",
         "lat": 54.658968706922,
         "lng": 25.161134239827,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 230,
+        "id": 229,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3454,14 +3439,14 @@ const stationsData = [
         "lat": 54.928282692529,
         "lng": 23.973882665846,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": 0.909
         }
     },
     {
-        "id": 231,
+        "id": 230,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3469,14 +3454,14 @@ const stationsData = [
         "lat": 54.913105831907,
         "lng": 23.926215955953,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.989,
             "LPG": null
         }
     },
     {
-        "id": 232,
+        "id": 231,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3484,14 +3469,14 @@ const stationsData = [
         "lat": 54.928588087172,
         "lng": 23.928793055904,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.969,
             "LPG": 0.86
         }
     },
     {
-        "id": 233,
+        "id": 232,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3499,14 +3484,14 @@ const stationsData = [
         "lat": 54.899051475757,
         "lng": 23.959916990232,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.974,
             "LPG": 0.959
         }
     },
     {
-        "id": 234,
+        "id": 233,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Kaunas",
@@ -3514,14 +3499,14 @@ const stationsData = [
         "lat": 54.901519485238,
         "lng": 23.894976351361,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 2.009,
             "LPG": 0.86
         }
     },
     {
-        "id": 235,
+        "id": 234,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Šiaulių",
@@ -3529,14 +3514,14 @@ const stationsData = [
         "lat": 55.912642127794,
         "lng": 23.273835919459,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": 0.959
         }
     },
     {
-        "id": 236,
+        "id": 235,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3544,14 +3529,14 @@ const stationsData = [
         "lat": 55.704277821679,
         "lng": 21.160807833616,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.959,
             "LPG": 0.869
         }
     },
     {
-        "id": 237,
+        "id": 236,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3559,14 +3544,14 @@ const stationsData = [
         "lat": 55.656684285801,
         "lng": 21.182458205699,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.979,
             "LPG": null
         }
     },
     {
-        "id": 238,
+        "id": 237,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Klaipėda",
@@ -3574,14 +3559,14 @@ const stationsData = [
         "lat": 55.702076356719,
         "lng": 21.13800117799,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 239,
+        "id": 238,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Panevėžio",
@@ -3591,12 +3576,12 @@ const stationsData = [
         "prices": {
             "A95": 1.939,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 240,
+        "id": 239,
         "name": "Circle K",
         "logo": "🔴",
         "city": "Vilnius",
@@ -3604,14 +3589,14 @@ const stationsData = [
         "lat": 54.780662374003,
         "lng": 25.273859941062,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
     {
-        "id": 241,
+        "id": 240,
         "name": "Degta",
         "logo": "⛽",
         "city": "Elektrėnų",
@@ -3626,7 +3611,7 @@ const stationsData = [
         }
     },
     {
-        "id": 242,
+        "id": 241,
         "name": "Degta",
         "logo": "⛽",
         "city": "Anykščių",
@@ -3634,14 +3619,14 @@ const stationsData = [
         "lat": 55.522518137248,
         "lng": 25.087942036375,
         "prices": {
-            "A95": 1.739,
+            "A95": 1.779,
             "A98": null,
-            "Diesel": 1.839,
-            "LPG": 0.839
+            "Diesel": 1.889,
+            "LPG": 0.779
         }
     },
     {
-        "id": 243,
+        "id": 242,
         "name": "Degta",
         "logo": "⛽",
         "city": "Rokiškio",
@@ -3656,7 +3641,7 @@ const stationsData = [
         }
     },
     {
-        "id": 244,
+        "id": 243,
         "name": "Deguva",
         "logo": "⛽",
         "city": "Kaunas",
@@ -3671,7 +3656,7 @@ const stationsData = [
         }
     },
     {
-        "id": 245,
+        "id": 244,
         "name": "Deliuvis",
         "logo": "⛽",
         "city": "Panevėžio",
@@ -3686,7 +3671,7 @@ const stationsData = [
         }
     },
     {
-        "id": 246,
+        "id": 245,
         "name": "Deliuvis",
         "logo": "⛽",
         "city": "Panevėžio",
@@ -3701,7 +3686,7 @@ const stationsData = [
         }
     },
     {
-        "id": 247,
+        "id": 246,
         "name": "Deliuvis",
         "logo": "⛽",
         "city": "Panevėžio",
@@ -3716,7 +3701,7 @@ const stationsData = [
         }
     },
     {
-        "id": 248,
+        "id": 247,
         "name": "Dujotena",
         "logo": "⛽",
         "city": "Utenos",
@@ -3731,7 +3716,7 @@ const stationsData = [
         }
     },
     {
-        "id": 249,
+        "id": 248,
         "name": "Dujovita",
         "logo": "⛽",
         "city": "Kaunas",
@@ -3746,7 +3731,7 @@ const stationsData = [
         }
     },
     {
-        "id": 250,
+        "id": 249,
         "name": "Dujovita",
         "logo": "⛽",
         "city": "Kaunas",
@@ -3761,7 +3746,7 @@ const stationsData = [
         }
     },
     {
-        "id": 251,
+        "id": 250,
         "name": "Dujovita",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -3776,6 +3761,21 @@ const stationsData = [
         }
     },
     {
+        "id": 251,
+        "name": "DVS Topolis",
+        "logo": "⛽",
+        "city": "Rokiškio",
+        "address": "Panevėžio 7c, Rokiškis",
+        "lat": 55.942937175717,
+        "lng": 25.585789366432,
+        "prices": {
+            "A95": null,
+            "A98": null,
+            "Diesel": null,
+            "LPG": 0.959
+        }
+    },
+    {
         "id": 252,
         "name": "Emsi",
         "logo": "🛢️",
@@ -3784,9 +3784,9 @@ const stationsData = [
         "lat": 54.408333582994,
         "lng": 24.016312530272,
         "prices": {
-            "A95": 1.75,
+            "A95": 1.76,
             "A98": null,
-            "Diesel": 1.86,
+            "Diesel": 1.87,
             "LPG": 0.85
         }
     },
@@ -3844,10 +3844,10 @@ const stationsData = [
         "lat": 54.753604836182,
         "lng": 25.211752888379,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.929,
-            "LPG": 0.81
+            "Diesel": 1.939,
+            "LPG": 0.8
         }
     },
     {
@@ -3859,7 +3859,7 @@ const stationsData = [
         "lat": 54.908069565384,
         "lng": 23.992093859237,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.849,
             "A98": null,
             "Diesel": 1.939,
             "LPG": 0.839
@@ -3874,9 +3874,9 @@ const stationsData = [
         "lat": 54.670286831601,
         "lng": 25.121320386193,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.959,
             "LPG": 0.859
         }
     },
@@ -3919,9 +3919,9 @@ const stationsData = [
         "lat": 55.07089293798,
         "lng": 24.258829068513,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.979,
             "LPG": null
         }
     },
@@ -3934,9 +3934,9 @@ const stationsData = [
         "lat": 55.711660476267,
         "lng": 21.265068902292,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.969,
             "LPG": 0.85
         }
     },
@@ -3946,8 +3946,8 @@ const stationsData = [
         "logo": "🛢️",
         "city": "Kėdainių",
         "address": "Juodgirio k.1,",
-        "lat": 55.198990356,
-        "lng": 23.625762619,
+        "lat": 55.20092,
+        "lng": 23.62495,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -3964,9 +3964,9 @@ const stationsData = [
         "lat": 55.790221707798,
         "lng": 21.141633978645,
         "prices": {
-            "A95": 1.81,
+            "A95": 1.82,
             "A98": null,
-            "Diesel": 1.89,
+            "Diesel": 1.9,
             "LPG": 0.82
         }
     },
@@ -3979,9 +3979,9 @@ const stationsData = [
         "lat": 54.717899269759,
         "lng": 25.295686584569,
         "prices": {
-            "A95": 1.869,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.919,
             "LPG": 0.849
         }
     },
@@ -3994,7 +3994,7 @@ const stationsData = [
         "lat": 54.932309903639,
         "lng": 23.917895408309,
         "prices": {
-            "A95": 1.779,
+            "A95": 1.799,
             "A98": null,
             "Diesel": 1.879,
             "LPG": 0.8
@@ -4027,7 +4027,7 @@ const stationsData = [
             "A95": 1.799,
             "A98": null,
             "Diesel": 1.899,
-            "LPG": 0.889
+            "LPG": 0.879
         }
     },
     {
@@ -4039,9 +4039,9 @@ const stationsData = [
         "lat": 54.175715716478,
         "lng": 23.480721172293,
         "prices": {
-            "A95": 1.769,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.919,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
@@ -4054,10 +4054,10 @@ const stationsData = [
         "lat": 54.643401626797,
         "lng": 25.05342955005,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.88,
             "A98": null,
-            "Diesel": 1.97,
-            "LPG": 0.869
+            "Diesel": 1.96,
+            "LPG": 0.859
         }
     },
     {
@@ -4071,7 +4071,7 @@ const stationsData = [
         "prices": {
             "A95": 1.799,
             "A98": null,
-            "Diesel": 1.879,
+            "Diesel": 1.899,
             "LPG": 0.83
         }
     },
@@ -4099,9 +4099,9 @@ const stationsData = [
         "lat": 54.873246278089,
         "lng": 25.073407229536,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.929,
+            "Diesel": 1.939,
             "LPG": 0.819
         }
     },
@@ -4129,10 +4129,10 @@ const stationsData = [
         "lat": 54.88516748179,
         "lng": 24.006218455735,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.859
+            "Diesel": 1.939,
+            "LPG": 0.849
         }
     },
     {
@@ -4189,9 +4189,9 @@ const stationsData = [
         "lat": 54.92758146251,
         "lng": 23.972026577206,
         "prices": {
-            "A95": 1.819,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.929,
+            "Diesel": 1.919,
             "LPG": 0.859
         }
     },
@@ -4204,10 +4204,10 @@ const stationsData = [
         "lat": 54.835693633573,
         "lng": 25.460300960327,
         "prices": {
-            "A95": 1.74,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.82
+            "Diesel": 1.89,
+            "LPG": 0.8
         }
     },
     {
@@ -4252,7 +4252,7 @@ const stationsData = [
             "A95": 1.799,
             "A98": null,
             "Diesel": 1.899,
-            "LPG": 0.85
+            "LPG": 0.83
         }
     },
     {
@@ -4264,9 +4264,9 @@ const stationsData = [
         "lat": 54.864365148761,
         "lng": 24.436501695046,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.959,
             "LPG": 0.85
         }
     },
@@ -4336,8 +4336,8 @@ const stationsData = [
         "logo": "🛢️",
         "city": "Raseinių",
         "address": "Raščių k. 1A",
-        "lat": 55.274304455,
-        "lng": 23.33694643,
+        "lat": 55.278231175166,
+        "lng": 23.340148864947,
         "prices": {
             "A95": 1.799,
             "A98": null,
@@ -4354,9 +4354,9 @@ const stationsData = [
         "lat": 54.707450808355,
         "lng": 24.996059697585,
         "prices": {
-            "A95": 1.86,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 1.94,
+            "Diesel": 1.93,
             "LPG": 0.85
         }
     },
@@ -4387,7 +4387,7 @@ const stationsData = [
             "A95": 1.799,
             "A98": null,
             "Diesel": 1.899,
-            "LPG": 0.859
+            "LPG": 0.839
         }
     },
     {
@@ -4399,9 +4399,9 @@ const stationsData = [
         "lat": 55.898858632845,
         "lng": 23.271854940463,
         "prices": {
-            "A95": 1.769,
+            "A95": 1.779,
             "A98": null,
-            "Diesel": 1.869,
+            "Diesel": 1.879,
             "LPG": 0.8
         }
     },
@@ -4414,10 +4414,10 @@ const stationsData = [
         "lat": 55.669935990903,
         "lng": 24.346045788539,
         "prices": {
-            "A95": 1.759,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.859,
-            "LPG": 0.859
+            "Diesel": 1.899,
+            "LPG": 0.839
         }
     },
     {
@@ -4441,8 +4441,8 @@ const stationsData = [
         "logo": "🛢️",
         "city": "Marijampolės",
         "address": "Skaisčiūnų k., Europos g.11",
-        "lat": 54.558142458349,
-        "lng": 23.27513008531,
+        "lat": 54.558222120858,
+        "lng": 23.274568331802,
         "prices": {
             "A95": 1.759,
             "A98": null,
@@ -4474,10 +4474,10 @@ const stationsData = [
         "lat": 54.622819779731,
         "lng": 25.105362732478,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.869
+            "Diesel": 1.969,
+            "LPG": 0.859
         }
     },
     {
@@ -4489,9 +4489,9 @@ const stationsData = [
         "lat": 54.951536313142,
         "lng": 23.893612699534,
         "prices": {
-            "A95": 1.81,
+            "A95": 1.83,
             "A98": null,
-            "Diesel": 1.91,
+            "Diesel": 1.93,
             "LPG": 0.85
         }
     },
@@ -4504,9 +4504,9 @@ const stationsData = [
         "lat": 54.65812309862,
         "lng": 23.033138170388,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.85
         }
     },
@@ -4609,9 +4609,9 @@ const stationsData = [
         "lat": 55.140442114854,
         "lng": 21.903148657597,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 1.93,
+            "Diesel": 1.95,
             "LPG": 0.94
         }
     },
@@ -4639,9 +4639,9 @@ const stationsData = [
         "lat": 55.956567575204,
         "lng": 22.301034416212,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.89,
             "A98": null,
-            "Diesel": 1.94,
+            "Diesel": 1.99,
             "LPG": 0.93
         }
     },
@@ -4654,7 +4654,7 @@ const stationsData = [
         "lat": 55.370632896838,
         "lng": 23.119425840266,
         "prices": {
-            "A95": 1.76,
+            "A95": 1.79,
             "A98": null,
             "Diesel": 1.89,
             "LPG": 0.88
@@ -4666,8 +4666,8 @@ const stationsData = [
         "logo": "⛽",
         "city": "Kretingos",
         "address": "Platelių g. 1 a, Laivių k.",
-        "lat": 56.063034928433,
-        "lng": 21.582002156219,
+        "lat": 56.064771910228,
+        "lng": 21.589025269071,
         "prices": {
             "A95": 1.94,
             "A98": null,
@@ -4699,7 +4699,7 @@ const stationsData = [
         "lat": 55.485882766305,
         "lng": 22.199427728634,
         "prices": {
-            "A95": 1.76,
+            "A95": 1.79,
             "A98": null,
             "Diesel": 1.89,
             "LPG": 0.85
@@ -4714,9 +4714,9 @@ const stationsData = [
         "lat": 55.999795145355,
         "lng": 22.241610326917,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.89,
             "A98": null,
-            "Diesel": 1.94,
+            "Diesel": 1.99,
             "LPG": 0.91
         }
     },
@@ -4726,12 +4726,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Šilutės",
         "address": "Klaipėdos g. 76, Žemaičių Naumiestis",
-        "lat": 55.355478960721,
-        "lng": 21.680035889931,
+        "lat": 55.355057424968,
+        "lng": 21.680949583884,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 1.93,
+            "Diesel": 1.95,
             "LPG": 0.89
         }
     },
@@ -4804,9 +4804,9 @@ const stationsData = [
         "lat": 56.283869872002,
         "lng": 21.833118275662,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 1.919,
+            "Diesel": 1.889,
             "LPG": 0.879
         }
     },
@@ -4819,7 +4819,7 @@ const stationsData = [
         "lat": 54.379110035663,
         "lng": 23.528594311107,
         "prices": {
-            "A95": 1.789,
+            "A95": 1.799,
             "A98": null,
             "Diesel": 1.899,
             "LPG": 0.869
@@ -4831,8 +4831,8 @@ const stationsData = [
         "logo": "⛽",
         "city": "Kelmės",
         "address": "Žemaitės g. 52, Užventis",
-        "lat": 55.786191353475,
-        "lng": 22.671123939879,
+        "lat": 55.786497517556,
+        "lng": 22.67107045332,
         "prices": {
             "A95": 1.79,
             "A98": null,
@@ -4846,12 +4846,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Kėdainių",
         "address": "Ruoščių k. 1",
-        "lat": 55.324467557,
-        "lng": 23.901244037,
+        "lat": 55.332148280673,
+        "lng": 23.918047949138,
         "prices": {
-            "A95": 1.783,
+            "A95": 1.793,
             "A98": null,
-            "Diesel": 1.884,
+            "Diesel": 1.864,
             "LPG": 0.92
         }
     },
@@ -4861,12 +4861,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Akmenės",
         "address": "Skabeikių k. 4",
-        "lat": 56.162520758,
-        "lng": 22.777208218,
+        "lat": 56.159520168391,
+        "lng": 22.761772600623,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 1.919,
+            "Diesel": 1.889,
             "LPG": 0.879
         }
     },
@@ -4876,12 +4876,12 @@ const stationsData = [
         "logo": "⛽",
         "city": "Vilnius",
         "address": "Kalnuotės 1 k.",
-        "lat": 54.94475,
-        "lng": 25.34467,
+        "lat": 54.939086569333,
+        "lng": 25.341164513702,
         "prices": {
-            "A95": 1.789,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.889,
+            "Diesel": 1.899,
             "LPG": 0.899
         }
     },
@@ -4894,9 +4894,9 @@ const stationsData = [
         "lat": 56.062051312096,
         "lng": 22.58243493856,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.86,
             "A98": null,
-            "Diesel": 1.91,
+            "Diesel": 1.95,
             "LPG": 0.92
         }
     },
@@ -4909,10 +4909,10 @@ const stationsData = [
         "lat": 56.304210529804,
         "lng": 22.360247281548,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.929,
-            "LPG": 0.829
+            "Diesel": 1.819,
+            "LPG": 0.759
         }
     },
     {
@@ -4924,10 +4924,10 @@ const stationsData = [
         "lat": 55.908228846224,
         "lng": 21.871460788823,
         "prices": {
-            "A95": 1.739,
+            "A95": 1.729,
             "A98": null,
             "Diesel": 1.819,
-            "LPG": 0.78
+            "LPG": 0.76
         }
     },
     {
@@ -4939,10 +4939,10 @@ const stationsData = [
         "lat": 55.920472627469,
         "lng": 21.832112698738,
         "prices": {
-            "A95": 1.74,
+            "A95": 1.73,
             "A98": null,
             "Diesel": 1.82,
-            "LPG": 0.78
+            "LPG": 0.76
         }
     },
     {
@@ -5017,7 +5017,7 @@ const stationsData = [
             "A95": 1.85,
             "A98": null,
             "Diesel": 1.97,
-            "LPG": 0.88
+            "LPG": 0.86
         }
     },
     {
@@ -5059,10 +5059,10 @@ const stationsData = [
         "lat": 55.297163000934,
         "lng": 24.076998682729,
         "prices": {
-            "A95": 1.85,
+            "A95": 1.83,
             "A98": null,
-            "Diesel": 1.97,
-            "LPG": 0.9
+            "Diesel": 1.93,
+            "LPG": 0.87
         }
     },
     {
@@ -5074,9 +5074,9 @@ const stationsData = [
         "lat": 55.034516548925,
         "lng": 22.965399266555,
         "prices": {
-            "A95": 1.85,
+            "A95": 1.83,
             "A98": null,
-            "Diesel": 1.97,
+            "Diesel": 1.9,
             "LPG": null
         }
     },
@@ -5107,7 +5107,7 @@ const stationsData = [
             "A95": 1.85,
             "A98": null,
             "Diesel": 1.97,
-            "LPG": 0.88
+            "LPG": 0.86
         }
     },
     {
@@ -5116,8 +5116,8 @@ const stationsData = [
         "logo": "⛽",
         "city": "Jurbarko",
         "address": "S. Šimkaus g. 69, Seredžius",
-        "lat": 55.078919951375,
-        "lng": 23.396917545887,
+        "lat": 55.078881933195,
+        "lng": 23.395961482915,
         "prices": {
             "A95": 1.81,
             "A98": null,
@@ -5164,9 +5164,9 @@ const stationsData = [
         "lat": 54.952746576142,
         "lng": 23.083420872261,
         "prices": {
-            "A95": 1.907,
+            "A95": 1.937,
             "A98": null,
-            "Diesel": 2.007,
+            "Diesel": 2.037,
             "LPG": 0.957
         }
     },
@@ -5179,29 +5179,14 @@ const stationsData = [
         "lat": 55.076804400923,
         "lng": 22.752030344099,
         "prices": {
-            "A95": 1.907,
+            "A95": 1.937,
             "A98": null,
-            "Diesel": 2.007,
+            "Diesel": 2.037,
             "LPG": null
         }
     },
     {
         "id": 346,
-        "name": "I.Stonkuvienės prekybos įmonė",
-        "logo": "⛽",
-        "city": "Kretingos",
-        "address": "Kretingos 51, Kartena",
-        "lat": 55.916981061882,
-        "lng": 21.467490690512,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.08,
-            "LPG": null
-        }
-    },
-    {
-        "id": 347,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šilalės",
@@ -5216,7 +5201,7 @@ const stationsData = [
         }
     },
     {
-        "id": 348,
+        "id": 347,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Vilnius",
@@ -5231,7 +5216,7 @@ const stationsData = [
         }
     },
     {
-        "id": 349,
+        "id": 348,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Vilnius",
@@ -5246,7 +5231,7 @@ const stationsData = [
         }
     },
     {
-        "id": 350,
+        "id": 349,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Vilnius",
@@ -5261,7 +5246,7 @@ const stationsData = [
         }
     },
     {
-        "id": 351,
+        "id": 350,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Vilnius",
@@ -5276,7 +5261,7 @@ const stationsData = [
         }
     },
     {
-        "id": 352,
+        "id": 351,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Vilnius",
@@ -5291,7 +5276,7 @@ const stationsData = [
         }
     },
     {
-        "id": 353,
+        "id": 352,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5306,7 +5291,7 @@ const stationsData = [
         }
     },
     {
-        "id": 354,
+        "id": 353,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5321,7 +5306,7 @@ const stationsData = [
         }
     },
     {
-        "id": 355,
+        "id": 354,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5336,7 +5321,7 @@ const stationsData = [
         }
     },
     {
-        "id": 356,
+        "id": 355,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5351,7 +5336,7 @@ const stationsData = [
         }
     },
     {
-        "id": 357,
+        "id": 356,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5366,7 +5351,7 @@ const stationsData = [
         }
     },
     {
-        "id": 358,
+        "id": 357,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5381,7 +5366,7 @@ const stationsData = [
         }
     },
     {
-        "id": 359,
+        "id": 358,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kaunas",
@@ -5396,7 +5381,7 @@ const stationsData = [
         }
     },
     {
-        "id": 360,
+        "id": 359,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Klaipėda",
@@ -5411,7 +5396,7 @@ const stationsData = [
         }
     },
     {
-        "id": 361,
+        "id": 360,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Klaipėda",
@@ -5426,7 +5411,7 @@ const stationsData = [
         }
     },
     {
-        "id": 362,
+        "id": 361,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Klaipėda",
@@ -5441,7 +5426,7 @@ const stationsData = [
         }
     },
     {
-        "id": 363,
+        "id": 362,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Klaipėda",
@@ -5456,7 +5441,7 @@ const stationsData = [
         }
     },
     {
-        "id": 364,
+        "id": 363,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šiaulių",
@@ -5471,7 +5456,7 @@ const stationsData = [
         }
     },
     {
-        "id": 365,
+        "id": 364,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šiaulių",
@@ -5486,7 +5471,7 @@ const stationsData = [
         }
     },
     {
-        "id": 366,
+        "id": 365,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šiaulių",
@@ -5501,7 +5486,7 @@ const stationsData = [
         }
     },
     {
-        "id": 367,
+        "id": 366,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Kelmės",
@@ -5516,7 +5501,7 @@ const stationsData = [
         }
     },
     {
-        "id": 368,
+        "id": 367,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Raseinių",
@@ -5531,7 +5516,7 @@ const stationsData = [
         }
     },
     {
-        "id": 369,
+        "id": 368,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Raseinių",
@@ -5546,7 +5531,7 @@ const stationsData = [
         }
     },
     {
-        "id": 370,
+        "id": 369,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šilutės",
@@ -5561,13 +5546,13 @@ const stationsData = [
         }
     },
     {
-        "id": 371,
+        "id": 370,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Pakruojo",
         "address": "Kuosiškių k. 4",
-        "lat": 55.967176648,
-        "lng": 23.866982567,
+        "lat": 55.965915990244,
+        "lng": 23.879809345198,
         "prices": {
             "A95": 1.79,
             "A98": null,
@@ -5576,7 +5561,7 @@ const stationsData = [
         }
     },
     {
-        "id": 372,
+        "id": 371,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Šilutės",
@@ -5591,7 +5576,7 @@ const stationsData = [
         }
     },
     {
-        "id": 373,
+        "id": 372,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Plungės",
@@ -5606,7 +5591,7 @@ const stationsData = [
         }
     },
     {
-        "id": 374,
+        "id": 373,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Tauragės",
@@ -5621,7 +5606,7 @@ const stationsData = [
         }
     },
     {
-        "id": 375,
+        "id": 374,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Panevėžio",
@@ -5636,7 +5621,7 @@ const stationsData = [
         }
     },
     {
-        "id": 376,
+        "id": 375,
         "name": "Jozita",
         "logo": "🟡",
         "city": "Klaipėda",
@@ -5651,52 +5636,7 @@ const stationsData = [
         }
     },
     {
-        "id": 377,
-        "name": "Junasa",
-        "logo": "⛽",
-        "city": "Šiaulių",
-        "address": "Žemaitės g. 131c",
-        "lat": 55.948087603761,
-        "lng": 23.320481378269,
-        "prices": {
-            "A95": 1.749,
-            "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 378,
-        "name": "Junasa",
-        "logo": "⛽",
-        "city": "Šiaulių",
-        "address": "Bačiūnų g. 12a",
-        "lat": 55.897986328182,
-        "lng": 23.352088277858,
-        "prices": {
-            "A95": 1.749,
-            "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 379,
-        "name": "Junasa",
-        "logo": "⛽",
-        "city": "Šiaulių",
-        "address": "M. Katiliškio g. 50, Gruzdžiai",
-        "lat": 56.099315074319,
-        "lng": 23.265858191655,
-        "prices": {
-            "A95": 1.749,
-            "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 380,
+        "id": 376,
         "name": "Kenaoil",
         "logo": "⛽",
         "city": "Vilnius",
@@ -5706,57 +5646,42 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 381,
+        "id": 377,
         "name": "Kriketas",
         "logo": "⛽",
         "city": "Trakų",
         "address": "Senkelio g. 13, Trakai",
-        "lat": 54.630810457576,
-        "lng": 24.922645038423,
+        "lat": 54.630719289507,
+        "lng": 24.922943925408,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.039,
             "LPG": 0.959
         }
     },
     {
-        "id": 382,
+        "id": 378,
         "name": "Lašų ŽŪB",
         "logo": "⛽",
         "city": "Rokiškio",
         "address": "Vytėnų vs 9, Vytėnai",
-        "lat": 55.858515697,
-        "lng": 25.737136882,
+        "lat": 55.855608051917,
+        "lng": 25.731252198589,
         "prices": {
-            "A95": 1.9,
+            "A95": 1.93,
             "A98": null,
             "Diesel": 2.06,
             "LPG": null
         }
     },
     {
-        "id": 383,
-        "name": "Leosta",
-        "logo": "⛽",
-        "city": "Telšių",
-        "address": "Telšių g. 66, LT-88238, Luokė",
-        "lat": 55.90133150383,
-        "lng": 22.50631233794,
-        "prices": {
-            "A95": 1.96,
-            "A98": null,
-            "Diesel": 2.06,
-            "LPG": 0.92
-        }
-    },
-    {
-        "id": 384,
+        "id": 379,
         "name": "Littaura",
         "logo": "⛽",
         "city": "Tauragės",
@@ -5771,7 +5696,7 @@ const stationsData = [
         }
     },
     {
-        "id": 385,
+        "id": 380,
         "name": "M.Augustinaičio IĮ",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -5786,7 +5711,7 @@ const stationsData = [
         }
     },
     {
-        "id": 386,
+        "id": 381,
         "name": "Madalva",
         "logo": "⛽",
         "city": "Tauragės",
@@ -5801,7 +5726,7 @@ const stationsData = [
         }
     },
     {
-        "id": 387,
+        "id": 382,
         "name": "Madalva",
         "logo": "⛽",
         "city": "Tauragės",
@@ -5816,7 +5741,7 @@ const stationsData = [
         }
     },
     {
-        "id": 388,
+        "id": 383,
         "name": "Madalva",
         "logo": "⛽",
         "city": "Tauragės",
@@ -5831,7 +5756,7 @@ const stationsData = [
         }
     },
     {
-        "id": 389,
+        "id": 384,
         "name": "Madalva",
         "logo": "⛽",
         "city": "Plungės",
@@ -5846,13 +5771,13 @@ const stationsData = [
         }
     },
     {
-        "id": 390,
+        "id": 385,
         "name": "Madalva",
         "logo": "⛽",
         "city": "Šilalės",
         "address": "Gineikių k.",
-        "lat": 55.534530616,
-        "lng": 22.496876234,
+        "lat": 55.53568,
+        "lng": 22.494,
         "prices": {
             "A95": null,
             "A98": null,
@@ -5861,7 +5786,7 @@ const stationsData = [
         }
     },
     {
-        "id": 391,
+        "id": 386,
         "name": "Medelsta",
         "logo": "⛽",
         "city": "Vilnius",
@@ -5876,7 +5801,7 @@ const stationsData = [
         }
     },
     {
-        "id": 392,
+        "id": 387,
         "name": "Melkasta",
         "logo": "⛽",
         "city": "Lazdijų",
@@ -5884,29 +5809,29 @@ const stationsData = [
         "lat": 54.106043765371,
         "lng": 23.673755882156,
         "prices": {
-            "A95": 1.83,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.93,
+            "Diesel": 1.92,
             "LPG": 0.86
         }
     },
     {
-        "id": 393,
+        "id": 388,
         "name": "Melkasta",
         "logo": "⛽",
         "city": "Vilkaviškio",
         "address": "Gulbiniškių k. 7",
-        "lat": 54.713042363,
-        "lng": 23.200451676,
+        "lat": 54.712335027515,
+        "lng": 23.207304205676,
         "prices": {
-            "A95": 1.83,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.93,
+            "Diesel": 1.92,
             "LPG": 0.86
         }
     },
     {
-        "id": 394,
+        "id": 389,
         "name": "Melkasta",
         "logo": "⛽",
         "city": "Lazdijų",
@@ -5914,20 +5839,20 @@ const stationsData = [
         "lat": 54.23949958954,
         "lng": 23.823059370659,
         "prices": {
-            "A95": 1.83,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.93,
-            "LPG": 0.9
+            "Diesel": 1.92,
+            "LPG": 0.86
         }
     },
     {
-        "id": 395,
+        "id": 390,
         "name": "Mindega",
         "logo": "⛽",
         "city": "Kėdainių",
         "address": "Ramygalos g 55, Šėta",
-        "lat": 55.290357817565,
-        "lng": 24.252997610836,
+        "lat": 55.29090832407,
+        "lng": 24.253539438576,
         "prices": {
             "A95": 1.84,
             "A98": null,
@@ -5936,7 +5861,7 @@ const stationsData = [
         }
     },
     {
-        "id": 396,
+        "id": 391,
         "name": "Naftrus",
         "logo": "⛽",
         "city": "Raseinių",
@@ -5951,7 +5876,7 @@ const stationsData = [
         }
     },
     {
-        "id": 397,
+        "id": 392,
         "name": "Naftrus",
         "logo": "⛽",
         "city": "Raseinių",
@@ -5966,7 +5891,7 @@ const stationsData = [
         }
     },
     {
-        "id": 398,
+        "id": 393,
         "name": "Naftrus",
         "logo": "⛽",
         "city": "Pakruojo",
@@ -5981,7 +5906,7 @@ const stationsData = [
         }
     },
     {
-        "id": 399,
+        "id": 394,
         "name": "Naftrus",
         "logo": "⛽",
         "city": "Raseinių",
@@ -5989,14 +5914,14 @@ const stationsData = [
         "lat": 55.370428587948,
         "lng": 23.132319302825,
         "prices": {
-            "A95": 1.78,
+            "A95": 1.81,
             "A98": null,
             "Diesel": 1.979,
-            "LPG": 0.8
+            "LPG": 0.83
         }
     },
     {
-        "id": 400,
+        "id": 395,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Kupiškio",
@@ -6011,7 +5936,7 @@ const stationsData = [
         }
     },
     {
-        "id": 401,
+        "id": 396,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Anykščių",
@@ -6026,13 +5951,13 @@ const stationsData = [
         }
     },
     {
-        "id": 402,
+        "id": 397,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Anykščių",
         "address": "Sausalaukės k. 2",
-        "lat": 55.670361445,
-        "lng": 25.363711234,
+        "lat": 55.675989372192,
+        "lng": 25.358614543098,
         "prices": {
             "A95": 1.829,
             "A98": null,
@@ -6041,13 +5966,13 @@ const stationsData = [
         }
     },
     {
-        "id": 403,
+        "id": 398,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Anykščių",
         "address": "Vilniaus g. 32, Troškūnai",
-        "lat": 55.584934021153,
-        "lng": 24.878243415094,
+        "lat": 55.585327541086,
+        "lng": 24.876454159829,
         "prices": {
             "A95": 1.829,
             "A98": null,
@@ -6056,7 +5981,7 @@ const stationsData = [
         }
     },
     {
-        "id": 404,
+        "id": 399,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Biržų r. sav.",
@@ -6071,13 +5996,13 @@ const stationsData = [
         }
     },
     {
-        "id": 405,
+        "id": 400,
         "name": "Narjanta",
         "logo": "⛽",
         "city": "Kupiškio",
         "address": "Dvariškių vs. 2",
-        "lat": 55.775025144,
-        "lng": 24.755156569,
+        "lat": 55.773387076169,
+        "lng": 24.754009233221,
         "prices": {
             "A95": 1.829,
             "A98": null,
@@ -6086,7 +6011,7 @@ const stationsData = [
         }
     },
     {
-        "id": 406,
+        "id": 401,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6094,9 +6019,84 @@ const stationsData = [
         "lat": 54.63369710121,
         "lng": 25.30448615798,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.969,
+            "LPG": null
+        }
+    },
+    {
+        "id": 402,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Ukmergės g. 296, Vilnius",
+        "lat": 54.73616586753,
+        "lng": 25.231155988402,
+        "prices": {
+            "A95": 1.859,
+            "A98": null,
+            "Diesel": 1.949,
+            "LPG": null
+        }
+    },
+    {
+        "id": 403,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Talino g. 2C, Vilnius",
+        "lat": 54.71377076335,
+        "lng": 25.209105715719,
+        "prices": {
+            "A95": 1.849,
+            "A98": null,
+            "Diesel": 1.939,
+            "LPG": null
+        }
+    },
+    {
+        "id": 404,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Erfurto g. 41, Vilnius",
+        "lat": 54.672643740043,
+        "lng": 25.198177474178,
+        "prices": {
+            "A95": 1.839,
+            "A98": null,
+            "Diesel": 1.949,
+            "LPG": null
+        }
+    },
+    {
+        "id": 405,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Geležinio Vilko g. 63, Vilnius",
+        "lat": 54.712098028842,
+        "lng": 25.270731814797,
+        "prices": {
+            "A95": 1.849,
+            "A98": null,
+            "Diesel": 1.949,
+            "LPG": null
+        }
+    },
+    {
+        "id": 406,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "S. Stanevičiaus g. 3, Vilnius",
+        "lat": 54.721423650496,
+        "lng": 25.25622969738,
+        "prices": {
+            "A95": 1.834,
+            "A98": null,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
@@ -6105,93 +6105,18 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
-        "address": "Ukmergės g. 296, Vilnius",
-        "lat": 54.73616586753,
-        "lng": 25.231155988402,
+        "address": "Žirmūnų g. 68B, Vilnius",
+        "lat": 54.717499369158,
+        "lng": 25.304490348932,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.854,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
     {
         "id": 408,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Talino g. 2C, Vilnius",
-        "lat": 54.71377076335,
-        "lng": 25.209105715719,
-        "prices": {
-            "A95": 1.889,
-            "A98": null,
-            "Diesel": 1.989,
-            "LPG": null
-        }
-    },
-    {
-        "id": 409,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Erfurto g. 41, Vilnius",
-        "lat": 54.672643740043,
-        "lng": 25.198177474178,
-        "prices": {
-            "A95": 1.909,
-            "A98": null,
-            "Diesel": 2.009,
-            "LPG": null
-        }
-    },
-    {
-        "id": 410,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Geležinio Vilko g. 63, Vilnius",
-        "lat": 54.712098028842,
-        "lng": 25.270731814797,
-        "prices": {
-            "A95": 1.899,
-            "A98": null,
-            "Diesel": 2.009,
-            "LPG": null
-        }
-    },
-    {
-        "id": 411,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "S. Stanevičiaus g. 3, Vilnius",
-        "lat": 54.721423650496,
-        "lng": 25.25622969738,
-        "prices": {
-            "A95": 1.909,
-            "A98": null,
-            "Diesel": 2.015,
-            "LPG": null
-        }
-    },
-    {
-        "id": 412,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Žirmūnų g. 68B, Vilnius",
-        "lat": 54.717499369158,
-        "lng": 25.304490348932,
-        "prices": {
-            "A95": 1.909,
-            "A98": null,
-            "Diesel": 2.014,
-            "LPG": null
-        }
-    },
-    {
-        "id": 413,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6206,7 +6131,7 @@ const stationsData = [
         }
     },
     {
-        "id": 414,
+        "id": 409,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6214,9 +6139,84 @@ const stationsData = [
         "lat": 54.644301172646,
         "lng": 25.207368231009,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.994,
+            "LPG": null
+        }
+    },
+    {
+        "id": 410,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Parodų g. 1A, Vilnius",
+        "lat": 54.673427322262,
+        "lng": 25.224062970478,
+        "prices": {
+            "A95": 1.849,
+            "A98": null,
+            "Diesel": 1.959,
+            "LPG": null
+        }
+    },
+    {
+        "id": 411,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Kauno g. 26, Vilnius",
+        "lat": 54.671722820341,
+        "lng": 25.270059921439,
+        "prices": {
+            "A95": 1.924,
+            "A98": null,
+            "Diesel": 2.024,
+            "LPG": null
+        }
+    },
+    {
+        "id": 412,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Savanorių pr. 187, Vilnius",
+        "lat": 54.646983465481,
+        "lng": 25.21051580329,
+        "prices": {
+            "A95": 1.914,
+            "A98": null,
+            "Diesel": 1.994,
+            "LPG": null
+        }
+    },
+    {
+        "id": 413,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Kedrų g. 2, Vilnius",
+        "lat": 54.677162591683,
+        "lng": 25.255948149253,
+        "prices": {
+            "A95": 1.919,
+            "A98": null,
+            "Diesel": 2.009,
+            "LPG": null
+        }
+    },
+    {
+        "id": 414,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Molėtų pl. 8, Vilnius",
+        "lat": 54.75482645666,
+        "lng": 25.271479396742,
+        "prices": {
+            "A95": 1.839,
+            "A98": null,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
@@ -6225,13 +6225,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
-        "address": "Parodų g. 1A, Vilnius",
-        "lat": 54.673427322262,
-        "lng": 25.224062970478,
+        "address": "P. Lukšio g. 22, Vilnius",
+        "lat": 54.711934120726,
+        "lng": 25.293028683072,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.844,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.944,
             "LPG": null
         }
     },
@@ -6240,13 +6240,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
-        "address": "Kauno g. 26, Vilnius",
-        "lat": 54.671722820341,
-        "lng": 25.270059921439,
+        "address": "Žirmūnų g. 54C, Vilnius",
+        "lat": 54.706728916944,
+        "lng": 25.304160185766,
         "prices": {
-            "A95": 1.964,
+            "A95": 1.854,
             "A98": null,
-            "Diesel": 2.044,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
@@ -6255,93 +6255,18 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
-        "address": "Savanorių pr. 187, Vilnius",
-        "lat": 54.646983465481,
-        "lng": 25.21051580329,
+        "address": "Subačiaus g. 64, Vilnius",
+        "lat": 54.676838128211,
+        "lng": 25.309513036771,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.864,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.964,
             "LPG": null
         }
     },
     {
         "id": 418,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Kedrų g. 2, Vilnius",
-        "lat": 54.677162591683,
-        "lng": 25.255948149253,
-        "prices": {
-            "A95": 1.959,
-            "A98": null,
-            "Diesel": 2.039,
-            "LPG": null
-        }
-    },
-    {
-        "id": 419,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Molėtų pl. 8, Vilnius",
-        "lat": 54.75482645666,
-        "lng": 25.271479396742,
-        "prices": {
-            "A95": 1.889,
-            "A98": null,
-            "Diesel": 1.999,
-            "LPG": null
-        }
-    },
-    {
-        "id": 420,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "P. Lukšio g. 22, Vilnius",
-        "lat": 54.711934120726,
-        "lng": 25.293028683072,
-        "prices": {
-            "A95": 1.899,
-            "A98": null,
-            "Diesel": 2.009,
-            "LPG": null
-        }
-    },
-    {
-        "id": 421,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Žirmūnų g. 54C, Vilnius",
-        "lat": 54.706728916944,
-        "lng": 25.304160185766,
-        "prices": {
-            "A95": 1.909,
-            "A98": null,
-            "Diesel": 2.014,
-            "LPG": null
-        }
-    },
-    {
-        "id": 422,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Subačiaus g. 64, Vilnius",
-        "lat": 54.676838128211,
-        "lng": 25.309513036771,
-        "prices": {
-            "A95": 1.919,
-            "A98": null,
-            "Diesel": 2.029,
-            "LPG": null
-        }
-    },
-    {
-        "id": 423,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6351,7 +6276,82 @@ const stationsData = [
         "prices": {
             "A95": 1.919,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 2.009,
+            "LPG": null
+        }
+    },
+    {
+        "id": 419,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Architektų g. 130, Vilnius",
+        "lat": 54.680743382629,
+        "lng": 25.207782716121,
+        "prices": {
+            "A95": 1.844,
+            "A98": null,
+            "Diesel": 1.954,
+            "LPG": null
+        }
+    },
+    {
+        "id": 420,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Justiniškių g. 14B, Vilnius",
+        "lat": 54.704996251829,
+        "lng": 25.21494287309,
+        "prices": {
+            "A95": 1.839,
+            "A98": null,
+            "Diesel": 1.939,
+            "LPG": null
+        }
+    },
+    {
+        "id": 421,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Geležinio Vilko g. 37A, Vilnius",
+        "lat": 54.701397020696,
+        "lng": 25.263756478794,
+        "prices": {
+            "A95": 1.869,
+            "A98": null,
+            "Diesel": 1.979,
+            "LPG": null
+        }
+    },
+    {
+        "id": 422,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Pilaitės pr. 27, Vilnius",
+        "lat": 54.709162937807,
+        "lng": 25.189849634278,
+        "prices": {
+            "A95": 1.849,
+            "A98": null,
+            "Diesel": 1.949,
+            "LPG": null
+        }
+    },
+    {
+        "id": 423,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Vilnius",
+        "address": "Žirnių g. 17, Vilnius",
+        "lat": 54.656627054632,
+        "lng": 25.29210868538,
+        "prices": {
+            "A95": 1.889,
+            "A98": null,
+            "Diesel": 1.979,
             "LPG": null
         }
     },
@@ -6360,93 +6360,18 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
-        "address": "Architektų g. 130, Vilnius",
-        "lat": 54.680743382629,
-        "lng": 25.207782716121,
+        "address": "J. Tiškevičiaus g. 19, Vilnius",
+        "lat": 54.624389081553,
+        "lng": 25.11159979045,
         "prices": {
-            "A95": 1.914,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.014,
+            "Diesel": 2.009,
             "LPG": null
         }
     },
     {
         "id": 425,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Justiniškių g. 14B, Vilnius",
-        "lat": 54.704996251829,
-        "lng": 25.21494287309,
-        "prices": {
-            "A95": 1.899,
-            "A98": null,
-            "Diesel": 1.989,
-            "LPG": null
-        }
-    },
-    {
-        "id": 426,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Geležinio Vilko g. 37A, Vilnius",
-        "lat": 54.701397020696,
-        "lng": 25.263756478794,
-        "prices": {
-            "A95": 1.919,
-            "A98": null,
-            "Diesel": 2.039,
-            "LPG": null
-        }
-    },
-    {
-        "id": 427,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Pilaitės pr. 27, Vilnius",
-        "lat": 54.709162937807,
-        "lng": 25.189849634278,
-        "prices": {
-            "A95": 1.889,
-            "A98": null,
-            "Diesel": 1.989,
-            "LPG": null
-        }
-    },
-    {
-        "id": 428,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "Žirnių g. 17, Vilnius",
-        "lat": 54.656627054632,
-        "lng": 25.29210868538,
-        "prices": {
-            "A95": 1.919,
-            "A98": null,
-            "Diesel": 2.029,
-            "LPG": null
-        }
-    },
-    {
-        "id": 429,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Vilnius",
-        "address": "J. Tiškevičiaus g. 19, Vilnius",
-        "lat": 54.624389081553,
-        "lng": 25.11159979045,
-        "prices": {
-            "A95": 1.954,
-            "A98": null,
-            "Diesel": 2.034,
-            "LPG": null
-        }
-    },
-    {
-        "id": 430,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6456,12 +6381,12 @@ const stationsData = [
         "prices": {
             "A95": 1.909,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.999,
             "LPG": null
         }
     },
     {
-        "id": 431,
+        "id": 426,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6469,14 +6394,14 @@ const stationsData = [
         "lat": 54.658324431935,
         "lng": 25.158976989407,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
     {
-        "id": 432,
+        "id": 427,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6484,14 +6409,14 @@ const stationsData = [
         "lat": 54.668191021619,
         "lng": 25.264942182817,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.024,
+            "Diesel": 2.004,
             "LPG": null
         }
     },
     {
-        "id": 433,
+        "id": 428,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Vilnius",
@@ -6499,9 +6424,84 @@ const stationsData = [
         "lat": 54.704175286323,
         "lng": 25.267039334991,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.979,
+            "LPG": null
+        }
+    },
+    {
+        "id": 429,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Kaunas",
+        "address": "Pramonės pr. 6A, Kaunas",
+        "lat": 54.909865723415,
+        "lng": 23.984015548594,
+        "prices": {
+            "A95": 1.834,
+            "A98": null,
+            "Diesel": 1.929,
+            "LPG": null
+        }
+    },
+    {
+        "id": 430,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Kaunas",
+        "address": "Jonavos g. 110, Kaunas",
+        "lat": 54.91360853655,
+        "lng": 23.91202254403,
+        "prices": {
+            "A95": 1.829,
+            "A98": null,
+            "Diesel": 1.929,
+            "LPG": null
+        }
+    },
+    {
+        "id": 431,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Kaunas",
+        "address": "Veiverių g. 132D, Kaunas",
+        "lat": 54.875495855173,
+        "lng": 23.890852622637,
+        "prices": {
+            "A95": 1.844,
+            "A98": null,
+            "Diesel": 1.944,
+            "LPG": null
+        }
+    },
+    {
+        "id": 432,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Kaunas",
+        "address": "Žemaičių pl. 26, Kaunas",
+        "lat": 54.925470144919,
+        "lng": 23.891903042743,
+        "prices": {
+            "A95": 1.844,
+            "A98": null,
+            "Diesel": 1.904,
+            "LPG": null
+        }
+    },
+    {
+        "id": 433,
+        "name": "Neste Lietuva",
+        "logo": "🟢",
+        "city": "Kaunas",
+        "address": "R. Kalantos g. 27, Kaunas",
+        "lat": 54.895068060092,
+        "lng": 23.985969956958,
+        "prices": {
+            "A95": 1.829,
+            "A98": null,
+            "Diesel": 1.919,
             "LPG": null
         }
     },
@@ -6510,13 +6510,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Pramonės pr. 6A, Kaunas",
-        "lat": 54.909865723415,
-        "lng": 23.984015548594,
+        "address": "Ateities pl. 50B, Kaunas",
+        "lat": 54.926168105996,
+        "lng": 24.060313163353,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.824,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.924,
             "LPG": null
         }
     },
@@ -6525,13 +6525,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Jonavos g. 110, Kaunas",
-        "lat": 54.91360853655,
-        "lng": 23.91202254403,
+        "address": "Taikos pr. 80A, Kaunas",
+        "lat": 54.912056040444,
+        "lng": 23.972848255175,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.834,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
@@ -6540,13 +6540,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Veiverių g. 132D, Kaunas",
-        "lat": 54.875495855173,
-        "lng": 23.890852622637,
+        "address": "Birželio 23-iosios g. 23A, Kaunas",
+        "lat": 54.916084425019,
+        "lng": 23.953801637494,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.844,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.934,
             "LPG": null
         }
     },
@@ -6555,13 +6555,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Žemaičių pl. 26, Kaunas",
-        "lat": 54.925470144919,
-        "lng": 23.891903042743,
+        "address": "Islandijos pl. 191E, Kaunas",
+        "lat": 54.931465259256,
+        "lng": 23.951131498418,
         "prices": {
-            "A95": 1.934,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.919,
             "LPG": null
         }
     },
@@ -6570,13 +6570,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "R. Kalantos g. 27, Kaunas",
-        "lat": 54.895068060092,
-        "lng": 23.985969956958,
+        "address": "Raudondvario pl. 103, Kaunas",
+        "lat": 54.906871162777,
+        "lng": 23.872788531647,
         "prices": {
-            "A95": 1.869,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.959,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
@@ -6585,13 +6585,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Ateities pl. 50B, Kaunas",
-        "lat": 54.926168105996,
-        "lng": 24.060313163353,
+        "address": "Kuršių g. 1, Kaunas",
+        "lat": 54.93628242283,
+        "lng": 23.886037805996,
         "prices": {
-            "A95": 1.924,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 2.014,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
@@ -6600,13 +6600,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Taikos pr. 80A, Kaunas",
-        "lat": 54.912056040444,
-        "lng": 23.972848255175,
+        "address": "Vijoklių g. 1C, Ramučių k.",
+        "lat": 54.948400936531,
+        "lng": 24.018075831243,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.834,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.924,
             "LPG": null
         }
     },
@@ -6615,13 +6615,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Birželio 23-iosios g. 23A, Kaunas",
-        "lat": 54.916084425019,
-        "lng": 23.953801637494,
+        "address": "Tunelio g. 26, Kaunas",
+        "lat": 54.894768574692,
+        "lng": 23.944270072479,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.834,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.934,
             "LPG": null
         }
     },
@@ -6630,13 +6630,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Islandijos pl. 191E, Kaunas",
-        "lat": 54.931465259256,
-        "lng": 23.951131498418,
+        "address": "Vakarų g. 14, Kumpių k.",
+        "lat": 54.949855322461,
+        "lng": 23.873901564569,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.844,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
@@ -6645,13 +6645,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Raudondvario pl. 103, Kaunas",
-        "lat": 54.906871162777,
-        "lng": 23.872788531647,
+        "address": "Savanorių pr. 441C, Kaunas",
+        "lat": 54.929360772916,
+        "lng": 23.973382685321,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.919,
             "LPG": null
         }
     },
@@ -6660,13 +6660,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Kuršių g. 1, Kaunas",
-        "lat": 54.93628242283,
-        "lng": 23.886037805996,
+        "address": "Vakarinis aplinkkelis 18, Kaunas",
+        "lat": 54.934519750501,
+        "lng": 23.866740485591,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.854,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.884,
             "LPG": null
         }
     },
@@ -6675,13 +6675,13 @@ const stationsData = [
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kaunas",
-        "address": "Vijoklių g. 1C, Ramučių k.",
-        "lat": 54.948400936531,
-        "lng": 24.018075831243,
+        "address": "Europos pr. 43, Kaunas",
+        "lat": 54.875764872355,
+        "lng": 23.912369890098,
         "prices": {
-            "A95": 1.864,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.944,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
@@ -6689,14 +6689,14 @@ const stationsData = [
         "id": 446,
         "name": "Neste Lietuva",
         "logo": "🟢",
-        "city": "Kaunas",
-        "address": "Tunelio g. 26, Kaunas",
-        "lat": 54.894768574692,
-        "lng": 23.944270072479,
+        "city": "Klaipėda",
+        "address": "Plieno g. 1, Klaipėda",
+        "lat": 55.672962696139,
+        "lng": 21.200992270001,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
@@ -6704,94 +6704,19 @@ const stationsData = [
         "id": 447,
         "name": "Neste Lietuva",
         "logo": "🟢",
-        "city": "Kaunas",
-        "address": "Vakarų g. 14, Kumpių k.",
-        "lat": 54.949855322461,
-        "lng": 23.873901564569,
-        "prices": {
-            "A95": 1.944,
-            "A98": null,
-            "Diesel": 2.029,
-            "LPG": null
-        }
-    },
-    {
-        "id": 448,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Kaunas",
-        "address": "Savanorių pr. 441C, Kaunas",
-        "lat": 54.929360772916,
-        "lng": 23.973382685321,
-        "prices": {
-            "A95": 1.859,
-            "A98": null,
-            "Diesel": 1.939,
-            "LPG": null
-        }
-    },
-    {
-        "id": 449,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Kaunas",
-        "address": "Vakarinis aplinkkelis 18, Kaunas",
-        "lat": 54.934519750501,
-        "lng": 23.866740485591,
-        "prices": {
-            "A95": 1.949,
-            "A98": null,
-            "Diesel": 2.044,
-            "LPG": null
-        }
-    },
-    {
-        "id": 450,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Kaunas",
-        "address": "Europos pr. 43, Kaunas",
-        "lat": 54.875764872355,
-        "lng": 23.912369890098,
-        "prices": {
-            "A95": 1.919,
-            "A98": null,
-            "Diesel": 2.029,
-            "LPG": null
-        }
-    },
-    {
-        "id": 451,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
-        "city": "Klaipėda",
-        "address": "Plieno g. 1, Klaipėda",
-        "lat": 55.672962696139,
-        "lng": 21.200992270001,
-        "prices": {
-            "A95": 1.889,
-            "A98": null,
-            "Diesel": 1.969,
-            "LPG": null
-        }
-    },
-    {
-        "id": 452,
-        "name": "Neste Lietuva",
-        "logo": "🟢",
         "city": "Klaipėda",
         "address": "Šilutės pl. 30, Klaipėda",
         "lat": 55.693091585158,
         "lng": 21.174969310488,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.964,
+            "Diesel": 1.944,
             "LPG": null
         }
     },
     {
-        "id": 453,
+        "id": 448,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6801,12 +6726,12 @@ const stationsData = [
         "prices": {
             "A95": 1.869,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 454,
+        "id": 449,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6816,12 +6741,12 @@ const stationsData = [
         "prices": {
             "A95": 1.869,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 455,
+        "id": 450,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6829,14 +6754,14 @@ const stationsData = [
         "lat": 55.717239303383,
         "lng": 21.151555805072,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 1.959,
+            "Diesel": 1.939,
             "LPG": null
         }
     },
     {
-        "id": 456,
+        "id": 451,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6844,14 +6769,14 @@ const stationsData = [
         "lat": 55.669848190467,
         "lng": 21.192913707901,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 457,
+        "id": 452,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6859,14 +6784,14 @@ const stationsData = [
         "lat": 55.70317744543,
         "lng": 21.164914463258,
         "prices": {
-            "A95": 1.869,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.959,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 458,
+        "id": 453,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6876,12 +6801,12 @@ const stationsData = [
         "prices": {
             "A95": 1.889,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.989,
             "LPG": null
         }
     },
     {
-        "id": 459,
+        "id": 454,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Klaipėda",
@@ -6889,14 +6814,14 @@ const stationsData = [
         "lat": 55.706091455978,
         "lng": 21.202602098325,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 460,
+        "id": 455,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Šiaulių",
@@ -6904,14 +6829,14 @@ const stationsData = [
         "lat": 55.905942849771,
         "lng": 23.259168175635,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.909,
             "LPG": null
         }
     },
     {
-        "id": 461,
+        "id": 456,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Šiaulių",
@@ -6919,14 +6844,14 @@ const stationsData = [
         "lat": 55.920290237256,
         "lng": 23.292906928478,
         "prices": {
-            "A95": 1.894,
+            "A95": 1.824,
             "A98": null,
-            "Diesel": 1.984,
+            "Diesel": 1.914,
             "LPG": null
         }
     },
     {
-        "id": 462,
+        "id": 457,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Šiaulių",
@@ -6934,14 +6859,14 @@ const stationsData = [
         "lat": 55.929388499786,
         "lng": 23.294117359116,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 463,
+        "id": 458,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -6949,14 +6874,14 @@ const stationsData = [
         "lat": 55.728367788591,
         "lng": 24.332250936112,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.924,
             "LPG": null
         }
     },
     {
-        "id": 464,
+        "id": 459,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -6964,14 +6889,14 @@ const stationsData = [
         "lat": 55.70964056333,
         "lng": 24.374703599315,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.909,
+            "Diesel": 1.904,
             "LPG": null
         }
     },
     {
-        "id": 465,
+        "id": 460,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -6981,27 +6906,27 @@ const stationsData = [
         "prices": {
             "A95": 1.939,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.924,
             "LPG": null
         }
     },
     {
-        "id": 466,
+        "id": 461,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Pasvalio",
         "address": "Ąžuolpamūšio g. 1A, Raubonių k..",
-        "lat": 56.115287419462,
-        "lng": 24.47071913838,
+        "lat": 56.117527830156,
+        "lng": 24.476471005175,
         "prices": {
-            "A95": 1.924,
+            "A95": 1.829,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.924,
             "LPG": null
         }
     },
     {
-        "id": 467,
+        "id": 462,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -7009,14 +6934,14 @@ const stationsData = [
         "lat": 55.719355859663,
         "lng": 24.348949531256,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.904,
             "LPG": null
         }
     },
     {
-        "id": 468,
+        "id": 463,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -7024,14 +6949,14 @@ const stationsData = [
         "lat": 55.730719750622,
         "lng": 24.315873032583,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.894,
             "LPG": null
         }
     },
     {
-        "id": 469,
+        "id": 464,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -7039,14 +6964,14 @@ const stationsData = [
         "lat": 55.670512875389,
         "lng": 24.348530603735,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.914,
             "LPG": null
         }
     },
     {
-        "id": 470,
+        "id": 465,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Panevėžio",
@@ -7054,14 +6979,14 @@ const stationsData = [
         "lat": 55.672785418887,
         "lng": 24.332463333538,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.904,
             "LPG": null
         }
     },
     {
-        "id": 471,
+        "id": 466,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Alytaus",
@@ -7069,14 +6994,14 @@ const stationsData = [
         "lat": 54.387090068491,
         "lng": 24.026280540985,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.919,
             "LPG": null
         }
     },
     {
-        "id": 472,
+        "id": 467,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Alytaus",
@@ -7084,14 +7009,14 @@ const stationsData = [
         "lat": 54.408900660653,
         "lng": 24.005283538255,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.919,
             "LPG": null
         }
     },
     {
-        "id": 473,
+        "id": 468,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Marijampolės",
@@ -7099,14 +7024,14 @@ const stationsData = [
         "lat": 54.560305240825,
         "lng": 23.365849518853,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.974,
             "LPG": null
         }
     },
     {
-        "id": 474,
+        "id": 469,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Marijampolės",
@@ -7114,14 +7039,14 @@ const stationsData = [
         "lat": 54.562685827055,
         "lng": 23.332336993577,
         "prices": {
-            "A95": 1.884,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 1.964,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 475,
+        "id": 470,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kalvarijos",
@@ -7129,29 +7054,29 @@ const stationsData = [
         "lat": 54.330092204888,
         "lng": 23.149474208778,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 2.004,
             "LPG": null
         }
     },
     {
-        "id": 476,
+        "id": 471,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kalvarijos",
         "address": "Europos g. 6, N.Valios k.",
-        "lat": 54.328292987462,
-        "lng": 23.150464530639,
+        "lat": 54.347989783718,
+        "lng": 23.166436050774,
         "prices": {
             "A95": null,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 2.004,
             "LPG": null
         }
     },
     {
-        "id": 477,
+        "id": 472,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Mažeikių",
@@ -7159,14 +7084,14 @@ const stationsData = [
         "lat": 56.301251466526,
         "lng": 22.349854392162,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 478,
+        "id": 473,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Šilalės",
@@ -7174,14 +7099,14 @@ const stationsData = [
         "lat": 55.52212925,
         "lng": 22.359742833,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
     {
-        "id": 479,
+        "id": 474,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Kėdainių",
@@ -7189,14 +7114,14 @@ const stationsData = [
         "lat": 55.27800846625,
         "lng": 23.959992594998,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 480,
+        "id": 475,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Ukmergės",
@@ -7204,14 +7129,14 @@ const stationsData = [
         "lat": 55.242008778845,
         "lng": 24.742998306054,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.769,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.869,
             "LPG": null
         }
     },
     {
-        "id": 481,
+        "id": 476,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Utenos",
@@ -7219,14 +7144,14 @@ const stationsData = [
         "lat": 55.505178955153,
         "lng": 25.624883317214,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.049,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 482,
+        "id": 477,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Utenos",
@@ -7234,29 +7159,29 @@ const stationsData = [
         "lat": 55.481095568035,
         "lng": 25.579116784771,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.874,
             "A98": null,
-            "Diesel": 2.044,
+            "Diesel": 1.964,
             "LPG": null
         }
     },
     {
-        "id": 483,
+        "id": 478,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Molėtų",
         "address": "Aplinkkelio g. 165, Molėtai",
-        "lat": 55.221433637301,
-        "lng": 25.436248753889,
+        "lat": 55.221824705919,
+        "lng": 25.436191736164,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 484,
+        "id": 479,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Švenčionių",
@@ -7264,14 +7189,14 @@ const stationsData = [
         "lat": 54.978556886771,
         "lng": 25.756607272549,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.884,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.984,
             "LPG": null
         }
     },
     {
-        "id": 485,
+        "id": 480,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Jonavos",
@@ -7279,14 +7204,14 @@ const stationsData = [
         "lat": 55.09509731787,
         "lng": 24.312455898296,
         "prices": {
-            "A95": 1.974,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 2.054,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 486,
+        "id": 481,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Radviliškio",
@@ -7294,14 +7219,14 @@ const stationsData = [
         "lat": 55.814364145423,
         "lng": 23.545938480434,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.909,
             "LPG": null
         }
     },
     {
-        "id": 487,
+        "id": 482,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Raseinių",
@@ -7309,14 +7234,14 @@ const stationsData = [
         "lat": 55.411603304284,
         "lng": 22.83110655976,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.969,
             "LPG": null
         }
     },
     {
-        "id": 488,
+        "id": 483,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Tauragės",
@@ -7324,14 +7249,14 @@ const stationsData = [
         "lat": 55.26519815217,
         "lng": 22.30892438549,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.011,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 489,
+        "id": 484,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Elektrėnų",
@@ -7339,14 +7264,14 @@ const stationsData = [
         "lat": 54.789248921345,
         "lng": 24.672805566654,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 1.989,
             "LPG": null
         }
     },
     {
-        "id": 490,
+        "id": 485,
         "name": "Neste Lietuva",
         "logo": "🟢",
         "city": "Telšių",
@@ -7354,20 +7279,20 @@ const stationsData = [
         "lat": 56.004975873979,
         "lng": 22.240108206049,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 491,
+        "id": 486,
         "name": "Nostrada (RV Transport)",
         "logo": "⛽",
         "city": "Kalvarijos",
-        "address": "Kazlavo km. 4 Kalvarijos sav.",
-        "lat": 54.333891879221,
-        "lng": 23.153394218875,
+        "address": "Kazlavo k.",
+        "lat": 54.332274804,
+        "lng": 23.146532349,
         "prices": {
             "A95": 1.89,
             "A98": null,
@@ -7376,7 +7301,7 @@ const stationsData = [
         }
     },
     {
-        "id": 492,
+        "id": 487,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Alytaus",
@@ -7384,14 +7309,14 @@ const stationsData = [
         "lat": 54.403324054742,
         "lng": 24.037087664025,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.749,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.839
+            "Diesel": 1.819,
+            "LPG": 0.799
         }
     },
     {
-        "id": 493,
+        "id": 488,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Elektrėnų",
@@ -7399,29 +7324,29 @@ const stationsData = [
         "lat": 54.790815792415,
         "lng": 24.670561395898,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.969,
             "LPG": 0.859
         }
     },
     {
-        "id": 494,
+        "id": 489,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Prienų",
         "address": "Alytaus g. 2, ​Verbyliškių k.",
-        "lat": 54.578846932658,
-        "lng": 24.170503506516,
+        "lat": 54.578908841867,
+        "lng": 24.169738208828,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.959,
             "LPG": 0.849
         }
     },
     {
-        "id": 495,
+        "id": 490,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaišiadorių r. sav.",
@@ -7429,14 +7354,14 @@ const stationsData = [
         "lat": 54.808836249,
         "lng": 24.419195965,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.969,
             "LPG": 0.879
         }
     },
     {
-        "id": 496,
+        "id": 491,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7444,14 +7369,14 @@ const stationsData = [
         "lat": 54.93622576,
         "lng": 23.997593029,
         "prices": {
-            "A95": 1.769,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.879,
+            "Diesel": 1.819,
             "LPG": 0.799
         }
     },
     {
-        "id": 497,
+        "id": 492,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7459,14 +7384,14 @@ const stationsData = [
         "lat": 54.888635075134,
         "lng": 23.818573962813,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": 0.889
         }
     },
     {
-        "id": 498,
+        "id": 493,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7474,14 +7399,14 @@ const stationsData = [
         "lat": 54.85134625102,
         "lng": 23.843111649083,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.939,
             "LPG": 0.859
         }
     },
     {
-        "id": 499,
+        "id": 494,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7489,14 +7414,14 @@ const stationsData = [
         "lat": 54.915921480821,
         "lng": 23.98421587608,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
-            "LPG": 0.839
+            "Diesel": 1.819,
+            "LPG": 0.799
         }
     },
     {
-        "id": 500,
+        "id": 495,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7504,14 +7429,14 @@ const stationsData = [
         "lat": 54.913838368335,
         "lng": 23.906968926968,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.819,
             "LPG": 0.839
         }
     },
     {
-        "id": 501,
+        "id": 496,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kaunas",
@@ -7519,14 +7444,14 @@ const stationsData = [
         "lat": 54.867244793506,
         "lng": 23.887541184149,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.819,
             "LPG": 0.839
         }
     },
     {
-        "id": 502,
+        "id": 497,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Klaipėda",
@@ -7534,14 +7459,14 @@ const stationsData = [
         "lat": 55.693860666684,
         "lng": 21.14027267375,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.819,
             "LPG": 0.839
         }
     },
     {
-        "id": 503,
+        "id": 498,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Klaipėda",
@@ -7549,14 +7474,14 @@ const stationsData = [
         "lat": 55.698616307088,
         "lng": 21.167059057004,
         "prices": {
-            "A95": 1.779,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.889,
+            "Diesel": 1.819,
             "LPG": 0.799
         }
     },
     {
-        "id": 504,
+        "id": 499,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Klaipėda",
@@ -7564,14 +7489,14 @@ const stationsData = [
         "lat": 55.668149136784,
         "lng": 21.208650898751,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.899,
             "LPG": 0.839
         }
     },
     {
-        "id": 505,
+        "id": 500,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Klaipėda",
@@ -7581,18 +7506,18 @@ const stationsData = [
         "prices": {
             "A95": 1.899,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.969,
             "LPG": 0.869
         }
     },
     {
-        "id": 506,
+        "id": 501,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Raseinių",
         "address": "Pikelių k. 6",
-        "lat": 55.460730759,
-        "lng": 22.691661484,
+        "lat": 55.462045308514,
+        "lng": 22.697107012411,
         "prices": {
             "A95": 1.959,
             "A98": null,
@@ -7601,13 +7526,13 @@ const stationsData = [
         }
     },
     {
-        "id": 507,
+        "id": 502,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Raseinių",
         "address": "Pikelių k. 8",
-        "lat": 55.460730759,
-        "lng": 22.691661484,
+        "lat": 55.461746674882,
+        "lng": 22.696596849883,
         "prices": {
             "A95": 1.959,
             "A98": null,
@@ -7616,7 +7541,7 @@ const stationsData = [
         }
     },
     {
-        "id": 508,
+        "id": 503,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Marijampolės",
@@ -7624,14 +7549,14 @@ const stationsData = [
         "lat": 54.584837642,
         "lng": 23.374203461,
         "prices": {
-            "A95": 1.779,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.879,
+            "Diesel": 1.819,
             "LPG": 0.799
         }
     },
     {
-        "id": 509,
+        "id": 504,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Mažeikių",
@@ -7639,14 +7564,14 @@ const stationsData = [
         "lat": 56.314427524951,
         "lng": 22.310927073616,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.989,
-            "LPG": 0.829
+            "Diesel": 1.819,
+            "LPG": 0.799
         }
     },
     {
-        "id": 510,
+        "id": 505,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Mažeikių",
@@ -7654,29 +7579,29 @@ const stationsData = [
         "lat": 56.302177792556,
         "lng": 22.342526513311,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.759,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.849,
             "LPG": 0.829
         }
     },
     {
-        "id": 511,
+        "id": 506,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Kretingos",
         "address": "Vilimiškės k.",
-        "lat": 55.897758043,
-        "lng": 21.111059747,
+        "lat": 55.90508,
+        "lng": 21.11236,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.959,
             "LPG": 0.849
         }
     },
     {
-        "id": 512,
+        "id": 507,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Panevėžio",
@@ -7684,14 +7609,14 @@ const stationsData = [
         "lat": 55.731739409143,
         "lng": 24.303399419553,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.899,
             "LPG": 0.839
         }
     },
     {
-        "id": 513,
+        "id": 508,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Panevėžio",
@@ -7699,14 +7624,14 @@ const stationsData = [
         "lat": 55.748174309613,
         "lng": 24.391032133434,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.949,
+            "Diesel": 1.819,
             "LPG": 0.799
         }
     },
     {
-        "id": 514,
+        "id": 509,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Panevėžio",
@@ -7714,14 +7639,14 @@ const stationsData = [
         "lat": 55.733870717573,
         "lng": 24.263500638429,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.819,
             "LPG": 0.849
         }
     },
     {
-        "id": 515,
+        "id": 510,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Šiaulių",
@@ -7729,14 +7654,14 @@ const stationsData = [
         "lat": 55.913663756062,
         "lng": 23.337127083604,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.819,
             "LPG": 0.829
         }
     },
     {
-        "id": 516,
+        "id": 511,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Tauragės",
@@ -7744,14 +7669,14 @@ const stationsData = [
         "lat": 55.244121647088,
         "lng": 22.304015859172,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.819,
             "LPG": 0.869
         }
     },
     {
-        "id": 517,
+        "id": 512,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Telšių",
@@ -7759,29 +7684,29 @@ const stationsData = [
         "lat": 55.979230355462,
         "lng": 22.226647037187,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.729,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.819,
             "LPG": 0.879
         }
     },
     {
-        "id": 518,
+        "id": 513,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Vilnius",
         "address": "Juodasis kl. 32, Vilnius",
-        "lat": 54.653685568642,
-        "lng": 25.409707010089,
+        "lat": 54.654282125813,
+        "lng": 25.371299799734,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": 0.859
         }
     },
     {
-        "id": 519,
+        "id": 514,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Vilnius",
@@ -7789,14 +7714,14 @@ const stationsData = [
         "lat": 54.728138351221,
         "lng": 25.326863660164,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.969,
             "LPG": 0.889
         }
     },
     {
-        "id": 520,
+        "id": 515,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Vilnius",
@@ -7804,14 +7729,14 @@ const stationsData = [
         "lat": 54.736894925468,
         "lng": 25.231923519276,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.919,
             "LPG": 0.879
         }
     },
     {
-        "id": 521,
+        "id": 516,
         "name": "Orlen",
         "logo": "🦅",
         "city": "Vilnius",
@@ -7819,14 +7744,14 @@ const stationsData = [
         "lat": 54.695882985692,
         "lng": 25.29998029829,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 1.989,
+            "Diesel": 1.959,
             "LPG": 0.859
         }
     },
     {
-        "id": 522,
+        "id": 517,
         "name": "Osijos dujos",
         "logo": "⛽",
         "city": "Vilkaviškio",
@@ -7841,7 +7766,7 @@ const stationsData = [
         }
     },
     {
-        "id": 523,
+        "id": 518,
         "name": "Pakelės namai",
         "logo": "⛽",
         "city": "Pasvalio",
@@ -7856,7 +7781,7 @@ const stationsData = [
         }
     },
     {
-        "id": 524,
+        "id": 519,
         "name": "Pakelės namai",
         "logo": "⛽",
         "city": "Pasvalio",
@@ -7871,7 +7796,7 @@ const stationsData = [
         }
     },
     {
-        "id": 525,
+        "id": 520,
         "name": "Pynauja",
         "logo": "⛽",
         "city": "Šilalės",
@@ -7886,7 +7811,7 @@ const stationsData = [
         }
     },
     {
-        "id": 526,
+        "id": 521,
         "name": "Plovimo sistemos",
         "logo": "⛽",
         "city": "Šiaulių",
@@ -7901,7 +7826,7 @@ const stationsData = [
         }
     },
     {
-        "id": 527,
+        "id": 522,
         "name": "Plungės lagūna (Circle K)",
         "logo": "🔴",
         "city": "Rietavo",
@@ -7911,12 +7836,12 @@ const stationsData = [
         "prices": {
             "A95": 1.869,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.999,
             "LPG": 0.929
         }
     },
     {
-        "id": 528,
+        "id": 523,
         "name": "Prie Luksto",
         "logo": "⛽",
         "city": "Telšių",
@@ -7924,14 +7849,14 @@ const stationsData = [
         "lat": 55.975694659155,
         "lng": 22.263550629031,
         "prices": {
-            "A95": 1.965,
+            "A95": 1.945,
             "A98": null,
-            "Diesel": 2.065,
-            "LPG": 0.929
+            "Diesel": 2.045,
+            "LPG": 0.939
         }
     },
     {
-        "id": 529,
+        "id": 524,
         "name": "Propano ir butano dujų centras",
         "logo": "⛽",
         "city": "Ignalinos",
@@ -7939,35 +7864,35 @@ const stationsData = [
         "lat": 55.327196910664,
         "lng": 26.174464088946,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 2.029,
-            "LPG": 0.87
+            "Diesel": 1.88,
+            "LPG": 0.76
         }
     },
     {
-        "id": 530,
+        "id": 525,
         "name": "Propano ir butano dujų centras",
         "logo": "⛽",
         "city": "Švenčionių",
         "address": "Aukštaičių g. 2a, Cirkliškio k.",
-        "lat": 55.119948529229,
-        "lng": 26.131276835749,
+        "lat": 55.121543876848,
+        "lng": 26.135602333895,
         "prices": {
-            "A95": 1.97,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.05,
-            "LPG": 0.92
+            "Diesel": 1.889,
+            "LPG": 0.76
         }
     },
     {
-        "id": 531,
+        "id": 526,
         "name": "Raimondo Balsio IĮ",
         "logo": "⛽",
         "city": "Kelmės",
         "address": "Ramučių k., Luokės 2",
-        "lat": 55.827150477,
-        "lng": 22.853638071,
+        "lat": 55.830035747881,
+        "lng": 22.853368978413,
         "prices": {
             "A95": 1.8,
             "A98": null,
@@ -7976,7 +7901,7 @@ const stationsData = [
         }
     },
     {
-        "id": 532,
+        "id": 527,
         "name": "Regusa",
         "logo": "⛽",
         "city": "Kazlų Rūdos",
@@ -7991,7 +7916,7 @@ const stationsData = [
         }
     },
     {
-        "id": 533,
+        "id": 528,
         "name": "Regusa",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -8006,13 +7931,13 @@ const stationsData = [
         }
     },
     {
-        "id": 534,
+        "id": 529,
         "name": "Regusa",
         "logo": "⛽",
         "city": "Vilkaviškio",
         "address": "J. Basanavičiaus g. 45A, Kybartai",
-        "lat": 54.638530860952,
-        "lng": 22.763105017488,
+        "lat": 54.638343845928,
+        "lng": 22.763337662376,
         "prices": {
             "A95": 1.84,
             "A98": null,
@@ -8021,7 +7946,7 @@ const stationsData = [
         }
     },
     {
-        "id": 535,
+        "id": 530,
         "name": "Regusa",
         "logo": "⛽",
         "city": "Kazlų Rūdos",
@@ -8036,7 +7961,7 @@ const stationsData = [
         }
     },
     {
-        "id": 536,
+        "id": 531,
         "name": "Regusa",
         "logo": "⛽",
         "city": "Kaunas",
@@ -8051,52 +7976,7 @@ const stationsData = [
         }
     },
     {
-        "id": 537,
-        "name": "RV",
-        "logo": "⛽",
-        "city": "Mažeikių",
-        "address": "Algirdo g. 42, Mažeikiai",
-        "lat": 56.318513283654,
-        "lng": 22.318037861175,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 538,
-        "name": "RV",
-        "logo": "⛽",
-        "city": "Mažeikių",
-        "address": "Daukšos g. 29/Žemaitijos g. 69, Mažeikiai",
-        "lat": 56.301803121484,
-        "lng": 22.350800206117,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 539,
-        "name": "RV",
-        "logo": "⛽",
-        "city": "Švenčionių",
-        "address": "Mokyklos g. 23, Švenčionys",
-        "lat": 55.137806048215,
-        "lng": 26.155728020778,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.93
-        }
-    },
-    {
-        "id": 540,
+        "id": 532,
         "name": "S.Rimkevičiaus komercinė įmonė",
         "logo": "⛽",
         "city": "Joniškio",
@@ -8104,14 +7984,14 @@ const stationsData = [
         "lat": 56.228952145311,
         "lng": 23.610132627008,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.789,
             "A98": null,
-            "Diesel": 1.899,
-            "LPG": 0.849
+            "Diesel": 1.869,
+            "LPG": 0.829
         }
     },
     {
-        "id": 541,
+        "id": 533,
         "name": "S.Rimkevičiaus komercinė įmonė",
         "logo": "⛽",
         "city": "Joniškio",
@@ -8126,7 +8006,7 @@ const stationsData = [
         }
     },
     {
-        "id": 542,
+        "id": 534,
         "name": "S.Savicko įmonė",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -8134,14 +8014,14 @@ const stationsData = [
         "lat": 55.297331016184,
         "lng": 24.001275479794,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.929,
             "LPG": null
         }
     },
     {
-        "id": 543,
+        "id": 535,
         "name": "S.Savicko įmonė",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -8149,14 +8029,14 @@ const stationsData = [
         "lat": 55.312889630586,
         "lng": 23.978056937446,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.929,
             "LPG": 0.89
         }
     },
     {
-        "id": 544,
+        "id": 536,
         "name": "S.Savicko įmonė",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -8164,14 +8044,14 @@ const stationsData = [
         "lat": 55.291538869632,
         "lng": 23.960592990723,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.929,
             "LPG": 0.89
         }
     },
     {
-        "id": 545,
+        "id": 537,
         "name": "S.Savicko įmonė",
         "logo": "⛽",
         "city": "Kėdainių",
@@ -8179,14 +8059,14 @@ const stationsData = [
         "lat": 55.166933077931,
         "lng": 23.99478931166,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.839,
             "A98": null,
-            "Diesel": 1.969,
+            "Diesel": 1.929,
             "LPG": 0.89
         }
     },
     {
-        "id": 546,
+        "id": 538,
         "name": "S.Savicko įmonė (Circle K)",
         "logo": "🔴",
         "city": "Kėdainių",
@@ -8194,515 +8074,20 @@ const stationsData = [
         "lat": 55.274238076654,
         "lng": 23.944684138496,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.949,
             "LPG": 0.929
         }
     },
     {
-        "id": 547,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Akmenės",
-        "address": "Naujoji Akmenė V. Kudirkos 18A",
-        "lat": 56.32035414,
-        "lng": 22.881082171,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 548,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Akmenės",
-        "address": "Akmenės I kaimas Plento g. 1",
-        "lat": 56.238514346182,
-        "lng": 22.750824439689,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 549,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Akmenės",
-        "address": "Pašakarnių km. Pašakarnių g. 1",
-        "lat": 56.266779380975,
-        "lng": 22.834931054541,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 550,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Šiaulių",
-        "address": "Šiauliai Vilniaus g. 373A",
-        "lat": 55.94272829869,
-        "lng": 23.281565040015,
-        "prices": {
-            "A95": 1.78,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.81
-        }
-    },
-    {
-        "id": 551,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Šiaulių",
-        "address": "Šiauliai Pramonės g. 7C",
-        "lat": 55.916460503785,
-        "lng": 23.301870703372,
-        "prices": {
-            "A95": 1.78,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.81
-        }
-    },
-    {
-        "id": 552,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Radviliškio",
-        "address": "Radviliškis Gedimino g. 50C",
-        "lat": 55.814641921695,
-        "lng": 23.55309888886,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 553,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Radviliškio",
-        "address": "Velžių km .Radviliškio plentas 2",
-        "lat": 55.773190770193,
-        "lng": 23.656115999285,
-        "prices": {
-            "A95": 1.78,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 554,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Skuodo",
-        "address": "Skuodas Vytauto g. 20",
-        "lat": 56.261448658193,
-        "lng": 21.529893289101,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 555,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Klaipėda",
-        "address": "Klaipėda Jūrininkų pr. 29",
-        "lat": 55.656822587204,
-        "lng": 21.183783636048,
-        "prices": {
-            "A95": 1.77,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 556,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Šilalės",
-        "address": "Šilalė Rytinio kelio g. 19",
-        "lat": 55.491828301685,
-        "lng": 22.199235615413,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.87,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 557,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Jurbarko",
-        "address": "Pašvenčio km.",
-        "lat": 55.085850192,
-        "lng": 22.607011446,
-        "prices": {
-            "A95": 1.78,
-            "A98": null,
-            "Diesel": 1.86,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 558,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kalvarijos",
-        "address": "Kreivukės km.",
-        "lat": 54.404472739,
-        "lng": 23.19410617,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 559,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kalvarijos",
-        "address": "Kušliškių km. Suvalkijos g. 15",
-        "lat": 54.436224868724,
-        "lng": 23.204989648985,
-        "prices": {
-            "A95": 1.76,
-            "A98": null,
-            "Diesel": 1.86,
-            "LPG": 0.84
-        }
-    },
-    {
-        "id": 560,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Marijampolės",
-        "address": "Marijampolė Statybininkų g. 8",
-        "lat": 54.577893323534,
-        "lng": 23.376914469235,
-        "prices": {
-            "A95": 1.77,
-            "A98": null,
-            "Diesel": 1.86,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 561,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Alytaus",
-        "address": "Alytus Miškininkų g. 7",
-        "lat": 54.411694265162,
-        "lng": 24.067674066903,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.87,
-            "LPG": null
-        }
-    },
-    {
-        "id": 562,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Alytaus",
-        "address": "Alytus Pramonės g. 5",
-        "lat": 54.423491500515,
-        "lng": 24.020355792726,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.87,
-            "LPG": 0.83
-        }
-    },
-    {
-        "id": 563,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Lazdijų",
-        "address": "Panarvės km.",
-        "lat": 54.242560993,
-        "lng": 23.543537586,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.83
-        }
-    },
-    {
-        "id": 564,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Prienų",
-        "address": "Ignacavos km. Kauno pl. 18",
-        "lat": 54.646665441,
-        "lng": 23.93774432,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 565,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kaunas",
-        "address": "Domeikava Muitinės g. 2",
-        "lat": 54.956352387069,
-        "lng": 23.90474738735,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 566,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kaunas",
-        "address": "Kaunas Garažų g. 20",
-        "lat": 54.923694313003,
-        "lng": 24.000811206177,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 567,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kaunas",
-        "address": "Babtai Vandžiogalos g. 3",
-        "lat": 55.096970128406,
-        "lng": 23.806257175191,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 568,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Kaišiadorių r. sav.",
-        "address": "Rumšiškės Lekavičiaus g. 71",
-        "lat": 54.871853666786,
-        "lng": 24.213242830808,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 569,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Šakių",
-        "address": "Lėkėčių km. Šakių g. 3",
-        "lat": 54.981812746,
-        "lng": 23.47299403,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.83
-        }
-    },
-    {
-        "id": 570,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Prienų",
-        "address": "Mauručiai Liepų g. 20",
-        "lat": 54.636876701615,
-        "lng": 23.948106948714,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": null
-        }
-    },
-    {
-        "id": 571,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Ukmergės",
-        "address": "Ukmergė Kareivinių g. 64",
-        "lat": 55.258987706741,
-        "lng": 24.790493941303,
-        "prices": {
-            "A95": 1.75,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.81
-        }
-    },
-    {
-        "id": 572,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Ukmergės",
-        "address": "Ukmergė Vilniaus g. 122",
-        "lat": 55.233433379435,
-        "lng": 24.78107301741,
-        "prices": {
-            "A95": 1.75,
-            "A98": null,
-            "Diesel": 1.85,
-            "LPG": 0.81
-        }
-    },
-    {
-        "id": 573,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Ukmergės",
-        "address": "Pageležių km.",
-        "lat": 55.165134437,
-        "lng": 24.514938944,
-        "prices": {
-            "A95": 1.75,
-            "A98": null,
-            "Diesel": 1.86,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 574,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Vilnius",
-        "address": "Čekoniškių km",
-        "lat": 54.736723465,
-        "lng": 25.085725471,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": null
-        }
-    },
-    {
-        "id": 575,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Vilnius",
-        "address": "Zujūnai Buivydiškių g. 1A",
-        "lat": 54.710629644719,
-        "lng": 25.240305857124,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 576,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Visagino",
-        "address": "Visaginas Kosmoso g. 1",
-        "lat": 55.59740696363,
-        "lng": 26.403391634302,
-        "prices": {
-            "A95": 1.77,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.85
-        }
-    },
-    {
-        "id": 577,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Vilnius",
-        "address": "Vilnius, Jankiškių g. 43a",
-        "lat": 54.651911647363,
-        "lng": 25.185588442341,
-        "prices": {
-            "A95": 1.79,
-            "A98": null,
-            "Diesel": 1.88,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 578,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Vilnius",
-        "address": "Vilnius, Rygos g. 2",
-        "lat": 54.715574884189,
-        "lng": 25.228964372179,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 579,
-        "name": "Saurida",
-        "logo": "🔥",
-        "city": "Vilnius",
-        "address": "Vilnius Stanevičiaus g. 3A",
-        "lat": 54.721696355716,
-        "lng": 25.25592761359,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.82
-        }
-    },
-    {
-        "id": 580,
+        "id": 539,
         "name": "Skaistčio ŽŪB",
         "logo": "⛽",
         "city": "Joniškio",
         "address": "Skaistgirys, Liepų g.22",
-        "lat": 56.284120938,
-        "lng": 23.409354473,
+        "lat": 55.09577385812,
+        "lng": 25.536478451994,
         "prices": {
             "A95": 1.79,
             "A98": null,
@@ -8711,22 +8096,22 @@ const stationsData = [
         }
     },
     {
-        "id": 581,
+        "id": 540,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Alytaus",
         "address": "Simnas, Alytaus g. 48",
-        "lat": 54.393494113,
-        "lng": 23.654323639,
+        "lat": 54.407106933374,
+        "lng": 24.110641714237,
         "prices": {
-            "A95": 1.8,
+            "A95": 1.79,
             "A98": null,
-            "Diesel": 1.93,
-            "LPG": 0.85
+            "Diesel": 1.91,
+            "LPG": 0.84
         }
     },
     {
-        "id": 582,
+        "id": 541,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Alytaus",
@@ -8734,14 +8119,14 @@ const stationsData = [
         "lat": 54.381917051217,
         "lng": 23.993118965995,
         "prices": {
-            "A95": 1.79,
+            "A95": 1.74,
             "A98": null,
-            "Diesel": 1.91,
-            "LPG": 0.83
+            "Diesel": 1.83,
+            "LPG": 0.77
         }
     },
     {
-        "id": 583,
+        "id": 542,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Kaunas",
@@ -8749,29 +8134,29 @@ const stationsData = [
         "lat": 54.933420631538,
         "lng": 23.943545708407,
         "prices": {
-            "A95": 1.78,
+            "A95": 1.8,
             "A98": null,
             "Diesel": 1.88,
             "LPG": 0.8
         }
     },
     {
-        "id": 584,
+        "id": 543,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Kaunas",
         "address": "Kaunas, Marvelės g. 106 D",
-        "lat": 54.900277832011,
-        "lng": 23.857904367083,
+        "lat": 54.901324815537,
+        "lng": 23.85433023975,
         "prices": {
-            "A95": 1.78,
+            "A95": 1.8,
             "A98": null,
             "Diesel": 1.88,
             "LPG": null
         }
     },
     {
-        "id": 585,
+        "id": 544,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Kaunas",
@@ -8779,14 +8164,14 @@ const stationsData = [
         "lat": 54.90258231056,
         "lng": 23.762832797953,
         "prices": {
-            "A95": 1.78,
+            "A95": 1.79,
             "A98": null,
             "Diesel": 1.88,
             "LPG": 0.8
         }
     },
     {
-        "id": 586,
+        "id": 545,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Pasvalio",
@@ -8794,14 +8179,14 @@ const stationsData = [
         "lat": 56.069592049378,
         "lng": 24.387502597825,
         "prices": {
-            "A95": 1.79,
+            "A95": 1.73,
             "A98": null,
-            "Diesel": 1.89,
-            "LPG": 0.8
+            "Diesel": 1.82,
+            "LPG": 0.76
         }
     },
     {
-        "id": 587,
+        "id": 546,
         "name": "Skulas",
         "logo": "⛽",
         "city": "Vilnius",
@@ -8809,14 +8194,14 @@ const stationsData = [
         "lat": 54.723185400815,
         "lng": 25.276822608559,
         "prices": {
-            "A95": 1.869,
+            "A95": 1.809,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.919,
             "LPG": 0.829
         }
     },
     {
-        "id": 588,
+        "id": 547,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -8824,14 +8209,14 @@ const stationsData = [
         "lat": 54.636976614,
         "lng": 23.421718999,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 589,
+        "id": 548,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Vilnius",
@@ -8839,14 +8224,14 @@ const stationsData = [
         "lat": 54.723213312553,
         "lng": 25.241257690471,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 590,
+        "id": 549,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Alytaus",
@@ -8854,14 +8239,14 @@ const stationsData = [
         "lat": 54.39870652,
         "lng": 24.100921259,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 591,
+        "id": 550,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Alytaus",
@@ -8869,14 +8254,14 @@ const stationsData = [
         "lat": 54.428066804273,
         "lng": 24.001371620224,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 592,
+        "id": 551,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Alytaus",
@@ -8884,29 +8269,29 @@ const stationsData = [
         "lat": 54.369165714,
         "lng": 24.109499034,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 593,
+        "id": 552,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Prienų",
         "address": "Gustaičių k.",
-        "lat": 54.744775318,
-        "lng": 23.711938611,
+        "lat": 54.747519444157,
+        "lng": 23.704328759931,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 594,
+        "id": 553,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Kaunas",
@@ -8914,14 +8299,14 @@ const stationsData = [
         "lat": 54.929349780159,
         "lng": 24.038095795416,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 595,
+        "id": 554,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Panevėžio",
@@ -8929,29 +8314,29 @@ const stationsData = [
         "lat": 55.787745777419,
         "lng": 24.439259173553,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 596,
+        "id": 555,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Kupiškio",
         "address": "Panevėžio g. 9, Kupiškis",
-        "lat": 55.825909797952,
-        "lng": 24.97951960423,
+        "lat": 55.826311271316,
+        "lng": 24.978638418493,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 597,
+        "id": 556,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Kalvarijos",
@@ -8959,14 +8344,14 @@ const stationsData = [
         "lat": 54.410870282171,
         "lng": 23.20685126968,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 598,
+        "id": 557,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -8974,14 +8359,14 @@ const stationsData = [
         "lat": 55.68767050546,
         "lng": 21.145004593369,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 599,
+        "id": 558,
         "name": "Stateta",
         "logo": "⛽",
         "city": "Utenos",
@@ -8989,14 +8374,14 @@ const stationsData = [
         "lat": 55.497925549512,
         "lng": 25.58392145931,
         "prices": {
-            "A95": 1.757,
+            "A95": 1.747,
             "A98": null,
-            "Diesel": 1.867,
+            "Diesel": 1.837,
             "LPG": 0.899
         }
     },
     {
-        "id": 600,
+        "id": 559,
         "name": "Šventosios investicijos",
         "logo": "⛽",
         "city": "Palangos",
@@ -9011,7 +8396,7 @@ const stationsData = [
         }
     },
     {
-        "id": 601,
+        "id": 560,
         "name": "Tomega",
         "logo": "⛽",
         "city": "Druskininkų sav.",
@@ -9026,7 +8411,7 @@ const stationsData = [
         }
     },
     {
-        "id": 602,
+        "id": 561,
         "name": "Tomega",
         "logo": "⛽",
         "city": "Šalčininkų",
@@ -9034,29 +8419,29 @@ const stationsData = [
         "lat": 54.301675876,
         "lng": 25.36083838,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.039,
             "LPG": null
         }
     },
     {
-        "id": 603,
+        "id": 562,
         "name": "Tomega",
         "logo": "⛽",
         "city": "Šalčininkų",
         "address": "Dumblės k.",
-        "lat": 54.15342966,
-        "lng": 25.006029775,
+        "lat": 54.142735346385,
+        "lng": 25.028760624272,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": null
         }
     },
     {
-        "id": 604,
+        "id": 563,
         "name": "Topgas",
         "logo": "⛽",
         "city": "Kupiškio",
@@ -9071,7 +8456,7 @@ const stationsData = [
         }
     },
     {
-        "id": 605,
+        "id": 564,
         "name": "Topgas",
         "logo": "⛽",
         "city": "Kaišiadorių r. sav.",
@@ -9086,7 +8471,7 @@ const stationsData = [
         }
     },
     {
-        "id": 606,
+        "id": 565,
         "name": "Topgas",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -9101,7 +8486,7 @@ const stationsData = [
         }
     },
     {
-        "id": 607,
+        "id": 566,
         "name": "Tormenta",
         "logo": "⛽",
         "city": "Kaunas",
@@ -9116,7 +8501,7 @@ const stationsData = [
         }
     },
     {
-        "id": 608,
+        "id": 567,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9131,7 +8516,7 @@ const stationsData = [
         }
     },
     {
-        "id": 609,
+        "id": 568,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9146,7 +8531,7 @@ const stationsData = [
         }
     },
     {
-        "id": 610,
+        "id": 569,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Šilutės",
@@ -9161,7 +8546,7 @@ const stationsData = [
         }
     },
     {
-        "id": 611,
+        "id": 570,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9176,7 +8561,7 @@ const stationsData = [
         }
     },
     {
-        "id": 612,
+        "id": 571,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Rietavo",
@@ -9191,13 +8576,13 @@ const stationsData = [
         }
     },
     {
-        "id": 613,
+        "id": 572,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Kretingos",
         "address": "Laisvės g. 15, Darbėnai",
-        "lat": 56.026785166947,
-        "lng": 21.262637563638,
+        "lat": 56.026618551745,
+        "lng": 21.262680298138,
         "prices": {
             "A95": 1.95,
             "A98": null,
@@ -9206,7 +8591,7 @@ const stationsData = [
         }
     },
     {
-        "id": 614,
+        "id": 573,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Kretingos",
@@ -9221,7 +8606,7 @@ const stationsData = [
         }
     },
     {
-        "id": 615,
+        "id": 574,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9236,13 +8621,13 @@ const stationsData = [
         }
     },
     {
-        "id": 616,
+        "id": 575,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Šilutės",
         "address": "Liepų g. 4, Žemaitkiemio k.",
-        "lat": 55.227443922883,
-        "lng": 21.701851385507,
+        "lat": 55.233897250012,
+        "lng": 21.720712386441,
         "prices": {
             "A95": 1.83,
             "A98": null,
@@ -9251,7 +8636,7 @@ const stationsData = [
         }
     },
     {
-        "id": 617,
+        "id": 576,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Rietavo",
@@ -9266,7 +8651,7 @@ const stationsData = [
         }
     },
     {
-        "id": 618,
+        "id": 577,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9281,7 +8666,7 @@ const stationsData = [
         }
     },
     {
-        "id": 619,
+        "id": 578,
         "name": "Trevena",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -9296,7 +8681,7 @@ const stationsData = [
         }
     },
     {
-        "id": 620,
+        "id": 579,
         "name": "Tripletas",
         "logo": "⛽",
         "city": "Mažeikių",
@@ -9304,20 +8689,20 @@ const stationsData = [
         "lat": 56.305861345635,
         "lng": 22.342528608787,
         "prices": {
-            "A95": 1.8,
+            "A95": 1.83,
             "A98": null,
-            "Diesel": 1.96,
-            "LPG": 0.87
+            "Diesel": 1.93,
+            "LPG": 0.85
         }
     },
     {
-        "id": 621,
+        "id": 580,
         "name": "Tumasa",
         "logo": "⛽",
         "city": "Mažeikių",
         "address": "Židikai, Mažeikiu g. 10",
-        "lat": 56.317634441106,
-        "lng": 22.013592553331,
+        "lat": 54.716178632675,
+        "lng": 25.495116955366,
         "prices": {
             "A95": 1.85,
             "A98": null,
@@ -9326,7 +8711,7 @@ const stationsData = [
         }
     },
     {
-        "id": 622,
+        "id": 581,
         "name": "Utentra",
         "logo": "⛽",
         "city": "Utenos",
@@ -9336,12 +8721,12 @@ const stationsData = [
         "prices": {
             "A95": null,
             "A98": null,
-            "Diesel": 1.859,
+            "Diesel": 1.819,
             "LPG": null
         }
     },
     {
-        "id": 623,
+        "id": 582,
         "name": "V.Marcinkevičiaus IĮ",
         "logo": "⛽",
         "city": "Šilutės",
@@ -9349,14 +8734,14 @@ const stationsData = [
         "lat": 55.513912688714,
         "lng": 21.609493625168,
         "prices": {
-            "A95": 1.84,
+            "A95": 1.83,
             "A98": null,
-            "Diesel": 1.94,
+            "Diesel": 1.92,
             "LPG": 0.85
         }
     },
     {
-        "id": 624,
+        "id": 583,
         "name": "Valdegra",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -9371,22 +8756,22 @@ const stationsData = [
         }
     },
     {
-        "id": 625,
+        "id": 584,
         "name": "Velseka",
         "logo": "⛽",
         "city": "Kupiškio",
         "address": "Panevėžio g. 5, Kupiškis",
-        "lat": 55.827131208883,
-        "lng": 24.986317495343,
+        "lat": 55.827824062245,
+        "lng": 24.985741190782,
         "prices": {
-            "A95": 1.729,
+            "A95": 1.719,
             "A98": null,
-            "Diesel": 1.849,
-            "LPG": 0.769
+            "Diesel": 1.809,
+            "LPG": 0.749
         }
     },
     {
-        "id": 626,
+        "id": 585,
         "name": "Viada",
         "logo": "🦌",
         "city": "Alytaus",
@@ -9394,14 +8779,14 @@ const stationsData = [
         "lat": 54.366879665464,
         "lng": 24.337587190949,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.959,
             "LPG": 0.899
         }
     },
     {
-        "id": 627,
+        "id": 586,
         "name": "Viada",
         "logo": "🦌",
         "city": "Alytaus",
@@ -9409,14 +8794,14 @@ const stationsData = [
         "lat": 54.413977202221,
         "lng": 24.009628633042,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.949,
             "LPG": 0.899
         }
     },
     {
-        "id": 628,
+        "id": 587,
         "name": "Viada",
         "logo": "🦌",
         "city": "Alytaus",
@@ -9424,14 +8809,14 @@ const stationsData = [
         "lat": 54.384755289361,
         "lng": 24.050002584257,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.949,
             "LPG": 0.899
         }
     },
     {
-        "id": 629,
+        "id": 588,
         "name": "Viada",
         "logo": "🦌",
         "city": "Anykščių",
@@ -9446,7 +8831,7 @@ const stationsData = [
         }
     },
     {
-        "id": 630,
+        "id": 589,
         "name": "Viada",
         "logo": "🦌",
         "city": "Anykščių",
@@ -9461,7 +8846,7 @@ const stationsData = [
         }
     },
     {
-        "id": 631,
+        "id": 590,
         "name": "Viada",
         "logo": "🦌",
         "city": "Biržų r. sav.",
@@ -9469,14 +8854,14 @@ const stationsData = [
         "lat": 56.201411055495,
         "lng": 24.748821884742,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.919
+            "Diesel": 1.969,
+            "LPG": 0.929
         }
     },
     {
-        "id": 632,
+        "id": 591,
         "name": "Viada",
         "logo": "🦌",
         "city": "Biržų r. sav.",
@@ -9484,14 +8869,14 @@ const stationsData = [
         "lat": 56.202025868093,
         "lng": 24.7376980934,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 1.999,
-            "LPG": 0.919
+            "Diesel": 1.969,
+            "LPG": 0.929
         }
     },
     {
-        "id": 633,
+        "id": 592,
         "name": "Viada",
         "logo": "🦌",
         "city": "Elektrėnų",
@@ -9499,14 +8884,14 @@ const stationsData = [
         "lat": 54.784552792453,
         "lng": 24.654164800725,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.049,
             "LPG": 0.929
         }
     },
     {
-        "id": 634,
+        "id": 593,
         "name": "Viada",
         "logo": "🦌",
         "city": "Ignalinos",
@@ -9514,14 +8899,14 @@ const stationsData = [
         "lat": 55.338948590373,
         "lng": 26.14564006503,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 635,
+        "id": 594,
         "name": "Viada",
         "logo": "🦌",
         "city": "Jonavos",
@@ -9529,14 +8914,14 @@ const stationsData = [
         "lat": 55.093686978842,
         "lng": 24.282945564148,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.919,
             "A98": null,
             "Diesel": 2.019,
             "LPG": 0.899
         }
     },
     {
-        "id": 636,
+        "id": 595,
         "name": "Viada",
         "logo": "🦌",
         "city": "Joniškio",
@@ -9544,14 +8929,14 @@ const stationsData = [
         "lat": 56.224395323649,
         "lng": 23.600907336735,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 1.979,
             "LPG": 0.869
         }
     },
     {
-        "id": 637,
+        "id": 596,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaišiadorių r. sav.",
@@ -9559,14 +8944,14 @@ const stationsData = [
         "lat": 54.855280255366,
         "lng": 24.441792100874,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 638,
+        "id": 597,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kalvarijos",
@@ -9574,14 +8959,14 @@ const stationsData = [
         "lat": 54.424465938669,
         "lng": 23.231907795757,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": 0.959
         }
     },
     {
-        "id": 639,
+        "id": 598,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kalvarijos",
@@ -9589,14 +8974,14 @@ const stationsData = [
         "lat": 54.339820367442,
         "lng": 23.163098824752,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": null
         }
     },
     {
-        "id": 640,
+        "id": 599,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9604,14 +8989,14 @@ const stationsData = [
         "lat": 54.878078738636,
         "lng": 23.934133417874,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 641,
+        "id": 600,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9626,7 +9011,7 @@ const stationsData = [
         }
     },
     {
-        "id": 642,
+        "id": 601,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9634,44 +9019,44 @@ const stationsData = [
         "lat": 54.918225121181,
         "lng": 24.039649760369,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.979,
             "LPG": 0.899
         }
     },
     {
-        "id": 643,
+        "id": 602,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Kaunas, Baltijos g. 90B",
-        "lat": 54.920037707742,
-        "lng": 23.876537421661,
+        "lat": 54.918004216122,
+        "lng": 23.873689250962,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.969,
             "LPG": 0.919
         }
     },
     {
-        "id": 644,
+        "id": 603,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Kaunas, Biruliškių g. 18A",
-        "lat": 54.912407703191,
-        "lng": 24.020695343623,
+        "lat": 54.910628267057,
+        "lng": 24.02320522071,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.979,
             "LPG": null
         }
     },
     {
-        "id": 645,
+        "id": 604,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9679,14 +9064,14 @@ const stationsData = [
         "lat": 54.855148617576,
         "lng": 24.013175183913,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 646,
+        "id": 605,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9701,7 +9086,7 @@ const stationsData = [
         }
     },
     {
-        "id": 647,
+        "id": 606,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9709,14 +9094,14 @@ const stationsData = [
         "lat": 54.897649267175,
         "lng": 23.958109935726,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 648,
+        "id": 607,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9724,29 +9109,29 @@ const stationsData = [
         "lat": 54.887370413582,
         "lng": 23.921353362464,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 649,
+        "id": 608,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Kaunas, Marijampolės pl. 29",
-        "lat": 54.856370758772,
-        "lng": 23.978203776358,
+        "lat": 54.849556253687,
+        "lng": 23.96678629516,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 650,
+        "id": 609,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9754,14 +9139,14 @@ const stationsData = [
         "lat": 54.917642453181,
         "lng": 23.863193180348,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.969,
             "LPG": 0.919
         }
     },
     {
-        "id": 651,
+        "id": 610,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9769,14 +9154,14 @@ const stationsData = [
         "lat": 54.9248666898,
         "lng": 23.942496880862,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 652,
+        "id": 611,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9784,14 +9169,14 @@ const stationsData = [
         "lat": 54.92711484196,
         "lng": 23.974663523945,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 1.979,
+            "Diesel": 1.969,
             "LPG": 0.899
         }
     },
     {
-        "id": 653,
+        "id": 612,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9799,14 +9184,14 @@ const stationsData = [
         "lat": 54.921398970728,
         "lng": 23.810330696316,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.969,
             "LPG": 0.899
         }
     },
     {
-        "id": 654,
+        "id": 613,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9814,14 +9199,14 @@ const stationsData = [
         "lat": 54.920107612815,
         "lng": 23.948836617148,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 655,
+        "id": 614,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9829,14 +9214,14 @@ const stationsData = [
         "lat": 54.881007291787,
         "lng": 24.009786380459,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.979,
             "LPG": 0.919
         }
     },
     {
-        "id": 656,
+        "id": 615,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9844,14 +9229,14 @@ const stationsData = [
         "lat": 54.866563596235,
         "lng": 23.889334576153,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 657,
+        "id": 616,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9859,14 +9244,14 @@ const stationsData = [
         "lat": 54.88333310228,
         "lng": 23.893652262117,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 658,
+        "id": 617,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9881,7 +9266,7 @@ const stationsData = [
         }
     },
     {
-        "id": 659,
+        "id": 618,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9889,20 +9274,20 @@ const stationsData = [
         "lat": 54.774118328827,
         "lng": 23.88969583618,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 660,
+        "id": 619,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Kampiškių k., Baltijos g. 41",
-        "lat": 54.842540265453,
-        "lng": 23.849560098653,
+        "lat": 54.921608476397,
+        "lng": 23.884082643261,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -9911,13 +9296,13 @@ const stationsData = [
         }
     },
     {
-        "id": 661,
+        "id": 620,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Kumpių k., Verslo g. 13A",
-        "lat": 54.959155924134,
-        "lng": 23.866815084529,
+        "lat": 54.925725290052,
+        "lng": 24.045616585783,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -9926,7 +9311,7 @@ const stationsData = [
         }
     },
     {
-        "id": 662,
+        "id": 621,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
@@ -9934,29 +9319,29 @@ const stationsData = [
         "lat": 54.957747783,
         "lng": 24.029920094,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.039,
             "LPG": 0.959
         }
     },
     {
-        "id": 663,
+        "id": 622,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kaunas",
         "address": "Zapyškis, Vytauto g. 20A",
-        "lat": 54.926952819772,
-        "lng": 23.661905128351,
+        "lat": 54.910330877132,
+        "lng": 23.822998937137,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 664,
+        "id": 623,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kazlų Rūdos",
@@ -9971,13 +9356,13 @@ const stationsData = [
         }
     },
     {
-        "id": 665,
+        "id": 624,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kėdainių",
         "address": "Dotnuva, Tilto g. 2A",
-        "lat": 55.289969396045,
-        "lng": 23.978335672189,
+        "lat": 55.288848362532,
+        "lng": 23.980163980266,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -9986,7 +9371,7 @@ const stationsData = [
         }
     },
     {
-        "id": 666,
+        "id": 625,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kėdainių",
@@ -10001,7 +9386,7 @@ const stationsData = [
         }
     },
     {
-        "id": 667,
+        "id": 626,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10009,14 +9394,14 @@ const stationsData = [
         "lat": 55.753700163101,
         "lng": 21.131398585221,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.939
         }
     },
     {
-        "id": 668,
+        "id": 627,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10024,14 +9409,14 @@ const stationsData = [
         "lat": 55.673962992464,
         "lng": 21.148039429052,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.019,
             "LPG": 0.939
         }
     },
     {
-        "id": 669,
+        "id": 628,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10039,14 +9424,14 @@ const stationsData = [
         "lat": 55.71923583081,
         "lng": 21.141172051961,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.019,
             "LPG": 0.899
         }
     },
     {
-        "id": 670,
+        "id": 629,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10054,14 +9439,14 @@ const stationsData = [
         "lat": 55.681965782159,
         "lng": 21.185173271776,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.939
         }
     },
     {
-        "id": 671,
+        "id": 630,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10069,14 +9454,14 @@ const stationsData = [
         "lat": 55.683267407903,
         "lng": 21.160533661563,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.019,
             "LPG": 0.899
         }
     },
     {
-        "id": 672,
+        "id": 631,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10084,20 +9469,20 @@ const stationsData = [
         "lat": 55.732203179846,
         "lng": 21.376157282561,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 673,
+        "id": 632,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
         "address": "Kretingalė, Klaipėdos g. 1A",
-        "lat": 55.827554453084,
-        "lng": 21.18479977417,
+        "lat": 55.753930749257,
+        "lng": 21.134345913834,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10106,7 +9491,7 @@ const stationsData = [
         }
     },
     {
-        "id": 674,
+        "id": 633,
         "name": "Viada",
         "logo": "🦌",
         "city": "Klaipėda",
@@ -10114,14 +9499,14 @@ const stationsData = [
         "lat": 55.704455811393,
         "lng": 21.221595910015,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 675,
+        "id": 634,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kretingos",
@@ -10136,7 +9521,7 @@ const stationsData = [
         }
     },
     {
-        "id": 676,
+        "id": 635,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kretingos",
@@ -10151,22 +9536,22 @@ const stationsData = [
         }
     },
     {
-        "id": 677,
+        "id": 636,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kupiškio",
         "address": "Kerelių k. 1A",
-        "lat": 55.845139056,
-        "lng": 25.172740808,
+        "lat": 55.85691348018,
+        "lng": 25.173915527885,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 678,
+        "id": 637,
         "name": "Viada",
         "logo": "🦌",
         "city": "Kupiškio",
@@ -10174,14 +9559,14 @@ const stationsData = [
         "lat": 55.844528687114,
         "lng": 24.978981737503,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 679,
+        "id": 638,
         "name": "Viada",
         "logo": "🦌",
         "city": "Lazdijų",
@@ -10196,7 +9581,7 @@ const stationsData = [
         }
     },
     {
-        "id": 680,
+        "id": 639,
         "name": "Viada",
         "logo": "🦌",
         "city": "Marijampolės",
@@ -10204,14 +9589,14 @@ const stationsData = [
         "lat": 54.554365530868,
         "lng": 23.362370693759,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 1.999,
             "LPG": 0.879
         }
     },
     {
-        "id": 681,
+        "id": 640,
         "name": "Viada",
         "logo": "🦌",
         "city": "Marijampolės",
@@ -10219,14 +9604,14 @@ const stationsData = [
         "lat": 54.567684249285,
         "lng": 23.339337894385,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 1.999,
             "LPG": 0.879
         }
     },
     {
-        "id": 682,
+        "id": 641,
         "name": "Viada",
         "logo": "🦌",
         "city": "Mažeikių",
@@ -10234,14 +9619,14 @@ const stationsData = [
         "lat": 56.315600404663,
         "lng": 22.302744156822,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.989,
             "LPG": 0.899
         }
     },
     {
-        "id": 683,
+        "id": 642,
         "name": "Viada",
         "logo": "🦌",
         "city": "Mažeikių",
@@ -10249,14 +9634,14 @@ const stationsData = [
         "lat": 56.300318979798,
         "lng": 22.360817921516,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.989,
             "LPG": 0.899
         }
     },
     {
-        "id": 684,
+        "id": 643,
         "name": "Viada",
         "logo": "🦌",
         "city": "Molėtų",
@@ -10264,35 +9649,35 @@ const stationsData = [
         "lat": 55.222871049877,
         "lng": 25.404627772702,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.029,
             "LPG": 0.899
         }
     },
     {
-        "id": 685,
+        "id": 644,
         "name": "Viada",
         "logo": "🦌",
         "city": "Molėtų",
         "address": "Gojaus k., Utenos g. 16",
-        "lat": 55.214074334,
-        "lng": 25.442778059,
+        "lat": 55.214639937139,
+        "lng": 25.437842740416,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.029,
             "LPG": 0.899
         }
     },
     {
-        "id": 686,
+        "id": 645,
         "name": "Viada",
         "logo": "🦌",
         "city": "Pakruojo",
         "address": "Pakruojis, Vytauto Didžiojo g. 98",
-        "lat": 55.980433763628,
-        "lng": 23.856050522032,
+        "lat": 55.980449000364,
+        "lng": 23.857991538876,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -10301,7 +9686,7 @@ const stationsData = [
         }
     },
     {
-        "id": 687,
+        "id": 646,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10309,14 +9694,14 @@ const stationsData = [
         "lat": 55.541540615047,
         "lng": 24.107847858271,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.939
         }
     },
     {
-        "id": 688,
+        "id": 647,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10324,14 +9709,14 @@ const stationsData = [
         "lat": 55.520984626152,
         "lng": 24.312591433671,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 689,
+        "id": 648,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10339,14 +9724,14 @@ const stationsData = [
         "lat": 55.670508726347,
         "lng": 24.349992994382,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
     {
-        "id": 690,
+        "id": 649,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10354,14 +9739,14 @@ const stationsData = [
         "lat": 55.778861337238,
         "lng": 24.365006575531,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 691,
+        "id": 650,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10369,14 +9754,14 @@ const stationsData = [
         "lat": 55.738819518936,
         "lng": 24.310174092795,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 692,
+        "id": 651,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10384,14 +9769,14 @@ const stationsData = [
         "lat": 55.714597034135,
         "lng": 24.335141770698,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 693,
+        "id": 652,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10399,14 +9784,14 @@ const stationsData = [
         "lat": 55.753179563094,
         "lng": 24.312024314102,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 694,
+        "id": 653,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10414,14 +9799,14 @@ const stationsData = [
         "lat": 55.703809063744,
         "lng": 24.380900172694,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 695,
+        "id": 654,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10429,14 +9814,14 @@ const stationsData = [
         "lat": 55.709266395173,
         "lng": 24.373665752063,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 696,
+        "id": 655,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10444,14 +9829,14 @@ const stationsData = [
         "lat": 55.748535360093,
         "lng": 24.393313352202,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 697,
+        "id": 656,
         "name": "Viada",
         "logo": "🦌",
         "city": "Panevėžio",
@@ -10459,29 +9844,29 @@ const stationsData = [
         "lat": 55.736930154141,
         "lng": 24.387145947845,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.929,
             "LPG": 0.879
         }
     },
     {
-        "id": 698,
+        "id": 657,
         "name": "Viada",
         "logo": "🦌",
         "city": "Pasvalio",
         "address": "Brazdigalos k. 1",
-        "lat": 56.041425253,
-        "lng": 24.37740689,
+        "lat": 56.040550673463,
+        "lng": 24.377450037487,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.039,
             "LPG": 0.959
         }
     },
     {
-        "id": 699,
+        "id": 658,
         "name": "Viada",
         "logo": "🦌",
         "city": "Pasvalio",
@@ -10489,29 +9874,29 @@ const stationsData = [
         "lat": 56.056008337092,
         "lng": 24.407401822697,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 700,
+        "id": 659,
         "name": "Viada",
         "logo": "🦌",
         "city": "Plungės",
         "address": "Plungė, J. Tumo-Vaižganto g. 102",
-        "lat": 55.902986258408,
-        "lng": 21.83063200781,
+        "lat": 55.903039400421,
+        "lng": 21.830014540735,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.999,
             "LPG": 0.939
         }
     },
     {
-        "id": 701,
+        "id": 660,
         "name": "Viada",
         "logo": "🦌",
         "city": "Plungės",
@@ -10519,20 +9904,20 @@ const stationsData = [
         "lat": 55.898376212408,
         "lng": 21.840254544206,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.999,
             "LPG": 0.939
         }
     },
     {
-        "id": 702,
+        "id": 661,
         "name": "Viada",
         "logo": "🦌",
         "city": "Prienų",
         "address": "Grigaliūnų k. 11",
-        "lat": 54.707051906,
-        "lng": 23.655752485,
+        "lat": 54.704314711084,
+        "lng": 23.650665842135,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10541,28 +9926,28 @@ const stationsData = [
         }
     },
     {
-        "id": 703,
+        "id": 662,
         "name": "Viada",
         "logo": "🦌",
         "city": "Prienų",
         "address": "Mačiūnų k., Kauno pl. 40",
-        "lat": 54.663153172,
-        "lng": 23.936479558,
+        "lat": 54.65897759174,
+        "lng": 23.947103993943,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 704,
+        "id": 663,
         "name": "Viada",
         "logo": "🦌",
         "city": "Raseinių",
         "address": "Vejukų k. 5",
-        "lat": 55.379417663,
-        "lng": 22.916745014,
+        "lat": 55.37824,
+        "lng": 22.91607,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10571,13 +9956,13 @@ const stationsData = [
         }
     },
     {
-        "id": 705,
+        "id": 664,
         "name": "Viada",
         "logo": "🦌",
         "city": "Rokiškio",
         "address": "Rokiškis, Panevėžio g. 5",
-        "lat": 55.955883079,
-        "lng": 25.584125897,
+        "lat": 55.944511716228,
+        "lng": 25.585613514104,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10586,7 +9971,7 @@ const stationsData = [
         }
     },
     {
-        "id": 706,
+        "id": 665,
         "name": "Viada",
         "logo": "🦌",
         "city": "Rokiškio",
@@ -10601,7 +9986,7 @@ const stationsData = [
         }
     },
     {
-        "id": 707,
+        "id": 666,
         "name": "Viada",
         "logo": "🦌",
         "city": "Skuodo",
@@ -10616,22 +10001,22 @@ const stationsData = [
         }
     },
     {
-        "id": 708,
+        "id": 667,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šalčininkų",
         "address": "Jašiūnai, Lydos g. 13",
-        "lat": 54.439646026324,
-        "lng": 25.32729507672,
+        "lat": 54.293333955246,
+        "lng": 25.384525035221,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 709,
+        "id": 668,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10639,14 +10024,14 @@ const stationsData = [
         "lat": 55.92652448729,
         "lng": 23.307082067852,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 710,
+        "id": 669,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10654,14 +10039,14 @@ const stationsData = [
         "lat": 55.905373844274,
         "lng": 23.260154558001,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 711,
+        "id": 670,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10669,14 +10054,14 @@ const stationsData = [
         "lat": 55.954719323644,
         "lng": 23.315961856076,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 712,
+        "id": 671,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10684,14 +10069,14 @@ const stationsData = [
         "lat": 55.944238214728,
         "lng": 23.331162186028,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 713,
+        "id": 672,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10699,14 +10084,14 @@ const stationsData = [
         "lat": 55.922685575635,
         "lng": 23.357931973114,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.979,
             "LPG": 0.959
         }
     },
     {
-        "id": 714,
+        "id": 673,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
@@ -10721,13 +10106,13 @@ const stationsData = [
         }
     },
     {
-        "id": 715,
+        "id": 674,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
         "address": "Kuršėnai, Vilniaus g. 38A",
-        "lat": 55.999999538064,
-        "lng": 22.947706460463,
+        "lat": 55.924038897212,
+        "lng": 23.341152692937,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10736,13 +10121,13 @@ const stationsData = [
         }
     },
     {
-        "id": 716,
+        "id": 675,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šiaulių",
         "address": "Kužiai, Draugystės g. 2",
-        "lat": 55.97913962136,
-        "lng": 23.136173637182,
+        "lat": 55.924315604346,
+        "lng": 23.318545410092,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10751,43 +10136,43 @@ const stationsData = [
         }
     },
     {
-        "id": 717,
+        "id": 676,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šilalės",
         "address": "Kuodaičių k.",
-        "lat": 55.566892394,
-        "lng": 22.171466133,
+        "lat": 55.564248336194,
+        "lng": 22.169493638973,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 718,
+        "id": 677,
         "name": "Viada",
         "logo": "🦌",
         "city": "Šilutės",
         "address": "Šilutė, Tilžės g. 59",
-        "lat": 55.343320265687,
-        "lng": 21.495586055766,
+        "lat": 55.342872662164,
+        "lng": 21.496699108508,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 719,
+        "id": 678,
         "name": "Viada",
         "logo": "🦌",
         "city": "Širvintų",
         "address": "Širvintos, Plento g. 4",
-        "lat": 55.023811578296,
-        "lng": 24.674257479922,
+        "lat": 55.045695805478,
+        "lng": 24.942563876949,
         "prices": {
             "A95": 1.899,
             "A98": null,
@@ -10796,7 +10181,7 @@ const stationsData = [
         }
     },
     {
-        "id": 720,
+        "id": 679,
         "name": "Viada",
         "logo": "🦌",
         "city": "Švenčionių",
@@ -10811,7 +10196,7 @@ const stationsData = [
         }
     },
     {
-        "id": 721,
+        "id": 680,
         "name": "Viada",
         "logo": "🦌",
         "city": "Švenčionių",
@@ -10826,7 +10211,7 @@ const stationsData = [
         }
     },
     {
-        "id": 722,
+        "id": 681,
         "name": "Viada",
         "logo": "🦌",
         "city": "Švenčionių",
@@ -10834,14 +10219,14 @@ const stationsData = [
         "lat": 54.975086359761,
         "lng": 25.744879565083,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.059,
             "LPG": 0.959
         }
     },
     {
-        "id": 723,
+        "id": 682,
         "name": "Viada",
         "logo": "🦌",
         "city": "Švenčionių",
@@ -10856,7 +10241,7 @@ const stationsData = [
         }
     },
     {
-        "id": 724,
+        "id": 683,
         "name": "Viada",
         "logo": "🦌",
         "city": "Tauragės",
@@ -10864,14 +10249,14 @@ const stationsData = [
         "lat": 55.266248027452,
         "lng": 22.310768152732,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": 0.929
         }
     },
     {
-        "id": 725,
+        "id": 684,
         "name": "Viada",
         "logo": "🦌",
         "city": "Tauragės",
@@ -10879,14 +10264,14 @@ const stationsData = [
         "lat": 55.240858907458,
         "lng": 22.305239868492,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.019,
             "LPG": 0.929
         }
     },
     {
-        "id": 726,
+        "id": 685,
         "name": "Viada",
         "logo": "🦌",
         "city": "Telšių",
@@ -10894,20 +10279,20 @@ const stationsData = [
         "lat": 55.993350341913,
         "lng": 22.240155647621,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.939
         }
     },
     {
-        "id": 727,
+        "id": 686,
         "name": "Viada",
         "logo": "🦌",
         "city": "Trakų",
         "address": "Aukštųjų Semeniukų k., Logistikos g. 9",
-        "lat": 54.710090315,
-        "lng": 25.003616984,
+        "lat": 54.701967576846,
+        "lng": 25.009346355223,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10916,7 +10301,7 @@ const stationsData = [
         }
     },
     {
-        "id": 728,
+        "id": 687,
         "name": "Viada",
         "logo": "🦌",
         "city": "Ukmergės",
@@ -10926,12 +10311,12 @@ const stationsData = [
         "prices": {
             "A95": 1.929,
             "A98": null,
-            "Diesel": 2.039,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 729,
+        "id": 688,
         "name": "Viada",
         "logo": "🦌",
         "city": "Ukmergės",
@@ -10946,13 +10331,13 @@ const stationsData = [
         }
     },
     {
-        "id": 730,
+        "id": 689,
         "name": "Viada",
         "logo": "🦌",
         "city": "Ukmergės",
         "address": "Šventupės k., Beržų g. 13",
-        "lat": 55.608325649802,
-        "lng": 25.444880605417,
+        "lat": 55.233191100624,
+        "lng": 24.729226748991,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -10961,7 +10346,7 @@ const stationsData = [
         }
     },
     {
-        "id": 731,
+        "id": 690,
         "name": "Viada",
         "logo": "🦌",
         "city": "Utenos",
@@ -10969,14 +10354,14 @@ const stationsData = [
         "lat": 55.497023447182,
         "lng": 25.630736232563,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 732,
+        "id": 691,
         "name": "Viada",
         "logo": "🦌",
         "city": "Utenos",
@@ -10984,14 +10369,14 @@ const stationsData = [
         "lat": 55.490085829743,
         "lng": 25.650927482942,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 733,
+        "id": 692,
         "name": "Viada",
         "logo": "🦌",
         "city": "Utenos",
@@ -10999,20 +10384,20 @@ const stationsData = [
         "lat": 55.478130553606,
         "lng": 25.581893374017,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 734,
+        "id": 693,
         "name": "Viada",
         "logo": "🦌",
         "city": "Varėnos",
         "address": "Valkininkai, Vilniaus g. 6",
-        "lat": 54.257165454791,
-        "lng": 24.547759362529,
+        "lat": 54.256778421931,
+        "lng": 24.547881933184,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -11021,13 +10406,13 @@ const stationsData = [
         }
     },
     {
-        "id": 735,
+        "id": 694,
         "name": "Viada",
         "logo": "🦌",
         "city": "Elektrėnų",
         "address": "Vievis, Kauno g. 26A",
-        "lat": 54.771166515896,
-        "lng": 24.820912957574,
+        "lat": 54.770963566609,
+        "lng": 24.822760019376,
         "prices": {
             "A95": 1.999,
             "A98": null,
@@ -11036,7 +10421,7 @@ const stationsData = [
         }
     },
     {
-        "id": 736,
+        "id": 695,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilkaviškio",
@@ -11044,14 +10429,14 @@ const stationsData = [
         "lat": 54.647676606964,
         "lng": 23.029109576265,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.019,
+            "Diesel": 1.999,
             "LPG": 0.929
         }
     },
     {
-        "id": 737,
+        "id": 696,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11059,14 +10444,14 @@ const stationsData = [
         "lat": 54.763935573755,
         "lng": 25.196646184286,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.989,
             "LPG": 0.859
         }
     },
     {
-        "id": 738,
+        "id": 697,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11074,20 +10459,50 @@ const stationsData = [
         "lat": 54.735759931959,
         "lng": 25.258443525647,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.969,
             "LPG": 0.899
         }
     },
     {
-        "id": 739,
+        "id": 698,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
         "address": "Vilnius, Dariaus ir Girėno g. 30A",
         "lat": 54.652974807961,
         "lng": 25.27210971586,
+        "prices": {
+            "A95": 1.959,
+            "A98": null,
+            "Diesel": 2.029,
+            "LPG": 0.959
+        }
+    },
+    {
+        "id": 699,
+        "name": "Viada",
+        "logo": "🦌",
+        "city": "Vilnius",
+        "address": "Vilnius, Gariūnų g. 16A",
+        "lat": 54.667292733056,
+        "lng": 25.173851263325,
+        "prices": {
+            "A95": 1.919,
+            "A98": null,
+            "Diesel": 2.019,
+            "LPG": 0.959
+        }
+    },
+    {
+        "id": 700,
+        "name": "Viada",
+        "logo": "🦌",
+        "city": "Vilnius",
+        "address": "Vilnius, Grigiškės, Kovo 11-osios g. 75",
+        "lat": 54.669217427573,
+        "lng": 25.104870630943,
         "prices": {
             "A95": 1.969,
             "A98": null,
@@ -11096,37 +10511,7 @@ const stationsData = [
         }
     },
     {
-        "id": 740,
-        "name": "Viada",
-        "logo": "🦌",
-        "city": "Vilnius",
-        "address": "Vilnius, Gariūnų g. 16A",
-        "lat": 54.667292733056,
-        "lng": 25.173851263325,
-        "prices": {
-            "A95": 1.939,
-            "A98": null,
-            "Diesel": 2.039,
-            "LPG": 0.959
-        }
-    },
-    {
-        "id": 741,
-        "name": "Viada",
-        "logo": "🦌",
-        "city": "Vilnius",
-        "address": "Vilnius, Grigiškės, Kovo 11-osios g. 75",
-        "lat": 54.669217427573,
-        "lng": 25.104870630943,
-        "prices": {
-            "A95": 1.999,
-            "A98": null,
-            "Diesel": 2.079,
-            "LPG": 0.959
-        }
-    },
-    {
-        "id": 742,
+        "id": 701,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11134,14 +10519,14 @@ const stationsData = [
         "lat": 54.703261616967,
         "lng": 25.219452839913,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.959,
             "LPG": null
         }
     },
     {
-        "id": 743,
+        "id": 702,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11149,14 +10534,14 @@ const stationsData = [
         "lat": 54.633287938607,
         "lng": 25.150721401512,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 744,
+        "id": 703,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11164,14 +10549,14 @@ const stationsData = [
         "lat": 54.674321922788,
         "lng": 25.222678866807,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 745,
+        "id": 704,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11179,14 +10564,14 @@ const stationsData = [
         "lat": 54.647477285307,
         "lng": 25.304044264045,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 746,
+        "id": 705,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11194,14 +10579,14 @@ const stationsData = [
         "lat": 54.671251883112,
         "lng": 25.261812380171,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 747,
+        "id": 706,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11211,12 +10596,12 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 748,
+        "id": 707,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11224,29 +10609,29 @@ const stationsData = [
         "lat": 54.68191114938,
         "lng": 25.314034235344,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.049,
             "LPG": 0.959
         }
     },
     {
-        "id": 749,
+        "id": 708,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
         "address": "Vilnius, Ozo g. 12",
-        "lat": 54.701609712,
-        "lng": 25.266350902,
+        "lat": 54.713801315387,
+        "lng": 25.277101893573,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.019,
             "LPG": 0.959
         }
     },
     {
-        "id": 750,
+        "id": 709,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11254,14 +10639,14 @@ const stationsData = [
         "lat": 54.702859453253,
         "lng": 25.203955539132,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 751,
+        "id": 710,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11269,14 +10654,14 @@ const stationsData = [
         "lat": 54.70147291883,
         "lng": 25.203324884737,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 752,
+        "id": 711,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11284,29 +10669,29 @@ const stationsData = [
         "lat": 54.699353177426,
         "lng": 25.259829724794,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.059,
+            "Diesel": 1.999,
             "LPG": 0.959
         }
     },
     {
-        "id": 753,
+        "id": 712,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
         "address": "Vilnius, Sodų g. 22",
-        "lat": 54.670597033162,
-        "lng": 25.080054123688,
+        "lat": 54.670655091605,
+        "lng": 25.281856192873,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.029,
             "LPG": 0.959
         }
     },
     {
-        "id": 754,
+        "id": 713,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11314,14 +10699,14 @@ const stationsData = [
         "lat": 54.720352233723,
         "lng": 25.295702761643,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 1.949,
             "LPG": null
         }
     },
     {
-        "id": 755,
+        "id": 714,
         "name": "Viada",
         "logo": "🦌",
         "city": "Vilnius",
@@ -11329,14 +10714,14 @@ const stationsData = [
         "lat": 54.665005395499,
         "lng": 25.246318348332,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.069,
+            "Diesel": 2.029,
             "LPG": null
         }
     },
     {
-        "id": 756,
+        "id": 715,
         "name": "Viada",
         "logo": "🦌",
         "city": "Visagino",
@@ -11344,14 +10729,14 @@ const stationsData = [
         "lat": 55.594458838736,
         "lng": 26.438903159666,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 757,
+        "id": 716,
         "name": "Viada",
         "logo": "🦌",
         "city": "Visagino",
@@ -11359,14 +10744,14 @@ const stationsData = [
         "lat": 55.594871018825,
         "lng": 26.456513119143,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 1.999,
             "LPG": 0.899
         }
     },
     {
-        "id": 758,
+        "id": 717,
         "name": "Viada",
         "logo": "🦌",
         "city": "Zarasų",
@@ -11381,7 +10766,7 @@ const stationsData = [
         }
     },
     {
-        "id": 759,
+        "id": 718,
         "name": "Vildega",
         "logo": "⛽",
         "city": "Vilkaviškio",
@@ -11389,14 +10774,14 @@ const stationsData = [
         "lat": 54.643311144152,
         "lng": 23.053135044432,
         "prices": {
-            "A95": 1.859,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 1.939,
+            "Diesel": 1.899,
             "LPG": 0.85
         }
     },
     {
-        "id": 760,
+        "id": 719,
         "name": "Vimijula",
         "logo": "⛽",
         "city": "Jonavos",
@@ -11411,7 +10796,7 @@ const stationsData = [
         }
     },
     {
-        "id": 761,
+        "id": 720,
         "name": "Virši",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -11426,7 +10811,7 @@ const stationsData = [
         }
     },
     {
-        "id": 762,
+        "id": 721,
         "name": "Visvilas",
         "logo": "⛽",
         "city": "Mažeikių",
@@ -11441,7 +10826,7 @@ const stationsData = [
         }
     },
     {
-        "id": 763,
+        "id": 722,
         "name": "Vlantana",
         "logo": "⛽",
         "city": "Klaipėda",
@@ -11451,12 +10836,12 @@ const stationsData = [
         "prices": {
             "A95": 1.79,
             "A98": null,
-            "Diesel": 1.89,
+            "Diesel": 1.88,
             "LPG": null
         }
     },
     {
-        "id": 764,
+        "id": 723,
         "name": "VVARFF (Circle K)",
         "logo": "🔴",
         "city": "Plungės",
@@ -11471,7 +10856,7 @@ const stationsData = [
         }
     },
     {
-        "id": 765,
+        "id": 724,
         "name": "Žibalas",
         "logo": "⛽",
         "city": "Jonavos",
@@ -11479,9 +10864,9 @@ const stationsData = [
         "lat": 55.070245320311,
         "lng": 24.293809404831,
         "prices": {
-            "A95": 1.96,
+            "A95": 1.92,
             "A98": null,
-            "Diesel": 2.05,
+            "Diesel": 2.02,
             "LPG": 0.91
         }
     }
