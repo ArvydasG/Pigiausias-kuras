@@ -38,12 +38,12 @@ def save_cache():
 
 def geocode_address(address, city):
     """Fetches coordinates for a given address using ArcGIS Geocoding API."""
-    clean_address = address.replace('\\xa0', ' ').replace('\\u200b', '').strip()
+    clean_address = address.replace('\xa0', ' ').replace('\u200b', '').replace(chr(0x200B), '').strip()
     search_query = f"{clean_address}, {city}, Lietuva"
     if search_query in coords_cache:
         return coords_cache[search_query]
         
-    print(f"Ieskoma koordinaciu su ArcGIS: {search_query}...")
+    print(f"Ieskoma koordinaciu su ArcGIS: {search_query.encode('cp1257', 'ignore').decode('cp1257')}...")
     
     url = "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
     params = {
@@ -127,12 +127,12 @@ def fetch_data():
     wb = openpyxl.load_workbook(temp_file, data_only=True)
     sheet = wb.active
     
-    stations = []
+    stations_dict = {}
     
     # Find the header row index
     header_row_idx = None
     for idx, row in enumerate(sheet.iter_rows(values_only=True), start=1):
-        if row[0] and str(row[0]).strip().lower() == "data":
+        if row[0] and str(row[0]).strip().lower() == "įmonė":
             header_row_idx = idx
             break
             
@@ -141,20 +141,20 @@ def fetch_data():
         return
         
     # Iterate through rows below the header
-    count = 0
     for row in sheet.iter_rows(min_row=header_row_idx + 1, values_only=True):
-        if not row[1]: # No company name means end of data or empty row
+        if not row[0]: # No company name means end of data or empty row
             continue
             
-        name = str(row[1]).strip()
-        city = str(row[2]).strip().replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
-        address = str(row[3]).strip()
+        name = str(row[0]).strip()
+        raw_city = str(row[1]).strip()
+        city = raw_city.replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
+        address = str(row[2]).strip()
+        fuel_type_raw = str(row[3]).strip()
         
         def extract_price(val):
             if val is None:
                 return None
             try:
-                # Replace comma with dot if string
                 if isinstance(val, str):
                     val = val.replace(',', '.').strip()
                     if val.lower() == 'neprekiauja' or val == '-' or not val:
@@ -163,47 +163,57 @@ def fetch_data():
             except ValueError:
                 return None
                 
-        price_a95 = extract_price(row[4])
-        price_diesel = extract_price(row[5])
-        price_lpg = extract_price(row[6])
-        
-        if price_a95 is None and price_diesel is None and price_lpg is None:
+        price = extract_price(row[4])
+        if price is None:
             continue
             
-        display_city = city.replace("Vilniaus", "Vilnius").replace("Kauno", "Kaunas").replace("Klaipėdos", "Klaipėda")
-        
-        coords = geocode_address(address, display_city)
+        key = (name, raw_city, address)
+        if key not in stations_dict:
+            display_city = city.replace("Vilniaus", "Vilnius").replace("Kauno", "Kaunas").replace("Klaipėdos", "Klaipėda")
             
-        # Determine logo emoji
-        logo = "⛽"
-        name_lower = name.lower()
-        if "circle k" in name_lower: logo = "🔴"
-        elif "viada" in name_lower: logo = "🦌"
-        elif "neste" in name_lower: logo = "🟢"
-        elif "baltic petroleum" in name_lower: logo = "🔵"
-        elif "emsi" in name_lower: logo = "🛢️"
-        elif "jozita" in name_lower: logo = "🟡"
-        elif "saurida" in name_lower: logo = "🔥"
-        elif "orlen" in name_lower: logo = "🦅"
-            
-        station = {
-            "id": count + 1,
-            "name": name,
-            "logo": logo,
-            "city": display_city,
-            "address": address,
-            "lat": coords["lat"],
-            "lng": coords["lng"],
-            "prices": {
-                "A95": price_a95,
-                "A98": None, # LEA does not track A98
-                "Diesel": price_diesel,
-                "LPG": price_lpg
+            # Geocode using the raw city name (e.g. 'Kauno r. sav.') so ArcGIS doesn't confuse it with the city center
+            coords = geocode_address(address, raw_city)
+                
+            # Determine logo emoji
+            logo = "⛽"
+            name_lower = name.lower()
+            if "circle k" in name_lower: logo = "🔴"
+            elif "viada" in name_lower: logo = "🦌"
+            elif "neste" in name_lower: logo = "🟢"
+            elif "baltic petroleum" in name_lower: logo = "🔵"
+            elif "emsi" in name_lower: logo = "🛢️"
+            elif "jozita" in name_lower: logo = "🟡"
+            elif "saurida" in name_lower: logo = "🔥"
+            elif "orlen" in name_lower: logo = "🦅"
+                
+            stations_dict[key] = {
+                "name": name,
+                "logo": logo,
+                "city": display_city,
+                "address": address,
+                "lat": coords["lat"],
+                "lng": coords["lng"],
+                "prices": {
+                    "A95": None,
+                    "A98": None,
+                    "Diesel": None,
+                    "LPG": None
+                }
             }
-        }
-        stations.append(station)
+            
+        if fuel_type_raw == '95 benzinas':
+            stations_dict[key]["prices"]["A95"] = price
+        elif fuel_type_raw == 'Dyzelinas':
+            stations_dict[key]["prices"]["Diesel"] = price
+        elif fuel_type_raw == 'SND':
+            stations_dict[key]["prices"]["LPG"] = price
+
+    stations = []
+    count = 0
+    for key, st in stations_dict.items():
+        st["id"] = count + 1
+        stations.append(st)
         count += 1
-        
         # Save cache every 10 items
         if count % 10 == 0:
             save_cache()
