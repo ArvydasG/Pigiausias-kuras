@@ -27,6 +27,16 @@ import openpyxl
 DATA_FILE = "data.js"
 CACHE_FILE = "coords_cache.json"
 
+# Load previous lastUpdated if available
+old_last_updated = "Nežinoma"
+if os.path.exists(DATA_FILE):
+    import re
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        content = f.read()
+        match = re.search(r"const lastUpdated\s*=\s*'([^']+)';", content)
+        if match:
+            old_last_updated = match.group(1)
+
 # Load coordinate cache
 coords_cache = {}
 if os.path.exists(CACHE_FILE):
@@ -141,11 +151,20 @@ def fetch_data():
         print("Nepavyko rasti duomenų antraštės Excel faile.")
         return
         
+    latest_date = None
+
     # Iterate through rows below the header
     for row in sheet.iter_rows(min_row=header_row_idx + 1, values_only=True):
         if not row[0]: # No company name means end of data or empty row
             continue
             
+        date_val = row[5]
+        if date_val:
+            date_str = str(date_val).strip()
+            if date_str != 'None' and date_str:
+                if latest_date is None or date_str > latest_date:
+                    latest_date = date_str
+                    
         name = str(row[0]).strip()
         raw_city = str(row[1]).strip()
         city = raw_city.replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
@@ -226,7 +245,10 @@ def fetch_data():
     save_cache()
     
     # Final Save to data.js
-    now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if latest_date:
+        now_str = latest_date
+    else:
+        now_str = old_last_updated
     js_content = f"// Automatiškai sugeneruoti duomenys iš LEA Excel\nconst lastUpdated = '{now_str}';\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(js_content)
