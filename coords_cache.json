@@ -6042,5 +6042,25 @@
     "Jonava, Taurostos g. 16A, 55195, Jonavos r. sav., Lietuva": {
         "lat": 55.067041453471,
         "lng": 24.289473809437
+    },
+    "Igliauka, Prienų g. 7, 69117, Marijampolės sav., Lietuva": {
+        "lat": 54.557938484735,
+        "lng": 23.656260503296
+    },
+    "Mažeikiai, Sedos g. 16, 89233, Mažeikių r. sav., Lietuva": {
+        "lat": 56.305861345635,
+        "lng": 22.342528608787
+    },
+    "Šiauliai, Žemaitės g. 131c, 76175, Šiaulių m. sav., Lietuva": {
+        "lat": 55.948087603761,
+        "lng": 23.320481378269
+    },
+    "Šiauliai, Bačiūnų g. 12a, 77109, Šiaulių m. sav., Lietuva": {
+        "lat": 55.897986328182,
+        "lng": 23.352088277858
+    },
+    "Gruzdžiai, M. Katiliškio g. 50, 81428, Šiaulių r. sav., Lietuva": {
+        "lat": 56.099315074319,
+        "lng": 23.265858191655
     }
 }
