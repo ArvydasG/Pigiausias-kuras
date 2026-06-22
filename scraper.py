@@ -4,6 +4,7 @@ import json
 import time
 import subprocess
 import random
+import datetime
 
 def ensure_packages():
     required = {"requests", "beautifulsoup4", "openpyxl"}
@@ -225,7 +226,8 @@ def fetch_data():
     save_cache()
     
     # Final Save to data.js
-    js_content = f"// Automatiškai sugeneruoti duomenys iš LEA Excel\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
+    now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    js_content = f"// Automatiškai sugeneruoti duomenys iš LEA Excel\nconst lastUpdated = '{now_str}';\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(js_content)
         

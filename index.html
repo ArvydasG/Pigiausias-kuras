@@ -35,6 +35,9 @@
                         <button id="use-gps-btn" class="fuel-btn"
                             style="flex: 0 0 auto; padding: 0 16px; background: var(--danger-color); color: #111; font-weight: bold; border: 2px solid #111; border-radius: var(--border-radius); font-size: 16px; box-shadow: 2px 2px 0 #111;"
                             title="Rasti pagal GPS">GPS</button>
+                        <button id="refresh-btn" class="fuel-btn"
+                            style="flex: 0 0 auto; padding: 0 12px; background: #333; color: white; border: 2px solid #111; border-radius: var(--border-radius); font-size: 20px; box-shadow: 2px 2px 0 #111;"
+                            title="Atnaujinti duomenis">🔄</button>
                         <button id="open-settings-btn" class="fuel-btn"
                             style="flex: 0 0 auto; padding: 0 12px; background: #333; color: white; border: 2px solid #111; border-radius: var(--border-radius); font-size: 20px; box-shadow: 2px 2px 0 #111;"
                             title="Nustatymai">⚙️</button>
@@ -121,7 +124,7 @@
         </main>
         
         <footer class="app-footer">
-            <p>Duomenys: Lietuvos Energetikos Agentūra (LEA).<br>Visos teisės saugomos &copy; 2026</p>
+            <p>Duomenys: Lietuvos Energetikos Agentūra (LEA).<br>Atnaujinta: <span id="last-updated-text">---</span><br>Visos teisės saugomos &copy; 2026</p>
         </footer>
     </div>
     <!-- Settings Modal -->

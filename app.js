@@ -24,6 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const addressInput = document.getElementById('address-input');
     const searchAddressBtn = document.getElementById('search-address-btn');
     const navAppSelect = document.getElementById('nav-app-select');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const lastUpdatedText = document.getElementById('last-updated-text');
     
     const settingsModal = document.getElementById('settings-modal');
     const openSettingsBtn = document.getElementById('open-settings-btn');
@@ -161,6 +163,16 @@ document.addEventListener('DOMContentLoaded', () => {
             findCheapestFuel();
         }
     });
+
+    if (refreshBtn) {
+        refreshBtn.addEventListener('click', () => {
+            window.location.reload();
+        });
+    }
+
+    if (lastUpdatedText && typeof lastUpdated !== 'undefined') {
+        lastUpdatedText.textContent = lastUpdated;
+    }
 
     // Populate cities dynamically
     const uniqueCities = [...new Set(stationsData.map(s => s.city))].sort();
