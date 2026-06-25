@@ -2,10 +2,9 @@ name: Automatinis kuro kainu atnaujinimas
 
 on:
   schedule:
-    # Vasaros laiku (Balandis - Spalis, UTC+3) 10:15, 12:15, 14:15, 16:15 LT
-    - cron: '15 7,9,11,13 * 4,5,6,7,8,9,10 *'
-    # Žiemos laiku (Lapkritis - Kovas, UTC+2) 10:15, 12:15, 14:15, 16:15 LT
-    - cron: '15 8,10,12,14 * 1,2,3,11,12 *'
+    # Paleidžiama kiekvieną dieną 10:15, 12:00, 14:00, 16:00, 18:00 Lietuvos laiku (UTC yra 3 valandom atgal)
+    - cron: '15 7 * * *'
+    - cron: '0 9,11,13,15 * * *'
   workflow_dispatch: # Leidžia paleisti veiksmą rankiniu būdu iš GitHub
 
 permissions:
