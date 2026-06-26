@@ -6082,5 +6082,17 @@
     "Slavinčiškis, Slavinčiškio g. 18, 40333, Kupiškio r. sav., Lietuva": {
         "lat": 55.832444245849,
         "lng": 25.020037305085
+    },
+    "Skaistgirys, Liepų g. 22, 84380, Joniškio r. sav., Lietuva": {
+        "lat": 56.281213940252,
+        "lng": 23.744374338418
+    },
+    "Gėlių g. 25, Marijampolė, Marijampolės sav., Lietuva": {
+        "lat": 54.551733277995,
+        "lng": 23.359057327434
+    },
+    "Osijos k., Pamiškės g. 1, 70205, Vilkaviškio r. sav., Lietuva": {
+        "lat": 54.636557886673,
+        "lng": 23.006510372742
     }
 }
