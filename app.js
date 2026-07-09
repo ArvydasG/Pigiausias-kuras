@@ -604,10 +604,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Sort by calculated price ascending, then by distance
         availableStations.sort((a, b) => {
-            if (a.calculatedPrices[selectedFuel] === b.calculatedPrices[selectedFuel]) {
+            const priceA = a.calculatedPrices[selectedFuel] === 0 ? Infinity : a.calculatedPrices[selectedFuel];
+            const priceB = b.calculatedPrices[selectedFuel] === 0 ? Infinity : b.calculatedPrices[selectedFuel];
+            if (priceA === priceB) {
                 return a.distance - b.distance;
             }
-            return a.calculatedPrices[selectedFuel] - b.calculatedPrices[selectedFuel];
+            return priceA - priceB;
         });
 
         const cheapest = availableStations[0];
@@ -640,17 +642,21 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsContainer.classList.remove('hidden');
 
         function formatPriceHTML(station) {
-            if (selectedFuel === 'Elektra') {
-                const statusText = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
-                return `<div style="font-size: 14px; font-weight: bold; color: ${station.ev_status === 'Laisva' ? 'var(--success-color)' : 'var(--text-secondary)'};">${statusText}</div>
-                        <div style="font-size: 11px; color: #666; margin-top: 4px;">${station.ev_connectors || ''}</div>`;
-            }
             const finalPrice = station.calculatedPrices[selectedFuel].toFixed(2);
             const discountCt = station.appliedDiscounts[selectedFuel] * 100;
-            let html = `<div class="price-value">${finalPrice}</div><div class="price-currency">€ / L</div>`;
+            const currencyStr = selectedFuel === 'Elektra' ? '€ / kWh' : '€ / L';
+            
+            let html = `<div class="price-value">${finalPrice}</div><div class="price-currency">${currencyStr}</div>`;
             if (discountCt > 0) {
                 html += `<div style="font-size: 11px; color: var(--success-color); margin-top: 4px; font-family: 'Share Tech Mono';">(-${discountCt.toFixed(1)} ct)</div>`;
             }
+            
+            if (selectedFuel === 'Elektra') {
+                const statusText = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
+                html += `<div style="font-size: 11px; font-weight: bold; color: ${station.ev_status === 'Laisva' ? 'var(--success-color)' : 'var(--text-secondary)'}; margin-top: 4px;">${statusText}</div>
+                        <div style="font-size: 10px; color: #666; margin-top: 2px;">${station.ev_connectors || ''}</div>`;
+            }
+            
             return html;
         }
 
@@ -748,11 +754,15 @@ document.addEventListener('DOMContentLoaded', () => {
             .addTo(map)
             .bindPopup(`<b>${t('your_location')}</b><br>${t('tracked_live')}`);
 
+        const nonZeroOthers = others.filter(s => s.calculatedPrices[selectedFuel] > 0);
         const minPrice = parseFloat(cheapest.calculatedPrices[selectedFuel]);
-        const maxPrice = others.length > 0 ? parseFloat(others[others.length - 1].calculatedPrices[selectedFuel]) : minPrice;
+        const maxPrice = nonZeroOthers.length > 0 ? parseFloat(nonZeroOthers[nonZeroOthers.length - 1].calculatedPrices[selectedFuel]) : minPrice;
         
         function getPriceStyle(priceVal) {
             const price = parseFloat(priceVal);
+            if (price === 0) {
+                return { bg: '#2196F3', color: 'white' }; // Blue for zero/unknown
+            }
             if (minPrice === maxPrice) {
                 return { bg: 'var(--success-color)', color: 'white' };
             }
@@ -768,7 +778,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Cheapest Station Marker
         const cheapestStatus = cheapest.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
-        const cStyle = selectedFuel === 'Elektra' ? (cheapest.ev_status === 'Laisva' ? {bg: 'var(--success-color)', color: 'white'} : {bg: '#666', color: 'white'}) : getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
+        const cStyle = getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
         const cDiscount = cheapest.appliedDiscounts[selectedFuel] * 100;
         const cDiscountBadge = cDiscount > 0 ? `<div style="font-size: 10px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -12px; white-space: nowrap;">-${cDiscount.toFixed(1)} ct</div>` : '';
         
@@ -777,7 +787,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
                     ${cDiscountBadge}
                     <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 14px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -4px; z-index: 2;">
-                        ${selectedFuel === 'Elektra' ? cheapestStatus : cheapest.calculatedPrices[selectedFuel].toFixed(2) + ' €'}
+                        ${cheapest.calculatedPrices[selectedFuel].toFixed(2) + ' €'}
                     </div>
                     <div style="${iconStyle}; font-size: 30px; z-index: 1;">${selectedFuel === 'Elektra' ? '⚡' : '🔥'}</div>
                 </div>
@@ -802,8 +812,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Other Stations Markers
         others.forEach(station => {
-            const price = selectedFuel === 'Elektra' ? (station.ev_status === 'Laisva' ? 0 : 1) : station.calculatedPrices[selectedFuel];
-            const pStyle = selectedFuel === 'Elektra' ? (station.ev_status === 'Laisva' ? {bg: 'var(--success-color)', color: 'white'} : {bg: '#666', color: 'white'}) : getPriceStyle(price);
+            const price = station.calculatedPrices[selectedFuel];
+            const pStyle = getPriceStyle(price);
             const stationStatus = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
             
             const sDiscount = station.appliedDiscounts[selectedFuel] * 100;
@@ -814,7 +824,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
                         ${sDiscountBadge}
                         <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 12px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -2px; z-index: 2;">
-                            ${selectedFuel === 'Elektra' ? stationStatus : price.toFixed(2) + ' €'}
+                            ${price.toFixed(2) + ' €'}
                         </div>
                         <div style="${iconStyle}; font-size: 18px; filter: grayscale(20%); z-index: 1;">${station.logo}</div>
                     </div>
