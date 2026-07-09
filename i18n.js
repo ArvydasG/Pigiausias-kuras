@@ -1,7 +1,7 @@
 const translations = {
     lt: {
         // HTML static texts
-        "app_title": "🚧 Pigiausias Kuras 🚧",
+        "app_title": "PIGIAUSIAS KURAS",
         "app_subtitle": "Raskite geriausią kainą savo mieste",
         "label_location": "Įveskite lokaciją, arba nustatykite pagal Gps",
         "btn_gps": "GPS",
@@ -68,7 +68,7 @@ const translations = {
     },
     en: {
         // HTML static texts
-        "app_title": "🚧 Cheapest Fuel 🚧",
+        "app_title": "CHEAPEST FUEL",
         "app_subtitle": "Find the best price in your city",
         "label_location": "Select location, or use GPS",
         "btn_gps": "GPS",
@@ -146,7 +146,7 @@ function changeLanguage(lang) {
         document.documentElement.lang = lang;
         
         // Update language button styles if exist
-        document.querySelectorAll('.lang-btn').forEach(btn => {
+        document.querySelectorAll('.lang-btn, .flag-btn').forEach(btn => {
             if (btn.dataset.lang === lang) {
                 btn.classList.add('active');
             } else {
@@ -182,9 +182,9 @@ document.addEventListener('DOMContentLoaded', () => {
     changeLanguage(currentLang);
     
     // Bind lang buttons
-    document.querySelectorAll('.lang-btn').forEach(btn => {
+    document.querySelectorAll('.lang-btn, .flag-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            changeLanguage(e.target.dataset.lang);
+            changeLanguage(e.currentTarget.dataset.lang);
         });
     });
 });
