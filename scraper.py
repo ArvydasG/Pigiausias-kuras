@@ -43,6 +43,7 @@ if os.path.exists(CACHE_FILE):
     with open(CACHE_FILE, "r", encoding="utf-8") as f:
         coords_cache = json.load(f)
 
+
 def save_cache():
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(coords_cache, f, ensure_ascii=False, indent=4)
@@ -160,7 +161,13 @@ def fetch_data():
             
         date_val = row[5]
         if date_val:
-            date_str = str(date_val).strip()
+            if isinstance(date_val, datetime.datetime):
+                date_str = date_val.strftime('%Y-%m-%d')
+            else:
+                date_str = str(date_val).strip()
+                if ' ' in date_str:
+                    date_str = date_str.split(' ')[0] # Remove 00:00:00
+            
             if date_str != 'None' and date_str:
                 if latest_date is None or date_str > latest_date:
                     latest_date = date_str

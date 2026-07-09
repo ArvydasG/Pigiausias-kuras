@@ -1,4 +1,57 @@
 document.addEventListener('DOMContentLoaded', () => {
+    function normalizeCityName(city) {
+        if (!city) return "Nežinoma";
+        
+        // Paimame tik pirmą dalį iki kablelio (nukerpame ", Kauno r." ir pan.)
+        let c = city.split(',')[0].trim();
+        
+        // Nukerpame žinomus priedus (nepaisant didžiųjų/mažųjų raidžių)
+        c = c.replace(/ m\. sav\./gi, "")
+             .replace(/ r\. sav\./gi, "")
+             .replace(/ sav\./gi, "")
+             .replace(/ apskr\./gi, "")
+             .replace(/ apskritis/gi, "")
+             .replace(/ raj\./gi, "")
+             .replace(/ r\./gi, "")
+             .replace(/ m\./gi, "")
+             .replace(/ km\./gi, "")
+             .replace(/ km/gi, "")
+             .replace(/ k\./gi, "")
+             .replace(/ kaimas/gi, "")
+             .replace(/ sen\./gi, "")
+             .replace(/\bkm\b/gi, "")
+             .replace(/\bk\b/gi, "")
+             .trim();
+             
+        const mappings = {
+            "Vilniaus": "Vilnius", "Kauno": "Kaunas", "Klaipėdos": "Klaipėda", "Šiaulių": "Šiauliai",
+            "Panevėžio": "Panevėžys", "Alytaus": "Alytus", "Marijampolės": "Marijampolė", "Mažeikių": "Mažeikiai",
+            "Jonavos": "Jonava", "Utenos": "Utena", "Kėdainių": "Kėdainiai", "Telšių": "Telšiai",
+            "Tauragės": "Tauragė", "Ukmergės": "Ukmergė", "Visagino": "Visaginas", "Plungės": "Plungė",
+            "Kretingos": "Kretinga", "Šilutės": "Šilutė", "Radviliškio": "Radviliškis", "Palangos": "Palanga",
+            "Gargždų": "Gargždai", "Druskininkų": "Druskininkai", "Rokiškio": "Rokiškis", "Elektrėnų": "Elektrėnai",
+            "Kuršėnų": "Kuršėnai", "Biržų": "Biržai", "Garliavos": "Garliava", "Jurbarko": "Jurbarkas",
+            "Vilkaviškio": "Vilkaviškis", "Raseinių": "Raseiniai", "Anykščių": "Anykščiai", "Lentvario": "Lentvaris",
+            "Grigiškių": "Grigiškės", "Naujosios Akmenės": "Naujoji Akmenė", "Akmenės": "Akmenė", "Prienų": "Prienai",
+            "Joniškio": "Joniškis", "Kelmės": "Kelmė", "Varėnos": "Varėna", "Kaišiadorių": "Kaišiadorys",
+            "Pasvalio": "Pasvalys", "Kupiškio": "Kupiškis", "Zarasų": "Zarasai", "Skuodo": "Skuodas",
+            "Kazlų Rūdos": "Kazlų Rūda", "Širvintų": "Širvintos", "Molėtų": "Molėtai", "Šalčininkų": "Šalčininkai",
+            "Šakių": "Šakiai", "Švenčionių": "Švenčionys", "Šilalės": "Šilalė", "Ignalinos": "Ignalina",
+            "Neringos": "Neringa", "Pakruojo": "Pakruojis", "Trakų": "Trakai", "Širvintos": "Širvintos",
+            "Birštono": "Birštonas", "Kalvarijos": "Kalvarija", "Lazdijų": "Lazdijai", "Pagėgių": "Pagėgiai", "Rietavo": "Rietavas",
+            "klaipeda": "Klaipėda", "Klaipeda": "Klaipėda", "Lapės. Kauno": "Lapės"
+        };
+        
+        return mappings[c] || c;
+    }
+
+    const allStationsRaw = typeof evStationsData !== 'undefined' ? stationsData.concat(evStationsData) : stationsData;
+    const allStations = allStationsRaw.map(s => ({
+        ...s,
+        rawCity: s.city,
+        city: normalizeCityName(s.city)
+    }));
+    
     // State variables
     let selectedFuel = 'A95';
     let userLocation = null; // Will be set after cities are loaded
@@ -82,11 +135,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="discount-controls">
                     <label>
                         <input type="radio" name="disc-${network.name.replace(/\s+/g, '-')}" value="auto" ${savedSetting.type === 'auto' ? 'checked' : ''}>
-                        Automatinė (${defaultDiscCt} ct/l)
+                        ${t('disc_auto')} (${defaultDiscCt} ct/l)
                     </label>
                     <label>
                         <input type="radio" name="disc-${network.name.replace(/\s+/g, '-')}" value="manual" ${savedSetting.type === 'manual' ? 'checked' : ''}>
-                        Įvesti ranka
+                        ${t('disc_manual')}
                     </label>
                     <div class="custom-discount-input ${savedSetting.type === 'auto' ? 'hidden' : ''}">
                         <input type="number" step="0.1" min="0" max="50" class="manual-disc-input" data-network="${network.name}" value="${savedSetting.customValue}">
@@ -125,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (saveSettingsBtn) {
-        saveSettingsBtn.addEventListener('click', () => {
+        saveSettingsBtn.addEventListener('click', (e) => {
             const selectedMode = document.querySelector('input[name="calc-mode"]:checked').value;
             calcMode = selectedMode;
             localStorage.setItem('calcMode', calcMode);
@@ -142,11 +195,20 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             localStorage.setItem('userDiscounts', JSON.stringify(userDiscounts));
             
-            settingsModal.classList.add('hidden');
+            const btn = e.target;
+            const originalText = btn.innerHTML;
+            btn.classList.add('saved');
+            btn.innerHTML = '✔ ' + t('btn_saved');
             
-            if (!resultsContainer.classList.contains('hidden')) {
-                findCheapestFuel();
-            }
+            setTimeout(() => {
+                settingsModal.classList.add('hidden');
+                btn.classList.remove('saved');
+                btn.innerHTML = originalText;
+                
+                if (!resultsContainer.classList.contains('hidden')) {
+                    findCheapestFuel();
+                }
+            }, 800);
         });
     }
 
@@ -175,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Populate cities dynamically
-    const uniqueCities = [...new Set(stationsData.map(s => s.city))].sort();
+    const uniqueCities = [...new Set(allStations.map(s => s.city))].sort();
     citySelect.innerHTML = '';
     uniqueCities.forEach(city => {
         const option = document.createElement('option');
@@ -187,9 +249,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set default city to Vilnius or the first available
     const defaultCity = uniqueCities.includes("Vilnius") ? "Vilnius" : uniqueCities[0];
     citySelect.value = defaultCity;
-    const defaultStation = stationsData.find(s => s.city === defaultCity);
-    if (defaultStation) {
-        userLocation = { lat: defaultStation.lat, lng: defaultStation.lng };
+    const stationsInDefaultCity = allStations.filter(s => s.city === defaultCity);
+    if (stationsInDefaultCity.length > 0) {
+        const sumLat = stationsInDefaultCity.reduce((sum, s) => sum + s.lat, 0);
+        const sumLng = stationsInDefaultCity.reduce((sum, s) => sum + s.lng, 0);
+        userLocation = { 
+            lat: sumLat / stationsInDefaultCity.length, 
+            lng: sumLng / stationsInDefaultCity.length 
+        };
     }
 
     // Event Listeners
@@ -205,9 +272,14 @@ document.addEventListener('DOMContentLoaded', () => {
         findBtn.classList.remove('hidden');
         
         const selectedCity = e.target.value;
-        const firstStationInCity = stationsData.find(s => s.city === selectedCity);
-        if (firstStationInCity) {
-            userLocation = { lat: firstStationInCity.lat, lng: firstStationInCity.lng };
+        const stationsInCity = allStations.filter(s => s.city === selectedCity);
+        if (stationsInCity.length > 0) {
+            const sumLat = stationsInCity.reduce((sum, s) => sum + s.lat, 0);
+            const sumLng = stationsInCity.reduce((sum, s) => sum + s.lng, 0);
+            userLocation = { 
+                lat: sumLat / stationsInCity.length, 
+                lng: sumLng / stationsInCity.length 
+            };
         }
         // Automatically search when city changes if results are already visible
         if (!resultsContainer.classList.contains('hidden')) {
@@ -277,34 +349,38 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             
-            const checked = Array.from(document.querySelectorAll('.network-cb:checked'));
-            if (checked.length === 0 || (checked.length === 1 && checked[0].value === 'all')) {
-                networkDropdownText.innerText = 'Visi tinklai';
-            } else if (checked.length === 1) {
-                networkDropdownText.innerText = checked[0].parentNode.textContent.trim();
-            } else {
-                networkDropdownText.innerText = `Pasirinkta: ${checked.length}`;
-            }
+            updateNetworkDropdownText();
 
             if (!resultsContainer.classList.contains('hidden')) {
                 findCheapestFuel();
             }
         }
     });
+    
+    function updateNetworkDropdownText() {
+        const checked = Array.from(document.querySelectorAll('.network-cb:checked'));
+        if (checked.length === 0 || (checked.length === 1 && checked[0].value === 'all')) {
+            networkDropdownText.innerText = t('net_all_text');
+        } else if (checked.length === 1) {
+            networkDropdownText.innerText = checked[0].parentNode.textContent.trim();
+        } else {
+            networkDropdownText.innerText = `${t('selected')} ${checked.length}`;
+        }
+    }
 
     toggleViewBtn.addEventListener('click', () => {
         isMapView = !isMapView;
         if (isMapView) {
             mapContainer.classList.remove('hidden');
             otherStationsList.classList.add('hidden');
-            toggleViewBtn.innerText = 'Rodyti sąrašą';
+            toggleViewBtn.innerText = t('btn_toggle_view_list');
             if (map) {
                 map.invalidateSize();
             }
         } else {
             mapContainer.classList.add('hidden');
             otherStationsList.classList.remove('hidden');
-            toggleViewBtn.innerText = 'Rodyti žemėlapį';
+            toggleViewBtn.innerText = t('btn_toggle_view_map');
         }
     });
 
@@ -402,14 +478,15 @@ document.addEventListener('DOMContentLoaded', () => {
     async function searchByAddress() {
         const address = addressInput.value.trim();
         const city = citySelect.value;
+        
+        let query;
         if (!address) {
-            alert("Prašome įvesti adresą.");
-            return;
+            // If no address is provided, search for the city center
+            query = encodeURIComponent(`${city}, Lithuania`);
+        } else {
+            query = encodeURIComponent(`${address}, ${city}, Lithuania`);
         }
 
-        // User is typing an address, leave the GPS button red
-
-        const query = encodeURIComponent(`${address}, ${city}, Lithuania`);
         try {
             const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
             if (!response.ok) throw new Error('Network error');
@@ -432,11 +509,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateCityFromLocation();
                 findCheapestFuel();
             } else {
-                alert("Adresas nerastas. Patikrinkite, ar teisingai įvedėte.");
+                alert(t('err_address_not_found'));
             }
         } catch (error) {
             console.error("Address search failed", error);
-            alert("Klaida ieškant adreso.");
+            alert(t('err_address_error'));
         }
     }
 
@@ -444,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!userLocation) return;
         let minDistance = Infinity;
         let closestCity = citySelect.value;
-        for(let station of stationsData) {
+        for(let station of allStations) {
             let dist = calculateDistance(userLocation.lat, userLocation.lng, station.lat, station.lng);
             if (dist < minDistance) {
                 minDistance = dist;
@@ -467,7 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
 
         // Add distance and apply discounts to each station
-        let availableStations = stationsData.map(station => {
+        let availableStations = allStations.map(station => {
             const dist = calculateDistance(userLocation.lat, userLocation.lng, station.lat, station.lng);
             
             let calculatedPrices = {};
@@ -521,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (availableStations.length === 0) {
-            alert('Atsiprašome, netoliese nėra degalinių su šiuo kuro tipu.');
+            alert(t('err_no_stations'));
             return;
         }
 
@@ -563,6 +640,11 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsContainer.classList.remove('hidden');
 
         function formatPriceHTML(station) {
+            if (selectedFuel === 'Elektra') {
+                const statusText = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
+                return `<div style="font-size: 14px; font-weight: bold; color: ${station.ev_status === 'Laisva' ? 'var(--success-color)' : 'var(--text-secondary)'};">${statusText}</div>
+                        <div style="font-size: 11px; color: #666; margin-top: 4px;">${station.ev_connectors || ''}</div>`;
+            }
             const finalPrice = station.calculatedPrices[selectedFuel].toFixed(2);
             const discountCt = station.appliedDiscounts[selectedFuel] * 100;
             let html = `<div class="price-value">${finalPrice}</div><div class="price-currency">€ / L</div>`;
@@ -578,8 +660,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="station-info">
                     <div class="station-logo">${cheapest.logo}</div>
                     <div class="station-details">
-                        <h4>${cheapest.name} <span class="distance-badge" title="Apytikslis atstumas tiesia linija">~ ${cheapest.distance.toFixed(1)} km</span></h4>
-                        <p>📍 ${cheapest.address}, ${cheapest.city}<br><span style="font-size: 10px; color: var(--primary-color);">Spauskite naviguoti</span></p>
+                        <h4>${cheapest.name} <span class="distance-badge" title="${t('approx_dist_title')}">~ ${cheapest.distance.toFixed(1)} km</span></h4>
+                        <p>📍 ${cheapest.address}, ${cheapest.city}<br><span style="font-size: 10px; color: var(--primary-color);">${t('click_to_navigate')}</span></p>
                     </div>
                 </div>
                 <div class="price-tag" style="text-align: right;">
@@ -609,14 +691,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     centerBtn.style.alignItems = 'center';
                     centerBtn.style.cursor = 'pointer';
                     centerBtn.style.fontSize = '18px';
-                    centerBtn.title = 'Auto-centravimas įjungtas';
+                    centerBtn.title = t('auto_center_on');
                     centerBtn.innerHTML = '🎯';
 
                     centerBtn.onclick = function(e) {
                         e.stopPropagation();
                         autoCenterMap = !autoCenterMap;
                         centerBtn.innerHTML = autoCenterMap ? '🎯' : '🔓';
-                        centerBtn.title = autoCenterMap ? 'Auto-centravimas įjungtas' : 'Auto-centravimas išjungtas';
+                        centerBtn.title = autoCenterMap ? t('auto_center_on') : t('auto_center_off');
                         if (autoCenterMap && usingGps && userLocation) {
                             map.panTo([userLocation.lat, userLocation.lng]);
                         }
@@ -631,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     autoCenterMap = false;
                     if (centerBtn) {
                         centerBtn.innerHTML = '🔓';
-                        centerBtn.title = 'Auto-centravimas išjungtas';
+                        centerBtn.title = t('auto_center_off');
                     }
                 }
             });
@@ -664,7 +746,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         userMarker = L.marker([userLocation.lat, userLocation.lng], {icon: userIcon, zIndexOffset: 1000})
             .addTo(map)
-            .bindPopup("<b>Jūsų vieta</b><br>Sekama gyvai");
+            .bindPopup(`<b>${t('your_location')}</b><br>${t('tracked_live')}`);
 
         const minPrice = parseFloat(cheapest.calculatedPrices[selectedFuel]);
         const maxPrice = others.length > 0 ? parseFloat(others[others.length - 1].calculatedPrices[selectedFuel]) : minPrice;
@@ -685,7 +767,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Cheapest Station Marker
-        const cStyle = getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
+        const cheapestStatus = cheapest.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
+        const cStyle = selectedFuel === 'Elektra' ? (cheapest.ev_status === 'Laisva' ? {bg: 'var(--success-color)', color: 'white'} : {bg: '#666', color: 'white'}) : getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
         const cDiscount = cheapest.appliedDiscounts[selectedFuel] * 100;
         const cDiscountBadge = cDiscount > 0 ? `<div style="font-size: 10px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -12px; white-space: nowrap;">-${cDiscount.toFixed(1)} ct</div>` : '';
         
@@ -694,9 +777,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
                     ${cDiscountBadge}
                     <div style="background: ${cStyle.bg}; color: ${cStyle.color}; padding: 2px 6px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 14px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -4px; z-index: 2;">
-                        ${cheapest.calculatedPrices[selectedFuel].toFixed(2)} €
+                        ${selectedFuel === 'Elektra' ? cheapestStatus : cheapest.calculatedPrices[selectedFuel].toFixed(2) + ' €'}
                     </div>
-                    <div style="${iconStyle}; font-size: 30px; z-index: 1;">⚡</div>
+                    <div style="${iconStyle}; font-size: 30px; z-index: 1;">${selectedFuel === 'Elektra' ? '⚡' : '🔥'}</div>
                 </div>
             `,
             className: '',
@@ -706,17 +789,22 @@ document.addEventListener('DOMContentLoaded', () => {
         L.marker([cheapest.lat, cheapest.lng], {icon: cheapestIcon, zIndexOffset: 999})
             .addTo(map)
             .bindPopup(`
-                <b>${cheapest.name} (Pigiausia)</b><br>
-                <strong style="color: var(--primary-color); font-family: 'Black Ops One', system-ui; font-size: 16px;">${cheapest.calculatedPrices[selectedFuel].toFixed(2)} €/L</strong>
-                ${cDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (su -${cDiscount.toFixed(1)} ct/l nuolaida)</span>` : ''}<br>
-                <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${cheapest.distance.toFixed(1)} km</span><br>
-                <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">Naviguoti</a>
+                <b>${cheapest.name} ${selectedFuel !== 'Elektra' ? t('cheapest') : t('closest')}</b><br>
+                ${selectedFuel === 'Elektra' ? 
+                    `<strong style="color: ${cheapest.ev_status === 'Laisva' ? 'var(--success-color)' : '#666'};">${cheapestStatus}</strong><br>
+                    <span style="font-size: 11px; color: #444;">${cheapest.ev_connectors || ''}</span>` :
+                    `<strong style="color: var(--primary-color); font-family: 'Black Ops One', system-ui; font-size: 16px;">${cheapest.calculatedPrices[selectedFuel].toFixed(2)} €/L</strong>
+                    ${cDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (${t('with_discount')} -${cDiscount.toFixed(1)} ct/l ${t('discount_suffix')})</span>` : ''}`
+                }<br>
+                <span style="font-size: 12px; color: #666;" title="${t('approx_dist_title')}">${t('approx_dist')} ~ ${cheapest.distance.toFixed(1)} km</span><br>
+                <a href="${createNavLink(cheapest)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); font-weight: bold; text-decoration: none;">${t('navigate')}</a>
             `);
 
         // Other Stations Markers
         others.forEach(station => {
-            const price = station.calculatedPrices[selectedFuel];
-            const pStyle = getPriceStyle(price);
+            const price = selectedFuel === 'Elektra' ? (station.ev_status === 'Laisva' ? 0 : 1) : station.calculatedPrices[selectedFuel];
+            const pStyle = selectedFuel === 'Elektra' ? (station.ev_status === 'Laisva' ? {bg: 'var(--success-color)', color: 'white'} : {bg: '#666', color: 'white'}) : getPriceStyle(price);
+            const stationStatus = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
             
             const sDiscount = station.appliedDiscounts[selectedFuel] * 100;
             const sDiscountBadge = sDiscount > 0 ? `<div style="font-size: 9px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -10px; white-space: nowrap;">-${sDiscount.toFixed(1)}</div>` : '';
@@ -726,7 +814,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
                         ${sDiscountBadge}
                         <div style="background: ${pStyle.bg}; color: ${pStyle.color}; padding: 2px 4px; border: 2px solid #111; border-radius: 2px; font-weight: bold; font-family: 'Share Tech Mono', monospace; font-size: 12px; box-shadow: 2px 2px 0 #111; white-space: nowrap; margin-bottom: -2px; z-index: 2;">
-                            ${price.toFixed(2)} €
+                            ${selectedFuel === 'Elektra' ? stationStatus : price.toFixed(2) + ' €'}
                         </div>
                         <div style="${iconStyle}; font-size: 18px; filter: grayscale(20%); z-index: 1;">${station.logo}</div>
                     </div>
@@ -739,10 +827,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 .addTo(map)
                 .bindPopup(`
                     <b>${station.name}</b><br>
-                    <strong style="font-family: 'Black Ops One', system-ui; font-size: 14px;">${price.toFixed(2)} €/L</strong>
-                    ${sDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (su -${sDiscount.toFixed(1)} ct/l)</span>` : ''}<br>
-                    <span style="font-size: 12px; color: #666;" title="Apytikslis atstumas tiesia linija">Apytikslis atstumas: ~ ${station.distance.toFixed(1)} km</span><br>
-                    <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">Naviguoti</a>
+                    ${selectedFuel === 'Elektra' ? 
+                        `<strong style="color: ${station.ev_status === 'Laisva' ? 'var(--success-color)' : '#666'};">${stationStatus}</strong><br>
+                        <span style="font-size: 11px; color: #444;">${station.ev_connectors || ''}</span>` :
+                        `<strong style="font-family: 'Black Ops One', system-ui; font-size: 14px;">${price.toFixed(2)} €/L</strong>
+                        ${sDiscount > 0 ? `<span style="font-size: 11px; color: var(--success-color);"> (${t('with_discount')} -${sDiscount.toFixed(1)} ct/l ${t('discount_suffix')})</span>` : ''}`
+                    }<br>
+                    <span style="font-size: 12px; color: #666;" title="${t('approx_dist_title')}">${t('approx_dist')} ~ ${station.distance.toFixed(1)} km</span><br>
+                    <a href="${createNavLink(station)}" target="_blank" style="display:inline-block; margin-top:5px; color: var(--primary-color); text-decoration: none;">${t('navigate')}</a>
                 `);
         });
 
@@ -756,7 +848,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Render others (List)
         otherStationsList.innerHTML = '';
         if (others.length === 0) {
-            otherStationsList.innerHTML = '<p style="color: var(--text-secondary); font-size: 14px;">Daugiau degalinių nerasta.</p>';
+            otherStationsList.innerHTML = `<p style="color: var(--text-secondary); font-size: 14px;">${t('no_more_stations')}</p>`;
         } else {
             others.forEach(station => {
                 const card = document.createElement('a');
@@ -767,18 +859,30 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="station-info">
                         <div class="station-logo">${station.logo}</div>
                         <div class="station-details">
-                            <h4>${station.name} <span class="distance-badge" title="Apytikslis atstumas tiesia linija">~ ${station.distance.toFixed(1)} km</span></h4>
+                            <h4>${station.name} <span class="distance-badge" title="${t('approx_dist_title')}">~ ${station.distance.toFixed(1)} km</span></h4>
                             <p>📍 ${station.address}, ${station.city}</p>
                         </div>
                     </div>
                     <div class="price-tag" style="text-align: right;">
-                        <div class="price-value" style="color: var(--text-primary); font-size: 18px;">${station.calculatedPrices[selectedFuel].toFixed(2)}</div>
-                        <div class="price-currency">€ / L</div>
-                        ${station.appliedDiscounts[selectedFuel] > 0 ? `<div style="font-size: 10px; color: var(--success-color); margin-top: 4px; font-family: 'Share Tech Mono';">(-${(station.appliedDiscounts[selectedFuel]*100).toFixed(1)} ct)</div>` : ''}
+                        ${formatPriceHTML(station)}
                     </div>
                 `;
                 otherStationsList.appendChild(card);
             });
         }
     }
+
+    // Re-render strings when language changes
+    document.addEventListener('languageChanged', () => {
+        if (!resultsContainer.classList.contains('hidden')) {
+            findCheapestFuel(); // This will re-render all results with new language strings
+        }
+        if (isMapView) {
+            toggleViewBtn.innerText = t('btn_toggle_view_list');
+        } else {
+            toggleViewBtn.innerText = t('btn_toggle_view_map');
+        }
+        updateNetworkDropdownText();
+        renderDiscountsModal();
+    });
 });

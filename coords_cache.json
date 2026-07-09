@@ -6043,51 +6043,27 @@
         "lat": 55.067041453471,
         "lng": 24.289473809437
     },
-    "Igliauka, Prienų g. 7, 69117, Marijampolės sav., Lietuva": {
-        "lat": 54.557938484735,
-        "lng": 23.656260503296
+    "Luokė, Telšių g. 66, 88236, Telšių r. sav., Lietuva": {
+        "lat": 55.90133150383,
+        "lng": 22.50631233794
     },
     "Mažeikiai, Sedos g. 16, 89233, Mažeikių r. sav., Lietuva": {
         "lat": 56.305861345635,
         "lng": 22.342528608787
     },
-    "Šiauliai, Žemaitės g. 131c, 76175, Šiaulių m. sav., Lietuva": {
-        "lat": 55.948087603761,
-        "lng": 23.320481378269
+    "Martinavos g. 1, Neveronių k., 54475, Kauno m. sav., Lietuva": {
+        "lat": 54.924576256855,
+        "lng": 24.078719152174
     },
-    "Šiauliai, Bačiūnų g. 12a, 77109, Šiaulių m. sav., Lietuva": {
-        "lat": 55.897986328182,
-        "lng": 23.352088277858
-    },
-    "Gruzdžiai, M. Katiliškio g. 50, 81428, Šiaulių r. sav., Lietuva": {
-        "lat": 56.099315074319,
-        "lng": 23.265858191655
-    },
-    "Kena, Miško g. 6, 13146, Vilniaus r. sav., Lietuva": {
-        "lat": 54.646056510809,
-        "lng": 25.625135696319
+    "Alytus, Santaikos g. 28 B, 62123, Alytaus m. sav., Lietuva": {
+        "lat": 54.387475049304,
+        "lng": 24.031946539894
     },
     "Skraičionys, Skraičionių g. 1, 17140, Šalčininkų r. sav., Lietuva": {
         "lat": 54.20413051462,
         "lng": 25.621030659238
     },
-    "Luokė, Telšių g. 66, 88236, Telšių r. sav., Lietuva": {
-        "lat": 55.90133150383,
-        "lng": 22.50631233794
-    },
-    "Kaišiadorys, Paukštininkų g. 13, 56161, Kaišiadorių r. sav., Lietuva": {
-        "lat": 54.865092530318,
-        "lng": 24.434110673347
-    },
-    "Slavinčiškis, Slavinčiškio g. 18, 40333, Kupiškio r. sav., Lietuva": {
-        "lat": 55.832444245849,
-        "lng": 25.020037305085
-    },
-    "Skaistgirys, Liepų g. 22, 84380, Joniškio r. sav., Lietuva": {
-        "lat": 56.281213940252,
-        "lng": 23.744374338418
-    },
-    "Gėlių g. 25, Marijampolė, Marijampolės sav., Lietuva": {
+    "Marijampolė, Gėlių g. 25,, Marijampolės sav., Lietuva": {
         "lat": 54.551733277995,
         "lng": 23.359057327434
     },
@@ -6095,20 +6071,20 @@
         "lat": 54.636557886673,
         "lng": 23.006510372742
     },
-    "Alytus, Santaikos g. 28 B, 62123, Alytaus m. sav., Lietuva": {
-        "lat": 54.387475049304,
-        "lng": 24.031946539894
+    "Slavinčiškis, Slavinčiškio g. 18, 40333, Kupiškio r. sav., Lietuva": {
+        "lat": 55.832444245849,
+        "lng": 25.020037305085
+    },
+    "Kaišiadorys, Paukštininkų g. 13, 56161, Kaišiadorių r. sav., Lietuva": {
+        "lat": 54.865092530318,
+        "lng": 24.434110673347
+    },
+    "Igliauka, Prienų g. 7, 69117, Marijampolės sav., Lietuva": {
+        "lat": 54.557938484735,
+        "lng": 23.656260503296
     },
     "Židikai, Mažeikių g. 10, 89442, Mažeikių r. sav., Lietuva": {
         "lat": 56.317634441106,
         "lng": 22.013592553331
-    },
-    "Marijampolė, Gėlių g. 25,, Marijampolės sav., Lietuva": {
-        "lat": 54.551733277995,
-        "lng": 23.359057327434
-    },
-    "Martinavos g. 1, Neveronių k., 54475, Kauno m. sav., Lietuva": {
-        "lat": 54.924576256855,
-        "lng": 24.078719152174
     }
 }

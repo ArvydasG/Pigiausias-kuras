@@ -1,5 +1,5 @@
 // Automatiškai sugeneruoti duomenys iš LEA Excel
-const lastUpdated = '2026-07-09 00:00:00';
+const lastUpdated = '2026-07-09';
 const defaultDiscounts = {
     "Circle K": 0.035,
     "Neste": 0.035,
