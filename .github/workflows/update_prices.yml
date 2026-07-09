@@ -1,0 +1,42 @@
+name: Automatinis kuro kainu atnaujinimas
+
+on:
+  schedule:
+    # Vasaros laiku (Balandis - Spalis, UTC+3) 10:15, 12:15, 14:15, 16:15 LT
+    - cron: '15 7,9,11,13 * 4,5,6,7,8,9,10 *'
+    # Žiemos laiku (Lapkritis - Kovas, UTC+2) 10:15, 12:15, 14:15, 16:15 LT
+    - cron: '15 8,10,12,14 * 1,2,3,11,12 *'
+  workflow_dispatch: # Leidžia paleisti veiksmą rankiniu būdu iš GitHub
+
+permissions:
+  contents: write # Leidimas išsaugoti failus atgal į repozitoriją
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Atsisiųsti kodo kopiją (Checkout repo)
+      uses: actions/checkout@v3
+
+    - name: Paruošti Python aplinką
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Įdiegti bibliotekas
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 openpyxl
+
+    - name: Paleisti degalų duomenų siurbimą
+      run: |
+        python scraper.py
+        
+    - name: Išsaugoti pakeitimus (Commit and Push)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data.js coords_cache.json
+        git commit -m "Automatinis degalų kainų atnaujinimas iš LEA" || echo "Nėra jokių pakeitimų"
+        git push
