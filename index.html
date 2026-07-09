@@ -2,10 +2,17 @@
 <html lang="lt">
 
 <head>
+    <script>
+        window.addEventListener('error', function(e) {
+            alert('KLAIDA: ' + e.message + ' (eilutė ' + e.lineno + ')');
+        });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pigiausias Kuras</title>
-    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+    <!-- <link rel="manifest" href="manifest.json"> -->
     <meta name="theme-color" content="#007AFF">
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
@@ -45,7 +52,46 @@
 </head>
 
 <body>
-    <div class="app-container">
+    <!-- Pradinis pasirinkimo ekranas (Welcome Screen) -->
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-content" id="welcome-step-1">
+            <div class="lang-group" style="width: 150px; margin: 0 auto 20px auto;">
+                <button class="lang-btn active" data-lang="lt">LT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <h1 class="welcome-title" data-i18n="app_title">PIGIAUSIAS KURAS</h1>
+            <p class="welcome-subtitle" data-i18n="welcome_subtitle1">Ką norėsite rasti?</p>
+            <div class="welcome-buttons">
+                <button class="welcome-btn fuel-type-btn" data-type="standard">
+                    <span class="welcome-icon">⛽</span>
+                    <span data-i18n="welcome_fuel_standard">Standartinis kuras</span>
+                </button>
+                <button class="welcome-btn fuel-type-btn" data-type="electric">
+                    <span class="welcome-icon">⚡</span>
+                    <span data-i18n="welcome_fuel_electric">Elektra</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="welcome-content" id="welcome-step-2" style="display: none;">
+            <button class="welcome-back-btn" id="welcome-back" data-i18n="welcome_back">⬅ Atgal</button>
+            <h1 class="welcome-title" data-i18n="welcome_title2">Transporto priemonė</h1>
+            <p class="welcome-subtitle" data-i18n="welcome_subtitle2">Ką vairuojate?</p>
+            <div class="welcome-buttons">
+                <button class="welcome-btn vehicle-type-btn" data-vehicle="car">
+                    <span class="welcome-icon">🚗</span>
+                    <span data-i18n="welcome_vehicle_car">Lengvasis automobilis</span>
+                </button>
+                <button class="welcome-btn vehicle-type-btn" data-vehicle="hgv" id="welcome-hgv-btn">
+                    <span class="welcome-icon">🚛</span>
+                    <span data-i18n="welcome_vehicle_hgv">Vilkikas / Tralas</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagrindinė aplikacija (iš pradžių paslėpta) -->
+    <div class="app-container" style="display: none;" id="main-app">
         <header class="app-header">
             <div class="header-title-container">
                 <span class="flag-btn" data-lang="lt" title="Lietuvių">
@@ -195,6 +241,7 @@
                         <button class="fuel-btn" data-type="Diesel" data-i18n="fuel_diesel">Dyzelinas</button>
                         <button class="fuel-btn" data-type="LPG" data-i18n="fuel_lpg">Dujos (LPG)</button>
                         <button class="fuel-btn elektra-btn" data-type="Elektra" data-i18n="fuel_ev">Elektra ⚡</button>
+                        <button class="fuel-btn" data-type="Vilkikams" style="background: #1e3a8a; color: white;" data-i18n="fuel_hgv">Vilkikams 🚛</button>
                     </div>
                 </div>
 
@@ -230,14 +277,21 @@
     <script src="i18n.js"></script>
     <script src="data.js"></script>
     <script src="data_ev.js"></script>
+    <script src="data_hgv.js"></script>
     <script src="app.js" defer></script>
     <script>
-        if ('serviceWorker' in navigator) {
+        if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('sw.js')
                     .then(registration => console.log('ServiceWorker registered'))
                     .catch(error => console.log('ServiceWorker registration failed: ', error));
             });
+        }
+        if (window.location.protocol !== 'file:') {
+            const manifestLink = document.createElement('link');
+            manifestLink.rel = 'manifest';
+            manifestLink.href = 'manifest.json';
+            document.head.appendChild(manifestLink);
         }
     </script>
 </body>

@@ -657,3 +657,97 @@ select:focus {
     border-bottom-right-radius: var(--border-radius);
     line-height: 1.5;
 }
+
+/* Welcome Screen */
+.welcome-screen {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: linear-gradient(135deg, var(--bg-color) 0%, #000 100%);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-content {
+    background: #111;
+    border: 2px solid #222;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 90%;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    position: relative;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.welcome-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.welcome-subtitle {
+    color: #888;
+    margin: 0 0 25px 0;
+    font-size: 16px;
+}
+
+.welcome-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.welcome-btn {
+    background: #222;
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.2s ease;
+}
+
+.welcome-btn:hover {
+    background: #333;
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.welcome-btn:active {
+    transform: translateY(0);
+}
+
+.welcome-icon {
+    font-size: 28px;
+}
+
+.welcome-back-btn {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 0;
+    font-family: inherit;
+}
+
+.welcome-back-btn:hover {
+    color: #fff;
+}
