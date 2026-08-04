@@ -701,15 +701,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Sort by calculated price ascending, then by distance
         availableStations.sort((a, b) => {
+            if (selectedFuel === 'Vilkikams') {
+                return a.distance - b.distance;
+            }
+
             let priceA = a.calculatedPrices[selectedFuel] === 0 ? Infinity : a.calculatedPrices[selectedFuel];
             let priceB = b.calculatedPrices[selectedFuel] === 0 ? Infinity : b.calculatedPrices[selectedFuel];
             
-            // For HGV, treat dummy price 1 as Infinity so real prices bubble to the top
-            if (selectedFuel === 'Vilkikams') {
-                if (!a.originalPrices || a.originalPrices['Vilkikams'] === 1) priceA = Infinity;
-                if (!b.originalPrices || b.originalPrices['Vilkikams'] === 1) priceB = Infinity;
-            }
-
             if (priceA === priceB) {
                 return a.distance - b.distance;
             }
@@ -785,6 +783,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             html += `<div style="font-size: 11px; color: var(--success-color); margin-top: 2px; font-family: 'Share Tech Mono';">(-${discountCt.toFixed(1)} ct)</div>`;
                         }
                     }
+                } else {
+                    html += `<div style="font-size: 12px; color: #FF9800; margin-top: 4px; font-weight: bold;">Tik poilsio aikštelė</div>`;
                 }
                 if (station.capacity) {
                     html += `<div style="font-size: 10px; color: #666; margin-top: 2px;">${station.capacity}</div>`;
@@ -943,7 +943,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Cheapest Station Marker
         const cheapestStatus = cheapest.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
         const cHasRealPrice = selectedFuel !== 'Vilkikams' || (cheapest.originalPrices && cheapest.originalPrices['Vilkikams'] && cheapest.originalPrices['Vilkikams'] !== 1);
-        const cStyle = !cHasRealPrice ? {bg: '#1e3a8a', color: 'white'} : getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
+        const cStyle = !cHasRealPrice ? {bg: '#FF9800', color: '#111'} : getPriceStyle(cheapest.calculatedPrices[selectedFuel]);
         const cDiscount = (cheapest.appliedDiscounts[selectedFuel] || 0) * 100;
         const cDiscountBadge = cDiscount > 0 ? `<div style="font-size: 10px; background: rgba(76, 175, 80, 0.9); color: white; padding: 1px 3px; border-radius: 2px; position: absolute; top: -12px; white-space: nowrap;">-${cDiscount.toFixed(1)} ct</div>` : '';
         
@@ -986,7 +986,7 @@ document.addEventListener('DOMContentLoaded', () => {
         others.forEach(station => {
             const price = station.calculatedPrices[selectedFuel];
             const hasRealPrice = selectedFuel !== 'Vilkikams' || (station.originalPrices && station.originalPrices['Vilkikams'] && station.originalPrices['Vilkikams'] !== 1);
-            const pStyle = !hasRealPrice ? {bg: '#1e3a8a', color: 'white'} : getPriceStyle(price);
+            const pStyle = !hasRealPrice ? {bg: '#FF9800', color: '#111'} : getPriceStyle(price);
             const stationStatus = station.ev_status === 'Laisva' ? t('ev_status_available') : t('ev_status_occupied');
             
             const sDiscount = (station.appliedDiscounts[selectedFuel] || 0) * 100;

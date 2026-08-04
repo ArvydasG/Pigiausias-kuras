@@ -8,10 +8,10 @@ print("Synthesizing additional spots from gas stations on major roads...")
 hgv_spots = []
 
 query = '''
-[out:json][timeout:60];
+[out:json][timeout:180];
 (
-  node["highway"~"rest_area|services"](53.8,20.9,56.5,26.9);
-  node["amenity"="parking"]["hgv"~"yes|designated"](53.8,20.9,56.5,26.9);
+  nwr["highway"~"rest_area|services"](53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["hgv"~"yes|designated"](53.8,20.9,56.5,26.9);
 );
 out center;
 '''
@@ -34,7 +34,7 @@ for attempt in range(4):
     req = urllib.request.Request(mirrors[attempt], data=data)
     req.add_header('User-Agent', 'KuroKainosApp/1.0 (arvygail@gmail.com)')
     try:
-        with urllib.request.urlopen(req, timeout=60) as response:
+        with urllib.request.urlopen(req, timeout=180) as response:
             osm_data = json.loads(response.read().decode())
             success = True
             break

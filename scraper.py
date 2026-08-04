@@ -3,11 +3,9 @@ import sys
 import json
 import time
 import subprocess
-import random
-import datetime
 
 def ensure_packages():
-    required = {"requests", "beautifulsoup4", "openpyxl"}
+    required = {"playwright"}
     try:
         import pkg_resources
         installed = {pkg.key for pkg in pkg_resources.working_set}
@@ -15,81 +13,16 @@ def ensure_packages():
         if missing:
             print(f"Diegiami trukstami paketai: {missing}...")
             subprocess.check_call([sys.executable, "-m", "pip", "install", *missing])
+            subprocess.check_call([sys.executable, "-m", "playwright", "install", "chromium"])
     except Exception as e:
-        print(f"Nepavyko patikrinti paketu: {e}. Bandoma tesi...")
+        print(f"Nepavyko patikrinti paketu: {e}. Bandoma test...")
 
 ensure_packages()
 
-import requests
-from bs4 import BeautifulSoup
-import openpyxl
+from playwright.sync_api import sync_playwright
 
 DATA_FILE = "data.js"
-CACHE_FILE = "coords_cache.json"
-
-# Load previous lastUpdated if available
-old_last_updated = "Nežinoma"
-if os.path.exists(DATA_FILE):
-    import re
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        content = f.read()
-        match = re.search(r"const lastUpdated\s*=\s*'([^']+)';", content)
-        if match:
-            old_last_updated = match.group(1)
-
-# Load coordinate cache
-coords_cache = {}
-if os.path.exists(CACHE_FILE):
-    with open(CACHE_FILE, "r", encoding="utf-8") as f:
-        coords_cache = json.load(f)
-
-
-def save_cache():
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(coords_cache, f, ensure_ascii=False, indent=4)
-
-def geocode_address(address, city):
-    """Fetches coordinates for a given address using ArcGIS Geocoding API."""
-    clean_address = address.replace('\xa0', ' ').replace('\u200b', '').replace(chr(0x200B), '').strip()
-    search_query = f"{clean_address}, {city}, Lietuva"
-    if search_query in coords_cache:
-        return coords_cache[search_query]
-        
-    print(f"Ieskoma koordinaciu su ArcGIS: {search_query.encode('cp1257', 'ignore').decode('cp1257')}...")
-    
-    url = "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
-    params = {
-        "SingleLine": search_query,
-        "f": "json",
-        "maxLocations": 1,
-        "outFields": "Match_addr"
-    }
-    
-    try:
-        time.sleep(0.4) # Trumpesnis laukimas, nes ArcGIS greitas
-        res = requests.get(url, params=params).json()
-        
-        if res.get('candidates') and len(res['candidates']) > 0:
-            location = res['candidates'][0]['location']
-            coords = {"lat": float(location['y']), "lng": float(location['x'])}
-            coords_cache[search_query] = coords
-            return coords
-        else:
-            print(f"NERASTA: {search_query}. Metama į miesto centrą su triukšmu...")
-            time.sleep(0.4)
-            res_city = requests.get(url, params={"SingleLine": f"{city}, Lietuva", "f": "json", "maxLocations": 1}).json()
-            if res_city.get('candidates'):
-                loc = res_city['candidates'][0]['location']
-                lat_noise = random.uniform(-0.005, 0.005)
-                lng_noise = random.uniform(-0.005, 0.005)
-                coords = {"lat": float(loc['y']) + lat_noise, "lng": float(loc['x']) + lng_noise}
-                coords_cache[search_query] = coords
-                return coords
-            
-    except Exception as e:
-        print(f"Klaida ieškant koordinačių su ArcGIS: {e}")
-    
-    return {"lat": 54.6872, "lng": 25.2797}
+API_URL = "https://api-degalukainos.ena.lt/api/v1/read/prices/latest"
 
 def fetch_data():
     default_discounts = {
@@ -102,106 +35,64 @@ def fetch_data():
         "Saurida": 0.000,
         "Orlen": 0.000
     }
-    print("Pradedamas degalų kainų duomenų siuntimas iš LEA (ena.lt)...")
-    
-    # 1. Fetch ENA homepage to find SharePoint link
-    res = requests.get("https://www.ena.lt/degalu-kainos-degalinese/")
-    soup = BeautifulSoup(res.text, "html.parser")
-    
-    links = soup.find_all("a", href=True)
-    excel_url = None
-    for a in links:
-        if "sharepoint.com" in a["href"] and ("Naujausios" in a.text or "Degalų kainos" in a.get("title", "")):
-            excel_url = a["href"]
-            break
-            
-    if not excel_url:
-        print("Klaida: Nerasta nuoroda į LEA Excel failą.")
+    print("Pradedamas degalų kainų duomenų siuntimas iš naujojo LEA API naudojant Playwright...")
+
+    api_response_data = None
+
+    def handle_response(response):
+        nonlocal api_response_data
+        if API_URL in response.url and response.status == 200:
+            try:
+                json_data = response.json()
+                if "data" in json_data:
+                    api_response_data = json_data
+            except Exception as e:
+                print("Nepavyko nuskaityti API JSON:", e)
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        page.on("response", handle_response)
+        
+        print("Atidaromas LEA puslapis...")
+        page.goto("https://degalukainos.ena.lt/", wait_until="networkidle")
+        
+        # Wait a bit just in case the API call is slightly delayed
+        page.wait_for_timeout(2000)
+        browser.close()
+
+    if not api_response_data or "data" not in api_response_data:
+        print("Klaida: Nepavyko perimti API duomenų iš puslapio.")
         return
+
+    raw_data = api_response_data["data"]
+    last_updated_api = api_response_data.get("last_updated", "Nežinoma")
+    if ' ' in last_updated_api:
+        last_updated_api = last_updated_api.split(' ')[0]
         
-    print(f"Rasta Excel nuoroda: {excel_url}")
-    
-    # 2. Add download flag for Sharepoint
-    if "?" in excel_url:
-        download_url = excel_url + "&download=1"
-    else:
-        download_url = excel_url + "?download=1"
-        
-    # 3. Download the Excel file
-    print("Siunčiamas Excel failas...")
-    excel_data = requests.get(download_url).content
-    temp_file = "temp_lea.xlsx"
-    with open(temp_file, "wb") as f:
-        f.write(excel_data)
-        
-    # 4. Parse Excel file using openpyxl
-    print("Skaitomas Excel failas...")
-    wb = openpyxl.load_workbook(temp_file, data_only=True)
-    sheet = wb.active
+    print(f"Rasta {len(raw_data)} kainų įrašų iš API.")
     
     stations_dict = {}
     
-    # Find the header row index
-    header_row_idx = None
-    for idx, row in enumerate(sheet.iter_rows(values_only=True), start=1):
-        if row[0] and str(row[0]).strip().lower() == "įmonė":
-            header_row_idx = idx
-            break
-            
-    if not header_row_idx:
-        print("Nepavyko rasti duomenų antraštės Excel faile.")
-        return
+    for row in raw_data:
+        name = str(row.get("gas_station_name", row.get("company_name", ""))).strip()
+        raw_city = str(row.get("municipality", "")).strip()
+        address = str(row.get("address", "")).strip()
+        fuel_type_raw = str(row.get("fuel_type", "")).strip()
+        price_val = row.get("price")
         
-    latest_date = None
-
-    # Iterate through rows below the header
-    for row in sheet.iter_rows(min_row=header_row_idx + 1, values_only=True):
-        if not row[0]: # No company name means end of data or empty row
+        if not price_val:
             continue
-            
-        date_val = row[5]
-        if date_val:
-            if isinstance(date_val, datetime.datetime):
-                date_str = date_val.strftime('%Y-%m-%d')
-            else:
-                date_str = str(date_val).strip()
-                if ' ' in date_str:
-                    date_str = date_str.split(' ')[0] # Remove 00:00:00
-            
-            if date_str != 'None' and date_str:
-                if latest_date is None or date_str > latest_date:
-                    latest_date = date_str
-                    
-        name = str(row[0]).strip()
-        raw_city = str(row[1]).strip()
-        city = raw_city.replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
-        address = str(row[2]).strip()
-        fuel_type_raw = str(row[3]).strip()
-        
-        def extract_price(val):
-            if val is None:
-                return None
-            try:
-                if isinstance(val, str):
-                    val = val.replace(',', '.').strip()
-                    if val.lower() == 'neprekiauja' or val == '-' or not val:
-                        return None
-                return float(val)
-            except ValueError:
-                return None
-                
-        price = extract_price(row[4])
-        if price is None:
+        try:
+            price = float(price_val)
+        except ValueError:
             continue
             
         key = (name, raw_city, address)
         if key not in stations_dict:
+            city = raw_city.replace(" m. sav.", "").replace(" r. sav.", "").replace(" sav.", "")
             display_city = city.replace("Vilniaus", "Vilnius").replace("Kauno", "Kaunas").replace("Klaipėdos", "Klaipėda")
             
-            # Geocode using the raw city name (e.g. 'Kauno r. sav.') so ArcGIS doesn't confuse it with the city center
-            coords = geocode_address(address, raw_city)
-                
-            # Determine logo emoji
             logo = "⛽"
             name_lower = name.lower()
             if "circle k" in name_lower: logo = "🔴"
@@ -212,14 +103,17 @@ def fetch_data():
             elif "jozita" in name_lower: logo = "🟡"
             elif "saurida" in name_lower: logo = "🔥"
             elif "orlen" in name_lower: logo = "🦅"
-                
+            
+            lat = float(row.get("latitude", 0)) if row.get("latitude") else 54.6872
+            lng = float(row.get("longitude", 0)) if row.get("longitude") else 25.2797
+            
             stations_dict[key] = {
                 "name": name,
                 "logo": logo,
                 "city": display_city,
                 "address": address,
-                "lat": coords["lat"],
-                "lng": coords["lng"],
+                "lat": lat,
+                "lng": lng,
                 "prices": {
                     "A95": None,
                     "A98": None,
@@ -228,39 +122,27 @@ def fetch_data():
                 }
             }
             
-        if fuel_type_raw == '95 benzinas':
+        if fuel_type_raw == 'benzinas_95':
             stations_dict[key]["prices"]["A95"] = price
-        elif fuel_type_raw == 'Dyzelinas':
+        elif fuel_type_raw == 'benzinas_98':
+            stations_dict[key]["prices"]["A98"] = price
+        elif fuel_type_raw == 'dyzelinas':
             stations_dict[key]["prices"]["Diesel"] = price
-        elif fuel_type_raw == 'SND':
+        elif fuel_type_raw == 'snd':
             stations_dict[key]["prices"]["LPG"] = price
 
     stations = []
-    count = 0
+    count = 1
     for key, st in stations_dict.items():
-        st["id"] = count + 1
+        st["id"] = count
         stations.append(st)
         count += 1
-        # Save cache every 10 items
-        if count % 10 == 0:
-            save_cache()
-            
-    # Cleanup temp file
-    if os.path.exists(temp_file):
-        os.remove(temp_file)
         
-    save_cache()
-    
-    # Final Save to data.js
-    if latest_date:
-        now_str = latest_date
-    else:
-        now_str = old_last_updated
-    js_content = f"// Automatiškai sugeneruoti duomenys iš LEA Excel\nconst lastUpdated = '{now_str}';\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
+    js_content = f"// Automatiškai sugeneruoti duomenys iš LEA API (via Playwright)\nconst lastUpdated = '{last_updated_api}';\nconst defaultDiscounts = {json.dumps(default_discounts, indent=4, ensure_ascii=False)};\nconst stationsData = {json.dumps(stations, indent=4, ensure_ascii=False)};"
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(js_content)
         
-    print(f"\nSėkmingai išsaugota {len(stations)} degalinių faile {DATA_FILE}!")
+    print(f"\nSėkmingai išsaugota {len(stations)} degalinių (sujungus kuro tipus) faile {DATA_FILE}!")
 
 if __name__ == "__main__":
     fetch_data()
