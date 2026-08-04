@@ -136,6 +136,7 @@ body {
 select {
     width: 100%;
     padding: 10px 12px;
+    padding-right: 32px;
     border: var(--border-style);
     border-radius: var(--border-radius);
     font-size: 15px;
@@ -144,6 +145,10 @@ select {
     color: var(--text-primary);
     appearance: none;
     outline: none;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23FFD700%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 24px;
 }
 
 select:focus {
