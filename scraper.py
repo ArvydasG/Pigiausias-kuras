@@ -57,7 +57,7 @@ def fetch_data():
         print("Atidaromas LEA puslapis...")
         page.goto("https://degalukainos.ena.lt/", wait_until="networkidle")
         
-        # Wait a bit just in case the API call is slightly delayed
+        # Palaukiam 2 sekundes, kad įsitikintume jog API užklausa tikrai suvaikščiojo
         page.wait_for_timeout(2000)
         browser.close()
 
