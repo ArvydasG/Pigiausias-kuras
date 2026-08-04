@@ -27,16 +27,21 @@ jobs:
     - name: Įdiegti bibliotekas
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 openpyxl
+        pip install requests playwright
+        playwright install chromium --with-deps
 
     - name: Paleisti degalų duomenų siurbimą
       run: |
         python scraper.py
         
+    - name: Paleisti sunkvežimių (TIR) aikštelių atnaujinimą
+      run: |
+        python fetch_hgv.py
+
     - name: Išsaugoti pakeitimus (Commit and Push)
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data.js coords_cache.json
-        git commit -m "Automatinis degalų kainų atnaujinimas iš LEA" || echo "Nėra jokių pakeitimų"
+        git add data.js data_hgv.js
+        git commit -m "Automatinis duomenų atnaujinimas (Degalai + HGV)" || echo "Nėra jokių pakeitimų"
         git push
