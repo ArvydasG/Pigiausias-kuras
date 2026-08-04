@@ -620,7 +620,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const activeCheckboxes = document.querySelectorAll('.network-cb:checked');
         const selectedNetworks = Array.from(activeCheckboxes).map(cb => cb.value);
-        const maxRadius = radiusSelect.value === 'all' ? Infinity : parseFloat(radiusSelect.value);
+        let maxRadius = parseFloat(radiusSelect.value);
+        
+        // Jei pasirinkta 'Visa Lietuva', išjungtas GPS ir neįvestas adresas, atstumo neribojame
+        if (referenceCity === 'all' && !usingGps && addressInput.value.trim() === '') {
+            maxRadius = Infinity;
+        }
 
         // Add distance and apply discounts to each station
         let availableStations = allStations.map(station => {
