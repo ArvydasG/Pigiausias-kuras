@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // State variables
     let selectedFuel = 'A95';
     let userLocation = null; // Will be set after cities are loaded
+    let lastCalcLocation = null; // Tracks location of last full calculation
     let usingGps = false;
 
     // DOM Elements
@@ -469,9 +470,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     addressInputGroup.classList.add('hidden');
                     findBtn.classList.add('hidden');
                     
+                    let distSinceLastCalc = Infinity;
+                    if (lastCalcLocation) {
+                        distSinceLastCalc = calculateDistance(userLocation.lat, userLocation.lng, lastCalcLocation.lat, lastCalcLocation.lng);
+                    }
+                    
                     if (isFirstTime || resultsContainer.classList.contains('hidden')) {
+                        lastCalcLocation = { lat: userLocation.lat, lng: userLocation.lng };
                         updateCityFromLocation();
                         findCheapestFuel();
+                    } else if (distSinceLastCalc > 2) { // 2 km riba perskaičiavimui realiu laiku
+                        lastCalcLocation = { lat: userLocation.lat, lng: userLocation.lng };
+                        updateCityFromLocation();
+                        findCheapestFuel(true, false); // Perskaičiuojam be "agresyvaus" ekrano centravimo
+                        
+                        if (map && isMapView && autoCenterMap) {
+                            map.panTo([userLocation.lat, userLocation.lng]);
+                        }
                     } else {
                         if (userMarker) {
                             userMarker.setLatLng([userLocation.lat, userLocation.lng]);
