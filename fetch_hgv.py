@@ -11,7 +11,9 @@ query = '''
 [out:json][timeout:180];
 (
   nwr["highway"~"rest_area|services"](53.8,20.9,56.5,26.9);
-  nwr["amenity"="parking"]["hgv"~"yes|designated"](53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["hgv"~"designated|only"](53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["truck"~"yes|designated|only"](53.8,20.9,56.5,26.9);
+  nwr["amenity"="truck_parking"](53.8,20.9,56.5,26.9);
 );
 out center;
 '''
