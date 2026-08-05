@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         lastCalcLocation = { lat: userLocation.lat, lng: userLocation.lng };
                         updateCityFromLocation();
                         findCheapestFuel();
-                    } else if (distSinceLastCalc > 2) { // 2 km riba perskaičiavimui realiu laiku
+                    } else if (distSinceLastCalc > 0.5) { // 0.5 km riba perskaičiavimui realiu laiku
                         lastCalcLocation = { lat: userLocation.lat, lng: userLocation.lng };
                         updateCityFromLocation();
                         findCheapestFuel(true, false); // Perskaičiuojam be "agresyvaus" ekrano centravimo
