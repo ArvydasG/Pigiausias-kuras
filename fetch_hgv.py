@@ -2,19 +2,40 @@ import json
 import re
 import urllib.request
 import time
+import math
+import os
+
+def calc_dist(lat1, lon1, lat2, lon2):
+    R = 6371
+    dLat = (lat2 - lat1) * math.pi / 180
+    dLon = (lon2 - lon1) * math.pi / 180
+    a = math.sin(dLat/2)*math.sin(dLat/2) + math.cos(lat1*math.pi/180)*math.cos(lat2*math.pi/180)*math.sin(dLon/2)*math.sin(dLon/2)
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
 
 print("Synthesizing additional spots from gas stations on major roads...")
+
+gas_stations = []
+try:
+    if os.path.exists('data.js'):
+        with open('data.js', 'r', encoding='utf-8') as f:
+            content = f.read()
+            match = re.search(r'const stationsData\s*=\s*(\[.*?\]);', content, re.DOTALL)
+            if match:
+                gas_stations = json.loads(match.group(1))
+except Exception as e:
+    print("Could not load data.js for proximity checking:", e)
 
 hgv_spots = []
 
 query = '''
 [out:json][timeout:180];
+area["ISO3166-1"="LT"][admin_level=2]->.searchArea;
 (
-  nwr["highway"~"rest_area|services"](53.8,20.9,56.5,26.9);
-  nwr["amenity"="parking"]["hgv"~"designated|only"](53.8,20.9,56.5,26.9);
-  nwr["amenity"="parking"]["truck"~"yes|designated|only"](53.8,20.9,56.5,26.9);
-  nwr["amenity"="truck_parking"](53.8,20.9,56.5,26.9);
-  nwr["amenity"="parking"]["name"~"truck|sunkvežim|tir",i](53.8,20.9,56.5,26.9);
+  nwr["highway"~"rest_area|services"](area.searchArea)(53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["hgv"~"designated|only"](area.searchArea)(53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["truck"~"yes|designated|only"](area.searchArea)(53.8,20.9,56.5,26.9);
+  nwr["amenity"="truck_parking"](area.searchArea)(53.8,20.9,56.5,26.9);
+  nwr["amenity"="parking"]["name"~"truck|sunkvežim|tir",i](area.searchArea)(53.8,20.9,56.5,26.9);
 );
 out center;
 '''
@@ -71,6 +92,15 @@ for el in osm_data.get('elements', []):
     tags = el.get('tags', {})
     type_label = "Pakelės poilsio zona" if tags.get('highway') == 'rest_area' else "Vilkikų stovėjimo aikštelė"
     name = tags.get('name') or ("🚛 " + type_label)
+    
+    is_gas = (tags.get('highway') == 'services') or ('fuel' in tags.get('amenity', ''))
+    if not is_gas and gas_stations:
+        for gs in gas_stations:
+            # Ieškome degalinių iki 300 metrų spinduliu
+            if gs.get('lat') and gs.get('lng'):
+                if calc_dist(lat, lon, gs['lat'], gs['lng']) < 0.3:
+                    is_gas = True
+                    break
         
     hgv_spots.append({
         "name": name,
@@ -79,7 +109,7 @@ for el in osm_data.get('elements', []):
         "lat": lat,
         "lng": lon,
         "logo": "🚛",
-        "is_near_gas_station": True,
+        "is_near_gas_station": is_gas,
         "near_station_name": "",
         "capacity": "",
         "prices": { "Vilkikams": 1 }

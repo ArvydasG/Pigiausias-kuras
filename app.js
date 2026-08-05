@@ -13,23 +13,25 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let selectedAppFuel = null;
     let selectedAppVehicle = null;
+    let hgvFilterType = null; // 'rest' arba 'gas'
 
     document.querySelectorAll('.fuel-type-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             selectedAppFuel = btn.closest('button').getAttribute('data-type');
-            if (selectedAppFuel === 'electric') {
-                selectedAppVehicle = 'car';
-                initializeApp();
-            } else {
+            if (selectedAppFuel === 'hgv') {
                 step1.style.display = 'none';
                 step2.style.display = 'block';
+            } else {
+                selectedAppVehicle = 'car';
+                initializeApp();
             }
         });
     });
 
-    document.querySelectorAll('.vehicle-type-btn').forEach(btn => {
+    document.querySelectorAll('.hgv-type-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            selectedAppVehicle = btn.closest('button').getAttribute('data-vehicle');
+            selectedAppVehicle = 'hgv';
+            hgvFilterType = btn.closest('button').getAttribute('data-hgv');
             initializeApp();
         });
     });
@@ -47,8 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
         welcomeScreen.style.display = 'none';
         mainApp.style.display = 'block';
 
-        // Paimame VISUS duomenis be jokio filtravimo (kaip norėjo vartotojas)
-        allStations = allStationsRaw.map(s => {
+        // Paimame VISUS duomenis ir nufiltruojame pagal HGV pasirinkimą
+        allStations = allStationsRaw.filter(s => {
+            if (selectedAppVehicle === 'hgv' && s.prices && s.prices['Vilkikams']) {
+                if (hgvFilterType === 'rest' && s.is_near_gas_station === true) return false;
+                if (hgvFilterType === 'gas' && s.is_near_gas_station === false) return false;
+            }
+            return true;
+        }).map(s => {
             let cityStr = s.city || t('city_unknown');
             if (!s.ev_status && s.network !== 'HGV' && s.address && String(s.address).includes(',')) {
                 cityStr = String(s.address).split(',')[0].trim();
@@ -933,14 +941,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const nonZeroOthers = others.filter(s => s.calculatedPrices[selectedFuel] > 0 && !(selectedFuel === 'Vilkikams' && (!s.originalPrices || s.originalPrices['Vilkikams'] === 1)));
         
-        // Ensure cheapest is not a dummy price for min/max calculation
-        let realCheapestPrice = cheapest.calculatedPrices[selectedFuel];
-        if (selectedFuel === 'Vilkikams' && (!cheapest.originalPrices || cheapest.originalPrices['Vilkikams'] === 1)) {
-            realCheapestPrice = 1;
+        let minPrice = Infinity;
+        let maxPrice = -Infinity;
+        const allDisplayedStations = [cheapest, ...others];
+        allDisplayedStations.forEach(s => {
+            let p = s.calculatedPrices[selectedFuel];
+            if (p > 0 && !(selectedFuel === 'Vilkikams' && (!s.originalPrices || s.originalPrices['Vilkikams'] === 1))) {
+                if (p < minPrice) minPrice = p;
+                if (p > maxPrice) maxPrice = p;
+            }
+        });
+        if (minPrice === Infinity) {
+            minPrice = 0;
+            maxPrice = 0;
         }
-        
-        const minPrice = parseFloat(realCheapestPrice);
-        const maxPrice = nonZeroOthers.length > 0 ? parseFloat(nonZeroOthers[nonZeroOthers.length - 1].calculatedPrices[selectedFuel]) : minPrice;
         
         function getPriceStyle(priceVal) {
             const price = parseFloat(priceVal);
