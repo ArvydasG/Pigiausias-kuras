@@ -45,11 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let allStations = [];
 
-    function initializeApp() {
-        welcomeScreen.style.display = 'none';
-        mainApp.style.display = 'block';
-
-        // Paimame VISUS duomenis ir nufiltruojame pagal HGV pasirinkimą
+    function updateAllStations() {
         allStations = allStationsRaw.filter(s => {
             if (selectedAppVehicle === 'hgv' && s.prices && s.prices['Vilkikams']) {
                 if (hgvFilterType === 'rest' && s.is_near_gas_station === true) return false;
@@ -65,6 +61,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return { ...s, city: cityStr };
         });
+    }
+
+    function initializeApp() {
+        welcomeScreen.style.display = 'none';
+        mainApp.style.display = 'block';
+
+        // Paimame VISUS duomenis ir nufiltruojame pagal HGV pasirinkimą
+        updateAllStations();
 
         // Toggle visibility of fuel buttons based on selection - PASALINTA (mygtukai nebeslepiami)
         const fuelBtnsMap = {
@@ -122,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const useGpsBtn = document.getElementById('use-gps-btn');
     const addressInputGroup = document.getElementById('address-input-group');
     const fuelContainer = document.getElementById('fuel-type-container');
+    const hgvTypeContainer = document.getElementById('hgv-type-container');
     const fuelBtns = document.querySelectorAll('.fuel-btn');
     const findBtn = document.getElementById('find-cheapest-btn');
     const resultsContainer = document.getElementById('results-container');
@@ -129,6 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const otherStationsList = document.getElementById('other-stations-list');
     const mapContainer = document.getElementById('map');
     const toggleViewBtn = document.getElementById('toggle-view-btn');
+    const settingsHgvOptions = document.getElementById('settings-hgv-options');
+    const settingsHgvBtns = document.querySelectorAll('.settings-hgv-btn');
     const radiusSelect = document.getElementById('radius-select');
     const networkDropdownBtn = document.getElementById('network-dropdown-btn');
     const networkDropdownText = document.getElementById('network-dropdown-text');
@@ -227,6 +234,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (openSettingsBtn) {
         openSettingsBtn.addEventListener('click', () => {
             renderDiscountsModal();
+            
+            // Sync settings UI with current state
+            if (selectedAppVehicle === 'hgv') {
+                fuelBtns.forEach(btn => btn.classList.remove('active'));
+                const hgvBtn = document.querySelector('.fuel-btn[data-type="Vilkikams"]');
+                if (hgvBtn) hgvBtn.classList.add('active');
+                if (settingsHgvOptions) settingsHgvOptions.classList.add('hidden'); // Sąrašas visada suskleistas atidarius
+                
+                if (settingsHgvBtns) {
+                    settingsHgvBtns.forEach(btn => btn.classList.remove('active'));
+                    const specificHgvBtn = document.querySelector(`.settings-hgv-btn[data-hgv="${hgvFilterType}"]`);
+                    if (specificHgvBtn) specificHgvBtn.classList.add('active');
+                }
+            } else {
+                if (settingsHgvOptions) settingsHgvOptions.classList.add('hidden');
+            }
+            
             settingsModal.classList.remove('hidden');
         });
     }
@@ -354,16 +378,54 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    fuelContainer.addEventListener('click', (e) => {
+    function handleFuelBtnClick(e) {
         if(e.target.classList.contains('fuel-btn')) {
+            const clickedFuel = e.target.getAttribute('data-type');
+            
+            // Jei Vilkikams jau aktyvus ir vartotojas dar kartą jį paspaudžia - tiesiog suskleidžiame/išskleidžiame sąrašą
+            if (clickedFuel === 'Vilkikams' && selectedFuel === 'Vilkikams') {
+                if (settingsHgvOptions) settingsHgvOptions.classList.toggle('hidden');
+                return;
+            }
+
+            // Pasirinkus bet kurį kuro mygtuką (tiek standartinį, tiek vilkikų),
+            // nuimame aktyvumą nuo visų, kad vienu metu būtų aktyvus tik vienas pagrindinis pasirinkimas
             fuelBtns.forEach(btn => btn.classList.remove('active'));
             e.target.classList.add('active');
-            selectedFuel = e.target.getAttribute('data-type');
+            selectedFuel = clickedFuel;
+            
+            if (selectedFuel === 'Vilkikams') {
+                if (settingsHgvOptions) settingsHgvOptions.classList.remove('hidden');
+                selectedAppVehicle = 'hgv';
+            } else {
+                if (settingsHgvOptions) settingsHgvOptions.classList.add('hidden');
+                selectedAppVehicle = selectedFuel === 'Elektra' ? 'ev' : 'car';
+            }
+            
             if (!resultsContainer.classList.contains('hidden')) {
+                updateAllStations();
                 findCheapestFuel(); 
             }
         }
-    });
+    }
+
+    fuelContainer.addEventListener('click', handleFuelBtnClick);
+    if (hgvTypeContainer) hgvTypeContainer.addEventListener('click', handleFuelBtnClick);
+
+    if (settingsHgvOptions) {
+        settingsHgvOptions.addEventListener('click', (e) => {
+            if(e.target.classList.contains('settings-hgv-btn')) {
+                settingsHgvBtns.forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                hgvFilterType = e.target.getAttribute('data-hgv');
+                
+                if (!resultsContainer.classList.contains('hidden')) {
+                    updateAllStations();
+                    findCheapestFuel(); 
+                }
+            }
+        });
+    }
 
     findBtn.addEventListener('click', () => {
         resetAutoCenter();

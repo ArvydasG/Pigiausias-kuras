@@ -246,7 +246,20 @@
                         <button class="fuel-btn" data-type="Diesel" data-i18n="fuel_diesel">Dyzelinas</button>
                         <button class="fuel-btn" data-type="LPG" data-i18n="fuel_lpg">Dujos (LPG)</button>
                         <button class="fuel-btn elektra-btn" data-type="Elektra" data-i18n="fuel_ev">Elektra ⚡</button>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <div class="fuel-buttons" id="hgv-type-container">
                         <button class="fuel-btn" data-type="Vilkikams" style="background: #1e3a8a; color: white;" data-i18n="fuel_hgv">Vilkikams 🚛</button>
+                    </div>
+                    
+                    <div id="settings-hgv-options" class="hidden" style="margin-top: 15px; background: rgba(30, 58, 138, 0.1); padding: 15px; border-radius: var(--border-radius); border: 2px solid #1e3a8a;">
+                        <h4 data-i18n="welcome_hgv_question" style="margin-top: 0; margin-bottom: 10px; color: #111;">Ką norite matyti žemėlapyje?</h4>
+                        <div class="fuel-buttons" style="flex-direction: column;">
+                            <button class="fuel-btn settings-hgv-btn active" data-hgv="rest" data-i18n="welcome_hgv_rest" style="width: 100%;">Poilsio aikštelės</button>
+                            <button class="fuel-btn settings-hgv-btn" data-hgv="gas" data-i18n="welcome_hgv_gas" style="width: 100%;">Aikštelės prie degalinių</button>
+                        </div>
                     </div>
                 </div>
 
