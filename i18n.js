@@ -16,7 +16,7 @@ const translations = {
         "welcome_vehicle_hgv": "Vilkikas / Tralas",
         "label_location": "Įveskite lokaciją, arba nustatykite pagal Gps",
         "btn_gps": "GPS",
-        "btn_refresh": "🔄",
+        "btn_home": "🏠",
         "btn_settings": "⚙️",
         "label_address": "Tikslesniam atstumui – įveskite adresą (nebūtina)",
         "placeholder_address": "Pvz. Laisvės al. 1",

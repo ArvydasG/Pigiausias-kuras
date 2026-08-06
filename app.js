@@ -43,6 +43,33 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- State recovery from localStorage ---
+    let savedAppVehicle = localStorage.getItem('savedAppVehicle');
+    if (savedAppVehicle) {
+        selectedAppVehicle = savedAppVehicle;
+        selectedAppFuel = localStorage.getItem('savedAppFuel') || null;
+        hgvFilterType = localStorage.getItem('savedHgvFilterType') || null;
+        let sf = localStorage.getItem('savedSelectedFuel');
+        if (sf) selectedFuel = sf;
+        
+        // Hide welcome screen and run initialization
+        initializeApp();
+
+        // Restore city and radius
+        const savedCity = localStorage.getItem('savedCity');
+        if (savedCity) citySelect.value = savedCity;
+        
+        const savedRadius = localStorage.getItem('savedRadius');
+        if (savedRadius) radiusSelect.value = savedRadius;
+
+        // Restore HGV secondary options UI if needed
+        if (hgvFilterType) {
+            settingsHgvBtns.forEach(btn => btn.classList.remove('active'));
+            const activeHgvBtn = document.querySelector(`.settings-hgv-btn[data-hgv="${hgvFilterType}"]`);
+            if (activeHgvBtn) activeHgvBtn.classList.add('active');
+        }
+    }
+
     let allStations = [];
 
     function updateAllStations() {
@@ -70,26 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Paimame VISUS duomenis ir nufiltruojame pagal HGV pasirinkimą
         updateAllStations();
 
-        // Toggle visibility of fuel buttons based on selection - PASALINTA (mygtukai nebeslepiami)
-        const fuelBtnsMap = {
-            'A95': document.querySelector('.fuel-btn[data-type="A95"]'),
-            'A98': document.querySelector('.fuel-btn[data-type="A98"]'),
-            'Dyzelinas': document.querySelector('.fuel-btn[data-type="Diesel"]') || document.querySelector('.fuel-btn[data-type="Dyzelinas"]'),
-            'Dujos': document.querySelector('.fuel-btn[data-type="LPG"]') || document.querySelector('.fuel-btn[data-type="Dujos"]'),
-            'Elektra': document.querySelector('.fuel-btn[data-type="Elektra"]'),
-            'Vilkikams': document.querySelector('.fuel-btn[data-type="Vilkikams"]')
-        };
-
-        // Automatiškai paspaudžiame atitinkamą kuro mygtuką pagal pradinį pasirinkimą
-        if (selectedAppFuel === 'electric') {
-            if (fuelBtnsMap['Elektra']) fuelBtnsMap['Elektra'].click();
-        } else {
-            if (selectedAppVehicle === 'car') {
-                if (fuelBtnsMap['A95']) fuelBtnsMap['A95'].click();
-            } else if (selectedAppVehicle === 'hgv') {
-                if (fuelBtnsMap['Vilkikams']) fuelBtnsMap['Vilkikams'].click();
-            }
+        // Automatiškai paspaudžiame atitinkamą kuro mygtuką pagal pradinį (ar išsaugotą) pasirinkimą
+        let btnToClick = document.querySelector(`.fuel-btn[data-type="${selectedFuel}"]`);
+        if (!btnToClick) {
+            if (selectedAppFuel === 'electric') btnToClick = document.querySelector('.fuel-btn[data-type="Elektra"]');
+            else if (selectedAppVehicle === 'hgv') btnToClick = document.querySelector('.fuel-btn[data-type="Vilkikams"]');
+            else btnToClick = document.querySelector('.fuel-btn[data-type="A95"]');
         }
+        if (btnToClick) btnToClick.click();
 
         // Populate cities dynamically from ALL stations
         const uniqueCities = [...new Set(allStations.map(s => s.city))].sort();
@@ -312,6 +327,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (refreshBtn) {
         refreshBtn.addEventListener('click', () => {
+            // Clear saved state so the user sees the welcome screen again
+            localStorage.removeItem('savedAppVehicle');
+            localStorage.removeItem('savedAppFuel');
+            localStorage.removeItem('savedHgvFilterType');
+            localStorage.removeItem('savedSelectedFuel');
+            // Do not remove city/radius, as they might want to keep it when they return
             window.location.reload();
         });
     }
@@ -670,6 +691,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Core Logic
     function findCheapestFuel(skipRecenter = false, isInitialLoad = false) {
+        // Save state to localStorage
+        localStorage.setItem('savedAppVehicle', selectedAppVehicle || '');
+        localStorage.setItem('savedAppFuel', selectedAppFuel || '');
+        localStorage.setItem('savedHgvFilterType', hgvFilterType || '');
+        localStorage.setItem('savedSelectedFuel', selectedFuel || '');
+        localStorage.setItem('savedCity', citySelect.value || '');
+        localStorage.setItem('savedRadius', radiusSelect.value || '');
+
         if (!userLocation) return;
         
         let referenceCity = citySelect.value;
