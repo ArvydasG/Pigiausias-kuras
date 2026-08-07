@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedAppFuel = null;
     let selectedAppVehicle = null;
     let hgvFilterType = null; // 'rest' arba 'gas'
+    let selectedFuel = 'A95'; // Perkelta į viršų išvengti TDZ (Temporal Dead Zone) klaidų
 
     document.querySelectorAll('.fuel-type-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -135,7 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // State variables
-    let selectedFuel = 'A95';
     let userLocation = null; // Will be set after cities are loaded
     let lastCalcLocation = null; // Tracks location of last full calculation
     let usingGps = false;
