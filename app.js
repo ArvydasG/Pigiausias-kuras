@@ -44,30 +44,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- State recovery from localStorage ---
-    let savedAppVehicle = localStorage.getItem('savedAppVehicle');
-    if (savedAppVehicle) {
-        selectedAppVehicle = savedAppVehicle;
-        selectedAppFuel = localStorage.getItem('savedAppFuel') || null;
-        hgvFilterType = localStorage.getItem('savedHgvFilterType') || null;
-        let sf = localStorage.getItem('savedSelectedFuel');
-        if (sf) selectedFuel = sf;
-        
-        // Hide welcome screen and run initialization
-        initializeApp();
+    try {
+        let savedAppVehicle = localStorage.getItem('savedAppVehicle');
+        if (savedAppVehicle) {
+            selectedAppVehicle = savedAppVehicle;
+            selectedAppFuel = localStorage.getItem('savedAppFuel') || null;
+            hgvFilterType = localStorage.getItem('savedHgvFilterType') || null;
+            let sf = localStorage.getItem('savedSelectedFuel');
+            if (sf) selectedFuel = sf;
+            
+            // Hide welcome screen and run initialization
+            initializeApp();
 
-        // Restore city and radius
-        const savedCity = localStorage.getItem('savedCity');
-        if (savedCity) citySelect.value = savedCity;
-        
-        const savedRadius = localStorage.getItem('savedRadius');
-        if (savedRadius) radiusSelect.value = savedRadius;
+            // Restore city and radius
+            const savedCity = localStorage.getItem('savedCity');
+            if (savedCity) citySelect.value = savedCity;
+            
+            const savedRadius = localStorage.getItem('savedRadius');
+            if (savedRadius) radiusSelect.value = savedRadius;
 
-        // Restore HGV secondary options UI if needed
-        if (hgvFilterType) {
-            settingsHgvBtns.forEach(btn => btn.classList.remove('active'));
-            const activeHgvBtn = document.querySelector(`.settings-hgv-btn[data-hgv="${hgvFilterType}"]`);
-            if (activeHgvBtn) activeHgvBtn.classList.add('active');
+            // Restore HGV secondary options UI if needed
+            if (hgvFilterType) {
+                settingsHgvBtns.forEach(btn => btn.classList.remove('active'));
+                const activeHgvBtn = document.querySelector(`.settings-hgv-btn[data-hgv="${hgvFilterType}"]`);
+                if (activeHgvBtn) activeHgvBtn.classList.add('active');
+            }
         }
+    } catch(e) {
+        console.log('localStorage access restricted', e);
     }
 
     let allStations = [];
@@ -328,10 +332,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (refreshBtn) {
         refreshBtn.addEventListener('click', () => {
             // Clear saved state so the user sees the welcome screen again
-            localStorage.removeItem('savedAppVehicle');
-            localStorage.removeItem('savedAppFuel');
-            localStorage.removeItem('savedHgvFilterType');
-            localStorage.removeItem('savedSelectedFuel');
+            try {
+                localStorage.removeItem('savedAppVehicle');
+                localStorage.removeItem('savedAppFuel');
+                localStorage.removeItem('savedHgvFilterType');
+                localStorage.removeItem('savedSelectedFuel');
+            } catch(e) { console.log('localStorage error', e); }
             // Do not remove city/radius, as they might want to keep it when they return
             window.location.reload();
         });
@@ -692,12 +698,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Core Logic
     function findCheapestFuel(skipRecenter = false, isInitialLoad = false) {
         // Save state to localStorage
-        localStorage.setItem('savedAppVehicle', selectedAppVehicle || '');
-        localStorage.setItem('savedAppFuel', selectedAppFuel || '');
-        localStorage.setItem('savedHgvFilterType', hgvFilterType || '');
-        localStorage.setItem('savedSelectedFuel', selectedFuel || '');
-        localStorage.setItem('savedCity', citySelect.value || '');
-        localStorage.setItem('savedRadius', radiusSelect.value || '');
+        try {
+            localStorage.setItem('savedAppVehicle', selectedAppVehicle || '');
+            localStorage.setItem('savedAppFuel', selectedAppFuel || '');
+            localStorage.setItem('savedHgvFilterType', hgvFilterType || '');
+            localStorage.setItem('savedSelectedFuel', selectedFuel || '');
+            localStorage.setItem('savedCity', citySelect.value || '');
+            localStorage.setItem('savedRadius', radiusSelect.value || '');
+        } catch(e) { console.log('localStorage save error', e); }
 
         if (!userLocation) return;
         
