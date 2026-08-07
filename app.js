@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedAppFuel = null;
     let selectedAppVehicle = null;
     let hgvFilterType = null; // 'rest' arba 'gas'
-    let selectedFuel = 'A95'; // Perkelta į viršų išvengti TDZ (Temporal Dead Zone) klaidų
+
 
     document.querySelectorAll('.fuel-type-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('localStorage access restricted', e);
     }
 
+
     let allStations = [];
 
     function updateAllStations() {
@@ -134,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Initial search
         setTimeout(() => findCheapestFuel(false, true), 100);
     }
-    
+    let selectedFuel = 'A95';
     // State variables
     let userLocation = null; // Will be set after cities are loaded
     let lastCalcLocation = null; // Tracks location of last full calculation
@@ -183,6 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load settings from localStorage
     let userDiscounts = JSON.parse(localStorage.getItem('userDiscounts')) || {};
     let calcMode = localStorage.getItem('calcMode') || 'with_discount';
+    
     
     // Set initial radio
     calcModeRadios.forEach(radio => {
