@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kuro-kainos-v10'; // Versija atnaujinama, kad priverstų SW persikrauti
+const CACHE_NAME = 'kuro-kainos-v12'; // Versija atnaujinama, kad priverstų SW persikrauti
 const urlsToCache = [
   './',
   './index.html',
