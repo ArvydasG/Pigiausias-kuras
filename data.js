@@ -5772,12 +5772,12 @@ const stationsData = [
         "id": 384
     },
     {
-        "name": "Narjanta",
-        "logo": "⛽",
+        "name": "Circle K",
+        "logo": "🔴",
         "city": "Anykščių",
         "address": "Pumpučiai, Pumpučių g. 25, 29253",
-        "lat": 55.67584312,
-        "lng": 25.35867408,
+        "lat": 55.42441012,
+        "lng": 24.92009398,
         "prices": {
             "A95": 1.829,
             "A98": null,
@@ -5847,8 +5847,8 @@ const stationsData = [
         "id": 389
     },
     {
-        "name": "Narjanta",
-        "logo": "⛽",
+        "name": "Circle K",
+        "logo": "🔴",
         "city": "Kupiškio",
         "address": "Aleksandrijos k., Kikonių g. 10, 40335",
         "lat": 55.83425341,
