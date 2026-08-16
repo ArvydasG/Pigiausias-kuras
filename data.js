@@ -1,5 +1,5 @@
 // Automatiškai sugeneruoti duomenys iš LEA API (via Playwright)
-const lastUpdated = '2026-08-15';
+const lastUpdated = '2026-08-16';
 const defaultDiscounts = {
     "Circle K": 0.035,
     "Neste": 0.035,
@@ -19,9 +19,9 @@ const stationsData = [
         "lat": 55.56638461,
         "lng": 21.99570763,
         "prices": {
-            "A95": 1.71,
+            "A95": 1.74,
             "A98": null,
-            "Diesel": 1.97,
+            "Diesel": 2.01,
             "LPG": 0.8
         },
         "id": 1
@@ -702,21 +702,6 @@ const stationsData = [
         "id": 46
     },
     {
-        "name": "Utentra",
-        "logo": "⛽",
-        "city": "Utenos",
-        "address": "Utena, Pramonės g. 16, 28119",
-        "lat": 55.49470397,
-        "lng": 25.64582108,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": 1.969,
-            "LPG": null
-        },
-        "id": 47
-    },
-    {
         "name": "Valdegra",
         "logo": "⛽",
         "city": "Marijampolės",
@@ -729,7 +714,7 @@ const stationsData = [
             "Diesel": 2.039,
             "LPG": 0.749
         },
-        "id": 48
+        "id": 47
     },
     {
         "name": "Velseka",
@@ -744,7 +729,7 @@ const stationsData = [
             "Diesel": 1.949,
             "LPG": 0.749
         },
-        "id": 49
+        "id": 48
     },
     {
         "name": "Vimijula",
@@ -759,7 +744,7 @@ const stationsData = [
             "Diesel": 2.09,
             "LPG": 0.83
         },
-        "id": 50
+        "id": 49
     },
     {
         "name": "VIRŠI Lietuva",
@@ -774,7 +759,7 @@ const stationsData = [
             "Diesel": 2.039,
             "LPG": 0.794
         },
-        "id": 51
+        "id": 50
     },
     {
         "name": "Žibalas",
@@ -789,7 +774,7 @@ const stationsData = [
             "Diesel": 2.08,
             "LPG": 0.82
         },
-        "id": 52
+        "id": 51
     },
     {
         "name": "Tomega",
@@ -804,7 +789,7 @@ const stationsData = [
             "Diesel": 2.129,
             "LPG": null
         },
-        "id": 53
+        "id": 52
     },
     {
         "name": "UAB GINDANA degalai laivams",
@@ -819,7 +804,7 @@ const stationsData = [
             "Diesel": 1.99,
             "LPG": null
         },
-        "id": 54
+        "id": 53
     },
     {
         "name": "Stateta",
@@ -834,6 +819,6 @@ const stationsData = [
             "Diesel": 1.929,
             "LPG": null
         },
-        "id": 55
+        "id": 54
     }
 ];
