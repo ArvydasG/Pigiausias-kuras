@@ -270,7 +270,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Decathlon Klaipėda",
@@ -296,7 +296,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh"
     },
     {
         "name": "🔌 Hesburger Ramučiai",
@@ -322,7 +322,7 @@ const evStationsData = [
             "Elektra": 0.21
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.21€/kWh, CHADEMO (50.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.25€/kWh, IEC_62196_T2 (22.0kW) - 0.21€/kWh"
     },
     {
         "name": "🔌 Opera",
@@ -361,7 +361,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Baltupių turgus",
@@ -374,7 +374,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Rimi Jeruzalė",
@@ -400,7 +400,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 IKI Pavilnys",
@@ -413,7 +413,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 IKI Grigiškės",
@@ -426,7 +426,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Litexpo",
@@ -465,7 +465,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Šeškinės g. 59",
@@ -478,7 +478,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Helios City (coming soon)",
@@ -517,7 +517,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.24€/kWh, IEC_62196_T2_COMBO (45.0kW) - 0.29€/kWh, CHADEMO (45.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.29€/kWh, IEC_62196_T2 (43.0kW) - 0.24€/kWh, CHADEMO (45.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Halės turgus",
@@ -555,8 +555,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_status": "Laisva",
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Rimi Žirmūnai",
@@ -581,8 +581,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Karoliniškių poliklinika",
@@ -595,7 +595,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Norfa Fabijoniškės",
@@ -608,7 +608,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Maxima Gabijos g.",
@@ -621,7 +621,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Norfa Justiniškės",
@@ -634,7 +634,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 KUBAS",
@@ -673,7 +673,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Skraja",
@@ -712,7 +712,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Lazdynų ligoninė",
@@ -777,7 +777,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Tymo turgus",
@@ -816,7 +816,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Autocentras \"Žibintas\"",
@@ -829,7 +829,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Maxima Naujoji Vilnia",
@@ -842,7 +842,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Spaudos rūmai",
@@ -855,7 +855,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Panorama",
@@ -867,7 +867,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.29
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.29€/kWh"
     },
     {
@@ -881,7 +881,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 CUP",
@@ -906,7 +906,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.24
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
@@ -933,7 +933,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2 (11.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Kirtimų logistikos centras | Partneris",
@@ -972,7 +972,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (45.0kW) - 0.37€/kWh, IEC_62196_T2 (43.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "CHADEMO (45.0kW) - 0.37€/kWh, IEC_62196_T2 (43.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (45.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Kevigus | Partneris",
@@ -1024,7 +1024,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Hesburger Islandijos pl.",
@@ -1037,7 +1037,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh"
     },
     {
         "name": "🔌 Nordika",
@@ -1050,7 +1050,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh, CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
         "name": "🔌 IONITY GmbH IONITY Garliava",
@@ -1596,7 +1596,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh, CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
         "name": "🔌 Hesburger Baltų pr.",
@@ -1700,7 +1700,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
         "name": "🔌 Lidl Palanga Klaipėdos",
@@ -1713,7 +1713,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Vilnius Gariūnai",
@@ -1726,7 +1726,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Rokiskis Respublikos",
@@ -1739,7 +1739,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Nemenčinė",
@@ -1752,7 +1752,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Vilnius Salininkai",
@@ -1765,7 +1765,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Alytus Likiškėliai",
@@ -1778,7 +1778,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Kaunas Vijukai",
@@ -1791,7 +1791,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Vilnius Karoliniškės II",
@@ -1804,7 +1804,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 PLTZARDBU1_EDLT-106",
@@ -1830,7 +1830,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Medical SPA \"Eglės sanatorija\" Birštonas",
@@ -1895,7 +1895,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (100.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh, CHADEMO (75.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh, CHADEMO (75.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (100.0kW) - 0.51€/kWh, CHADEMO (50.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Hesburger Gariūnai",
@@ -1959,7 +1959,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.23
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.23€/kWh"
     },
     {
@@ -2009,7 +2009,7 @@ const evStationsData = [
         "lng": 25.2906789,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3437
+            "Elektra": 0.3397
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.34€/kWh"
@@ -2259,7 +2259,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 P. Širvio g. 24",
@@ -2428,7 +2428,7 @@ const evStationsData = [
             "Elektra": 0.21
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.21€/kWh, CHADEMO (50.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2 (11.0kW) - 0.21€/kWh, CHADEMO (50.0kW) - 0.25€/kWh"
     },
     {
         "name": "🔌 Zaraso ežero apžvalgos aikštelė",
@@ -2506,7 +2506,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Kavinė \"Vilkasalė\"",
@@ -2519,7 +2519,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 NordSpace (Servečės g. 2) | Inbalance grid",
@@ -2535,7 +2535,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.23€/kWh"
     },
     {
-        "name": "🔌 PLTKAUCHE8_EDLT-28",
+        "name": "🔌 PLTKAUCHE8_EDLT-23",
         "address": "Chemijos gatvė 8",
         "city": "Kaunas",
         "lat": 54.902504,
@@ -2545,7 +2545,7 @@ const evStationsData = [
             "Elektra": 0.55
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.55€/kWh, IEC_62196_T2_COMBO (25.0kW) - 0.66€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW) - 0.66€/kWh, IEC_62196_T2 (11.0kW) - 0.55€/kWh"
     },
     {
         "name": "🔌 Balsių malūnas",
@@ -2558,7 +2558,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Sigutės koldūninė",
@@ -2847,7 +2847,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh"
     },
     {
-        "name": "🔌 PLTVILLV21_EDLT-6",
+        "name": "🔌 PLTVILLV21_EDLT-4",
         "address": "Lvivo gatvė 21A",
         "city": "Vilnius",
         "lat": 54.695907,
@@ -2857,7 +2857,7 @@ const evStationsData = [
             "Elektra": 0.33
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.40€/kWh, IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.40€/kWh"
     },
     {
         "name": "🔌 Birutės g. 5",
@@ -2883,10 +2883,10 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
-        "name": "🔌 PLTGINARI3_EDLT-34",
+        "name": "🔌 PLTGINARI3_EDLT-35",
         "address": "Arimų gatvė 3",
         "city": "Ginduliai",
         "lat": 55.736341,
@@ -2896,7 +2896,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh, CHADEMO (50.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Green street Cafe",
@@ -2961,7 +2961,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Žiežmariai A1, 62,19km | Via Lietuva | Inbalance grid",
@@ -2974,7 +2974,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Šaltinėlis (Elektrėnai) A1, 45,78km | Via Lietuva | Inbalance grid",
@@ -2987,7 +2987,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Pas Lado A1, 93,43km | Via Lietuva | Inbalance grid",
@@ -3000,7 +3000,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Šalia kelio A1, 96,62km | Via Lietuva | Inbalance grid",
@@ -3013,7 +3013,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Švyturys A1, 141,67km | Via Lietuva | Inbalance grid",
@@ -3026,7 +3026,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Pastogė A1, 142,45km | Via Lietuva | Inbalance grid",
@@ -3039,7 +3039,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Levi. Tano A1, 185,24km | Via Lietuva | Inbalance grid",
@@ -3052,7 +3052,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Nikola A1, 192,8km | Via Lietuva | Inbalance grid",
@@ -3065,7 +3065,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Gargždai / Kilena A1, 292,92km | Via Lietuva | Inbalance grid",
@@ -3078,7 +3078,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Kurėnai A2, 80,1km | Via Lietuva | Inbalance grid",
@@ -3091,7 +3091,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 \"Jerevan\" Druskininkai A4, 125,69km | Via Lietuva | Inbalance grid",
@@ -3104,7 +3104,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Telšiai, 7 kilometras A11, 75,37km | Via Lietuva | Inbalance grid",
@@ -3117,7 +3117,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Laukinukė A12, 91,42km | Via Lietuva | Inbalance grid",
@@ -3130,7 +3130,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Circle K Tauragė A12, 152km | Via Lietuva | Inbalance grid",
@@ -3143,7 +3143,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Viešbutis „Greta“",
@@ -3233,7 +3233,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
     },
     {
@@ -3299,7 +3299,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Bistrampolio dvaras",
@@ -3312,7 +3312,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Sostinės med centras Račių g. 1",
@@ -3338,7 +3338,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Koops Piliuona",
@@ -3390,7 +3390,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Sodyba „Pelėdų pakalnė“",
@@ -3403,7 +3403,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Radviliškio mašinų gamykla",
@@ -3507,7 +3507,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Mokslo g. 11",
@@ -3585,7 +3585,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Taikos g. 2",
@@ -3598,7 +3598,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.39€/kWh, CHADEMO (50.0kW) - 0.29€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.39€/kWh"
     },
     {
         "name": "🔌 Ronžės g. 5A",
@@ -3610,7 +3610,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
     },
     {
@@ -3715,7 +3715,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Naujosios Vilnios Šv. Kazimiero bažnyčia",
@@ -3819,7 +3819,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (240.0kW) - 0.39€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW) - 0.39€/kWh, CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
         "name": "🔌 Maxima Šilutės pl.",
@@ -3832,7 +3832,7 @@ const evStationsData = [
             "Elektra": 0.21
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.21€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW) - 0.21€/kWh"
     },
     {
         "name": "🔌 Pajiesio g. 2",
@@ -3871,7 +3871,7 @@ const evStationsData = [
             "Elektra": 0.21
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.21€/kWh, IEC_62196_T2_COMBO (180.0kW) - 0.21€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.21€/kWh, IEC_62196_T2 (22.0kW) - 0.21€/kWh"
     },
     {
         "name": "🔌 Elmega Luokės g. 46, Telšiai",
@@ -3910,7 +3910,7 @@ const evStationsData = [
             "Elektra": 0.2479
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
         "name": "🔌 Taikos g. 39",
@@ -4040,7 +4040,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh"
     },
     {
         "name": "🔌 Vila Romnesa",
@@ -4290,7 +4290,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (40.0kW)"
     },
     {
-        "name": "🔌 PLTRAUZIR2_EDLT-94",
+        "name": "🔌 PLTRAUZIR2_EDLT-95",
         "address": "Žirgų gatvė 2",
         "city": "Raudondvaris",
         "lat": 54.826461,
@@ -4365,7 +4365,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Impuls Žirmūnai",
@@ -4378,7 +4378,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 R. Kalantos g. 49 | Partneris",
@@ -4417,7 +4417,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Thomas Phillips",
@@ -5210,7 +5210,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (59.0kW) - 0.38€/kWh, IEC_62196_T2 (22.0kW) - 0.38€/kWh, CHADEMO (59.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (59.0kW) - 0.38€/kWh, CHADEMO (59.0kW) - 0.38€/kWh, IEC_62196_T2 (22.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Porsche Klaipėda | Inbalance grid",
@@ -5444,7 +5444,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Kvistija A1, 238,03km | Via Lietuva | Inbalance grid",
@@ -5457,10 +5457,10 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
-        "name": "🔌 PLTNMKPIK2_EDLT-89",
+        "name": "🔌 PLTNMKPIK2_EDLT-88",
         "address": "Pikeliu k. 2",
         "city": "Pikeliai",
         "lat": 55.461015,
@@ -5470,7 +5470,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (300.0kW) - 0.66€/kWh, CHADEMO (100.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (300.0kW) - 0.55€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (300.0kW) - 0.55€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (300.0kW) - 0.66€/kWh, CHADEMO (100.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Moonplay",
@@ -5482,8 +5482,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 IKEA",
@@ -5521,7 +5521,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW)"
     },
     {
@@ -5664,7 +5664,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.31
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh"
     },
     {
@@ -5759,7 +5759,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
-        "name": "🔌 PLTKAUBRI1_EDLT-65",
+        "name": "🔌 PLTKAUBRI1_EDLT-64",
         "address": "Briedžių takas 1",
         "city": "Kaunas",
         "lat": 54.934805,
@@ -5924,7 +5924,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.2893
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh"
     },
     {
@@ -6198,7 +6198,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.44€/kWh, CHADEMO (50.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Norfa XL, Klaipėdos g. 41,  Gargždai",
@@ -6224,7 +6224,7 @@ const evStationsData = [
             "Elektra": 0.2893
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Bikuva Jonava",
@@ -6289,7 +6289,7 @@ const evStationsData = [
             "Elektra": 0.405
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (240.0kW) - 0.41€/kWh"
     },
     {
         "name": "🔌 Bikuva Kėdainiai",
@@ -6328,7 +6328,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Hesburger Jakai",
@@ -6341,7 +6341,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Padėlio namai",
@@ -6406,7 +6406,7 @@ const evStationsData = [
             "Elektra": 0.2893
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (160.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (80.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (80.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (160.0kW) - 0.41€/kWh"
     },
     {
         "name": "🔌 Norfa XL, Maironio g. 1, Kaišiadorys",
@@ -6458,7 +6458,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 K. Naruševičiaus g. 2",
@@ -6471,7 +6471,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh"
     },
     {
         "name": "🔌 Kalniškės g. 2",
@@ -6510,7 +6510,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (100.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh, CHADEMO (100.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Nevėžio g. 9",
@@ -6926,7 +6926,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (300.0kW) - 0.39€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.29€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (300.0kW) - 0.39€/kWh"
     },
     {
         "name": "🔌 IKI Marijampolė",
@@ -7017,7 +7017,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Savanorių a. 22",
@@ -7069,7 +7069,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Ginduliai",
@@ -7082,27 +7082,27 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Avižieniai",
         "address": "Draugystės gatvė 2M",
         "city": "Avižieniai",
-        "lat": 54.762438,
-        "lng": 25.202095,
+        "lat": 54.762274,
+        "lng": 25.202256,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lager Vilnius",
         "address": "Jogėliškių g 1",
         "city": "Vilnius",
-        "lat": 54.625755,
-        "lng": 25.069132,
+        "lat": 54.625724,
+        "lng": 25.068693,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
@@ -7114,27 +7114,27 @@ const evStationsData = [
         "name": "🔌 Lidl Molėtai",
         "address": "Aplinkkelio gatvė 163",
         "city": "Paluokesa",
-        "lat": 55.221149,
-        "lng": 25.43764,
+        "lat": 55.221231,
+        "lng": 25.437472,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Vilnius Dangeručio gatvė",
         "address": "Dangeručio gatvė 2",
         "city": "Vilnius",
-        "lat": 54.780151,
-        "lng": 25.275663,
+        "lat": 54.780216,
+        "lng": 25.275507,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lild Galgiai",
@@ -7147,20 +7147,20 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Jurbarkas",
         "address": "Dariaus ir Girėno gatvė 83",
         "city": "Jurbarkas",
-        "lat": 55.079034,
+        "lat": 55.079095,
         "lng": 22.776933,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Kaunas Savanoriai",
@@ -7173,7 +7173,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Šiauliai Aukštoji",
@@ -7186,7 +7186,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Klaipėda Gedminai",
@@ -7199,7 +7199,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Kaisiadorys",
@@ -7212,7 +7212,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Vilnius Valakampiai",
@@ -7225,7 +7225,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Elektrėnai",
@@ -7238,7 +7238,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 Lidl Gargždai",
@@ -7264,10 +7264,10 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
-        "name": "🔌 PLTVILEST1_EDLT-130",
+        "name": "🔌 PLTVILEST1_EDLT-129",
         "address": "Estu gatvė 1",
         "city": "Vilnius",
         "lat": 54.652474,
@@ -7290,7 +7290,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh, CHADEMO (50.0kW) - 0.29€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.39€/kWh"
     },
     {
         "name": "🔌 Gabera Aibė",
@@ -7316,7 +7316,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 JYSK Klaipėdos g. 168A, Panevėžys",
@@ -7355,7 +7355,7 @@ const evStationsData = [
             "Elektra": 0.2479
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2 (11.0kW) - 0.25€/kWh"
     },
     {
         "name": "🔌 Eifelis Vytauto g. 113-1, Dukstynos k., Ukmergė",
@@ -7446,7 +7446,7 @@ const evStationsData = [
             "Elektra": 0.405
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.41€/kWh"
     },
     {
         "name": "🔌 PLTKURVY80_EDLT-136",
@@ -7462,7 +7462,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.44€/kWh"
     },
     {
-        "name": "🔌 PLTKUPKI10_EDLT-140",
+        "name": "🔌 PLTKUPKI10_EDLT-139",
         "address": "Kikonių g. 10B",
         "city": "Pyragiai",
         "lat": 55.823995,
@@ -7485,7 +7485,7 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.44€/kWh, CHADEMO (50.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Norfa XL, Parko g. 1a, Marijampolė",
@@ -7654,7 +7654,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Vilniaus intermodalinis terminalas",
@@ -7693,7 +7693,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Kovo 11-osios g. 31A",
@@ -7774,7 +7774,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (180.0kW) - 0.31€/kWh"
     },
     {
-        "name": "🔌 PLTDRUC105_EDLT-79",
+        "name": "🔌 PLTDRUC105_EDLT-78",
         "address": "M. K. Čiurlionio gatvė 105",
         "city": "Druskininkai",
         "lat": 54.011765,
@@ -7810,7 +7810,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh"
     },
     {
         "name": "🔌 PLTVILKA13_EDLT-80",
@@ -7835,8 +7835,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.51
         },
-        "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "CHADEMO (100.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh"
+        "ev_status": "Laisva",
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh, CHADEMO (100.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Norfa XXL Ukmergės g. 298, Vilnius",
@@ -7894,14 +7894,14 @@ const evStationsData = [
         "name": "🔌 Lidl Kaunas",
         "address": "Savanorių Prospektas 219",
         "city": "Kaunas",
-        "lat": 54.909364,
-        "lng": 23.928169,
+        "lat": 54.909333,
+        "lng": 23.928217,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Lidl Kaunas",
@@ -7914,7 +7914,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Norfa XL, A. Purėno g. 1, Kupiškis",
@@ -7963,10 +7963,10 @@ const evStationsData = [
         "lng": 23.915537,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Aukštaičių g. 45, Kaunas",
@@ -7976,10 +7976,10 @@ const evStationsData = [
         "lng": 23.9287917,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Žemaičių g. 8A, Kaunas",
@@ -7989,10 +7989,10 @@ const evStationsData = [
         "lng": 23.9224607,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
-        "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_status": "Laisva",
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 K. Donelaičio g. 65, Kaunas",
@@ -8002,10 +8002,10 @@ const evStationsData = [
         "lng": 23.9156443,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Eivenių g. 23, Kaunas",
@@ -8015,10 +8015,10 @@ const evStationsData = [
         "lng": 23.9203268,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 T. Masiulio g. 21A, Kaunas",
@@ -8028,10 +8028,10 @@ const evStationsData = [
         "lng": 24.0145818,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Pramonės pr. 31, Kaunas",
@@ -8041,10 +8041,10 @@ const evStationsData = [
         "lng": 23.9845781,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Pramonės pr. 4E",
@@ -8122,7 +8122,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Radvilėnų pl. 21, Kaunas",
@@ -8132,10 +8132,10 @@ const evStationsData = [
         "lng": 23.9496465,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Karaliaus Mindaugo pr. 50, Kaunas",
@@ -8145,10 +8145,10 @@ const evStationsData = [
         "lng": 23.9150761,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Karaliaus Mindaugo pr. 50, Kaunas",
@@ -8158,10 +8158,10 @@ const evStationsData = [
         "lng": 23.9150265,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 L. Sapiegos g. 3, Kaunas",
@@ -8171,10 +8171,10 @@ const evStationsData = [
         "lng": 23.90596,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Taikos g. 39, Nida | Partner",
@@ -8187,7 +8187,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW), IEC_62196_T2 (43.0kW)"
     },
     {
         "name": "🔌 Juodkrantės prieplauka | Partner",
@@ -8200,7 +8200,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Raudondvario pl. 105, Kaunas",
@@ -8210,10 +8210,10 @@ const evStationsData = [
         "lng": 23.8695266,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Kęstučio g. 74, Kaunas",
@@ -8223,10 +8223,10 @@ const evStationsData = [
         "lng": 23.9069748,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Baltų pr. 7, Kaunas",
@@ -8236,10 +8236,10 @@ const evStationsData = [
         "lng": 23.8901097,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Bažnyčios g. 3, Kaunas",
@@ -8249,10 +8249,10 @@ const evStationsData = [
         "lng": 23.929536,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Karaliaus Mindaugo pr. 49, Kaunas",
@@ -8262,10 +8262,10 @@ const evStationsData = [
         "lng": 23.9196454,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Preilos g. 97B | Partner",
@@ -8314,10 +8314,10 @@ const evStationsData = [
         "lng": 23.9196105,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.33€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.32€/kWh, CHADEMO (50.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 P. Lukšio g. 47, Kaunas",
@@ -8327,10 +8327,10 @@ const evStationsData = [
         "lng": 23.9505762,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Panerių g. 51, Vilnius",
@@ -8340,10 +8340,10 @@ const evStationsData = [
         "lng": 25.2557685,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.5156
+            "Elektra": 0.51
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.52€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Panerių g. 51, Vilnius",
@@ -8353,10 +8353,10 @@ const evStationsData = [
         "lng": 25.2557712,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.5156
+            "Elektra": 0.51
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.52€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Butrimonių g. 9, Kaunas",
@@ -8382,7 +8382,7 @@ const evStationsData = [
             "Elektra": 0.22
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (60.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.25€/kWh, IEC_62196_T2 (22.0kW) - 0.22€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.22€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.25€/kWh, CHADEMO (60.0kW) - 0.25€/kWh"
     },
     {
         "name": "🔌 Naftrus Ylių k. | Partner",
@@ -8418,7 +8418,7 @@ const evStationsData = [
         "lng": 25.2904258,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3437
+            "Elektra": 0.3397
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.34€/kWh"
@@ -8431,10 +8431,10 @@ const evStationsData = [
         "lng": 26.5604165,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.2273
+            "Elektra": 0.224
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.23€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.22€/kWh"
     },
     {
         "name": "🔌 Kauno g. 34, Vilnius",
@@ -8447,7 +8447,7 @@ const evStationsData = [
             "Elektra": 0.2149
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.21€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.26€/kWh, CHADEMO (60.0kW) - 0.26€/kWh"
+        "ev_connectors": "CHADEMO (60.0kW) - 0.26€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.26€/kWh, IEC_62196_T2 (22.0kW) - 0.21€/kWh"
     },
     {
         "name": "🔌 Jovarų g. 2, Kaunas",
@@ -8470,7 +8470,7 @@ const evStationsData = [
         "lng": 23.9818145,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3494
+            "Elektra": 0.3458
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.35€/kWh"
@@ -8496,10 +8496,10 @@ const evStationsData = [
         "lng": 23.9741375,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3494
+            "Elektra": 0.3458
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.35€/kWh, CHADEMO (50.0kW) - 0.35€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.35€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.35€/kWh, CHADEMO (50.0kW) - 0.35€/kWh, IEC_62196_T2 (22.0kW) - 0.35€/kWh"
     },
     {
         "name": "🔌 Žemaitijos gatvė 2, Naujoji Akmenė",
@@ -8522,10 +8522,10 @@ const evStationsData = [
         "lng": 26.4525999,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3151
+            "Elektra": 0.3117
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.31€/kWh"
     },
     {
         "name": "🔌 Parko g. 14, Visaginas",
@@ -8535,10 +8535,10 @@ const evStationsData = [
         "lng": 26.4219523,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3151
+            "Elektra": 0.3117
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.32€/kWh, CHADEMO (50.0kW) - 0.32€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW) - 0.31€/kWh"
     },
     {
         "name": "🔌 Kauno g. 34, Vilnius",
@@ -8550,7 +8550,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.2749
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (240.0kW) - 0.27€/kWh"
     },
     {
@@ -8561,10 +8561,10 @@ const evStationsData = [
         "lng": 23.9370427,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3266
+            "Elektra": 0.323
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.33€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.32€/kWh"
     },
     {
         "name": "🔌 Mindaugo g. 23, Kėdainiai",
@@ -8574,7 +8574,7 @@ const evStationsData = [
         "lng": 23.9588782,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3494
+            "Elektra": 0.3458
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.35€/kWh"
@@ -8587,7 +8587,7 @@ const evStationsData = [
         "lng": 23.9794199,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3494
+            "Elektra": 0.3458
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.35€/kWh"
@@ -8600,7 +8600,7 @@ const evStationsData = [
         "lng": 23.9571479,
         "logo": "⚡",
         "prices": {
-            "Elektra": 0.3494
+            "Elektra": 0.3458
         },
         "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.35€/kWh"
@@ -8710,7 +8710,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW)"
     },
     {
-        "name": "🔌 PLTVILZ114_EDLT-112",
+        "name": "🔌 PLTVILZ114_EDLT-125",
         "address": "Žalgirio gatvė 114",
         "city": "Vilnius",
         "lat": 54.704459,
@@ -8733,7 +8733,7 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (100.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh, CHADEMO (100.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Rimi Lieporiai",
@@ -8931,7 +8931,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.31€/kWh"
     },
     {
-        "name": "🔌 PLTBABPRA4_EDLT-101",
+        "name": "🔌 PLTBABPRA4_EDLT-102",
         "address": "Pramogų gatvė 4",
         "city": "Babrungas",
         "lat": 55.938947,
@@ -8954,7 +8954,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 IKI Mažeikiai",
@@ -8967,7 +8967,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Vynoteka Alytus",
@@ -9539,7 +9539,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.33€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.33€/kWh"
     },
     {
         "name": "🔌 Klaipėdos paslaugos Pilies g. 2A | Partner",
@@ -9604,7 +9604,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Business Stadium North",
@@ -9643,7 +9643,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania PC Pašilaičiai - Ermitažas",
@@ -9695,7 +9695,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Paupio Darboteka",
@@ -9747,7 +9747,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Magnum -2 aukštas",
@@ -9851,7 +9851,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (45.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Kalvarijų turgus",
@@ -9876,7 +9876,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.37
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh"
     },
     {
@@ -9890,7 +9890,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Klaipėdos Holivudas",
@@ -10085,7 +10085,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2 (11.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania LTLAB",
@@ -10124,7 +10124,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania PC Kalniečiai 3",
@@ -10150,7 +10150,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Rimi Čekoniškės",
@@ -10201,7 +10201,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.37
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
@@ -10214,7 +10214,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.37
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
@@ -10228,7 +10228,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Klaipėdos paslaugos Liepojos g. 43A | Partner",
@@ -10253,7 +10253,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.29
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh"
     },
     {
@@ -10293,7 +10293,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.33€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.29€/kWh, CHADEMO (50.0kW) - 0.33€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.33€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania KOOC Klinika | Partner",
@@ -10410,7 +10410,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh, IEC_62196_T2 (43.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh, IEC_62196_T2 (43.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Urban HUB Kaunas 5",
@@ -10436,7 +10436,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Talkšos ežeras, Šiauliai",
@@ -10475,7 +10475,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Maxx verslo centras",
@@ -10514,7 +10514,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (75.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh, CHADEMO (75.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Kėdainių rajono vartotojų kooperatyvas",
@@ -10592,7 +10592,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Jaunimo g. 8",
@@ -10631,7 +10631,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 EMS Karmėlava | Inbalance grid",
@@ -10722,7 +10722,7 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (100.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh, CHADEMO (100.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Rimi Zujūnai",
@@ -10787,7 +10787,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (128.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (128.0kW) - 0.27€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Islandijos pl. 30",
@@ -10878,7 +10878,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Rimi Vingis",
@@ -10897,14 +10897,14 @@ const evStationsData = [
         "name": "🔌 Lidl Kaunas",
         "address": "Baltijos Gatvė 48a",
         "city": "Kaunas",
-        "lat": 54.922165,
-        "lng": 23.88361,
+        "lat": 54.922187,
+        "lng": 23.883246,
         "logo": "⚡",
         "prices": {
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Hesburger Erdvės",
@@ -10929,7 +10929,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.23
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.23€/kWh"
     },
     {
@@ -11060,7 +11060,7 @@ const evStationsData = [
             "Elektra": 0.2893
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (240.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (240.0kW) - 0.41€/kWh"
     },
     {
         "name": "🔌 Norfa XXL, Šiaurės pr. 44, Kaunas",
@@ -11073,7 +11073,7 @@ const evStationsData = [
             "Elektra": 0.2479
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (160.0kW) - 0.41€/kWh, IEC_62196_T2 (22.0kW) - 0.25€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (160.0kW) - 0.41€/kWh"
     },
     {
         "name": "🔌 Hesburger Jonučiai",
@@ -11112,7 +11112,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Žirmūnų g. 68A",
@@ -11124,7 +11124,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.32
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.32€/kWh"
     },
     {
@@ -11138,7 +11138,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Laiko Marios - 2k1",
@@ -11255,7 +11255,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Domus galerija",
@@ -11332,7 +11332,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.24
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (4.0kW) - 0.24€/kWh"
     },
     {
@@ -11553,7 +11553,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.51
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (25.0kW) - 1.01€/kWh, IEC_62196_T2 (22.0kW) - 0.51€/kWh"
     },
     {
@@ -11580,7 +11580,7 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh, IEC_62196_T2 (22.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh"
     },
     {
         "name": "🔌 PLTVILU252_EDLT-109",
@@ -11593,7 +11593,7 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh, IEC_62196_T2 (22.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh"
     },
     {
         "name": "🔌 PLTDRUVI13_EDLT-15",
@@ -11609,7 +11609,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.44€/kWh"
     },
     {
-        "name": "🔌 PLTVILL127_EDLT-53",
+        "name": "🔌 PLTVILL127_EDLT-54",
         "address": "Laisvės prospektas 127",
         "city": "Vilnius",
         "lat": 54.73033,
@@ -11619,10 +11619,10 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh, IEC_62196_T2 (22.0kW) - 0.51€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.66€/kWh"
     },
     {
-        "name": "🔌 PLTKLAMO45_EDLT-50",
+        "name": "🔌 PLTKLAMO45_EDLT-52",
         "address": "Mokyklos gatvė 45",
         "city": "Klaipėda",
         "lat": 55.707107,
@@ -11631,8 +11631,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.4
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.40€/kWh, IEC_62196_T2_COMBO (25.0kW) - 0.44€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW) - 0.44€/kWh, IEC_62196_T2 (22.0kW) - 0.40€/kWh"
     },
     {
         "name": "🔌 PLTSAUPRA2_EDLT-48",
@@ -11661,7 +11661,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.44€/kWh"
     },
     {
-        "name": "🔌 PLTKAUJO60_EDLT-198",
+        "name": "🔌 PLTKAUJO60_EDLT-197",
         "address": "Jonavos gatvė 60",
         "city": "Kaunas",
         "lat": 54.90303,
@@ -11684,7 +11684,7 @@ const evStationsData = [
             "Elektra": 0.4
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.40€/kWh, CHADEMO (50.0kW) - 0.40€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.40€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.40€/kWh"
     },
     {
         "name": "🔌 PLTVILN110_EDLT-36",
@@ -11700,7 +11700,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2_COMBO (25.0kW) - 1.01€/kWh"
     },
     {
-        "name": "🔌 PLTKLASI50_EDLT-44",
+        "name": "🔌 PLTKLASI50_EDLT-45",
         "address": "Šilutės plentas 50",
         "city": "Klaipėda",
         "lat": 55.682447,
@@ -11710,10 +11710,10 @@ const evStationsData = [
             "Elektra": 0.44
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.44€/kWh, IEC_62196_T2_COMBO (25.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW) - 0.44€/kWh, IEC_62196_T2 (22.0kW) - 0.44€/kWh"
     },
     {
-        "name": "🔌 PLTPANSM85_EDLT-207",
+        "name": "🔌 PLTPANSM85_EDLT-206",
         "address": "Smėlynės gatvė 85",
         "city": "Panevėžys",
         "lat": 55.745037,
@@ -11749,7 +11749,7 @@ const evStationsData = [
             "Elektra": 0.51
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh, CHADEMO (75.0kW) - 0.51€/kWh"
+        "ev_connectors": "CHADEMO (75.0kW) - 0.51€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.51€/kWh"
     },
     {
         "name": "🔌 Taikos 259, Vilnius | Vilniaus Apšvietimas | Inbalance grid",
@@ -12776,7 +12776,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Gerulaičio g. 10 | Vilniaus apšvietimas | Inbalance grid",
@@ -12932,7 +12932,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Sveikatos ratas Kėdainiai",
@@ -13010,7 +13010,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Didlaukio g. 80 | Vilniaus apšvietimas | Inbalance grid",
@@ -13126,8 +13126,8 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.27
         },
-        "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_status": "Užimta / Nežinoma",
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 IKI Lazdynai",
@@ -13140,7 +13140,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Maxima Naujininkai",
@@ -13153,7 +13153,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Vingio parkas",
@@ -13166,7 +13166,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), CHADEMO (45.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Vokiečių g. (coming soon)",
@@ -13179,7 +13179,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (320.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (320.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Business Garden Parking | Uždara aikštelė",
@@ -13205,7 +13205,7 @@ const evStationsData = [
             "Elektra": 0.24
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.24€/kWh, CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.32€/kWh, IEC_62196_T2 (22.0kW) - 0.24€/kWh"
     },
     {
         "name": "🔌 PC Žali",
@@ -13218,7 +13218,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh, CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Didlaukio 51 | Vilniaus apšvietimas | Inbalance grid",
@@ -13439,7 +13439,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Klaipėdos Holivudas 2",
@@ -15077,7 +15077,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 IKI, Vaišvydava | Inbalance grid",
@@ -15102,7 +15102,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.2479
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16012,7 +16012,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.25
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16038,7 +16038,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.25
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16194,7 +16194,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.25
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16272,7 +16272,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.25
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16432,7 +16432,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (4.0kW) - 0.24€/kWh"
     },
     {
-        "name": "🔌 PLTVILKA24_EDLT-229",
+        "name": "🔌 PLTVILKA24_EDLT-211",
         "address": "Kalvarijų gatvė 24",
         "city": "Vilnius",
         "lat": 54.696553,
@@ -16480,7 +16480,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.25
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.25€/kWh"
     },
     {
@@ -16649,7 +16649,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.24
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (320.0kW) - 0.24€/kWh"
     },
     {
@@ -16662,7 +16662,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.24
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (320.0kW) - 0.24€/kWh"
     },
     {
@@ -16766,7 +16766,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.24
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2_COMBO (320.0kW) - 0.24€/kWh"
     },
     {
@@ -16780,7 +16780,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Paryžiaus Komunos g. 4",
@@ -16793,7 +16793,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Priegliaus g. Pilaitė | Inbalance grid",
@@ -16962,7 +16962,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Plūgo broliai A12, 20,31km | Via Lietuva | Inbalance grid",
@@ -16975,7 +16975,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Aukštadvaris / Navos Smuklė A16, 54,61km | Via Lietuva | Inbalance grid",
@@ -16988,7 +16988,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Marijampolė A5, 65 km | Via Lietuva | Inbalance grid",
@@ -17001,7 +17001,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Degučiai A6, 165,72km | Via Lietuva | Inbalance grid",
@@ -17014,7 +17014,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Žarija, Šeduva A9, 47,3km | Via Lietuva | Inbalance grid",
@@ -17027,7 +17027,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Raubonys A10, 47,43km | Via Lietuva | Inbalance grid",
@@ -17040,7 +17040,7 @@ const evStationsData = [
             "Elektra": 0.38
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.38€/kWh, IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh"
+        "ev_connectors": "IEC_62196_T2 (43.0kW) - 0.38€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.38€/kWh, CHADEMO (50.0kW) - 0.38€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Lietuvos etnografijos muziejus | PARTNERIS",
@@ -17066,7 +17066,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Alauša / Kalvarijų 204G Vilnius | Inbalance grid",
@@ -17186,7 +17186,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (4.0kW) - 0.24€/kWh"
     },
     {
-        "name": "🔌 PLTSAVVA29_EDLT-138",
+        "name": "🔌 PLTSAVVA29_EDLT-248",
         "address": "Vandžiogalos gatvė 29",
         "city": "Saviečių kaimas",
         "lat": 55.167168,
@@ -17871,7 +17871,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.2
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.20€/kWh"
     },
     {
@@ -17910,7 +17910,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.55
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO (300.0kW) - 0.55€/kWh"
     },
     {
@@ -17963,7 +17963,7 @@ const evStationsData = [
             "Elektra": 0.31
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (200.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.31€/kWh, IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Žirmūnų g. 44 | Vilniaus Apšvietimas | Inbalance grid",
@@ -18093,7 +18093,7 @@ const evStationsData = [
             "Elektra": 0.27
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW) - 0.31€/kWh, CHADEMO (50.0kW) - 0.27€/kWh"
     },
     {
         "name": "🔌 Rugiu g. 8A | Vilniaus apšvietimas | Inbalance grid",
@@ -18470,7 +18470,7 @@ const evStationsData = [
             "Elektra": 0.2893
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Norfa XL, Salininkų g. 129a, Vilnius",
@@ -18899,7 +18899,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.30€/kWh, CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (22.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Skulas Geležinis Vilkas",
@@ -19071,7 +19071,7 @@ const evStationsData = [
         "ev_connectors": "CHADEMO (50.0kW) - 0.27€/kWh, IEC_62196_T2_COMBO (102.0kW) - 0.27€/kWh"
     },
     {
-        "name": "🔌 PLTPALKR56_EDLT-184",
+        "name": "🔌 PLTPALKR56_EDLT-191",
         "address": "Kretingos gatvė 56",
         "city": "Palanga",
         "lat": 55.914268,
@@ -19081,7 +19081,7 @@ const evStationsData = [
             "Elektra": 0.4
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.40€/kWh, IEC_62196_T2_COMBO (60.0kW) - 0.44€/kWh, CHADEMO (58.0kW) - 0.44€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW) - 0.44€/kWh, IEC_62196_T2 (22.0kW) - 0.40€/kWh, CHADEMO (58.0kW) - 0.44€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Prekybos parkas Pušynas",
@@ -19224,7 +19224,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Utenio a. 16, Utena",
@@ -19263,7 +19263,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Aukštakalnio g. 3, Utena",
@@ -19276,7 +19276,7 @@ const evStationsData = [
             "Elektra": 0.29
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh, IEC_62196_T2 (22.0kW) - 0.29€/kWh"
+        "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Radviliškio g. 7, Kutiškiai | PARTNERIS",
@@ -19305,7 +19305,7 @@ const evStationsData = [
         "ev_connectors": "IEC_62196_T2 (22.0kW) - 0.29€/kWh"
     },
     {
-        "name": "🔌 PLTBUKBI36_EDLT-238",
+        "name": "🔌 PLTBUKBI36_EDLT-237",
         "address": "Bičiulių gatvė 36",
         "city": "Bukiškis",
         "lat": 54.75987,
@@ -19315,7 +19315,7 @@ const evStationsData = [
             "Elektra": 0.35
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (100.0kW) - 0.35€/kWh, IEC_62196_T2 (11.0kW) - 0.35€/kWh"
+        "ev_connectors": "IEC_62196_T2 (11.0kW) - 0.35€/kWh, IEC_62196_T2_COMBO (100.0kW) - 0.35€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Sabališkių g. 1H, Elektrėnai",
@@ -19341,7 +19341,7 @@ const evStationsData = [
             "Elektra": 0.3
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh"
+        "ev_connectors": "CHADEMO (50.0kW) - 0.36€/kWh, IEC_62196_T2_COMBO (50.0kW) - 0.36€/kWh, IEC_62196_T2 (43.0kW) - 0.30€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Eldrive | Porsche Charging Hub Rietavas",
@@ -19354,7 +19354,7 @@ const evStationsData = [
             "Elektra": 0.37
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW) - 0.37€/kWh, IEC_62196_T2_COMBO (400.0kW) - 0.37€/kWh, CHADEMO (50.0kW) - 0.37€/kWh"
     },
     {
         "name": "🔌 PLTPABV116_EDLT-204",
@@ -19471,7 +19471,7 @@ const evStationsData = [
             "Elektra": 0.2479
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (100.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (40.0kW) - 0.29€/kWh, IEC_62196_T2 (11.0kW) - 0.25€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (100.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (40.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2 (11.0kW) - 0.25€/kWh"
     },
     {
         "name": "🔌 Norfa XL, Molėtų pl. 47, Vilnius",
@@ -19497,7 +19497,7 @@ const evStationsData = [
             "Elektra": 0.2893
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh, IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW) - 0.41€/kWh, IEC_62196_T2_COMBO (47.0kW) - 0.29€/kWh"
     },
     {
         "name": "🔌 Eldrive Lithuania Muziejaus g. 35, Telšiai | PARTNERIS",
