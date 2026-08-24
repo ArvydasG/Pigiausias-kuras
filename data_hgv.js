@@ -258,7 +258,7 @@ const hgvData = [
         "lat": 54.959358,
         "lng": 23.8666067,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -272,7 +272,7 @@ const hgvData = [
         "lat": 54.9588605,
         "lng": 23.8639379,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -300,7 +300,7 @@ const hgvData = [
         "lat": 55.8111145,
         "lng": 24.3687945,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -314,7 +314,7 @@ const hgvData = [
         "lat": 56.0420836,
         "lng": 24.3787268,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -328,7 +328,7 @@ const hgvData = [
         "lat": 56.1148631,
         "lng": 24.470356,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -846,7 +846,7 @@ const hgvData = [
         "lat": 55.3704039,
         "lng": 23.121113,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -902,7 +902,7 @@ const hgvData = [
         "lat": 54.3292335,
         "lng": 23.147928,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1014,7 +1014,7 @@ const hgvData = [
         "lat": 55.7884499,
         "lng": 21.1388239,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1028,7 +1028,7 @@ const hgvData = [
         "lat": 54.8096289,
         "lng": 23.852983,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1252,7 +1252,7 @@ const hgvData = [
         "lat": 55.5120735,
         "lng": 25.6447614,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1588,7 +1588,7 @@ const hgvData = [
         "lat": 55.2794746,
         "lng": 23.3430592,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1602,7 +1602,7 @@ const hgvData = [
         "lat": 54.7138397,
         "lng": 23.6497102,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
