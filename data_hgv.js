@@ -1762,5 +1762,19 @@ const hgvData = [
         "prices": {
             "Vilkikams": 1
         }
+    },
+    {
+        "name": "🚛 Vilkikų stovėjimo aikštelė",
+        "type_label": "Vilkikų stovėjimo aikštelė",
+        "address": "",
+        "lat": 54.9329963,
+        "lng": 23.9507964,
+        "logo": "🚛",
+        "is_near_gas_station": true,
+        "near_station_name": "",
+        "capacity": "",
+        "prices": {
+            "Vilkikams": 1
+        }
     }
 ];
