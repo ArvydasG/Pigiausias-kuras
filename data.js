@@ -1,5 +1,5 @@
 // Automatiškai sugeneruoti duomenys iš LEA API (via Playwright)
-const lastUpdated = '2026-09-08';
+const lastUpdated = '2026-09-09';
 const defaultDiscounts = {
     "Circle K": 0.035,
     "Neste": 0.035,
@@ -484,10 +484,10 @@ const stationsData = [
         "lat": 54.72598846,
         "lng": 24.23618661,
         "prices": {
-            "A95": 1.83,
+            "A95": 1.86,
             "A98": null,
-            "Diesel": 2.06,
-            "LPG": 0.72
+            "Diesel": 2.08,
+            "LPG": 0.76
         },
         "id": 32
     },
@@ -574,7 +574,7 @@ const stationsData = [
         "lat": 54.6872,
         "lng": 25.2797,
         "prices": {
-            "A95": 1.9,
+            "A95": 1.93,
             "A98": null,
             "Diesel": 2.15,
             "LPG": null
@@ -589,9 +589,9 @@ const stationsData = [
         "lat": 55.2972995,
         "lng": 24.001282,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": null
         },
         "id": 39
@@ -604,9 +604,9 @@ const stationsData = [
         "lat": 55.31303444,
         "lng": 23.97790383,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": 0.77
         },
         "id": 40
@@ -619,9 +619,9 @@ const stationsData = [
         "lat": 55.2914644,
         "lng": 23.96104847,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": 0.77
         },
         "id": 41
@@ -634,9 +634,9 @@ const stationsData = [
         "lat": 55.16694613,
         "lng": 23.99479742,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": 0.77
         },
         "id": 42
@@ -649,9 +649,9 @@ const stationsData = [
         "lat": 56.22890581,
         "lng": 23.61009591,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.089,
             "LPG": 0.729
         },
         "id": 43
@@ -694,10 +694,10 @@ const stationsData = [
         "lat": 55.52255492,
         "lng": 25.08965407,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.174,
-            "LPG": 0.739
+            "Diesel": 1.999,
+            "LPG": 0.699
         },
         "id": 46
     },
@@ -709,10 +709,10 @@ const stationsData = [
         "lat": 55.24422122,
         "lng": 24.74978876,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.814,
             "A98": null,
-            "Diesel": 2.174,
-            "LPG": 0.739
+            "Diesel": 2.064,
+            "LPG": 0.714
         },
         "id": 47
     },
@@ -724,10 +724,10 @@ const stationsData = [
         "lat": 54.7209466,
         "lng": 25.28481687,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.739
+            "Diesel": 2.029,
+            "LPG": 0.714
         },
         "id": 48
     },
@@ -739,10 +739,10 @@ const stationsData = [
         "lat": 54.56213662,
         "lng": 23.36640412,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.769
+            "Diesel": 2.059,
+            "LPG": 0.719
         },
         "id": 49
     },
@@ -754,10 +754,10 @@ const stationsData = [
         "lat": 54.67731309,
         "lng": 25.07888331,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.799
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 50
     },
@@ -769,10 +769,10 @@ const stationsData = [
         "lat": 55.5118318,
         "lng": 25.59995261,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.759
+            "Diesel": 2.099,
+            "LPG": 0.744
         },
         "id": 51
     },
@@ -784,10 +784,10 @@ const stationsData = [
         "lat": 55.33210138,
         "lng": 26.16708676,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.769
+            "Diesel": 2.099,
+            "LPG": 0.719
         },
         "id": 52
     },
@@ -799,9 +799,9 @@ const stationsData = [
         "lat": 54.56607355,
         "lng": 23.38045057,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.174,
+            "Diesel": 2.099,
             "LPG": null
         },
         "id": 53
@@ -814,10 +814,10 @@ const stationsData = [
         "lat": 55.59919455,
         "lng": 26.42003012,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.849,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.739
+            "Diesel": 2.099,
+            "LPG": 0.699
         },
         "id": 54
     },
@@ -829,9 +829,9 @@ const stationsData = [
         "lat": 54.71083857,
         "lng": 25.240395,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.079,
             "LPG": null
         },
         "id": 55
@@ -844,9 +844,9 @@ const stationsData = [
         "lat": 54.20415359,
         "lng": 25.62109381,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.099,
             "LPG": 0.799
         },
         "id": 56
@@ -874,9 +874,9 @@ const stationsData = [
         "lat": 55.94861185,
         "lng": 25.81422087,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.099,
             "LPG": null
         },
         "id": 58
@@ -889,9 +889,9 @@ const stationsData = [
         "lat": 54.60559471,
         "lng": 23.40485804,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.82,
             "A98": null,
-            "Diesel": 2.099,
+            "Diesel": 2.029,
             "LPG": null
         },
         "id": 59
@@ -906,7 +906,7 @@ const stationsData = [
         "prices": {
             "A95": 1.799,
             "A98": null,
-            "Diesel": 1.999,
+            "Diesel": 2.069,
             "LPG": null
         },
         "id": 60
@@ -919,9 +919,9 @@ const stationsData = [
         "lat": 55.68490037,
         "lng": 25.35267502,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 2.069,
             "LPG": 0.699
         },
         "id": 61
@@ -934,9 +934,9 @@ const stationsData = [
         "lat": 54.72763704,
         "lng": 25.23519729,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.099,
+            "Diesel": 2.079,
             "LPG": null
         },
         "id": 62
@@ -949,9 +949,9 @@ const stationsData = [
         "lat": 54.66909614,
         "lng": 25.27854118,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.099,
+            "Diesel": 2.069,
             "LPG": null
         },
         "id": 63
@@ -964,9 +964,9 @@ const stationsData = [
         "lat": 55.92021973,
         "lng": 23.42593712,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.149,
+            "Diesel": 2.099,
             "LPG": 0.749
         },
         "id": 64
@@ -979,9 +979,9 @@ const stationsData = [
         "lat": 55.35879495,
         "lng": 21.50333955,
         "prices": {
-            "A95": 1.86,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.1,
+            "Diesel": 2.09,
             "LPG": 0.75
         },
         "id": 65
@@ -1009,10 +1009,10 @@ const stationsData = [
         "lat": 55.6345988,
         "lng": 23.73338104,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.235,
-            "LPG": 0.829
+            "Diesel": 2.184,
+            "LPG": 0.825
         },
         "id": 67
     },
@@ -1024,9 +1024,9 @@ const stationsData = [
         "lat": 55.91809812,
         "lng": 23.29757432,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.209,
             "LPG": 0.819
         },
         "id": 68
@@ -1042,7 +1042,7 @@ const stationsData = [
             "A95": 1.964,
             "A98": null,
             "Diesel": 2.219,
-            "LPG": 0.779
+            "LPG": 0.789
         },
         "id": 69
     },
@@ -1054,9 +1054,9 @@ const stationsData = [
         "lat": 55.90496011,
         "lng": 23.3280691,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.209,
             "LPG": null
         },
         "id": 70
@@ -1069,7 +1069,7 @@ const stationsData = [
         "lat": 55.92360097,
         "lng": 23.35025761,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.969,
             "A98": null,
             "Diesel": 2.189,
             "LPG": 0.815
@@ -1084,10 +1084,10 @@ const stationsData = [
         "lat": 55.8154361,
         "lng": 23.54351198,
         "prices": {
-            "A95": 2.009,
+            "A95": 1.964,
             "A98": null,
-            "Diesel": 2.225,
-            "LPG": 0.769
+            "Diesel": 2.194,
+            "LPG": 0.789
         },
         "id": 72
     },
@@ -1114,9 +1114,9 @@ const stationsData = [
         "lat": 55.59049932,
         "lng": 26.4632926,
         "prices": {
-            "A95": 1.887,
+            "A95": 1.854,
             "A98": null,
-            "Diesel": 2.143,
+            "Diesel": 2.098,
             "LPG": null
         },
         "id": 74
@@ -1159,10 +1159,10 @@ const stationsData = [
         "lat": 54.53386654,
         "lng": 23.35330631,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.789
+            "Diesel": 2.109,
+            "LPG": 0.779
         },
         "id": 77
     },
@@ -1189,9 +1189,9 @@ const stationsData = [
         "lat": 55.27702438,
         "lng": 23.95582653,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.189,
             "LPG": 0.799
         },
         "id": 79
@@ -1204,9 +1204,9 @@ const stationsData = [
         "lat": 55.70069671,
         "lng": 21.19891436,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.179,
             "LPG": 0.799
         },
         "id": 80
@@ -1219,10 +1219,10 @@ const stationsData = [
         "lat": 56.30505361,
         "lng": 22.35098426,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.799
+            "Diesel": 2.129,
+            "LPG": 0.789
         },
         "id": 81
     },
@@ -1234,9 +1234,9 @@ const stationsData = [
         "lat": 55.21741912,
         "lng": 25.40343537,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.189,
             "LPG": 0.799
         },
         "id": 82
@@ -1249,10 +1249,10 @@ const stationsData = [
         "lat": 55.03227678,
         "lng": 24.96719053,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.789
+            "Diesel": 2.109,
+            "LPG": 0.779
         },
         "id": 83
     },
@@ -1264,10 +1264,10 @@ const stationsData = [
         "lat": 55.24093222,
         "lng": 24.7397265,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.799
+            "Diesel": 2.149,
+            "LPG": 0.779
         },
         "id": 84
     },
@@ -1294,9 +1294,9 @@ const stationsData = [
         "lat": 55.72092335,
         "lng": 21.15287961,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.179,
             "LPG": 0.789
         },
         "id": 86
@@ -1309,10 +1309,10 @@ const stationsData = [
         "lat": 54.58697587,
         "lng": 23.38447536,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.109,
+            "LPG": 0.779
         },
         "id": 87
     },
@@ -1339,9 +1339,9 @@ const stationsData = [
         "lat": 54.66681545,
         "lng": 25.25087372,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.209,
             "LPG": 0.799
         },
         "id": 89
@@ -1354,9 +1354,9 @@ const stationsData = [
         "lat": 54.76769921,
         "lng": 25.27233948,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.209,
             "LPG": 0.799
         },
         "id": 90
@@ -1384,7 +1384,7 @@ const stationsData = [
         "lat": 55.05810663,
         "lng": 24.26351919,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.969,
             "A98": null,
             "Diesel": 2.229,
             "LPG": 0.77
@@ -1399,9 +1399,9 @@ const stationsData = [
         "lat": 54.90505612,
         "lng": 23.8995314,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.209,
             "LPG": 0.799
         },
         "id": 93
@@ -1429,7 +1429,7 @@ const stationsData = [
         "lat": 55.08237996,
         "lng": 24.27093489,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.969,
             "A98": null,
             "Diesel": 2.229,
             "LPG": 0.779
@@ -1444,9 +1444,9 @@ const stationsData = [
         "lat": 55.8255192,
         "lng": 23.5233024,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.209,
             "LPG": 0.79
         },
         "id": 96
@@ -1459,9 +1459,9 @@ const stationsData = [
         "lat": 54.64049978,
         "lng": 25.2674053,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.819
         },
         "id": 97
@@ -1474,7 +1474,7 @@ const stationsData = [
         "lat": 54.7109034,
         "lng": 25.16166454,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
             "Diesel": 2.239,
             "LPG": 0.81
@@ -1489,10 +1489,10 @@ const stationsData = [
         "lat": 56.22341207,
         "lng": 23.59765138,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.789
+            "Diesel": 2.139,
+            "LPG": 0.759
         },
         "id": 99
     },
@@ -1519,9 +1519,9 @@ const stationsData = [
         "lat": 55.97443806,
         "lng": 23.86903974,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.209,
             "LPG": 0.77
         },
         "id": 101
@@ -1534,10 +1534,10 @@ const stationsData = [
         "lat": 55.49540378,
         "lng": 25.5748768,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.809
+            "Diesel": 2.149,
+            "LPG": 0.779
         },
         "id": 102
     },
@@ -1549,9 +1549,9 @@ const stationsData = [
         "lat": 55.73731746,
         "lng": 26.27264138,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.809
         },
         "id": 103
@@ -1564,9 +1564,9 @@ const stationsData = [
         "lat": 55.73945142,
         "lng": 25.85242031,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": null
         },
         "id": 104
@@ -1579,9 +1579,9 @@ const stationsData = [
         "lat": 54.76853735,
         "lng": 25.1959108,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.799
         },
         "id": 105
@@ -1639,9 +1639,9 @@ const stationsData = [
         "lat": 54.72402245,
         "lng": 25.28225813,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.169,
+            "Diesel": 2.109,
             "LPG": 0.779
         },
         "id": 109
@@ -1699,9 +1699,9 @@ const stationsData = [
         "lat": 54.6139816,
         "lng": 25.30897645,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.229,
             "LPG": null
         },
         "id": 113
@@ -1774,10 +1774,10 @@ const stationsData = [
         "lat": 55.24330849,
         "lng": 22.25303084,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.989,
             "A98": null,
             "Diesel": 2.259,
-            "LPG": 0.75
+            "LPG": 0.78
         },
         "id": 118
     },
@@ -1789,10 +1789,10 @@ const stationsData = [
         "lat": 55.35291592,
         "lng": 21.46311915,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.189,
-            "LPG": 0.749
+            "Diesel": 2.179,
+            "LPG": 0.759
         },
         "id": 119
     },
@@ -1821,7 +1821,7 @@ const stationsData = [
         "prices": {
             "A95": 1.939,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.209,
             "LPG": 0.799
         },
         "id": 121
@@ -1834,9 +1834,9 @@ const stationsData = [
         "lat": 55.95757509,
         "lng": 23.31605137,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.77
         },
         "id": 122
@@ -1894,10 +1894,10 @@ const stationsData = [
         "lat": 56.25942364,
         "lng": 21.53042207,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.799
+            "Diesel": 2.119,
+            "LPG": 0.759
         },
         "id": 126
     },
@@ -1924,9 +1924,9 @@ const stationsData = [
         "lat": 55.719486,
         "lng": 21.92852019,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.179,
             "LPG": 0.78
         },
         "id": 128
@@ -1984,9 +1984,9 @@ const stationsData = [
         "lat": 55.8007344,
         "lng": 23.56542278,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.209,
             "LPG": 0.79
         },
         "id": 132
@@ -2059,9 +2059,9 @@ const stationsData = [
         "lat": 56.07093117,
         "lng": 24.41123079,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.189,
             "LPG": null
         },
         "id": 137
@@ -2074,7 +2074,7 @@ const stationsData = [
         "lat": 55.9154883,
         "lng": 21.07814978,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.999,
             "A98": null,
             "Diesel": 2.259,
             "LPG": 0.789
@@ -2089,7 +2089,7 @@ const stationsData = [
         "lat": 55.92349224,
         "lng": 21.07464189,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.999,
             "A98": null,
             "Diesel": 2.259,
             "LPG": 0.779
@@ -2134,9 +2134,9 @@ const stationsData = [
         "lat": 54.22065604,
         "lng": 23.5089976,
         "prices": {
-            "A95": 2.009,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.149,
             "LPG": 0.789
         },
         "id": 142
@@ -2149,9 +2149,9 @@ const stationsData = [
         "lat": 55.79647651,
         "lng": 24.88883792,
         "prices": {
-            "A95": 1.909,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.149,
+            "Diesel": 2.169,
             "LPG": 0.789
         },
         "id": 143
@@ -2224,9 +2224,9 @@ const stationsData = [
         "lat": 54.81474778,
         "lng": 23.87240005,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.239,
             "LPG": 0.799
         },
         "id": 148
@@ -2239,7 +2239,7 @@ const stationsData = [
         "lat": 54.90762462,
         "lng": 23.87405934,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
             "Diesel": 2.229,
             "LPG": 0.799
@@ -2269,7 +2269,7 @@ const stationsData = [
         "lat": 54.81686838,
         "lng": 24.43656186,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
             "Diesel": 2.209,
             "LPG": 0.789
@@ -2329,10 +2329,10 @@ const stationsData = [
         "lat": 55.50854285,
         "lng": 25.09624695,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.209,
-            "LPG": 0.799
+            "Diesel": 2.149,
+            "LPG": 0.779
         },
         "id": 155
     },
@@ -2344,9 +2344,9 @@ const stationsData = [
         "lat": 54.38778364,
         "lng": 23.99615494,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.169,
             "LPG": 0.789
         },
         "id": 156
@@ -2374,10 +2374,10 @@ const stationsData = [
         "lat": 54.91742079,
         "lng": 24.03510568,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.789
+            "Diesel": 2.079,
+            "LPG": 0.819
         },
         "id": 158
     },
@@ -2421,7 +2421,7 @@ const stationsData = [
         "prices": {
             "A95": 1.919,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.199,
             "LPG": 0.79
         },
         "id": 161
@@ -2449,9 +2449,9 @@ const stationsData = [
         "lat": 55.24243868,
         "lng": 22.25002133,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.129,
+            "Diesel": 2.179,
             "LPG": 0.68
         },
         "id": 163
@@ -2479,9 +2479,9 @@ const stationsData = [
         "lat": 55.9357609,
         "lng": 23.0777888,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.839
         },
         "id": 165
@@ -2496,7 +2496,7 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": 0.779
         },
         "id": 166
@@ -2509,9 +2509,9 @@ const stationsData = [
         "lat": 55.2643412,
         "lng": 25.49004139,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.839
         },
         "id": 167
@@ -2524,9 +2524,9 @@ const stationsData = [
         "lat": 55.63480388,
         "lng": 22.94542371,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.829
         },
         "id": 168
@@ -2569,9 +2569,9 @@ const stationsData = [
         "lat": 54.9038368,
         "lng": 23.835313,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.86
         },
         "id": 171
@@ -2584,9 +2584,9 @@ const stationsData = [
         "lat": 54.7862307,
         "lng": 24.7143876,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.839
         },
         "id": 172
@@ -2644,10 +2644,10 @@ const stationsData = [
         "lat": 54.5762408,
         "lng": 23.37145108,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.84
+            "Diesel": 2.149,
+            "LPG": 0.82
         },
         "id": 176
     },
@@ -2659,9 +2659,9 @@ const stationsData = [
         "lat": 55.7042798,
         "lng": 21.16070837,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.139,
             "LPG": 0.809
         },
         "id": 177
@@ -2674,10 +2674,10 @@ const stationsData = [
         "lat": 54.4245839,
         "lng": 24.00384076,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.209,
-            "LPG": 0.819
+            "Diesel": 2.169,
+            "LPG": 0.829
         },
         "id": 178
     },
@@ -2689,9 +2689,9 @@ const stationsData = [
         "lat": 54.91633041,
         "lng": 23.9865814,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.159,
             "LPG": 0.809
         },
         "id": 179
@@ -2704,10 +2704,10 @@ const stationsData = [
         "lat": 54.90819539,
         "lng": 23.86488247,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.159,
+            "LPG": 0.859
         },
         "id": 180
     },
@@ -2719,10 +2719,10 @@ const stationsData = [
         "lat": 55.49610987,
         "lng": 25.58294292,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.904,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.814
+            "Diesel": 2.149,
+            "LPG": 0.784
         },
         "id": 181
     },
@@ -2734,9 +2734,9 @@ const stationsData = [
         "lat": 54.93560587,
         "lng": 23.87042322,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.189,
             "LPG": 0.879
         },
         "id": 182
@@ -2749,10 +2749,10 @@ const stationsData = [
         "lat": 55.81053429,
         "lng": 24.36859072,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.939
+            "Diesel": 2.209,
+            "LPG": 0.919
         },
         "id": 183
     },
@@ -2764,10 +2764,10 @@ const stationsData = [
         "lat": 54.71563832,
         "lng": 25.29084551,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.849
+            "Diesel": 2.149,
+            "LPG": 0.829
         },
         "id": 184
     },
@@ -2779,9 +2779,9 @@ const stationsData = [
         "lat": 54.66186065,
         "lng": 25.23522223,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.164,
             "LPG": 0.809
         },
         "id": 185
@@ -2794,9 +2794,9 @@ const stationsData = [
         "lat": 54.66267877,
         "lng": 25.23500717,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.164,
             "LPG": 0.809
         },
         "id": 186
@@ -2809,9 +2809,9 @@ const stationsData = [
         "lat": 54.92533676,
         "lng": 23.89068586,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.179,
             "LPG": 0.839
         },
         "id": 187
@@ -2824,10 +2824,10 @@ const stationsData = [
         "lat": 55.67273361,
         "lng": 24.33664263,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.849
+            "Diesel": 2.209,
+            "LPG": 0.829
         },
         "id": 188
     },
@@ -2839,10 +2839,10 @@ const stationsData = [
         "lat": 55.35049055,
         "lng": 21.47453993,
         "prices": {
-            "A95": 1.955,
+            "A95": 1.935,
             "A98": null,
-            "Diesel": 2.185,
-            "LPG": 0.769
+            "Diesel": 2.175,
+            "LPG": 0.799
         },
         "id": 189
     },
@@ -2854,9 +2854,9 @@ const stationsData = [
         "lat": 55.70221153,
         "lng": 21.13803973,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.139,
             "LPG": null
         },
         "id": 190
@@ -2884,9 +2884,9 @@ const stationsData = [
         "lat": 55.72866229,
         "lng": 24.33914094,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
         "id": 192
@@ -2899,10 +2899,10 @@ const stationsData = [
         "lat": 55.50503319,
         "lng": 25.62092751,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.799
+            "Diesel": 2.159,
+            "LPG": 0.839
         },
         "id": 193
     },
@@ -2914,10 +2914,10 @@ const stationsData = [
         "lat": 54.78934176,
         "lng": 24.67618278,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.829
+            "Diesel": 2.169,
+            "LPG": 0.839
         },
         "id": 194
     },
@@ -2929,9 +2929,9 @@ const stationsData = [
         "lat": 54.89308333,
         "lng": 23.99581271,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.189,
             "LPG": null
         },
         "id": 195
@@ -2944,9 +2944,9 @@ const stationsData = [
         "lat": 55.69235463,
         "lng": 21.1535706,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.169,
             "LPG": null
         },
         "id": 196
@@ -2959,9 +2959,9 @@ const stationsData = [
         "lat": 55.92893154,
         "lng": 23.29765257,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.209,
             "LPG": 0.839
         },
         "id": 197
@@ -2974,9 +2974,9 @@ const stationsData = [
         "lat": 54.69503638,
         "lng": 25.29800144,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.244,
+            "Diesel": 2.159,
             "LPG": null
         },
         "id": 198
@@ -2989,9 +2989,9 @@ const stationsData = [
         "lat": 54.78077707,
         "lng": 25.27390302,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.119,
             "LPG": null
         },
         "id": 199
@@ -3004,10 +3004,10 @@ const stationsData = [
         "lat": 54.76041443,
         "lng": 25.20170754,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.954,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.839
+            "Diesel": 2.189,
+            "LPG": 0.819
         },
         "id": 200
     },
@@ -3019,10 +3019,10 @@ const stationsData = [
         "lat": 54.90163899,
         "lng": 23.89479004,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.789
+            "Diesel": 2.159,
+            "LPG": 0.8
         },
         "id": 201
     },
@@ -3034,9 +3034,9 @@ const stationsData = [
         "lat": 54.89907183,
         "lng": 23.96010615,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.229,
             "LPG": 0.929
         },
         "id": 202
@@ -3049,9 +3049,9 @@ const stationsData = [
         "lat": 54.22686034,
         "lng": 23.5253042,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.209,
             "LPG": 0.759
         },
         "id": 203
@@ -3064,10 +3064,10 @@ const stationsData = [
         "lat": 55.71753068,
         "lng": 24.37105326,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.954,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.83
+            "Diesel": 2.189,
+            "LPG": 0.82
         },
         "id": 204
     },
@@ -3079,10 +3079,10 @@ const stationsData = [
         "lat": 55.81158205,
         "lng": 23.54996243,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.229,
-            "LPG": 0.81
+            "Diesel": 2.199,
+            "LPG": 0.8
         },
         "id": 205
     },
@@ -3094,9 +3094,9 @@ const stationsData = [
         "lat": 54.71334267,
         "lng": 25.20934162,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.189,
             "LPG": 0.949
         },
         "id": 206
@@ -3109,10 +3109,10 @@ const stationsData = [
         "lat": 54.3951041,
         "lng": 24.03815158,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.799
+            "Diesel": 2.179,
+            "LPG": 0.819
         },
         "id": 207
     },
@@ -3124,9 +3124,9 @@ const stationsData = [
         "lat": 54.91204449,
         "lng": 23.95674089,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.179,
             "LPG": null
         },
         "id": 208
@@ -3139,10 +3139,10 @@ const stationsData = [
         "lat": 55.71155505,
         "lng": 21.26296138,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.86
+            "Diesel": 2.189,
+            "LPG": 0.82
         },
         "id": 209
     },
@@ -3154,9 +3154,9 @@ const stationsData = [
         "lat": 55.9248021,
         "lng": 23.33407078,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.179,
             "LPG": null
         },
         "id": 210
@@ -3169,9 +3169,9 @@ const stationsData = [
         "lat": 54.75150886,
         "lng": 25.26651788,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.159,
             "LPG": null
         },
         "id": 211
@@ -3184,9 +3184,9 @@ const stationsData = [
         "lat": 54.9144988,
         "lng": 23.90022639,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.139,
             "LPG": null
         },
         "id": 212
@@ -3199,10 +3199,10 @@ const stationsData = [
         "lat": 55.66651754,
         "lng": 21.17281151,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.83
+            "Diesel": 2.155,
+            "LPG": 0.81
         },
         "id": 213
     },
@@ -3229,9 +3229,9 @@ const stationsData = [
         "lat": 54.65847138,
         "lng": 25.26642906,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.209,
             "LPG": 0.919
         },
         "id": 215
@@ -3244,10 +3244,10 @@ const stationsData = [
         "lat": 56.25859901,
         "lng": 23.62191463,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.779
+            "Diesel": 2.249,
+            "LPG": 0.799
         },
         "id": 216
     },
@@ -3259,9 +3259,9 @@ const stationsData = [
         "lat": 54.92007497,
         "lng": 23.95300019,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.189,
             "LPG": null
         },
         "id": 217
@@ -3274,9 +3274,9 @@ const stationsData = [
         "lat": 54.65185815,
         "lng": 25.26988571,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.209,
             "LPG": 0.899
         },
         "id": 218
@@ -3304,10 +3304,10 @@ const stationsData = [
         "lat": 54.63658215,
         "lng": 23.07499396,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.84
+            "Diesel": 2.179,
+            "LPG": 0.82
         },
         "id": 220
     },
@@ -3334,10 +3334,10 @@ const stationsData = [
         "lat": 55.48407464,
         "lng": 22.58779611,
         "prices": {
-            "A95": 1.999,
+            "A95": 2.039,
             "A98": null,
             "Diesel": 2.299,
-            "LPG": 0.959
+            "LPG": 0.949
         },
         "id": 222
     },
@@ -3349,10 +3349,10 @@ const stationsData = [
         "lat": 55.46144348,
         "lng": 22.69334421,
         "prices": {
-            "A95": 1.999,
+            "A95": 2.039,
             "A98": null,
             "Diesel": 2.299,
-            "LPG": 0.959
+            "LPG": 0.949
         },
         "id": 223
     },
@@ -3366,7 +3366,7 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.259,
             "LPG": null
         },
         "id": 224
@@ -3379,9 +3379,9 @@ const stationsData = [
         "lat": 54.9131575,
         "lng": 23.92634443,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.179,
             "LPG": null
         },
         "id": 225
@@ -3394,10 +3394,10 @@ const stationsData = [
         "lat": 56.19477634,
         "lng": 24.77189894,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.84
+            "Diesel": 2.174,
+            "LPG": 0.82
         },
         "id": 226
     },
@@ -3454,9 +3454,9 @@ const stationsData = [
         "lat": 55.95234124,
         "lng": 25.58961411,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.299,
+            "Diesel": 2.119,
             "LPG": null
         },
         "id": 230
@@ -3469,9 +3469,9 @@ const stationsData = [
         "lat": 54.32286029,
         "lng": 23.14119228,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.169,
             "LPG": null
         },
         "id": 231
@@ -3484,9 +3484,9 @@ const stationsData = [
         "lat": 54.36818412,
         "lng": 23.18345708,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.169,
             "LPG": null
         },
         "id": 232
@@ -3501,7 +3501,7 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.299,
             "LPG": 0.899
         },
         "id": 233
@@ -3544,10 +3544,10 @@ const stationsData = [
         "lat": 55.86361906,
         "lng": 21.21741287,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.869
+            "Diesel": 2.119,
+            "LPG": 0.809
         },
         "id": 236
     },
@@ -3559,10 +3559,10 @@ const stationsData = [
         "lat": 55.5225227,
         "lng": 25.08828077,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.799,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.739
+            "Diesel": 1.999,
+            "LPG": 0.699
         },
         "id": 237
     },
@@ -3576,7 +3576,7 @@ const stationsData = [
         "prices": {
             "A95": 1.939,
             "A98": null,
-            "Diesel": 2.203,
+            "Diesel": 2.233,
             "LPG": 0.869
         },
         "id": 238
@@ -3607,7 +3607,7 @@ const stationsData = [
             "A95": null,
             "A98": null,
             "Diesel": null,
-            "LPG": 0.75
+            "LPG": 0.8
         },
         "id": 240
     },
@@ -3724,10 +3724,10 @@ const stationsData = [
         "lat": 54.5651634,
         "lng": 23.3685594,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 248
     },
@@ -3739,10 +3739,10 @@ const stationsData = [
         "lat": 54.71780979,
         "lng": 25.29570785,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.169,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 249
     },
@@ -3754,10 +3754,10 @@ const stationsData = [
         "lat": 54.90806211,
         "lng": 23.99208918,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 250
     },
@@ -3769,10 +3769,10 @@ const stationsData = [
         "lat": 54.59288028,
         "lng": 23.3895944,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.119,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 251
     },
@@ -3784,10 +3784,10 @@ const stationsData = [
         "lat": 54.40818386,
         "lng": 24.01664565,
         "prices": {
-            "A95": 1.88,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.14,
-            "LPG": 0.76
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 252
     },
@@ -3799,10 +3799,10 @@ const stationsData = [
         "lat": 54.86429653,
         "lng": 24.4365125,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 253
     },
@@ -3814,10 +3814,10 @@ const stationsData = [
         "lat": 54.55838998,
         "lng": 23.27509219,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.119,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 254
     },
@@ -3829,10 +3829,10 @@ const stationsData = [
         "lat": 55.80188334,
         "lng": 23.56395801,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.74
+            "Diesel": 2.129,
+            "LPG": 0.73
         },
         "id": 255
     },
@@ -3844,10 +3844,10 @@ const stationsData = [
         "lat": 54.70748538,
         "lng": 24.99602824,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.77
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 256
     },
@@ -3859,10 +3859,10 @@ const stationsData = [
         "lat": 54.64344711,
         "lng": 25.05337226,
         "prices": {
-            "A95": 1.91,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.17,
-            "LPG": 0.799
+            "Diesel": 2.09,
+            "LPG": 0.759
         },
         "id": 257
     },
@@ -3874,10 +3874,10 @@ const stationsData = [
         "lat": 54.75348736,
         "lng": 25.21176142,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 258
     },
@@ -3889,10 +3889,10 @@ const stationsData = [
         "lat": 54.87343023,
         "lng": 25.07348259,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.799
+            "Diesel": 2.119,
+            "LPG": 0.779
         },
         "id": 259
     },
@@ -3904,10 +3904,10 @@ const stationsData = [
         "lat": 54.83569632,
         "lng": 25.46029697,
         "prices": {
-            "A95": 1.88,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.12,
-            "LPG": 0.77
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 260
     },
@@ -3919,10 +3919,10 @@ const stationsData = [
         "lat": 54.62279493,
         "lng": 25.10535095,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.799
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 261
     },
@@ -3934,9 +3934,9 @@ const stationsData = [
         "lat": 54.62720828,
         "lng": 25.14897108,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 262
@@ -3949,9 +3949,9 @@ const stationsData = [
         "lat": 54.7104024,
         "lng": 25.16198676,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.099,
             "LPG": 0.75
         },
         "id": 263
@@ -3964,10 +3964,10 @@ const stationsData = [
         "lat": 54.65275983,
         "lng": 25.30571446,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 264
     },
@@ -3979,9 +3979,9 @@ const stationsData = [
         "lat": 54.64104106,
         "lng": 25.18403844,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 265
@@ -3994,10 +3994,10 @@ const stationsData = [
         "lat": 54.66843137,
         "lng": 25.11165178,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.799
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 266
     },
@@ -4009,9 +4009,9 @@ const stationsData = [
         "lat": 54.73986548,
         "lng": 25.27610011,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 267
@@ -4024,10 +4024,10 @@ const stationsData = [
         "lat": 54.72347679,
         "lng": 25.23316721,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 268
     },
@@ -4039,10 +4039,10 @@ const stationsData = [
         "lat": 54.65794056,
         "lng": 23.03319489,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 269
     },
@@ -4054,9 +4054,9 @@ const stationsData = [
         "lat": 55.34875031,
         "lng": 21.46922756,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.1,
+            "Diesel": 2.09,
             "LPG": 0.75
         },
         "id": 270
@@ -4069,10 +4069,10 @@ const stationsData = [
         "lat": 55.89892732,
         "lng": 23.27165395,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.129,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 271
     },
@@ -4086,8 +4086,8 @@ const stationsData = [
         "prices": {
             "A95": 1.899,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.799
+            "Diesel": 2.159,
+            "LPG": 0.779
         },
         "id": 272
     },
@@ -4099,10 +4099,10 @@ const stationsData = [
         "lat": 55.27820222,
         "lng": 23.34160651,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.799
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 273
     },
@@ -4114,10 +4114,10 @@ const stationsData = [
         "lat": 56.06369768,
         "lng": 24.42631703,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 274
     },
@@ -4129,10 +4129,10 @@ const stationsData = [
         "lat": 55.90641342,
         "lng": 24.33865077,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 275
     },
@@ -4144,10 +4144,10 @@ const stationsData = [
         "lat": 55.66976948,
         "lng": 24.34633601,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 276
     },
@@ -4159,10 +4159,10 @@ const stationsData = [
         "lat": 55.71017122,
         "lng": 24.37247296,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.119,
-            "LPG": 0.76
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 277
     },
@@ -4174,9 +4174,9 @@ const stationsData = [
         "lat": 55.73193471,
         "lng": 24.34074924,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.119,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 278
@@ -4189,9 +4189,9 @@ const stationsData = [
         "lat": 54.17576376,
         "lng": 23.48093878,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.119,
+            "Diesel": 2.099,
             "LPG": null
         },
         "id": 279
@@ -4204,10 +4204,10 @@ const stationsData = [
         "lat": 55.7116895,
         "lng": 21.26507038,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.79
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 280
     },
@@ -4219,10 +4219,10 @@ const stationsData = [
         "lat": 55.79029011,
         "lng": 21.14171224,
         "prices": {
-            "A95": 1.91,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.79
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 281
     },
@@ -4234,10 +4234,10 @@ const stationsData = [
         "lat": 55.66860732,
         "lng": 21.15908678,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.11,
-            "LPG": 0.77
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 282
     },
@@ -4249,10 +4249,10 @@ const stationsData = [
         "lat": 55.66121606,
         "lng": 21.17621496,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.11,
-            "LPG": 0.77
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 283
     },
@@ -4264,10 +4264,10 @@ const stationsData = [
         "lat": 55.19737936,
         "lng": 23.62609323,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.829
+            "Diesel": 2.159,
+            "LPG": 0.779
         },
         "id": 284
     },
@@ -4279,10 +4279,10 @@ const stationsData = [
         "lat": 54.95162513,
         "lng": 23.89359938,
         "prices": {
-            "A95": 1.91,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.79
+            "Diesel": 2.09,
+            "LPG": 0.75
         },
         "id": 285
     },
@@ -4294,10 +4294,10 @@ const stationsData = [
         "lat": 54.78374136,
         "lng": 23.87666965,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 286
     },
@@ -4309,10 +4309,10 @@ const stationsData = [
         "lat": 54.8095364,
         "lng": 23.8537512,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.79
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 287
     },
@@ -4324,10 +4324,10 @@ const stationsData = [
         "lat": 54.9719611,
         "lng": 23.85907355,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.799
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 288
     },
@@ -4339,10 +4339,10 @@ const stationsData = [
         "lat": 54.9323864,
         "lng": 23.91794337,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
         "id": 289
     },
@@ -4354,9 +4354,9 @@ const stationsData = [
         "lat": 54.88508067,
         "lng": 24.00607542,
         "prices": {
-            "A95": 1.889,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.149,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 290
@@ -4369,9 +4369,9 @@ const stationsData = [
         "lat": 54.85928939,
         "lng": 23.83691046,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.099,
             "LPG": 0.759
         },
         "id": 291
@@ -4384,9 +4384,9 @@ const stationsData = [
         "lat": 54.90102166,
         "lng": 24.03125527,
         "prices": {
-            "A95": 1.91,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.13,
+            "Diesel": 2.09,
             "LPG": null
         },
         "id": 292
@@ -4399,9 +4399,9 @@ const stationsData = [
         "lat": 54.92181644,
         "lng": 24.04739708,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
+            "Diesel": 2.099,
             "LPG": null
         },
         "id": 293
@@ -4414,9 +4414,9 @@ const stationsData = [
         "lat": 55.07088633,
         "lng": 24.25883229,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.099,
             "LPG": null
         },
         "id": 294
@@ -4429,10 +4429,10 @@ const stationsData = [
         "lat": 56.20767348,
         "lng": 24.7707614,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.77
+            "Diesel": 2.099,
+            "LPG": 0.75
         },
         "id": 295
     },
@@ -4444,9 +4444,9 @@ const stationsData = [
         "lat": 54.54956282,
         "lng": 25.67990653,
         "prices": {
-            "A95": 2.039,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": null
         },
         "id": 296
@@ -4476,7 +4476,7 @@ const stationsData = [
         "prices": {
             "A95": 1.98,
             "A98": null,
-            "Diesel": 2.14,
+            "Diesel": 2.22,
             "LPG": 0.79
         },
         "id": 298
@@ -4489,9 +4489,9 @@ const stationsData = [
         "lat": 55.3706348,
         "lng": 23.1198939,
         "prices": {
-            "A95": 1.88,
+            "A95": 1.89,
             "A98": null,
-            "Diesel": 2.11,
+            "Diesel": 2.13,
             "LPG": 0.73
         },
         "id": 299
@@ -4504,9 +4504,9 @@ const stationsData = [
         "lat": 56.31360111,
         "lng": 22.36826858,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.029,
+            "Diesel": 2.099,
             "LPG": 0.739
         },
         "id": 300
@@ -4534,9 +4534,9 @@ const stationsData = [
         "lat": 55.33618253,
         "lng": 23.91491716,
         "prices": {
-            "A95": 1.773,
+            "A95": 1.843,
             "A98": null,
-            "Diesel": 2.024,
+            "Diesel": 2.084,
             "LPG": 0.76
         },
         "id": 302
@@ -4549,9 +4549,9 @@ const stationsData = [
         "lat": 54.80250729,
         "lng": 24.50215726,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.089,
+            "Diesel": 2.129,
             "LPG": 0.76
         },
         "id": 303
@@ -4564,9 +4564,9 @@ const stationsData = [
         "lat": 54.50894152,
         "lng": 23.90953504,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.88,
             "A98": null,
-            "Diesel": 2.09,
+            "Diesel": 2.13,
             "LPG": 0.76
         },
         "id": 304
@@ -4594,9 +4594,9 @@ const stationsData = [
         "lat": 54.37908395,
         "lng": 23.5285495,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.099,
+            "Diesel": 2.149,
             "LPG": 0.759
         },
         "id": 306
@@ -4609,9 +4609,9 @@ const stationsData = [
         "lat": 55.48590577,
         "lng": 22.19940808,
         "prices": {
-            "A95": 1.95,
+            "A95": 1.88,
             "A98": null,
-            "Diesel": 2.15,
+            "Diesel": 2.12,
             "LPG": 0.73
         },
         "id": 307
@@ -4624,9 +4624,9 @@ const stationsData = [
         "lat": 54.94469576,
         "lng": 25.34424273,
         "prices": {
-            "A95": 1.769,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.009,
+            "Diesel": 2.099,
             "LPG": 0.789
         },
         "id": 308
@@ -4684,7 +4684,7 @@ const stationsData = [
         "lat": 55.14044207,
         "lng": 21.90325589,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.9,
             "A98": null,
             "Diesel": 2.14,
             "LPG": 0.79
@@ -4699,7 +4699,7 @@ const stationsData = [
         "lat": 55.35530481,
         "lng": 21.68003241,
         "prices": {
-            "A95": 1.92,
+            "A95": 1.95,
             "A98": null,
             "Diesel": 2.16,
             "LPG": 0.85
@@ -4714,7 +4714,7 @@ const stationsData = [
         "lat": 56.28388299,
         "lng": 21.83305372,
         "prices": {
-            "A95": 1.84,
+            "A95": 1.86,
             "A98": null,
             "Diesel": 2.12,
             "LPG": 0.79
@@ -4759,9 +4759,9 @@ const stationsData = [
         "lat": 55.92923165,
         "lng": 21.6199133,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.95,
             "A98": null,
-            "Diesel": 2.09,
+            "Diesel": 2.15,
             "LPG": 0.82
         },
         "id": 317
@@ -4789,9 +4789,9 @@ const stationsData = [
         "lat": 56.1943071,
         "lng": 22.6779004,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.089,
+            "Diesel": 2.109,
             "LPG": 0.749
         },
         "id": 319
@@ -4804,9 +4804,9 @@ const stationsData = [
         "lat": 55.91994008,
         "lng": 21.85709942,
         "prices": {
-            "A95": 1.84,
+            "A95": 1.91,
             "A98": null,
-            "Diesel": 2.06,
+            "Diesel": 2.11,
             "LPG": 0.74
         },
         "id": 320
@@ -4819,9 +4819,9 @@ const stationsData = [
         "lat": 56.16014254,
         "lng": 22.76073507,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.089,
+            "Diesel": 2.109,
             "LPG": 0.749
         },
         "id": 321
@@ -4834,9 +4834,9 @@ const stationsData = [
         "lat": 56.30424052,
         "lng": 22.36034828,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.149,
+            "Diesel": 2.069,
             "LPG": 0.729
         },
         "id": 322
@@ -4849,9 +4849,9 @@ const stationsData = [
         "lat": 55.90807594,
         "lng": 21.87150917,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.149,
+            "Diesel": 2.069,
             "LPG": 0.75
         },
         "id": 323
@@ -4864,9 +4864,9 @@ const stationsData = [
         "lat": 55.92037282,
         "lng": 21.83227625,
         "prices": {
-            "A95": 1.94,
+            "A95": 1.82,
             "A98": null,
-            "Diesel": 2.14,
+            "Diesel": 2.07,
             "LPG": 0.75
         },
         "id": 324
@@ -4909,10 +4909,10 @@ const stationsData = [
         "lat": 54.60190628,
         "lng": 23.19493466,
         "prices": {
-            "A95": 1.799,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.079,
-            "LPG": 0.74
+            "Diesel": 2.129,
+            "LPG": 0.77
         },
         "id": 327
     },
@@ -4924,9 +4924,9 @@ const stationsData = [
         "lat": 55.29715858,
         "lng": 24.07702013,
         "prices": {
-            "A95": 1.849,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.769
         },
         "id": 328
@@ -4939,9 +4939,9 @@ const stationsData = [
         "lat": 54.9528389,
         "lng": 23.08023645,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 329
@@ -4954,9 +4954,9 @@ const stationsData = [
         "lat": 54.95418698,
         "lng": 23.02456981,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 330
@@ -4969,9 +4969,9 @@ const stationsData = [
         "lat": 55.08548938,
         "lng": 22.74549699,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 331
@@ -4984,9 +4984,9 @@ const stationsData = [
         "lat": 55.07714633,
         "lng": 22.7510279,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 332
@@ -4999,9 +4999,9 @@ const stationsData = [
         "lat": 55.08252673,
         "lng": 22.78879208,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 333
@@ -5014,9 +5014,9 @@ const stationsData = [
         "lat": 55.06387545,
         "lng": 22.7807238,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": 0.73
         },
         "id": 334
@@ -5029,9 +5029,9 @@ const stationsData = [
         "lat": 55.07883072,
         "lng": 23.39670955,
         "prices": {
-            "A95": 1.829,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.079,
+            "Diesel": 2.179,
             "LPG": null
         },
         "id": 335
@@ -5044,9 +5044,9 @@ const stationsData = [
         "lat": 55.02160289,
         "lng": 22.96955865,
         "prices": {
-            "A95": 1.82,
+            "A95": 1.95,
             "A98": null,
-            "Diesel": 2.07,
+            "Diesel": 2.17,
             "LPG": null
         },
         "id": 336
@@ -5061,7 +5061,7 @@ const stationsData = [
         "prices": {
             "A95": 1.997,
             "A98": null,
-            "Diesel": 2.227,
+            "Diesel": 2.257,
             "LPG": 0.877
         },
         "id": 337
@@ -5076,445 +5076,10 @@ const stationsData = [
         "prices": {
             "A95": 1.997,
             "A98": null,
-            "Diesel": 2.227,
+            "Diesel": 2.257,
             "LPG": null
         },
         "id": 338
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Vilnius",
-        "address": "Vilnius, Ukmergės g. 130, 08100",
-        "lat": 54.70315163,
-        "lng": 25.25767359,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 339
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Vilnius",
-        "address": "Vilnius, Parko g. 64, 11225",
-        "lat": 54.6858009,
-        "lng": 25.43066254,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 340
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šiaulių",
-        "address": "Šiauliai, Architektų g. 80, 78171",
-        "lat": 55.92468487,
-        "lng": 23.27950691,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 341
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šiaulių",
-        "address": "Šiauliai, Girulių g. 1, 78132",
-        "lat": 55.92217758,
-        "lng": 23.29711011,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 342
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Panevėžio",
-        "address": "Panevėžys, S. Kerbedžio g. 7F, 35104",
-        "lat": 55.74485479,
-        "lng": 24.34624311,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.709
-        },
-        "id": 343
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Pakruojo",
-        "address": "Kuosiškių k. 4, 83169",
-        "lat": 55.96574878,
-        "lng": 23.87950201,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 344
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Klaipėda",
-        "address": "Gargždai, Gamyklos g. 1, 96155",
-        "lat": 55.70637751,
-        "lng": 21.36341966,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 345
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kelmės",
-        "address": "Kelmė, V. Putvinskio g. 37, 86113",
-        "lat": 55.64324953,
-        "lng": 22.92529473,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 346
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Raseinių",
-        "address": "Raseiniai, Maironio g. 78b, 60120",
-        "lat": 55.38981847,
-        "lng": 23.13070213,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 347
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šiaulių",
-        "address": "Toliočiai, Plento g. 2B, 76322",
-        "lat": 55.95420807,
-        "lng": 23.25587789,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 348
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Vilnius",
-        "address": "Vilnius, Pramonės g. 18, 11115",
-        "lat": 54.69581905,
-        "lng": 25.4321327,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 349
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Kaunas, Partizanų g. 87G, 50312",
-        "lat": 54.92715408,
-        "lng": 23.99908832,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 350
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Klaipėda",
-        "address": "Klaipėda, Taikos pr. 157, 94285",
-        "lat": 55.66114992,
-        "lng": 21.17803218,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 351
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šilalės",
-        "address": "Šolių k., Pietinio Kelio g. 9, 75126",
-        "lat": 55.48544344,
-        "lng": 22.17070703,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 352
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šilutės",
-        "address": "Traksėdžių k., Klaipėdos. 60, 99104",
-        "lat": 55.3768551,
-        "lng": 21.47025918,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 353
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Kaunas, Baltų pr. 141A, 47126",
-        "lat": 54.92273614,
-        "lng": 23.86997257,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 354
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Kaunas, Betygalos g. 8, 47183",
-        "lat": 54.90426633,
-        "lng": 23.87980101,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 355
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Kaunas, Jonavos g. 51, 44131",
-        "lat": 54.93397974,
-        "lng": 23.91781149,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 356
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Garliava, Vytauto g. 111A, 53253",
-        "lat": 54.82814917,
-        "lng": 23.87336136,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 357
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Ramučiai, K. Bielinio g. 2A, 54465",
-        "lat": 54.94394603,
-        "lng": 24.03606816,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 358
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Plungės",
-        "address": "Varkaliai, Žemaičių g. 2A, 90105",
-        "lat": 55.8970141,
-        "lng": 21.82134466,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 359
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Vilnius",
-        "address": "Rudamina, Jašiūnų g. 2, 13255",
-        "lat": 54.59727647,
-        "lng": 25.31505057,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 360
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Kaunas",
-        "address": "Kaunas, Kuršių g. 13A, 48109",
-        "lat": 54.93606993,
-        "lng": 23.89589698,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 361
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Klaipėda",
-        "address": "Slengių k., Šilelių g. 1, 92338",
-        "lat": 55.75139882,
-        "lng": 21.17309858,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 362
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Klaipėda",
-        "address": "Trepkalnių k., Mokyklos g. 2, 96278",
-        "lat": 55.60850758,
-        "lng": 21.5940438,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 363
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Klaipėda",
-        "address": "Klaipėda, Priestočio g. 26, 92228",
-        "lat": 55.71931201,
-        "lng": 21.14014973,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.75
-        },
-        "id": 364
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Raseinių",
-        "address": "Raseiniai, Liepų g. 10E, 60119",
-        "lat": 55.39156323,
-        "lng": 23.12748593,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.75
-        },
-        "id": 365
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Vilnius",
-        "address": "Vilnius, Baltosios Vokės g. 35, 02243",
-        "lat": 54.6135577,
-        "lng": 25.18343704,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.75
-        },
-        "id": 366
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Šilutės",
-        "address": "Šilutė, Šiaurės g. 1, 99116",
-        "lat": 55.35611678,
-        "lng": 21.4689682,
-        "prices": {
-            "A95": null,
-            "A98": null,
-            "Diesel": null,
-            "LPG": 0.75
-        },
-        "id": 367
     },
     {
         "name": "Junasa",
@@ -5529,7 +5094,7 @@ const stationsData = [
             "Diesel": 2.099,
             "LPG": 0.69
         },
-        "id": 368
+        "id": 339
     },
     {
         "name": "Junasa",
@@ -5544,7 +5109,7 @@ const stationsData = [
             "Diesel": 2.099,
             "LPG": 0.69
         },
-        "id": 369
+        "id": 340
     },
     {
         "name": "Junasa",
@@ -5559,7 +5124,7 @@ const stationsData = [
             "Diesel": 2.099,
             "LPG": 0.69
         },
-        "id": 370
+        "id": 341
     },
     {
         "name": "Kenaoil",
@@ -5571,10 +5136,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.159,
             "LPG": 0.899
         },
-        "id": 371
+        "id": 342
     },
     {
         "name": "Leosta",
@@ -5589,7 +5154,7 @@ const stationsData = [
             "Diesel": 2.25,
             "LPG": 0.8
         },
-        "id": 372
+        "id": 343
     },
     {
         "name": "Littaura",
@@ -5599,12 +5164,12 @@ const stationsData = [
         "lat": 55.23830084,
         "lng": 22.29774041,
         "prices": {
-            "A95": 1.88,
+            "A95": 1.91,
             "A98": null,
-            "Diesel": 2.09,
+            "Diesel": 2.13,
             "LPG": null
         },
-        "id": 373
+        "id": 344
     },
     {
         "name": "Madalva",
@@ -5614,12 +5179,12 @@ const stationsData = [
         "lat": 55.3039813,
         "lng": 22.04142297,
         "prices": {
-            "A95": 1.8,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.05,
+            "Diesel": 2.07,
             "LPG": 0.67
         },
-        "id": 374
+        "id": 345
     },
     {
         "name": "Madalva",
@@ -5634,7 +5199,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.67
         },
-        "id": 375
+        "id": 346
     },
     {
         "name": "Madalva",
@@ -5649,7 +5214,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.75
         },
-        "id": 376
+        "id": 347
     },
     {
         "name": "Madalva",
@@ -5664,7 +5229,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.67
         },
-        "id": 377
+        "id": 348
     },
     {
         "name": "Madalva",
@@ -5679,7 +5244,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.67
         },
-        "id": 378
+        "id": 349
     },
     {
         "name": "Medelsta",
@@ -5694,7 +5259,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 0.83
         },
-        "id": 379
+        "id": 350
     },
     {
         "name": "Melkasta",
@@ -5709,7 +5274,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.78
         },
-        "id": 380
+        "id": 351
     },
     {
         "name": "Melkasta",
@@ -5724,7 +5289,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.78
         },
-        "id": 381
+        "id": 352
     },
     {
         "name": "Melkasta",
@@ -5739,7 +5304,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.77
         },
-        "id": 382
+        "id": 353
     },
     {
         "name": "Mindega",
@@ -5754,7 +5319,7 @@ const stationsData = [
             "Diesel": 2.15,
             "LPG": null
         },
-        "id": 383
+        "id": 354
     },
     {
         "name": "RV",
@@ -5769,7 +5334,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.75
         },
-        "id": 384
+        "id": 355
     },
     {
         "name": "RV",
@@ -5784,7 +5349,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.73
         },
-        "id": 385
+        "id": 356
     },
     {
         "name": "RV",
@@ -5799,7 +5364,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.87
         },
-        "id": 386
+        "id": 357
     },
     {
         "name": "Naftrus",
@@ -5814,7 +5379,7 @@ const stationsData = [
             "Diesel": 2.129,
             "LPG": 0.74
         },
-        "id": 387
+        "id": 358
     },
     {
         "name": "Naftrus",
@@ -5824,12 +5389,12 @@ const stationsData = [
         "lat": 55.38602523,
         "lng": 23.04256551,
         "prices": {
-            "A95": 1.93,
+            "A95": 1.95,
             "A98": null,
-            "Diesel": 2.13,
+            "Diesel": 2.15,
             "LPG": 0.75
         },
-        "id": 388
+        "id": 359
     },
     {
         "name": "Naftrus",
@@ -5839,12 +5404,12 @@ const stationsData = [
         "lat": 55.97066533,
         "lng": 23.58759774,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.91,
             "A98": null,
-            "Diesel": 2.13,
+            "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 389
+        "id": 360
     },
     {
         "name": "Naftrus",
@@ -5854,12 +5419,12 @@ const stationsData = [
         "lat": 55.41329448,
         "lng": 22.82192472,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.9,
             "A98": null,
-            "Diesel": 2.13,
+            "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 390
+        "id": 361
     },
     {
         "name": "Circle K",
@@ -5874,7 +5439,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 0.789
         },
-        "id": 391
+        "id": 362
     },
     {
         "name": "Narjanta",
@@ -5889,7 +5454,7 @@ const stationsData = [
             "Diesel": 2.159,
             "LPG": 0.729
         },
-        "id": 392
+        "id": 363
     },
     {
         "name": "Narjanta",
@@ -5904,7 +5469,7 @@ const stationsData = [
             "Diesel": 2.169,
             "LPG": 0.75
         },
-        "id": 393
+        "id": 364
     },
     {
         "name": "Narjanta",
@@ -5919,7 +5484,7 @@ const stationsData = [
             "Diesel": 2.169,
             "LPG": 0.789
         },
-        "id": 394
+        "id": 365
     },
     {
         "name": "Narjanta",
@@ -5934,7 +5499,7 @@ const stationsData = [
             "Diesel": 2.159,
             "LPG": 0.719
         },
-        "id": 395
+        "id": 366
     },
     {
         "name": "Circle K",
@@ -5949,7 +5514,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 396
+        "id": 367
     },
     {
         "name": "Neste Europos",
@@ -5959,12 +5524,12 @@ const stationsData = [
         "lat": 54.87533761,
         "lng": 23.91149586,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.954,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.174,
             "LPG": null
         },
-        "id": 397
+        "id": 368
     },
     {
         "name": "Neste Volvo",
@@ -5974,12 +5539,12 @@ const stationsData = [
         "lat": 54.93380582,
         "lng": 23.86774429,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 398
+        "id": 369
     },
     {
         "name": "Neste Kalantos",
@@ -5989,12 +5554,12 @@ const stationsData = [
         "lat": 54.89507456,
         "lng": 23.9859429,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 399
+        "id": 370
     },
     {
         "name": "Neste Žemaičių",
@@ -6004,12 +5569,12 @@ const stationsData = [
         "lat": 54.92551059,
         "lng": 23.89179378,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 400
+        "id": 371
     },
     {
         "name": "Neste Gariūnų",
@@ -6019,12 +5584,12 @@ const stationsData = [
         "lat": 54.65831512,
         "lng": 25.15884432,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 401
+        "id": 372
     },
     {
         "name": "Neste Veiverių",
@@ -6034,12 +5599,12 @@ const stationsData = [
         "lat": 54.87574128,
         "lng": 23.8909283,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 402
+        "id": 373
     },
     {
         "name": "Neste Stanevičiaus",
@@ -6049,12 +5614,12 @@ const stationsData = [
         "lat": 54.7215145,
         "lng": 25.25609519,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 403
+        "id": 374
     },
     {
         "name": "Neste Savanorių 1",
@@ -6064,12 +5629,12 @@ const stationsData = [
         "lat": 54.64420273,
         "lng": 25.20700105,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 404
+        "id": 375
     },
     {
         "name": "Neste Ateities",
@@ -6079,12 +5644,12 @@ const stationsData = [
         "lat": 54.92621497,
         "lng": 24.06032415,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.184,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 405
+        "id": 376
     },
     {
         "name": "Neste Raudondvario",
@@ -6094,12 +5659,12 @@ const stationsData = [
         "lat": 54.90684397,
         "lng": 23.87286134,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 406
+        "id": 377
     },
     {
         "name": "Neste Ramučių",
@@ -6109,12 +5674,12 @@ const stationsData = [
         "lat": 54.94834483,
         "lng": 24.01782278,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 407
+        "id": 378
     },
     {
         "name": "Neste Sendvario",
@@ -6124,12 +5689,12 @@ const stationsData = [
         "lat": 55.70317515,
         "lng": 21.16478469,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 408
+        "id": 379
     },
     {
         "name": "Neste Sudmantų",
@@ -6139,12 +5704,12 @@ const stationsData = [
         "lat": 55.70607105,
         "lng": 21.20258886,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 409
+        "id": 380
     },
     {
         "name": "Neste Jakų",
@@ -6154,12 +5719,12 @@ const stationsData = [
         "lat": 55.70660388,
         "lng": 21.23857198,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 410
+        "id": 381
     },
     {
         "name": "Neste Tarpučių",
@@ -6169,12 +5734,12 @@ const stationsData = [
         "lat": 54.56257376,
         "lng": 23.33242248,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.214,
+            "Diesel": 2.114,
             "LPG": null
         },
-        "id": 411
+        "id": 382
     },
     {
         "name": "Neste Tilžės",
@@ -6184,12 +5749,12 @@ const stationsData = [
         "lat": 55.92028679,
         "lng": 23.29299782,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 412
+        "id": 383
     },
     {
         "name": "Neste Architektų",
@@ -6199,12 +5764,12 @@ const stationsData = [
         "lat": 54.68085604,
         "lng": 25.2076123,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 413
+        "id": 384
     },
     {
         "name": "Neste Ozo",
@@ -6214,12 +5779,12 @@ const stationsData = [
         "lat": 54.71194857,
         "lng": 25.27062107,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 414
+        "id": 385
     },
     {
         "name": "Neste Plento",
@@ -6229,12 +5794,12 @@ const stationsData = [
         "lat": 55.09548702,
         "lng": 24.312631,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 415
+        "id": 386
     },
     {
         "name": "Neste Birželio",
@@ -6244,12 +5809,12 @@ const stationsData = [
         "lat": 54.91624068,
         "lng": 23.95403333,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 416
+        "id": 387
     },
     {
         "name": "Neste Pramonės",
@@ -6261,10 +5826,10 @@ const stationsData = [
         "prices": {
             "A95": 1.939,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 417
+        "id": 388
     },
     {
         "name": "Neste Trakų Vokės",
@@ -6274,12 +5839,12 @@ const stationsData = [
         "lat": 54.62430171,
         "lng": 25.11168144,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.214,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 418
+        "id": 389
     },
     {
         "name": "Neste Lukšio",
@@ -6289,12 +5854,12 @@ const stationsData = [
         "lat": 54.71195348,
         "lng": 25.2930421,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 419
+        "id": 390
     },
     {
         "name": "Neste Savanorių 2",
@@ -6304,12 +5869,12 @@ const stationsData = [
         "lat": 54.6481153,
         "lng": 25.21246187,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 420
+        "id": 391
     },
     {
         "name": "Neste Minties",
@@ -6319,12 +5884,12 @@ const stationsData = [
         "lat": 54.70674499,
         "lng": 25.30416264,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.204,
+            "Diesel": 2.134,
             "LPG": null
         },
-        "id": 421
+        "id": 392
     },
     {
         "name": "Neste Taikos žiedo",
@@ -6334,12 +5899,12 @@ const stationsData = [
         "lat": 54.91210539,
         "lng": 23.97261751,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 422
+        "id": 393
     },
     {
         "name": "Neste Šilutės",
@@ -6349,12 +5914,12 @@ const stationsData = [
         "lat": 55.67296055,
         "lng": 21.20099933,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.169,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 423
+        "id": 394
     },
     {
         "name": "Neste Molėtų",
@@ -6364,12 +5929,12 @@ const stationsData = [
         "lat": 55.22158553,
         "lng": 25.43648772,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 424
+        "id": 395
     },
     {
         "name": "Neste Klaipėdos",
@@ -6379,12 +5944,12 @@ const stationsData = [
         "lat": 55.72778019,
         "lng": 24.34883948,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 425
+        "id": 396
     },
     {
         "name": "Neste Šilagalio žiedo",
@@ -6394,12 +5959,12 @@ const stationsData = [
         "lat": 55.6730312,
         "lng": 24.33425114,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 426
+        "id": 397
     },
     {
         "name": "Neste Autoturgaus",
@@ -6409,12 +5974,12 @@ const stationsData = [
         "lat": 55.48153495,
         "lng": 25.57886011,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.184,
+            "Diesel": 2.114,
             "LPG": null
         },
-        "id": 427
+        "id": 398
     },
     {
         "name": "Neste Santariškių",
@@ -6424,12 +5989,12 @@ const stationsData = [
         "lat": 54.75488718,
         "lng": 25.27125497,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 428
+        "id": 399
     },
     {
         "name": "Neste Litexpo",
@@ -6439,12 +6004,12 @@ const stationsData = [
         "lat": 54.67343871,
         "lng": 25.22405147,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 429
+        "id": 400
     },
     {
         "name": "Neste Ūdrijos",
@@ -6454,12 +6019,12 @@ const stationsData = [
         "lat": 54.40896245,
         "lng": 24.00518818,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 430
+        "id": 401
     },
     {
         "name": "Neste Kėdainiai",
@@ -6469,12 +6034,12 @@ const stationsData = [
         "lat": 55.27812915,
         "lng": 23.95995689,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 431
+        "id": 402
     },
     {
         "name": "Neste Smiltelės",
@@ -6484,12 +6049,12 @@ const stationsData = [
         "lat": 55.67008471,
         "lng": 21.19290936,
         "prices": {
-            "A95": 1.939,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.169,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 432
+        "id": 403
     },
     {
         "name": "Neste Baltijos",
@@ -6499,12 +6064,12 @@ const stationsData = [
         "lat": 55.69313682,
         "lng": 21.17500963,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 433
+        "id": 404
     },
     {
         "name": "Neste Dubijos",
@@ -6514,12 +6079,12 @@ const stationsData = [
         "lat": 55.92929146,
         "lng": 23.29432274,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 434
+        "id": 405
     },
     {
         "name": "Neste Telšių",
@@ -6529,12 +6094,12 @@ const stationsData = [
         "lat": 56.00499642,
         "lng": 22.24023016,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 435
+        "id": 406
     },
     {
         "name": "Neste Žirmūnų",
@@ -6544,12 +6109,12 @@ const stationsData = [
         "lat": 54.7175698,
         "lng": 25.30451201,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.204,
+            "Diesel": 2.134,
             "LPG": null
         },
-        "id": 436
+        "id": 407
     },
     {
         "name": "Neste Žirnių",
@@ -6559,12 +6124,12 @@ const stationsData = [
         "lat": 54.65654975,
         "lng": 25.29212601,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 437
+        "id": 408
     },
     {
         "name": "Neste Santaikos",
@@ -6574,12 +6139,12 @@ const stationsData = [
         "lat": 54.3871462,
         "lng": 24.02632757,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.169,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 438
+        "id": 409
     },
     {
         "name": "Neste Kalvarijos 1",
@@ -6589,12 +6154,12 @@ const stationsData = [
         "lat": 54.32982918,
         "lng": 23.15021843,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 439
+        "id": 410
     },
     {
         "name": "Neste Islandijos",
@@ -6604,12 +6169,12 @@ const stationsData = [
         "lat": 54.93142643,
         "lng": 23.9508213,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 440
+        "id": 411
     },
     {
         "name": "Neste Tunelio",
@@ -6619,12 +6184,12 @@ const stationsData = [
         "lat": 54.89482331,
         "lng": 23.94423536,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 441
+        "id": 412
     },
     {
         "name": "Neste Minijos",
@@ -6634,12 +6199,12 @@ const stationsData = [
         "lat": 55.6844148,
         "lng": 21.14962984,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 442
+        "id": 413
     },
     {
         "name": "Neste Taikos",
@@ -6649,12 +6214,12 @@ const stationsData = [
         "lat": 55.68892678,
         "lng": 21.15516377,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 443
+        "id": 414
     },
     {
         "name": "Neste Stoties",
@@ -6664,12 +6229,12 @@ const stationsData = [
         "lat": 54.5603953,
         "lng": 23.36592312,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 444
+        "id": 415
     },
     {
         "name": "Neste Mažeikių",
@@ -6679,12 +6244,12 @@ const stationsData = [
         "lat": 56.30125177,
         "lng": 22.34984919,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 445
+        "id": 416
     },
     {
         "name": "Neste IKI",
@@ -6694,12 +6259,12 @@ const stationsData = [
         "lat": 55.72842472,
         "lng": 24.33235879,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": null
         },
-        "id": 446
+        "id": 417
     },
     {
         "name": "Neste Šilagalio k.",
@@ -6709,12 +6274,12 @@ const stationsData = [
         "lat": 55.67039884,
         "lng": 24.34842719,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.189,
             "LPG": null
         },
-        "id": 447
+        "id": 418
     },
     {
         "name": "Neste Pasvalio r.",
@@ -6726,10 +6291,10 @@ const stationsData = [
         "prices": {
             "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 448
+        "id": 419
     },
     {
         "name": "Neste Basanavičiaus",
@@ -6739,12 +6304,12 @@ const stationsData = [
         "lat": 55.50509587,
         "lng": 25.62460582,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 449
+        "id": 420
     },
     {
         "name": "Neste Lazdynų",
@@ -6754,12 +6319,12 @@ const stationsData = [
         "lat": 54.67261311,
         "lng": 25.19828086,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.924,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 450
+        "id": 421
     },
     {
         "name": "Neste Žalgirio",
@@ -6769,12 +6334,12 @@ const stationsData = [
         "lat": 54.70411134,
         "lng": 25.26689437,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 451
+        "id": 422
     },
     {
         "name": "Neste Subačiaus",
@@ -6784,12 +6349,12 @@ const stationsData = [
         "lat": 54.6767547,
         "lng": 25.30961868,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.144,
             "LPG": null
         },
-        "id": 452
+        "id": 423
     },
     {
         "name": "Neste Elektrėnų",
@@ -6799,12 +6364,12 @@ const stationsData = [
         "lat": 54.78951932,
         "lng": 24.6727424,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.909,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 453
+        "id": 424
     },
     {
         "name": "Neste Jonavos",
@@ -6814,12 +6379,12 @@ const stationsData = [
         "lat": 54.91330579,
         "lng": 23.91162096,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 454
+        "id": 425
     },
     {
         "name": "Neste Muravos",
@@ -6829,12 +6394,12 @@ const stationsData = [
         "lat": 54.92937829,
         "lng": 23.97344608,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 455
+        "id": 426
     },
     {
         "name": "Neste Nikola",
@@ -6844,12 +6409,12 @@ const stationsData = [
         "lat": 55.41180526,
         "lng": 22.83067426,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.199,
             "LPG": null
         },
-        "id": 456
+        "id": 427
     },
     {
         "name": "Neste Gegužių",
@@ -6859,12 +6424,12 @@ const stationsData = [
         "lat": 55.90607227,
         "lng": 23.25950627,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 457
+        "id": 428
     },
     {
         "name": "Neste Šilalės r.",
@@ -6874,12 +6439,12 @@ const stationsData = [
         "lat": 55.52118315,
         "lng": 22.36597948,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.189,
             "LPG": null
         },
-        "id": 458
+        "id": 429
     },
     {
         "name": "Neste Tauragės",
@@ -6889,12 +6454,12 @@ const stationsData = [
         "lat": 55.26530031,
         "lng": 22.30879847,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 459
+        "id": 430
     },
     {
         "name": "Neste Saltoniškių",
@@ -6904,12 +6469,12 @@ const stationsData = [
         "lat": 54.70159069,
         "lng": 25.2637035,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 460
+        "id": 431
     },
     {
         "name": "Neste Talino",
@@ -6919,12 +6484,12 @@ const stationsData = [
         "lat": 54.71389839,
         "lng": 25.20897449,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.924,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 461
+        "id": 432
     },
     {
         "name": "Neste Pabradės",
@@ -6934,12 +6499,12 @@ const stationsData = [
         "lat": 54.97878559,
         "lng": 25.75627752,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 462
+        "id": 433
     },
     {
         "name": "Neste Eišiškių",
@@ -6949,12 +6514,12 @@ const stationsData = [
         "lat": 54.6213243,
         "lng": 25.24291719,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 463
+        "id": 434
     },
     {
         "name": "Neste Kauno",
@@ -6964,12 +6529,12 @@ const stationsData = [
         "lat": 54.67162,
         "lng": 25.27010479,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.224,
+            "Diesel": 2.144,
             "LPG": null
         },
-        "id": 464
+        "id": 435
     },
     {
         "name": "Neste RIMI",
@@ -6979,12 +6544,12 @@ const stationsData = [
         "lat": 54.67723152,
         "lng": 25.25564009,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.954,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.164,
             "LPG": null
         },
-        "id": 465
+        "id": 436
     },
     {
         "name": "Neste Panerių",
@@ -6994,12 +6559,12 @@ const stationsData = [
         "lat": 54.66800392,
         "lng": 25.264745,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.204,
+            "Diesel": 2.124,
             "LPG": null
         },
-        "id": 466
+        "id": 437
     },
     {
         "name": "Neste Pilaitės",
@@ -7009,12 +6574,12 @@ const stationsData = [
         "lat": 54.70886335,
         "lng": 25.18973269,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.119,
             "LPG": null
         },
-        "id": 467
+        "id": 438
     },
     {
         "name": "Neste Domeikavos",
@@ -7024,12 +6589,12 @@ const stationsData = [
         "lat": 54.94988175,
         "lng": 23.87381207,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 468
+        "id": 439
     },
     {
         "name": "Neste Babilonas",
@@ -7039,12 +6604,12 @@ const stationsData = [
         "lat": 55.73066174,
         "lng": 24.31609133,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 469
+        "id": 440
     },
     {
         "name": "Neste Nemuno",
@@ -7054,12 +6619,12 @@ const stationsData = [
         "lat": 55.7194182,
         "lng": 24.34887409,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 470
+        "id": 441
     },
     {
         "name": "Neste Ramygalos",
@@ -7069,12 +6634,12 @@ const stationsData = [
         "lat": 55.7095446,
         "lng": 24.37474543,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 471
+        "id": 442
     },
     {
         "name": "Neste Radviliškio",
@@ -7084,12 +6649,12 @@ const stationsData = [
         "lat": 55.81393383,
         "lng": 23.54574116,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 472
+        "id": 443
     },
     {
         "name": "Neste Viršuliškių",
@@ -7099,12 +6664,12 @@ const stationsData = [
         "lat": 54.70514157,
         "lng": 25.21498724,
         "prices": {
-            "A95": 1.964,
+            "A95": 1.924,
             "A98": null,
-            "Diesel": 2.214,
+            "Diesel": 2.164,
             "LPG": null
         },
-        "id": 473
+        "id": 444
     },
     {
         "name": "Neste Liepkalnio",
@@ -7114,12 +6679,12 @@ const stationsData = [
         "lat": 54.63377618,
         "lng": 25.30449719,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 474
+        "id": 445
     },
     {
         "name": "Neste Gabijos",
@@ -7129,12 +6694,12 @@ const stationsData = [
         "lat": 54.7361926,
         "lng": 25.23107129,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.904,
             "A98": null,
-            "Diesel": 2.209,
+            "Diesel": 2.134,
             "LPG": null
         },
-        "id": 475
+        "id": 446
     },
     {
         "name": "Neste Kirtimų",
@@ -7144,12 +6709,12 @@ const stationsData = [
         "lat": 54.65506269,
         "lng": 25.2707125,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 476
+        "id": 447
     },
     {
         "name": "Neste Justiniškių",
@@ -7159,12 +6724,12 @@ const stationsData = [
         "lat": 54.71560308,
         "lng": 25.22894257,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.914,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.144,
             "LPG": null
         },
-        "id": 477
+        "id": 448
     },
     {
         "name": "Neste Ukmergės",
@@ -7174,12 +6739,12 @@ const stationsData = [
         "lat": 55.24205427,
         "lng": 24.74290832,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.889,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 478
+        "id": 449
     },
     {
         "name": "Neste Artojo",
@@ -7189,12 +6754,12 @@ const stationsData = [
         "lat": 55.71767746,
         "lng": 21.15173274,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.179,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 479
+        "id": 450
     },
     {
         "name": "Neste Kuršių",
@@ -7204,12 +6769,12 @@ const stationsData = [
         "lat": 54.93617743,
         "lng": 23.88528448,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.139,
             "LPG": null
         },
-        "id": 480
+        "id": 451
     },
     {
         "name": "Neste Kalvarijos 2",
@@ -7221,10 +6786,10 @@ const stationsData = [
         "prices": {
             "A95": null,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.149,
             "LPG": null
         },
-        "id": 481
+        "id": 452
     },
     {
         "name": "RV Transport",
@@ -7234,12 +6799,12 @@ const stationsData = [
         "lat": 54.32896988,
         "lng": 23.1484464,
         "prices": {
-            "A95": 1.96,
+            "A95": 1.94,
             "A98": null,
-            "Diesel": 2.19,
+            "Diesel": 2.14,
             "LPG": null
         },
-        "id": 482
+        "id": 453
     },
     {
         "name": "Osijos dujos",
@@ -7254,7 +6819,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.8
         },
-        "id": 483
+        "id": 454
     },
     {
         "name": "Pakelės namai",
@@ -7269,7 +6834,7 @@ const stationsData = [
             "Diesel": 2.15,
             "LPG": 0.85
         },
-        "id": 484
+        "id": 455
     },
     {
         "name": "Pakelės namai",
@@ -7284,7 +6849,7 @@ const stationsData = [
             "Diesel": 2.15,
             "LPG": 0.85
         },
-        "id": 485
+        "id": 456
     },
     {
         "name": "Plovimo sistemos",
@@ -7299,7 +6864,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.829
         },
-        "id": 486
+        "id": 457
     },
     {
         "name": "Plungės lagūna",
@@ -7314,7 +6879,7 @@ const stationsData = [
             "Diesel": 2.248,
             "LPG": 0.847
         },
-        "id": 487
+        "id": 458
     },
     {
         "name": "Prie Luksto",
@@ -7326,10 +6891,10 @@ const stationsData = [
         "prices": {
             "A95": 1.985,
             "A98": null,
-            "Diesel": 2.245,
+            "Diesel": 2.235,
             "LPG": 0.809
         },
-        "id": 488
+        "id": 459
     },
     {
         "name": "Propano ir butano dujų centras",
@@ -7339,12 +6904,12 @@ const stationsData = [
         "lat": 55.32748122,
         "lng": 26.17436327,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.869,
             "A98": null,
-            "Diesel": 2.189,
-            "LPG": 0.79
+            "Diesel": 2.069,
+            "LPG": 0.76
         },
-        "id": 489
+        "id": 460
     },
     {
         "name": "Propano ir butano dujų centras",
@@ -7354,87 +6919,12 @@ const stationsData = [
         "lat": 55.12005773,
         "lng": 26.13142971,
         "prices": {
-            "A95": 1.96,
-            "A98": null,
-            "Diesel": 2.26,
-            "LPG": 0.87
-        },
-        "id": 490
-    },
-    {
-        "name": "Regusa",
-        "logo": "⛽",
-        "city": "Kaunas",
-        "address": "Kaunas, Marijampolės pl. 20, 46147",
-        "lat": 54.8502039,
-        "lng": 23.9657416,
-        "prices": {
             "A95": 1.87,
             "A98": null,
-            "Diesel": 2.14,
-            "LPG": 0.75
-        },
-        "id": 491
-    },
-    {
-        "name": "Regusa",
-        "logo": "⛽",
-        "city": "Kazlų Rūdos",
-        "address": "Jūrės k., Medelyno g. 4A, 69446",
-        "lat": 54.8500758,
-        "lng": 23.96587232,
-        "prices": {
-            "A95": 1.92,
-            "A98": null,
-            "Diesel": 2.16,
+            "Diesel": 2.07,
             "LPG": 0.76
         },
-        "id": 492
-    },
-    {
-        "name": "Regusa",
-        "logo": "⛽",
-        "city": "Kazlų Rūdos",
-        "address": "Kazlų Rūda, S. Daukanto g. 19D, 69430",
-        "lat": 54.73959117,
-        "lng": 23.49568398,
-        "prices": {
-            "A95": 1.92,
-            "A98": null,
-            "Diesel": 2.16,
-            "LPG": 0.77
-        },
-        "id": 493
-    },
-    {
-        "name": "Regusa",
-        "logo": "⛽",
-        "city": "Marijampolės",
-        "address": "Gavaltuvos k., Sodo g. 11, 69370",
-        "lat": 54.67677045,
-        "lng": 23.41801347,
-        "prices": {
-            "A95": 1.87,
-            "A98": null,
-            "Diesel": 2.14,
-            "LPG": 0.75
-        },
-        "id": 494
-    },
-    {
-        "name": "Regusa",
-        "logo": "⛽",
-        "city": "Vilkaviškio",
-        "address": "Kybartai, J. Basanavičiaus g. 45A, 70417",
-        "lat": 54.63850721,
-        "lng": 22.76327716,
-        "prices": {
-            "A95": 1.96,
-            "A98": null,
-            "Diesel": 2.18,
-            "LPG": 0.79
-        },
-        "id": 495
+        "id": 461
     },
     {
         "name": "Saurida",
@@ -7449,7 +6939,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 496
+        "id": 462
     },
     {
         "name": "Saurida",
@@ -7464,7 +6954,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.74
         },
-        "id": 497
+        "id": 463
     },
     {
         "name": "Saurida",
@@ -7479,7 +6969,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.74
         },
-        "id": 498
+        "id": 464
     },
     {
         "name": "Saurida",
@@ -7494,7 +6984,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 499
+        "id": 465
     },
     {
         "name": "Saurida",
@@ -7509,7 +6999,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 500
+        "id": 466
     },
     {
         "name": "Saurida",
@@ -7524,7 +7014,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 501
+        "id": 467
     },
     {
         "name": "Saurida",
@@ -7539,7 +7029,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 502
+        "id": 468
     },
     {
         "name": "Saurida",
@@ -7554,7 +7044,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 503
+        "id": 469
     },
     {
         "name": "Saurida",
@@ -7569,7 +7059,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 504
+        "id": 470
     },
     {
         "name": "Saurida",
@@ -7584,7 +7074,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.74
         },
-        "id": 505
+        "id": 471
     },
     {
         "name": "Saurida",
@@ -7599,7 +7089,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 506
+        "id": 472
     },
     {
         "name": "Saurida",
@@ -7614,7 +7104,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.73
         },
-        "id": 507
+        "id": 473
     },
     {
         "name": "Saurida",
@@ -7629,7 +7119,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 508
+        "id": 474
     },
     {
         "name": "Saurida",
@@ -7644,7 +7134,7 @@ const stationsData = [
             "Diesel": 2.11,
             "LPG": null
         },
-        "id": 509
+        "id": 475
     },
     {
         "name": "Saurida",
@@ -7659,7 +7149,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 510
+        "id": 476
     },
     {
         "name": "Saurida",
@@ -7674,7 +7164,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 511
+        "id": 477
     },
     {
         "name": "Saurida",
@@ -7689,7 +7179,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 512
+        "id": 478
     },
     {
         "name": "Saurida",
@@ -7704,7 +7194,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 513
+        "id": 479
     },
     {
         "name": "Saurida",
@@ -7719,7 +7209,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 514
+        "id": 480
     },
     {
         "name": "Saurida",
@@ -7734,7 +7224,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": null
         },
-        "id": 515
+        "id": 481
     },
     {
         "name": "Saurida",
@@ -7749,7 +7239,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 516
+        "id": 482
     },
     {
         "name": "Saurida",
@@ -7764,7 +7254,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.74
         },
-        "id": 517
+        "id": 483
     },
     {
         "name": "Saurida",
@@ -7779,7 +7269,7 @@ const stationsData = [
             "Diesel": 2.1,
             "LPG": null
         },
-        "id": 518
+        "id": 484
     },
     {
         "name": "Saurida",
@@ -7794,7 +7284,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 519
+        "id": 485
     },
     {
         "name": "Saurida",
@@ -7809,7 +7299,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 520
+        "id": 486
     },
     {
         "name": "Saurida",
@@ -7824,7 +7314,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": 0.74
         },
-        "id": 521
+        "id": 487
     },
     {
         "name": "Saurida",
@@ -7839,7 +7329,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 522
+        "id": 488
     },
     {
         "name": "Saurida",
@@ -7854,7 +7344,7 @@ const stationsData = [
             "Diesel": 2.14,
             "LPG": null
         },
-        "id": 523
+        "id": 489
     },
     {
         "name": "Saurida",
@@ -7869,7 +7359,7 @@ const stationsData = [
             "Diesel": 2.11,
             "LPG": 0.73
         },
-        "id": 524
+        "id": 490
     },
     {
         "name": "Saurida",
@@ -7884,7 +7374,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.74
         },
-        "id": 525
+        "id": 491
     },
     {
         "name": "Saurida",
@@ -7899,7 +7389,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.74
         },
-        "id": 526
+        "id": 492
     },
     {
         "name": "Saurida",
@@ -7914,7 +7404,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.74
         },
-        "id": 527
+        "id": 493
     },
     {
         "name": "Skulas",
@@ -7924,12 +7414,12 @@ const stationsData = [
         "lat": 54.38189577,
         "lng": 23.99318568,
         "prices": {
-            "A95": 1.85,
+            "A95": 1.9,
             "A98": null,
-            "Diesel": 2.09,
-            "LPG": 0.73
+            "Diesel": 2.12,
+            "LPG": 0.74
         },
-        "id": 528
+        "id": 494
     },
     {
         "name": "Skulas",
@@ -7941,10 +7431,10 @@ const stationsData = [
         "prices": {
             "A95": 1.899,
             "A98": null,
-            "Diesel": 2.159,
-            "LPG": 0.709
+            "Diesel": 2.129,
+            "LPG": 0.729
         },
-        "id": 529
+        "id": 495
     },
     {
         "name": "Skulas",
@@ -7954,12 +7444,12 @@ const stationsData = [
         "lat": 54.38382653,
         "lng": 23.65935022,
         "prices": {
-            "A95": 1.87,
+            "A95": 1.92,
             "A98": null,
-            "Diesel": 2.11,
-            "LPG": 0.75
+            "Diesel": 2.15,
+            "LPG": 0.76
         },
-        "id": 530
+        "id": 496
     },
     {
         "name": "Skulas",
@@ -7969,12 +7459,12 @@ const stationsData = [
         "lat": 54.93337469,
         "lng": 23.94344665,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.729
+            "Diesel": 2.159,
+            "LPG": 0.739
         },
-        "id": 531
+        "id": 497
     },
     {
         "name": "Skulas",
@@ -7986,10 +7476,10 @@ const stationsData = [
         "prices": {
             "A95": 1.94,
             "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.73
+            "Diesel": 2.16,
+            "LPG": 0.74
         },
-        "id": 532
+        "id": 498
     },
     {
         "name": "Skulas",
@@ -7999,12 +7489,12 @@ const stationsData = [
         "lat": 54.90130657,
         "lng": 23.85441412,
         "prices": {
-            "A95": 1.929,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.149,
-            "LPG": 0.729
+            "Diesel": 2.159,
+            "LPG": 0.739
         },
-        "id": 533
+        "id": 499
     },
     {
         "name": "Stateta",
@@ -8014,12 +7504,12 @@ const stationsData = [
         "lat": 54.73842126,
         "lng": 23.71035892,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 534
+        "id": 500
     },
     {
         "name": "Stateta",
@@ -8029,12 +7519,12 @@ const stationsData = [
         "lat": 54.72324911,
         "lng": 25.24175616,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 535
+        "id": 501
     },
     {
         "name": "Stateta",
@@ -8044,12 +7534,12 @@ const stationsData = [
         "lat": 55.49857993,
         "lng": 25.58371001,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 536
+        "id": 502
     },
     {
         "name": "Stateta",
@@ -8059,12 +7549,12 @@ const stationsData = [
         "lat": 55.78756925,
         "lng": 24.43920971,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 537
+        "id": 503
     },
     {
         "name": "Stateta",
@@ -8074,12 +7564,12 @@ const stationsData = [
         "lat": 54.63445071,
         "lng": 23.43639714,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 538
+        "id": 504
     },
     {
         "name": "Stateta",
@@ -8089,12 +7579,12 @@ const stationsData = [
         "lat": 55.82603892,
         "lng": 24.97951392,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 539
+        "id": 505
     },
     {
         "name": "Stateta",
@@ -8104,12 +7594,12 @@ const stationsData = [
         "lat": 55.68528783,
         "lng": 21.1471005,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 540
+        "id": 506
     },
     {
         "name": "Stateta",
@@ -8119,12 +7609,12 @@ const stationsData = [
         "lat": 54.92905072,
         "lng": 24.03811456,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 541
+        "id": 507
     },
     {
         "name": "Stateta",
@@ -8134,12 +7624,12 @@ const stationsData = [
         "lat": 54.41091631,
         "lng": 23.20671774,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 542
+        "id": 508
     },
     {
         "name": "Stateta",
@@ -8149,12 +7639,12 @@ const stationsData = [
         "lat": 54.40773067,
         "lng": 24.08521954,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 543
+        "id": 509
     },
     {
         "name": "Stateta",
@@ -8164,12 +7654,12 @@ const stationsData = [
         "lat": 54.36604328,
         "lng": 24.12186902,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 544
+        "id": 510
     },
     {
         "name": "Stateta",
@@ -8179,12 +7669,12 @@ const stationsData = [
         "lat": 54.42803816,
         "lng": 24.0012011,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.139,
+            "Diesel": 2.079,
             "LPG": 0.759
         },
-        "id": 545
+        "id": 511
     },
     {
         "name": "Šventosios investicijos",
@@ -8194,12 +7684,12 @@ const stationsData = [
         "lat": 56.01299671,
         "lng": 21.10379214,
         "prices": {
-            "A95": 2.029,
+            "A95": 1.999,
             "A98": null,
             "Diesel": 2.249,
             "LPG": 0.899
         },
-        "id": 546
+        "id": 512
     },
     {
         "name": "Tomega",
@@ -8214,7 +7704,7 @@ const stationsData = [
             "Diesel": 2.229,
             "LPG": null
         },
-        "id": 547
+        "id": 513
     },
     {
         "name": "Tomega",
@@ -8229,7 +7719,7 @@ const stationsData = [
             "Diesel": 2.16,
             "LPG": 0.82
         },
-        "id": 548
+        "id": 514
     },
     {
         "name": "Topgas",
@@ -8244,7 +7734,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.75
         },
-        "id": 549
+        "id": 515
     },
     {
         "name": "Topgas",
@@ -8259,7 +7749,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.73
         },
-        "id": 550
+        "id": 516
     },
     {
         "name": "Trevena",
@@ -8274,7 +7764,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 551
+        "id": 517
     },
     {
         "name": "Trevena",
@@ -8289,7 +7779,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": null
         },
-        "id": 552
+        "id": 518
     },
     {
         "name": "Trevena",
@@ -8304,7 +7794,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 553
+        "id": 519
     },
     {
         "name": "Trevena",
@@ -8319,7 +7809,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 554
+        "id": 520
     },
     {
         "name": "Trevena",
@@ -8334,7 +7824,7 @@ const stationsData = [
             "Diesel": 2.17,
             "LPG": 0.78
         },
-        "id": 555
+        "id": 521
     },
     {
         "name": "Trevena",
@@ -8349,7 +7839,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 556
+        "id": 522
     },
     {
         "name": "Trevena",
@@ -8364,7 +7854,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 557
+        "id": 523
     },
     {
         "name": "Trevena",
@@ -8379,7 +7869,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 558
+        "id": 524
     },
     {
         "name": "Trevena",
@@ -8394,7 +7884,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 559
+        "id": 525
     },
     {
         "name": "Trevena",
@@ -8409,7 +7899,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": 0.77
         },
-        "id": 560
+        "id": 526
     },
     {
         "name": "Trevena",
@@ -8424,7 +7914,7 @@ const stationsData = [
             "Diesel": 2.26,
             "LPG": 0.88
         },
-        "id": 561
+        "id": 527
     },
     {
         "name": "Trevena",
@@ -8439,7 +7929,7 @@ const stationsData = [
             "Diesel": 2.26,
             "LPG": 0.88
         },
-        "id": 562
+        "id": 528
     },
     {
         "name": "Tripletas",
@@ -8449,12 +7939,12 @@ const stationsData = [
         "lat": 56.30530435,
         "lng": 22.34252813,
         "prices": {
-            "A95": 1.78,
+            "A95": 1.85,
             "A98": null,
-            "Diesel": 2.0,
+            "Diesel": 2.1,
             "LPG": 0.74
         },
-        "id": 563
+        "id": 529
     },
     {
         "name": "Tumasa",
@@ -8469,7 +7959,7 @@ const stationsData = [
             "Diesel": 2.25,
             "LPG": 0.94
         },
-        "id": 564
+        "id": 530
     },
     {
         "name": "Utentra",
@@ -8481,10 +7971,10 @@ const stationsData = [
         "prices": {
             "A95": null,
             "A98": null,
-            "Diesel": 2.159,
+            "Diesel": 2.059,
             "LPG": null
         },
-        "id": 565
+        "id": 531
     },
     {
         "name": "Velseka",
@@ -8494,12 +7984,12 @@ const stationsData = [
         "lat": 55.82748974,
         "lng": 24.98569522,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
             "Diesel": 2.089,
-            "LPG": 0.729
+            "LPG": 0.699
         },
-        "id": 566
+        "id": 532
     },
     {
         "name": "VIADA LT",
@@ -8509,12 +7999,12 @@ const stationsData = [
         "lat": 56.31592712,
         "lng": 22.30241721,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.819
+            "Diesel": 2.209,
+            "LPG": 0.829
         },
-        "id": 567
+        "id": 533
     },
     {
         "name": "VIADA LT",
@@ -8524,12 +8014,12 @@ const stationsData = [
         "lat": 56.30031398,
         "lng": 22.36061772,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.819
+            "Diesel": 2.209,
+            "LPG": 0.829
         },
-        "id": 568
+        "id": 534
     },
     {
         "name": "VIADA LT",
@@ -8539,12 +8029,12 @@ const stationsData = [
         "lat": 55.66996252,
         "lng": 24.3496479,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": null
         },
-        "id": 569
+        "id": 535
     },
     {
         "name": "VIADA LT",
@@ -8554,12 +8044,12 @@ const stationsData = [
         "lat": 54.91818977,
         "lng": 24.04000039,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.219,
+            "LPG": 0.819
         },
-        "id": 570
+        "id": 536
     },
     {
         "name": "VIADA LT",
@@ -8569,12 +8059,12 @@ const stationsData = [
         "lat": 55.26654918,
         "lng": 22.31121604,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.179,
+            "LPG": 0.819
         },
-        "id": 571
+        "id": 537
     },
     {
         "name": "VIADA LT",
@@ -8584,12 +8074,12 @@ const stationsData = [
         "lat": 55.2408227,
         "lng": 22.30519788,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.179,
+            "LPG": 0.819
         },
-        "id": 572
+        "id": 538
     },
     {
         "name": "VIADA LT",
@@ -8599,12 +8089,12 @@ const stationsData = [
         "lat": 54.38466569,
         "lng": 24.05025809,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 573
+        "id": 539
     },
     {
         "name": "VIADA LT",
@@ -8614,12 +8104,12 @@ const stationsData = [
         "lat": 54.92714317,
         "lng": 23.97463204,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 574
+        "id": 540
     },
     {
         "name": "VIADA LT",
@@ -8629,12 +8119,12 @@ const stationsData = [
         "lat": 55.90540765,
         "lng": 23.26014027,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.839
         },
-        "id": 575
+        "id": 541
     },
     {
         "name": "VIADA LT",
@@ -8644,12 +8134,12 @@ const stationsData = [
         "lat": 54.73567421,
         "lng": 25.25857449,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.819
+            "Diesel": 2.199,
+            "LPG": 0.799
         },
-        "id": 576
+        "id": 542
     },
     {
         "name": "VIADA LT",
@@ -8659,12 +8149,12 @@ const stationsData = [
         "lat": 54.41401437,
         "lng": 24.00998629,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.209,
             "LPG": 0.829
         },
-        "id": 577
+        "id": 543
     },
     {
         "name": "VIADA LT",
@@ -8674,12 +8164,12 @@ const stationsData = [
         "lat": 54.917916,
         "lng": 23.8737463,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 578
+        "id": 544
     },
     {
         "name": "VIADA LT",
@@ -8689,12 +8179,12 @@ const stationsData = [
         "lat": 54.92128056,
         "lng": 23.81050537,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.829
+            "Diesel": 2.199,
+            "LPG": 0.859
         },
-        "id": 579
+        "id": 545
     },
     {
         "name": "VIADA LT",
@@ -8704,12 +8194,12 @@ const stationsData = [
         "lat": 55.92639672,
         "lng": 23.30730547,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.849
         },
-        "id": 580
+        "id": 546
     },
     {
         "name": "VIADA LT",
@@ -8719,12 +8209,12 @@ const stationsData = [
         "lat": 55.94410481,
         "lng": 23.33116287,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.839
         },
-        "id": 581
+        "id": 547
     },
     {
         "name": "VIADA LT",
@@ -8734,12 +8224,12 @@ const stationsData = [
         "lat": 54.764005,
         "lng": 25.19639378,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.799
+            "Diesel": 2.199,
+            "LPG": 0.819
         },
-        "id": 582
+        "id": 548
     },
     {
         "name": "VIADA LT",
@@ -8749,12 +8239,12 @@ const stationsData = [
         "lat": 54.69921472,
         "lng": 25.26010058,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.899
         },
-        "id": 583
+        "id": 549
     },
     {
         "name": "VIADA LT",
@@ -8764,12 +8254,12 @@ const stationsData = [
         "lat": 54.66730354,
         "lng": 25.1739621,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.899
         },
-        "id": 584
+        "id": 550
     },
     {
         "name": "VIADA LT",
@@ -8779,12 +8269,12 @@ const stationsData = [
         "lat": 54.72156097,
         "lng": 25.29507991,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.199,
             "LPG": null
         },
-        "id": 585
+        "id": 551
     },
     {
         "name": "VIADA LT",
@@ -8794,12 +8284,12 @@ const stationsData = [
         "lat": 54.66503289,
         "lng": 25.24635191,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.189,
             "LPG": null
         },
-        "id": 586
+        "id": 552
     },
     {
         "name": "VIADA LT",
@@ -8809,12 +8299,12 @@ const stationsData = [
         "lat": 54.71367128,
         "lng": 25.2771334,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.899
         },
-        "id": 587
+        "id": 553
     },
     {
         "name": "VIADA LT",
@@ -8826,10 +8316,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.859
         },
-        "id": 588
+        "id": 554
     },
     {
         "name": "VIADA LT",
@@ -8841,10 +8331,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.859
         },
-        "id": 589
+        "id": 555
     },
     {
         "name": "VIADA LT",
@@ -8856,10 +8346,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.899
         },
-        "id": 590
+        "id": 556
     },
     {
         "name": "VIADA LT",
@@ -8874,7 +8364,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.869
         },
-        "id": 591
+        "id": 557
     },
     {
         "name": "VIADA LT",
@@ -8889,7 +8379,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 592
+        "id": 558
     },
     {
         "name": "VIADA LT",
@@ -8899,12 +8389,12 @@ const stationsData = [
         "lat": 54.70259614,
         "lng": 25.21901843,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": null
         },
-        "id": 593
+        "id": 559
     },
     {
         "name": "VIADA LT",
@@ -8916,10 +8406,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.899
         },
-        "id": 594
+        "id": 560
     },
     {
         "name": "VIADA LT",
@@ -8931,10 +8421,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.899
         },
-        "id": 595
+        "id": 561
     },
     {
         "name": "VIADA LT",
@@ -8946,10 +8436,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.899
         },
-        "id": 596
+        "id": 562
     },
     {
         "name": "VIADA LT",
@@ -8959,12 +8449,12 @@ const stationsData = [
         "lat": 55.47781665,
         "lng": 25.58151852,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.829
+            "Diesel": 2.219,
+            "LPG": 0.819
         },
-        "id": 597
+        "id": 563
     },
     {
         "name": "VIADA LT",
@@ -8974,12 +8464,12 @@ const stationsData = [
         "lat": 55.497098,
         "lng": 25.6306254,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.799
         },
-        "id": 598
+        "id": 564
     },
     {
         "name": "VIADA LT",
@@ -8989,12 +8479,12 @@ const stationsData = [
         "lat": 55.49008709,
         "lng": 25.65090623,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.799
         },
-        "id": 599
+        "id": 565
     },
     {
         "name": "VIADA LT",
@@ -9006,10 +8496,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 600
+        "id": 566
     },
     {
         "name": "VIADA LT",
@@ -9021,10 +8511,10 @@ const stationsData = [
         "prices": {
             "A95": 1.989,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.239,
             "LPG": 0.809
         },
-        "id": 601
+        "id": 567
     },
     {
         "name": "VIADA LT",
@@ -9039,7 +8529,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 602
+        "id": 568
     },
     {
         "name": "VIADA LT",
@@ -9049,12 +8539,12 @@ const stationsData = [
         "lat": 55.34290765,
         "lng": 21.49667801,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
             "Diesel": 2.189,
-            "LPG": 0.769
+            "LPG": 0.799
         },
-        "id": 603
+        "id": 569
     },
     {
         "name": "VIADA LT",
@@ -9064,12 +8554,12 @@ const stationsData = [
         "lat": 55.95468059,
         "lng": 23.31615536,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.839
         },
-        "id": 604
+        "id": 570
     },
     {
         "name": "VIADA LT",
@@ -9079,12 +8569,12 @@ const stationsData = [
         "lat": 55.92271147,
         "lng": 23.35789907,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.239,
             "LPG": 0.839
         },
-        "id": 605
+        "id": 571
     },
     {
         "name": "VIADA LT",
@@ -9096,10 +8586,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 606
+        "id": 572
     },
     {
         "name": "VIADA LT",
@@ -9111,10 +8601,10 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.239,
             "LPG": 0.859
         },
-        "id": 607
+        "id": 573
     },
     {
         "name": "VIADA LT",
@@ -9126,10 +8616,10 @@ const stationsData = [
         "prices": {
             "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.239,
             "LPG": 0.859
         },
-        "id": 608
+        "id": 574
     },
     {
         "name": "VIADA LT",
@@ -9144,7 +8634,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 609
+        "id": 575
     },
     {
         "name": "VIADA LT",
@@ -9154,12 +8644,12 @@ const stationsData = [
         "lat": 55.7788432,
         "lng": 24.36455877,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.799
         },
-        "id": 610
+        "id": 576
     },
     {
         "name": "VIADA LT",
@@ -9169,12 +8659,12 @@ const stationsData = [
         "lat": 55.71446003,
         "lng": 24.33526571,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 611
+        "id": 577
     },
     {
         "name": "VIADA LT",
@@ -9184,12 +8674,12 @@ const stationsData = [
         "lat": 55.70403668,
         "lng": 24.38094886,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 612
+        "id": 578
     },
     {
         "name": "VIADA LT",
@@ -9199,12 +8689,12 @@ const stationsData = [
         "lat": 55.7091917,
         "lng": 24.37348296,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 613
+        "id": 579
     },
     {
         "name": "VIADA LT",
@@ -9214,12 +8704,12 @@ const stationsData = [
         "lat": 55.73877397,
         "lng": 24.31032094,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 614
+        "id": 580
     },
     {
         "name": "VIADA LT",
@@ -9229,12 +8719,12 @@ const stationsData = [
         "lat": 55.75324014,
         "lng": 24.31220219,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 615
+        "id": 581
     },
     {
         "name": "VIADA LT",
@@ -9244,12 +8734,12 @@ const stationsData = [
         "lat": 55.7368525,
         "lng": 24.38712468,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 616
+        "id": 582
     },
     {
         "name": "VIADA LT",
@@ -9259,12 +8749,12 @@ const stationsData = [
         "lat": 55.74862561,
         "lng": 24.39317728,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.219,
             "LPG": 0.799
         },
-        "id": 617
+        "id": 583
     },
     {
         "name": "VIADA LT",
@@ -9279,7 +8769,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 618
+        "id": 584
     },
     {
         "name": "VIADA LT",
@@ -9294,7 +8784,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.829
         },
-        "id": 619
+        "id": 585
     },
     {
         "name": "VIADA LT",
@@ -9309,7 +8799,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.829
         },
-        "id": 620
+        "id": 586
     },
     {
         "name": "VIADA LT",
@@ -9319,12 +8809,12 @@ const stationsData = [
         "lat": 54.22879793,
         "lng": 23.52839268,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.999,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.759
+            "Diesel": 2.239,
+            "LPG": 0.799
         },
-        "id": 621
+        "id": 587
     },
     {
         "name": "VIADA LT",
@@ -9339,7 +8829,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 622
+        "id": 588
     },
     {
         "name": "VIADA LT",
@@ -9354,7 +8844,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 623
+        "id": 589
     },
     {
         "name": "VIADA LT",
@@ -9366,10 +8856,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.839
         },
-        "id": 624
+        "id": 590
     },
     {
         "name": "VIADA LT",
@@ -9379,12 +8869,12 @@ const stationsData = [
         "lat": 55.68328895,
         "lng": 21.16064018,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.839
         },
-        "id": 625
+        "id": 591
     },
     {
         "name": "VIADA LT",
@@ -9396,10 +8886,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": 0.839
         },
-        "id": 626
+        "id": 592
     },
     {
         "name": "VIADA LT",
@@ -9409,12 +8899,12 @@ const stationsData = [
         "lat": 55.67522902,
         "lng": 21.15300867,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.839
         },
-        "id": 627
+        "id": 593
     },
     {
         "name": "VIADA LT",
@@ -9424,12 +8914,12 @@ const stationsData = [
         "lat": 55.71926789,
         "lng": 21.14116101,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.839
         },
-        "id": 628
+        "id": 594
     },
     {
         "name": "VIADA LT",
@@ -9444,7 +8934,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.929
         },
-        "id": 629
+        "id": 595
     },
     {
         "name": "VIADA LT",
@@ -9459,7 +8949,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 630
+        "id": 596
     },
     {
         "name": "VIADA LT",
@@ -9469,12 +8959,12 @@ const stationsData = [
         "lat": 54.91762212,
         "lng": 23.86321562,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 631
+        "id": 597
     },
     {
         "name": "VIADA LT",
@@ -9486,10 +8976,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.229,
             "LPG": 0.829
         },
-        "id": 632
+        "id": 598
     },
     {
         "name": "VIADA LT",
@@ -9499,12 +8989,12 @@ const stationsData = [
         "lat": 54.89766099,
         "lng": 23.95810171,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.229,
             "LPG": 0.929
         },
-        "id": 633
+        "id": 599
     },
     {
         "name": "VIADA LT",
@@ -9514,12 +9004,12 @@ const stationsData = [
         "lat": 54.92015901,
         "lng": 23.94881165,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.229,
             "LPG": 0.829
         },
-        "id": 634
+        "id": 600
     },
     {
         "name": "VIADA LT",
@@ -9534,7 +9024,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 635
+        "id": 601
     },
     {
         "name": "VIADA LT",
@@ -9544,12 +9034,12 @@ const stationsData = [
         "lat": 54.88094413,
         "lng": 24.00986864,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.819
+            "Diesel": 2.219,
+            "LPG": 0.849
         },
-        "id": 636
+        "id": 602
     },
     {
         "name": "VIADA LT",
@@ -9564,7 +9054,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 637
+        "id": 603
     },
     {
         "name": "VIADA LT",
@@ -9579,7 +9069,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 638
+        "id": 604
     },
     {
         "name": "VIADA LT",
@@ -9594,7 +9084,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": null
         },
-        "id": 639
+        "id": 605
     },
     {
         "name": "VIADA LT",
@@ -9609,7 +9099,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 640
+        "id": 606
     },
     {
         "name": "VIADA LT",
@@ -9624,7 +9114,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 641
+        "id": 607
     },
     {
         "name": "VIADA LT",
@@ -9634,12 +9124,12 @@ const stationsData = [
         "lat": 54.85563298,
         "lng": 24.4419732,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": 0.899
         },
-        "id": 642
+        "id": 608
     },
     {
         "name": "VIADA LT",
@@ -9652,9 +9142,9 @@ const stationsData = [
             "A95": 1.999,
             "A98": null,
             "Diesel": 2.259,
-            "LPG": 0.779
+            "LPG": 0.799
         },
-        "id": 643
+        "id": 609
     },
     {
         "name": "VIADA LT",
@@ -9664,12 +9154,12 @@ const stationsData = [
         "lat": 55.09375262,
         "lng": 24.28261211,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.219,
+            "LPG": 0.819
         },
-        "id": 644
+        "id": 610
     },
     {
         "name": "VIADA LT",
@@ -9679,12 +9169,12 @@ const stationsData = [
         "lat": 54.78456679,
         "lng": 24.65429765,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.829
+            "Diesel": 2.209,
+            "LPG": 0.839
         },
-        "id": 645
+        "id": 611
     },
     {
         "name": "VIADA LT",
@@ -9694,12 +9184,12 @@ const stationsData = [
         "lat": 56.20128359,
         "lng": 24.74879753,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
             "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 646
+        "id": 612
     },
     {
         "name": "VIADA LT",
@@ -9709,12 +9199,12 @@ const stationsData = [
         "lat": 56.20202722,
         "lng": 24.73770358,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.939,
             "A98": null,
             "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 647
+        "id": 613
     },
     {
         "name": "VIADA LT",
@@ -9726,10 +9216,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.859
         },
-        "id": 648
+        "id": 614
     },
     {
         "name": "VIADA LT",
@@ -9744,7 +9234,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.829
         },
-        "id": 649
+        "id": 615
     },
     {
         "name": "VIADA LT",
@@ -9759,7 +9249,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.839
         },
-        "id": 650
+        "id": 616
     },
     {
         "name": "VIADA LT",
@@ -9774,7 +9264,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 651
+        "id": 617
     },
     {
         "name": "VIADA LT",
@@ -9789,7 +9279,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 652
+        "id": 618
     },
     {
         "name": "VIADA LT",
@@ -9804,7 +9294,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.849
         },
-        "id": 653
+        "id": 619
     },
     {
         "name": "VIADA LT",
@@ -9814,12 +9304,12 @@ const stationsData = [
         "lat": 55.85646985,
         "lng": 25.17345447,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.799
         },
-        "id": 654
+        "id": 620
     },
     {
         "name": "VIADA LT",
@@ -9834,7 +9324,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.829
         },
-        "id": 655
+        "id": 621
     },
     {
         "name": "VIADA LT",
@@ -9849,7 +9339,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 656
+        "id": 622
     },
     {
         "name": "VIADA LT",
@@ -9859,12 +9349,12 @@ const stationsData = [
         "lat": 54.66955543,
         "lng": 25.27909209,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.199,
             "LPG": 0.839
         },
-        "id": 657
+        "id": 623
     },
     {
         "name": "VIADA LT",
@@ -9874,12 +9364,12 @@ const stationsData = [
         "lat": 55.84453064,
         "lng": 24.97901461,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.229,
             "LPG": 0.799
         },
-        "id": 658
+        "id": 624
     },
     {
         "name": "VIADA LT",
@@ -9894,7 +9384,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 659
+        "id": 625
     },
     {
         "name": "VIADA LT",
@@ -9909,7 +9399,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.819
         },
-        "id": 660
+        "id": 626
     },
     {
         "name": "VIADA LT",
@@ -9924,7 +9414,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.819
         },
-        "id": 661
+        "id": 627
     },
     {
         "name": "VIADA LT",
@@ -9939,7 +9429,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 662
+        "id": 628
     },
     {
         "name": "VIADA LT",
@@ -9954,7 +9444,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 663
+        "id": 629
     },
     {
         "name": "VIADA LT",
@@ -9969,7 +9459,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 664
+        "id": 630
     },
     {
         "name": "VIADA LT",
@@ -9984,7 +9474,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.929
         },
-        "id": 665
+        "id": 631
     },
     {
         "name": "VIADA LT",
@@ -9999,7 +9489,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.929
         },
-        "id": 666
+        "id": 632
     },
     {
         "name": "VIADA LT",
@@ -10014,7 +9504,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 667
+        "id": 633
     },
     {
         "name": "VIADA LT",
@@ -10024,12 +9514,12 @@ const stationsData = [
         "lat": 55.94453714,
         "lng": 25.58523075,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.299,
+            "Diesel": 2.199,
             "LPG": 0.929
         },
-        "id": 668
+        "id": 634
     },
     {
         "name": "VIADA LT",
@@ -10044,7 +9534,7 @@ const stationsData = [
             "Diesel": 2.239,
             "LPG": 0.849
         },
-        "id": 669
+        "id": 635
     },
     {
         "name": "VIADA LT",
@@ -10059,7 +9549,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.899
         },
-        "id": 670
+        "id": 636
     },
     {
         "name": "VIADA LT",
@@ -10069,12 +9559,12 @@ const stationsData = [
         "lat": 55.93428888,
         "lng": 25.58561018,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.299,
+            "Diesel": 2.199,
             "LPG": 0.929
         },
-        "id": 671
+        "id": 637
     },
     {
         "name": "VIADA LT",
@@ -10089,7 +9579,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.889
         },
-        "id": 672
+        "id": 638
     },
     {
         "name": "VIADA LT",
@@ -10101,10 +9591,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 673
+        "id": 639
     },
     {
         "name": "VIADA LT",
@@ -10119,7 +9609,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 674
+        "id": 640
     },
     {
         "name": "VIADA LT",
@@ -10134,7 +9624,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.799
         },
-        "id": 675
+        "id": 641
     },
     {
         "name": "VIADA LT",
@@ -10149,7 +9639,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 676
+        "id": 642
     },
     {
         "name": "VIADA LT",
@@ -10164,7 +9654,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.94
         },
-        "id": 677
+        "id": 643
     },
     {
         "name": "VIADA LT",
@@ -10179,7 +9669,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 678
+        "id": 644
     },
     {
         "name": "VIADA LT",
@@ -10194,7 +9684,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 679
+        "id": 645
     },
     {
         "name": "VIADA LT",
@@ -10209,7 +9699,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 680
+        "id": 646
     },
     {
         "name": "VIADA LT",
@@ -10224,7 +9714,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.899
         },
-        "id": 681
+        "id": 647
     },
     {
         "name": "VIADA LT",
@@ -10239,7 +9729,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 682
+        "id": 648
     },
     {
         "name": "VIADA LT",
@@ -10254,7 +9744,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.929
         },
-        "id": 683
+        "id": 649
     },
     {
         "name": "VIADA LT",
@@ -10269,7 +9759,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.929
         },
-        "id": 684
+        "id": 650
     },
     {
         "name": "VIADA LT",
@@ -10284,7 +9774,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 685
+        "id": 651
     },
     {
         "name": "VIADA LT",
@@ -10299,7 +9789,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.929
         },
-        "id": 686
+        "id": 652
     },
     {
         "name": "VIADA LT",
@@ -10314,7 +9804,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 687
+        "id": 653
     },
     {
         "name": "VIADA LT",
@@ -10329,7 +9819,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 688
+        "id": 654
     },
     {
         "name": "VIADA LT",
@@ -10339,12 +9829,12 @@ const stationsData = [
         "lat": 55.82750436,
         "lng": 21.18507776,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.869
+            "Diesel": 2.159,
+            "LPG": 0.839
         },
-        "id": 689
+        "id": 655
     },
     {
         "name": "VIADA LT",
@@ -10354,12 +9844,12 @@ const stationsData = [
         "lat": 55.89058152,
         "lng": 21.27847374,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.869
+            "Diesel": 2.159,
+            "LPG": 0.839
         },
-        "id": 690
+        "id": 656
     },
     {
         "name": "VIADA LT",
@@ -10369,12 +9859,12 @@ const stationsData = [
         "lat": 55.89597614,
         "lng": 21.22109589,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.869
+            "Diesel": 2.159,
+            "LPG": 0.839
         },
-        "id": 691
+        "id": 657
     },
     {
         "name": "VIADA LT",
@@ -10389,7 +9879,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 692
+        "id": 658
     },
     {
         "name": "VIADA LT",
@@ -10404,7 +9894,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": null
         },
-        "id": 693
+        "id": 659
     },
     {
         "name": "VIADA LT",
@@ -10419,7 +9909,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 694
+        "id": 660
     },
     {
         "name": "VIADA LT",
@@ -10434,7 +9924,7 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.929
         },
-        "id": 695
+        "id": 661
     },
     {
         "name": "VIADA LT",
@@ -10449,7 +9939,7 @@ const stationsData = [
             "Diesel": 2.299,
             "LPG": 0.949
         },
-        "id": 696
+        "id": 662
     },
     {
         "name": "VIADA LT",
@@ -10461,25 +9951,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.249,
             "LPG": null
         },
-        "id": 697
-    },
-    {
-        "name": "Vildega",
-        "logo": "⛽",
-        "city": "Vilkaviškio",
-        "address": "Vilkaviškis, Vytauto g. 2D, 70137",
-        "lat": 54.64346113,
-        "lng": 23.05291997,
-        "prices": {
-            "A95": 1.899,
-            "A98": null,
-            "Diesel": 2.139,
-            "LPG": 0.77
-        },
-        "id": 698
+        "id": 663
     },
     {
         "name": "Vimijula",
@@ -10489,12 +9964,12 @@ const stationsData = [
         "lat": 55.13794926,
         "lng": 24.1932708,
         "prices": {
-            "A95": 1.86,
+            "A95": 1.94,
             "A98": null,
-            "Diesel": 2.14,
-            "LPG": 0.83
+            "Diesel": 2.17,
+            "LPG": 0.84
         },
-        "id": 699
+        "id": 664
     },
     {
         "name": "VIRŠI Lietuva",
@@ -10504,12 +9979,12 @@ const stationsData = [
         "lat": 54.47583948,
         "lng": 23.22134553,
         "prices": {
-            "A95": 1.994,
+            "A95": 1.964,
             "A98": null,
-            "Diesel": 2.254,
+            "Diesel": 2.214,
             "LPG": 0.934
         },
-        "id": 700
+        "id": 665
     },
     {
         "name": "Visvilas",
@@ -10524,7 +9999,7 @@ const stationsData = [
             "Diesel": 2.17,
             "LPG": 0.73
         },
-        "id": 701
+        "id": 666
     },
     {
         "name": "Vlantana",
@@ -10534,27 +10009,12 @@ const stationsData = [
         "lat": 55.71917037,
         "lng": 21.29335463,
         "prices": {
-            "A95": 1.92,
+            "A95": 1.89,
             "A98": null,
-            "Diesel": 2.17,
+            "Diesel": 2.15,
             "LPG": null
         },
-        "id": 702
-    },
-    {
-        "name": "Circle K",
-        "logo": "🔴",
-        "city": "Plungės",
-        "address": "Truikių k., Pramogų g. 4, 90110",
-        "lat": 55.93901908,
-        "lng": 21.88009127,
-        "prices": {
-            "A95": 1.896,
-            "A98": null,
-            "Diesel": 2.236,
-            "LPG": 0.866
-        },
-        "id": 703
+        "id": 667
     },
     {
         "name": "Žibalas",
@@ -10564,12 +10024,12 @@ const stationsData = [
         "lat": 55.07211501,
         "lng": 24.29494647,
         "prices": {
-            "A95": 1.94,
+            "A95": 1.99,
             "A98": null,
-            "Diesel": 2.2,
+            "Diesel": 2.23,
             "LPG": 0.84
         },
-        "id": 704
+        "id": 668
     },
     {
         "name": "Tomega",
@@ -10584,7 +10044,7 @@ const stationsData = [
             "Diesel": 2.239,
             "LPG": null
         },
-        "id": 705
+        "id": 669
     },
     {
         "name": "UAB GINDANA degalai laivams",
@@ -10594,12 +10054,12 @@ const stationsData = [
         "lat": 55.70413979,
         "lng": 21.12956596,
         "prices": {
-            "A95": 1.95,
+            "A95": 1.94,
             "A98": null,
             "Diesel": 2.15,
             "LPG": null
         },
-        "id": 706
+        "id": 670
     },
     {
         "name": "Emsi",
@@ -10609,12 +10069,12 @@ const stationsData = [
         "lat": 54.92750478,
         "lng": 23.97218798,
         "prices": {
-            "A95": 1.919,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.169,
-            "LPG": 0.779
+            "Diesel": 2.099,
+            "LPG": 0.759
         },
-        "id": 707
+        "id": 671
     },
     {
         "name": "VIADA LT",
@@ -10624,12 +10084,12 @@ const stationsData = [
         "lat": 54.55419458,
         "lng": 23.36226549,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 708
+        "id": 672
     },
     {
         "name": "VIADA LT",
@@ -10639,12 +10099,12 @@ const stationsData = [
         "lat": 54.56770974,
         "lng": 23.3395483,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.969,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.839
         },
-        "id": 709
+        "id": 673
     },
     {
         "name": "Baltic Petroleum",
@@ -10654,12 +10114,12 @@ const stationsData = [
         "lat": 55.70493952,
         "lng": 21.16332052,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.179,
             "LPG": 0.799
         },
-        "id": 710
+        "id": 674
     },
     {
         "name": "Circle K",
@@ -10669,12 +10129,12 @@ const stationsData = [
         "lat": 55.29744038,
         "lng": 24.00122406,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.209,
             "LPG": 0.819
         },
-        "id": 711
+        "id": 675
     },
     {
         "name": "Baltic Petroleum",
@@ -10689,7 +10149,7 @@ const stationsData = [
             "Diesel": 2.209,
             "LPG": 0.769
         },
-        "id": 712
+        "id": 676
     },
     {
         "name": "Baltic Petroleum",
@@ -10699,12 +10159,12 @@ const stationsData = [
         "lat": 54.70286414,
         "lng": 25.2881622,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.219,
             "LPG": 0.799
         },
-        "id": 713
+        "id": 677
     },
     {
         "name": "Baltic Petroleum",
@@ -10714,12 +10174,12 @@ const stationsData = [
         "lat": 54.55574872,
         "lng": 23.37530293,
         "prices": {
-            "A95": 2.019,
+            "A95": 1.879,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.109,
+            "LPG": 0.779
         },
-        "id": 714
+        "id": 678
     },
     {
         "name": "Skulas",
@@ -10729,12 +10189,12 @@ const stationsData = [
         "lat": 56.06952157,
         "lng": 24.3877815,
         "prices": {
-            "A95": 1.9,
+            "A95": 1.88,
             "A98": null,
-            "Diesel": 2.18,
-            "LPG": 0.77
+            "Diesel": 2.13,
+            "LPG": 0.75
         },
-        "id": 715
+        "id": 679
     },
     {
         "name": "Alauša",
@@ -10744,12 +10204,12 @@ const stationsData = [
         "lat": 55.49561569,
         "lng": 25.58161546,
         "prices": {
-            "A95": 1.944,
+            "A95": 1.814,
             "A98": null,
-            "Diesel": 2.174,
-            "LPG": 0.744
+            "Diesel": 2.064,
+            "LPG": 0.714
         },
-        "id": 716
+        "id": 680
     },
     {
         "name": "Alauša",
@@ -10759,12 +10219,12 @@ const stationsData = [
         "lat": 54.38847533,
         "lng": 23.82019239,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.739
+            "Diesel": 2.029,
+            "LPG": 0.719
         },
-        "id": 717
+        "id": 681
     },
     {
         "name": "Alauša",
@@ -10774,12 +10234,12 @@ const stationsData = [
         "lat": 54.65123469,
         "lng": 25.15020378,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.839
+            "Diesel": 2.099,
+            "LPG": 0.729
         },
-        "id": 718
+        "id": 682
     },
     {
         "name": "Alauša",
@@ -10789,12 +10249,12 @@ const stationsData = [
         "lat": 55.02465267,
         "lng": 24.9854701,
         "prices": {
-            "A95": 1.899,
+            "A95": 1.814,
             "A98": null,
-            "Diesel": 2.154,
-            "LPG": 0.739
+            "Diesel": 2.024,
+            "LPG": 0.714
         },
-        "id": 719
+        "id": 683
     },
     {
         "name": "Alauša",
@@ -10804,12 +10264,12 @@ const stationsData = [
         "lat": 55.59407798,
         "lng": 25.83355324,
         "prices": {
-            "A95": 1.959,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.179,
-            "LPG": 0.759
+            "Diesel": 2.099,
+            "LPG": 0.744
         },
-        "id": 720
+        "id": 684
     },
     {
         "name": "Alauša",
@@ -10819,12 +10279,12 @@ const stationsData = [
         "lat": 54.66583297,
         "lng": 25.27406135,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.199,
-            "LPG": 0.869
+            "Diesel": 2.099,
+            "LPG": 0.799
         },
-        "id": 721
+        "id": 685
     },
     {
         "name": "Alauša",
@@ -10834,12 +10294,12 @@ const stationsData = [
         "lat": 54.70341173,
         "lng": 25.41584686,
         "prices": {
-            "A95": 1.954,
+            "A95": 1.819,
             "A98": null,
-            "Diesel": 2.174,
-            "LPG": 0.749
+            "Diesel": 2.029,
+            "LPG": 0.719
         },
-        "id": 722
+        "id": 686
     },
     {
         "name": "Circle K",
@@ -10849,12 +10309,12 @@ const stationsData = [
         "lat": 54.73577456,
         "lng": 25.26560169,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.789
+            "Diesel": 2.149,
+            "LPG": 0.799
         },
-        "id": 723
+        "id": 687
     },
     {
         "name": "Circle K",
@@ -10864,12 +10324,12 @@ const stationsData = [
         "lat": 54.695327,
         "lng": 25.21864382,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.964,
             "A98": null,
-            "Diesel": 2.254,
+            "Diesel": 2.204,
             "LPG": 0.859
         },
-        "id": 724
+        "id": 688
     },
     {
         "name": "Circle K",
@@ -10879,12 +10339,12 @@ const stationsData = [
         "lat": 54.72021725,
         "lng": 25.24624009,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 725
+        "id": 689
     },
     {
         "name": "Circle K",
@@ -10894,12 +10354,12 @@ const stationsData = [
         "lat": 54.69431295,
         "lng": 25.26328729,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.179,
             "LPG": null
         },
-        "id": 726
+        "id": 690
     },
     {
         "name": "Circle K",
@@ -10909,12 +10369,12 @@ const stationsData = [
         "lat": 54.70911636,
         "lng": 25.22821654,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.934,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.839
+            "Diesel": 2.164,
+            "LPG": 0.819
         },
-        "id": 727
+        "id": 691
     },
     {
         "name": "Circle K",
@@ -10924,12 +10384,12 @@ const stationsData = [
         "lat": 54.62315768,
         "lng": 25.11012657,
         "prices": {
-            "A95": 1.994,
+            "A95": 1.964,
             "A98": null,
-            "Diesel": 2.254,
-            "LPG": 0.859
+            "Diesel": 2.194,
+            "LPG": 0.819
         },
-        "id": 728
+        "id": 692
     },
     {
         "name": "Circle K",
@@ -10941,10 +10401,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.269,
+            "Diesel": 2.219,
             "LPG": null
         },
-        "id": 729
+        "id": 693
     },
     {
         "name": "Circle K",
@@ -10954,12 +10414,12 @@ const stationsData = [
         "lat": 55.90925299,
         "lng": 23.31949087,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.989,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.829
+            "Diesel": 2.179,
+            "LPG": 0.839
         },
-        "id": 730
+        "id": 694
     },
     {
         "name": "Circle K",
@@ -10969,12 +10429,12 @@ const stationsData = [
         "lat": 55.68767149,
         "lng": 21.14504939,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.169,
             "LPG": 0.829
         },
-        "id": 731
+        "id": 695
     },
     {
         "name": "Circle K",
@@ -10986,10 +10446,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.269,
+            "Diesel": 2.249,
             "LPG": null
         },
-        "id": 732
+        "id": 696
     },
     {
         "name": "Circle K",
@@ -10999,12 +10459,12 @@ const stationsData = [
         "lat": 55.73178377,
         "lng": 24.34228381,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.199,
             "LPG": 0.819
         },
-        "id": 733
+        "id": 697
     },
     {
         "name": "Circle K",
@@ -11014,12 +10474,12 @@ const stationsData = [
         "lat": 55.28658448,
         "lng": 23.97237575,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.249,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 734
+        "id": 698
     },
     {
         "name": "Alauša",
@@ -11034,7 +10494,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 0.799
         },
-        "id": 735
+        "id": 699
     },
     {
         "name": "Apsaga",
@@ -11044,12 +10504,12 @@ const stationsData = [
         "lat": 55.91627595,
         "lng": 23.24697259,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.209,
             "LPG": 0.819
         },
-        "id": 736
+        "id": 700
     },
     {
         "name": "Apsaga",
@@ -11059,12 +10519,12 @@ const stationsData = [
         "lat": 55.9564535,
         "lng": 23.308507,
         "prices": {
-            "A95": 1.97,
+            "A95": 1.98,
             "A98": null,
             "Diesel": 2.19,
             "LPG": 0.81
         },
-        "id": 737
+        "id": 701
     },
     {
         "name": "Apsaga",
@@ -11074,12 +10534,12 @@ const stationsData = [
         "lat": 55.94055743,
         "lng": 23.32614696,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.209,
             "LPG": 0.819
         },
-        "id": 738
+        "id": 702
     },
     {
         "name": "Circle K",
@@ -11089,12 +10549,12 @@ const stationsData = [
         "lat": 56.30250843,
         "lng": 22.34544242,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.819
+            "Diesel": 2.119,
+            "LPG": 0.829
         },
-        "id": 739
+        "id": 703
     },
     {
         "name": "Circle K",
@@ -11104,12 +10564,12 @@ const stationsData = [
         "lat": 55.07057559,
         "lng": 24.26355329,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.799
+            "Diesel": 2.159,
+            "LPG": 0.819
         },
-        "id": 740
+        "id": 704
     },
     {
         "name": "Circle K",
@@ -11119,12 +10579,12 @@ const stationsData = [
         "lat": 54.70241442,
         "lng": 25.26480764,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.179,
             "LPG": 0.899
         },
-        "id": 741
+        "id": 705
     },
     {
         "name": "Circle K",
@@ -11134,12 +10594,12 @@ const stationsData = [
         "lat": 55.24822761,
         "lng": 22.30278409,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.219,
-            "LPG": 0.799
+            "Diesel": 2.129,
+            "LPG": 0.819
         },
-        "id": 742
+        "id": 706
     },
     {
         "name": "Circle K",
@@ -11151,10 +10611,10 @@ const stationsData = [
         "prices": {
             "A95": 1.999,
             "A98": null,
-            "Diesel": 2.269,
+            "Diesel": 2.219,
             "LPG": null
         },
-        "id": 743
+        "id": 707
     },
     {
         "name": "Circle K",
@@ -11164,12 +10624,12 @@ const stationsData = [
         "lat": 55.69283578,
         "lng": 21.17969077,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.939,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.149,
             "LPG": 0.839
         },
-        "id": 744
+        "id": 708
     },
     {
         "name": "Circle K",
@@ -11179,12 +10639,12 @@ const stationsData = [
         "lat": 54.7306881,
         "lng": 25.23903248,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.944,
             "A98": null,
-            "Diesel": 2.224,
-            "LPG": 0.849
+            "Diesel": 2.184,
+            "LPG": 0.829
         },
-        "id": 745
+        "id": 709
     },
     {
         "name": "Circle K",
@@ -11194,12 +10654,12 @@ const stationsData = [
         "lat": 54.70282838,
         "lng": 25.26396366,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.179,
             "LPG": 0.899
         },
-        "id": 746
+        "id": 710
     },
     {
         "name": "Circle K",
@@ -11209,12 +10669,12 @@ const stationsData = [
         "lat": 54.65894829,
         "lng": 25.16073386,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.169,
             "LPG": null
         },
-        "id": 747
+        "id": 711
     },
     {
         "name": "Circle K",
@@ -11224,12 +10684,12 @@ const stationsData = [
         "lat": 54.92831117,
         "lng": 23.97383767,
         "prices": {
-            "A95": 1.979,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
-            "LPG": 0.839
+            "Diesel": 2.169,
+            "LPG": 0.819
         },
-        "id": 748
+        "id": 712
     },
     {
         "name": "Circle K",
@@ -11239,12 +10699,12 @@ const stationsData = [
         "lat": 54.92855064,
         "lng": 23.92859572,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.959,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.179,
             "LPG": 0.799
         },
-        "id": 749
+        "id": 713
     },
     {
         "name": "Circle K",
@@ -11254,12 +10714,12 @@ const stationsData = [
         "lat": 55.91263541,
         "lng": 23.27389212,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.249,
-            "LPG": 0.779
+            "Diesel": 2.169,
+            "LPG": 0.799
         },
-        "id": 750
+        "id": 714
     },
     {
         "name": "Circle K",
@@ -11269,12 +10729,12 @@ const stationsData = [
         "lat": 55.65678867,
         "lng": 21.18241406,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.93,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.23,
             "LPG": null
         },
-        "id": 751
+        "id": 715
     },
     {
         "name": "Circle K",
@@ -11284,12 +10744,12 @@ const stationsData = [
         "lat": 54.55712164,
         "lng": 23.35397892,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.229,
+            "Diesel": 2.129,
             "LPG": null
         },
-        "id": 752
+        "id": 716
     },
     {
         "name": "Circle K",
@@ -11299,12 +10759,12 @@ const stationsData = [
         "lat": 54.67102496,
         "lng": 25.19212333,
         "prices": {
-            "A95": 1.969,
+            "A95": 1.919,
             "A98": null,
-            "Diesel": 2.219,
+            "Diesel": 2.159,
             "LPG": null
         },
-        "id": 753
+        "id": 717
     },
     {
         "name": "Circle K",
@@ -11314,12 +10774,12 @@ const stationsData = [
         "lat": 55.26699181,
         "lng": 22.30978561,
         "prices": {
-            "A95": 1.949,
+            "A95": 1.899,
             "A98": null,
-            "Diesel": 2.189,
+            "Diesel": 2.099,
             "LPG": null
         },
-        "id": 754
+        "id": 718
     },
     {
         "name": "Circle K",
@@ -11329,12 +10789,12 @@ const stationsData = [
         "lat": 54.93837079,
         "lng": 23.89835415,
         "prices": {
-            "A95": 1.989,
+            "A95": 1.929,
             "A98": null,
-            "Diesel": 2.239,
+            "Diesel": 2.189,
             "LPG": null
         },
-        "id": 755
+        "id": 719
     },
     {
         "name": "Saurida",
@@ -11349,7 +10809,7 @@ const stationsData = [
             "Diesel": 2.1,
             "LPG": 0.74
         },
-        "id": 756
+        "id": 720
     },
     {
         "name": "Circle K",
@@ -11359,12 +10819,12 @@ const stationsData = [
         "lat": 54.71872049,
         "lng": 25.3006737,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.949,
             "A98": null,
-            "Diesel": 2.244,
+            "Diesel": 2.154,
             "LPG": 0.809
         },
-        "id": 757
+        "id": 721
     },
     {
         "name": "Circle K",
@@ -11374,27 +10834,12 @@ const stationsData = [
         "lat": 54.89414785,
         "lng": 24.00673101,
         "prices": {
-            "A95": 1.999,
+            "A95": 1.979,
             "A98": null,
-            "Diesel": 2.259,
-            "LPG": 0.789
+            "Diesel": 2.219,
+            "LPG": 0.849
         },
-        "id": 758
-    },
-    {
-        "name": "Jozita",
-        "logo": "🟡",
-        "city": "Tauragės",
-        "address": "Papušynės k., Šilalės g. 105, 72175",
-        "lat": 55.2716812,
-        "lng": 22.28652444,
-        "prices": {
-            "A95": 1.95,
-            "A98": null,
-            "Diesel": 2.15,
-            "LPG": 0.75
-        },
-        "id": 759
+        "id": 722
     },
     {
         "name": "Osijos dujos",
@@ -11409,7 +10854,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 0.76
         },
-        "id": 760
+        "id": 723
     },
     {
         "name": "Stateta",
@@ -11419,12 +10864,12 @@ const stationsData = [
         "lat": 54.40763497,
         "lng": 24.08515544,
         "prices": {
-            "A95": 1.879,
+            "A95": 1.859,
             "A98": null,
-            "Diesel": 2.089,
+            "Diesel": 2.079,
             "LPG": null
         },
-        "id": 761
+        "id": 724
     },
     {
         "name": "Saurida",
@@ -11439,7 +10884,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.74
         },
-        "id": 762
+        "id": 725
     },
     {
         "name": "Baltic Petroleum",
@@ -11454,6 +10899,6 @@ const stationsData = [
             "Diesel": 2.259,
             "LPG": 0.859
         },
-        "id": 763
+        "id": 726
     }
 ];
