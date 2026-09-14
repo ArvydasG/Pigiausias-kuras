@@ -258,7 +258,7 @@ const hgvData = [
         "lat": 54.959358,
         "lng": 23.8666067,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -272,7 +272,7 @@ const hgvData = [
         "lat": 54.9588605,
         "lng": 23.8639379,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -300,7 +300,7 @@ const hgvData = [
         "lat": 55.8111145,
         "lng": 24.3687945,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -314,7 +314,7 @@ const hgvData = [
         "lat": 56.0420836,
         "lng": 24.3787268,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -328,7 +328,7 @@ const hgvData = [
         "lat": 56.1148631,
         "lng": 24.470356,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -342,7 +342,7 @@ const hgvData = [
         "lat": 56.2724165,
         "lng": 24.3683299,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -840,13 +840,27 @@ const hgvData = [
         }
     },
     {
+        "name": "🚛 Pakelės poilsio zona",
+        "type_label": "Pakelės poilsio zona",
+        "address": "",
+        "lat": 55.7334206,
+        "lng": 21.3832108,
+        "logo": "🚛",
+        "is_near_gas_station": false,
+        "near_station_name": "",
+        "capacity": "",
+        "prices": {
+            "Vilkikams": 1
+        }
+    },
+    {
         "name": "Truck Parking Lithuania",
         "type_label": "Vilkikų stovėjimo aikštelė",
         "address": "",
         "lat": 55.3704039,
         "lng": 23.121113,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -902,7 +916,7 @@ const hgvData = [
         "lat": 54.3292335,
         "lng": 23.147928,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1014,7 +1028,7 @@ const hgvData = [
         "lat": 55.7884499,
         "lng": 21.1388239,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1028,7 +1042,7 @@ const hgvData = [
         "lat": 54.8096289,
         "lng": 23.852983,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1165,20 +1179,6 @@ const hgvData = [
         "name": "🚛 Pakelės poilsio zona",
         "type_label": "Pakelės poilsio zona",
         "address": "",
-        "lat": 55.7331999,
-        "lng": 21.3833111,
-        "logo": "🚛",
-        "is_near_gas_station": false,
-        "near_station_name": "",
-        "capacity": "",
-        "prices": {
-            "Vilkikams": 1
-        }
-    },
-    {
-        "name": "🚛 Pakelės poilsio zona",
-        "type_label": "Pakelės poilsio zona",
-        "address": "",
         "lat": 54.794465,
         "lng": 24.6087058,
         "logo": "🚛",
@@ -1252,7 +1252,7 @@ const hgvData = [
         "lat": 55.5120735,
         "lng": 25.6447614,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1585,24 +1585,10 @@ const hgvData = [
         "name": "🚛 Pakelės poilsio zona",
         "type_label": "Pakelės poilsio zona",
         "address": "",
-        "lat": 55.2794746,
-        "lng": 23.3430592,
-        "logo": "🚛",
-        "is_near_gas_station": false,
-        "near_station_name": "",
-        "capacity": "",
-        "prices": {
-            "Vilkikams": 1
-        }
-    },
-    {
-        "name": "🚛 Pakelės poilsio zona",
-        "type_label": "Pakelės poilsio zona",
-        "address": "",
         "lat": 54.7138397,
         "lng": 23.6497102,
         "logo": "🚛",
-        "is_near_gas_station": false,
+        "is_near_gas_station": true,
         "near_station_name": "",
         "capacity": "",
         "prices": {
@@ -1669,8 +1655,8 @@ const hgvData = [
         "name": "Medininkų PKP sunkvežimių palaukimo aikštelė",
         "type_label": "Vilkikų stovėjimo aikštelė",
         "address": "",
-        "lat": 54.5621998,
-        "lng": 25.6462379,
+        "lat": 54.5620863,
+        "lng": 25.6465759,
         "logo": "🚛",
         "is_near_gas_station": false,
         "near_station_name": "",
@@ -1755,20 +1741,6 @@ const hgvData = [
         "address": "",
         "lat": 54.5802474,
         "lng": 24.5484763,
-        "logo": "🚛",
-        "is_near_gas_station": false,
-        "near_station_name": "",
-        "capacity": "",
-        "prices": {
-            "Vilkikams": 1
-        }
-    },
-    {
-        "name": "🚛 Vilkikų stovėjimo aikštelė",
-        "type_label": "Vilkikų stovėjimo aikštelė",
-        "address": "",
-        "lat": 54.9329963,
-        "lng": 23.9507964,
         "logo": "🚛",
         "is_near_gas_station": false,
         "near_station_name": "",
