@@ -2404,10 +2404,10 @@ const stationsData = [
         "lat": 55.24072789,
         "lng": 24.78759909,
         "prices": {
-            "A95": 1.89,
+            "A95": 1.92,
             "A98": null,
-            "Diesel": 2.19,
-            "LPG": 0.83
+            "Diesel": 2.22,
+            "LPG": 0.86
         },
         "id": 160
     },
