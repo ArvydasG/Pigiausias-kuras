@@ -1512,6 +1512,21 @@ const stationsData = [
         "id": 100
     },
     {
+        "name": "Circle K",
+        "logo": "🔴",
+        "city": "Plungės",
+        "address": "Truikių k., Pramogų g. 4, 90110",
+        "lat": 55.93901908,
+        "lng": 21.88009127,
+        "prices": {
+            "A95": 1.996,
+            "A98": null,
+            "Diesel": 2.266,
+            "LPG": 0.896
+        },
+        "id": 101
+    },
+    {
         "name": "Žibalas",
         "logo": "⛽",
         "city": "Jonavos",
@@ -1524,7 +1539,7 @@ const stationsData = [
             "Diesel": 2.29,
             "LPG": 0.93
         },
-        "id": 101
+        "id": 102
     },
     {
         "name": "Tomega",
@@ -1539,7 +1554,7 @@ const stationsData = [
             "Diesel": 2.279,
             "LPG": null
         },
-        "id": 102
+        "id": 103
     },
     {
         "name": "UAB GINDANA degalai laivams",
@@ -1554,7 +1569,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": null
         },
-        "id": 103
+        "id": 104
     },
     {
         "name": "Saurida",
@@ -1569,7 +1584,7 @@ const stationsData = [
             "Diesel": 2.18,
             "LPG": 0.79
         },
-        "id": 104
+        "id": 105
     },
     {
         "name": "Stateta",
@@ -1584,7 +1599,7 @@ const stationsData = [
             "Diesel": 2.129,
             "LPG": null
         },
-        "id": 105
+        "id": 106
     },
     {
         "name": "Saurida",
@@ -1599,6 +1614,6 @@ const stationsData = [
             "Diesel": 2.18,
             "LPG": 0.8
         },
-        "id": 106
+        "id": 107
     }
 ];
