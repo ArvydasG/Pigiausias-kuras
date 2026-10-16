@@ -286,7 +286,7 @@ const hgvData = [
         "lat": 55.2965261,
         "lng": 24.0762052,
         "logo": "🚛",
-        "is_near_gas_station": true,
+        "is_near_gas_station": false,
         "near_station_name": "",
         "capacity": "",
         "prices": {
