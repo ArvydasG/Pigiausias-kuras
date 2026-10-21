@@ -270,7 +270,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Decathlon Klaipėda",
@@ -296,7 +296,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Hesburger Ramučiai",
@@ -309,7 +309,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (165.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (165.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Hesburger Veiveriai",
@@ -322,7 +322,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Opera",
@@ -361,7 +361,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Baltupių turgus",
@@ -374,7 +374,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Rimi Jeruzalė",
@@ -400,7 +400,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 IKI Pavilnys",
@@ -413,7 +413,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 IKI Grigiškės",
@@ -426,7 +426,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Litexpo",
@@ -439,7 +439,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Maxima Vydūno g.",
@@ -452,7 +452,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Rimi Karoliniškės",
@@ -465,7 +465,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Šeškinės g. 59",
@@ -478,7 +478,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Helios City",
@@ -517,7 +517,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Halės turgus (out of order)",
@@ -556,7 +556,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Rimi Žirmūnai",
@@ -582,7 +582,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Karoliniškių poliklinika",
@@ -595,7 +595,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Norfa Fabijoniškės (coming soon)",
@@ -608,7 +608,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Maxima Gabijos g. (coming soon)",
@@ -621,7 +621,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "CHADEMO (45.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Norfa Justiniškės",
@@ -634,7 +634,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "CHADEMO (45.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 KUBAS",
@@ -673,7 +673,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Skraja",
@@ -699,7 +699,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Verslo centras BH-92",
@@ -712,7 +712,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Lazdynų ligoninė",
@@ -777,7 +777,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Tymo turgus",
@@ -816,7 +816,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Autocentras \"Žibintas\"",
@@ -829,7 +829,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Maxima Naujoji Vilnia",
@@ -842,7 +842,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Spaudos rūmai",
@@ -855,7 +855,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Panorama",
@@ -881,7 +881,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 CUP",
@@ -972,7 +972,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Kevigus | Partneris",
@@ -1024,7 +1024,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Hesburger Islandijos pl.",
@@ -1037,7 +1037,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Nordika",
@@ -1063,7 +1063,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (350.0kW), IEC_62196_T2_COMBO (250.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (250.0kW), IEC_62196_T2_COMBO (350.0kW)"
     },
     {
         "name": "🔌 IONITY GmbH IONITY Kryzkalnis",
@@ -1596,7 +1596,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Hesburger Baltų pr.",
@@ -1713,7 +1713,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Vilnius Gariūnai",
@@ -1726,7 +1726,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Rokiskis Respublikos",
@@ -1739,7 +1739,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Nemenčinė",
@@ -1752,7 +1752,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Vilnius Salininkai",
@@ -1765,7 +1765,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Alytus Likiškėliai",
@@ -1778,7 +1778,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Kaunas Vijukai",
@@ -1791,7 +1791,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Vilnius Karoliniškės II",
@@ -1804,7 +1804,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 PLTZARDBU1_EDLT-106",
@@ -1817,7 +1817,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Kaunas Ringaudai",
@@ -1830,7 +1830,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Medical SPA \"Eglės sanatorija\" Birštonas",
@@ -1895,7 +1895,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), CHADEMO (75.0kW), IEC_62196_T2_COMBO (100.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (75.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (100.0kW)"
     },
     {
         "name": "🔌 Hesburger Gariūnai",
@@ -1921,7 +1921,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 PLTSILUOS9_EDLT-14",
@@ -2246,7 +2246,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 P. Širvio g. 24",
@@ -2298,7 +2298,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 „Lūna“ pramogų centras",
@@ -2415,7 +2415,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2 (11.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Zaraso ežero apžvalgos aikštelė",
@@ -2441,7 +2441,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Norfa Radviliškis",
@@ -2493,7 +2493,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Kavinė \"Vilkasalė\"",
@@ -2506,7 +2506,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 NordSpace (Servečės g. 2) | Inbalance grid",
@@ -2532,7 +2532,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW), IEC_62196_T2_COMBO (25.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW), IEC_62196_T2 (11.0kW)"
     },
     {
         "name": "🔌 Balsių malūnas",
@@ -2545,7 +2545,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Sigutės koldūninė",
@@ -2883,7 +2883,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Green street Cafe",
@@ -2948,7 +2948,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Žiežmariai A1, 62,19km | Via Lietuva | Inbalance grid",
@@ -2961,7 +2961,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Šaltinėlis (Elektrėnai) A1, 45,78km | Via Lietuva | Inbalance grid",
@@ -2974,7 +2974,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Pas Lado A1, 93,43km | Via Lietuva | Inbalance grid",
@@ -2987,7 +2987,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Šalia kelio A1, 96,62km | Via Lietuva | Inbalance grid",
@@ -3000,7 +3000,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Švyturys A1, 141,67km | Via Lietuva | Inbalance grid",
@@ -3013,7 +3013,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Pastogė A1, 142,45km | Via Lietuva | Inbalance grid",
@@ -3026,7 +3026,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Levi. Tano A1, 185,24km | Via Lietuva | Inbalance grid",
@@ -3039,7 +3039,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Nikola A1, 192,8km | Via Lietuva | Inbalance grid",
@@ -3052,7 +3052,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Gargždai / Kilena A1, 292,92km | Via Lietuva | Inbalance grid",
@@ -3065,7 +3065,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Kurėnai A2, 80,1km | Via Lietuva | Inbalance grid",
@@ -3078,7 +3078,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 \"Jerevan\" Druskininkai A4, 125,69km | Via Lietuva | Inbalance grid",
@@ -3091,7 +3091,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Telšiai, 7 kilometras A11, 75,37km | Via Lietuva | Inbalance grid",
@@ -3104,7 +3104,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Laukinukė A12, 91,42km | Via Lietuva | Inbalance grid",
@@ -3117,7 +3117,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Circle K Tauragė A12, 152km | Via Lietuva | Inbalance grid",
@@ -3130,7 +3130,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Viešbutis „Greta“",
@@ -3156,7 +3156,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Tarandės g. 34",
@@ -3273,7 +3273,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Dino parkas",
@@ -3286,7 +3286,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Bistrampolio dvaras",
@@ -3325,7 +3325,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Koops Piliuona",
@@ -3403,7 +3403,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Sostinės med centras Račių g. 1",
@@ -3442,7 +3442,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (180.0kW)"
     },
     {
         "name": "🔌 Sostinės med centras Račių g. 1",
@@ -3494,7 +3494,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Mokslo g. 11",
@@ -3585,7 +3585,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), CHADEMO (50.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 Ronžės g. 5A",
@@ -3793,7 +3793,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLC Mega",
@@ -3858,7 +3858,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Elmega Luokės g. 46, Telšiai",
@@ -3897,7 +3897,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Taikos g. 39",
@@ -4092,7 +4092,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Viešbutis \"Pas Rimą\"",
@@ -4105,7 +4105,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Norfa XL, Baltų pr. 195, Kaunas",
@@ -4169,7 +4169,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (47.0kW)"
     },
     {
@@ -4287,7 +4287,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (75.0kW)"
+        "ev_connectors": "CHADEMO (75.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Kavinė \"Prie užtvankos\"",
@@ -4352,7 +4352,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Impuls Žirmūnai",
@@ -4365,7 +4365,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 R. Kalantos g. 49 | Partneris",
@@ -4417,7 +4417,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Stokker Šiauliai",
@@ -5197,7 +5197,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO, CHADEMO"
+        "ev_connectors": "CHADEMO, IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Porsche Klaipėda | Inbalance grid",
@@ -5431,7 +5431,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Kvistija A1, 238,03km | Via Lietuva | Inbalance grid",
@@ -5444,7 +5444,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 PLTNMKPIK2_EDLT-88",
@@ -5470,7 +5470,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 IKEA",
@@ -6185,7 +6185,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Norfa XL, Klaipėdos g. 41,  Gargždai",
@@ -6276,7 +6276,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (240.0kW)"
     },
     {
         "name": "🔌 Bikuva Kėdainiai",
@@ -6328,7 +6328,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Padėlio namai",
@@ -6367,7 +6367,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Topolis",
@@ -6393,7 +6393,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (160.0kW), IEC_62196_T2_COMBO (80.0kW), IEC_62196_T2_COMBO (47.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (80.0kW), IEC_62196_T2_COMBO (160.0kW), IEC_62196_T2_COMBO (47.0kW)"
     },
     {
         "name": "🔌 Norfa XL, Maironio g. 1, Kaišiadorys",
@@ -6445,7 +6445,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 K. Naruševičiaus g. 2",
@@ -6497,7 +6497,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Nevėžio g. 9",
@@ -6614,7 +6614,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Smėlio Arena Justiniškių g. 12",
@@ -6900,7 +6900,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (40.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (40.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Karpynė",
@@ -6913,7 +6913,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (300.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (300.0kW)"
     },
     {
         "name": "🔌 IKI Marijampolė",
@@ -6939,7 +6939,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (75.0kW)"
+        "ev_connectors": "CHADEMO (75.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 PLTVILZAD1_EDLT-63",
@@ -7017,7 +7017,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Moon Play | Inbalance grid",
@@ -7043,7 +7043,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Ginduliai",
@@ -7056,7 +7056,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Avižieniai",
@@ -7069,7 +7069,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lager Vilnius",
@@ -7095,7 +7095,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Vilnius Dangeručio gatvė",
@@ -7108,7 +7108,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lild Galgiai",
@@ -7121,7 +7121,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 LLT0219EVCP05",
@@ -7134,7 +7134,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Kaunas Savanoriai",
@@ -7147,7 +7147,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Šiauliai Aukštoji",
@@ -7160,7 +7160,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Klaipėda Gedminai",
@@ -7173,7 +7173,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Kaisiadorys",
@@ -7186,7 +7186,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Vilnius Valakampiai",
@@ -7199,7 +7199,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Elektrėnai",
@@ -7212,7 +7212,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Gargždai",
@@ -7238,7 +7238,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 PLTVILEST1_EDLT-131",
@@ -7290,7 +7290,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 JYSK Klaipėdos g. 168A, Panevėžys",
@@ -7381,7 +7381,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (240.0kW)"
     },
     {
         "name": "🔌 Norfa XXL, Vilniaus g. 99, Molėtai",
@@ -7420,7 +7420,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 PLTKURVY80_EDLT-135",
@@ -7446,7 +7446,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (300.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (300.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 PLTANYPU25_EDLT-84",
@@ -7459,7 +7459,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Norfa XL, Parko g. 1a, Marijampolė",
@@ -7667,7 +7667,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Kovo 11-osios g. 31A",
@@ -7784,7 +7784,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 PLTVILKA13_EDLT-80",
@@ -7810,7 +7810,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Norfa XXL Ukmergės g. 298, Vilnius",
@@ -7875,7 +7875,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Lidl Kaunas",
@@ -7888,7 +7888,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Norfa XL, A. Purėno g. 1, Kupiškis",
@@ -7901,7 +7901,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (40.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (40.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Optima 13 picerija, Kauno g. 43, Ukmergė",
@@ -8083,7 +8083,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Radvilėnų pl. 21, Kaunas",
@@ -8148,7 +8148,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Juodkrantės prieplauka | Partner",
@@ -8161,7 +8161,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Raudondvario pl. 105, Kaunas",
@@ -8278,7 +8278,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 P. Lukšio g. 47, Kaunas",
@@ -8343,7 +8343,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW), CHADEMO (60.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "CHADEMO (60.0kW), IEC_62196_T2_COMBO (60.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Naftrus Ylių k. | Partner",
@@ -8395,7 +8395,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW), CHADEMO (60.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "CHADEMO (60.0kW), IEC_62196_T2_COMBO (60.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Jovarų g. 2, Kaunas",
@@ -8460,7 +8460,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Žemaitijos gatvė 2, Naujoji Akmenė",
@@ -8499,7 +8499,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Kauno g. 34, Vilnius",
@@ -8681,7 +8681,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2 (11.0kW)"
     },
     {
         "name": "🔌 PLTVILTAL2_EDLT-29",
@@ -8694,7 +8694,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Rimi Lieporiai",
@@ -8720,7 +8720,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (180.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Tauragės Dvaro g. 34A, Tauragė | Inbalance grid",
@@ -8967,7 +8967,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (240.0kW)"
     },
     {
         "name": "🔌 Norfa XXL Ateities g. 10, Vilnius",
@@ -9461,7 +9461,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Klaipėdos paslaugos Pilies g. 2A | Partner",
@@ -9513,7 +9513,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Urmas 1",
@@ -9565,7 +9565,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania PC Pašilaičiai - Ermitažas | NUOLAIDA",
@@ -9578,7 +9578,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Prime Biurai",
@@ -9617,7 +9617,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (24.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Paupio Darboteka",
@@ -9643,7 +9643,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW), IEC_62196_T2 (7.0kW)"
+        "ev_connectors": "IEC_62196_T2 (7.0kW), IEC_62196_T2_COMBO (24.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Šiaurės pr. 8D PC Maxima",
@@ -9669,7 +9669,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (24.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Magnum -2 aukštas",
@@ -9773,7 +9773,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Kalvarijų turgus",
@@ -9812,7 +9812,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (24.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (24.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Klaipėdos Holivudas",
@@ -9877,7 +9877,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (180.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (180.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Eika verslo centras",
@@ -9981,7 +9981,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Pupa",
@@ -10007,7 +10007,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (11.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania LTLAB",
@@ -10046,7 +10046,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania PC Kalniečiai 3",
@@ -10072,7 +10072,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Rimi Čekoniškės",
@@ -10098,7 +10098,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania SMK Aukštoji mokykla",
@@ -10150,7 +10150,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 Klaipėdos paslaugos Liepojos g. 43A | Partner",
@@ -10215,7 +10215,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania KOOC Klinika | Partner",
@@ -10280,7 +10280,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Helijo ratai",
@@ -10332,7 +10332,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (200.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Urban HUB Kaunas 5",
@@ -10397,7 +10397,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Maxx verslo centras",
@@ -10423,7 +10423,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Eldrive | Porsche Charging Hub Raseiniai",
@@ -10436,7 +10436,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (400.0kW), IEC_62196_T2_COMBO (200.0kW), CHADEMO (75.0kW)"
+        "ev_connectors": "CHADEMO (75.0kW), IEC_62196_T2_COMBO (400.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Kėdainių rajono vartotojų kooperatyvas",
@@ -10514,7 +10514,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Jaunimo g. 8",
@@ -10553,7 +10553,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 EMS Karmėlava | Inbalance grid",
@@ -10644,7 +10644,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Rimi Zujūnai",
@@ -10657,7 +10657,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Techasas Rietavas",
@@ -10735,7 +10735,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (400.0kW), CHADEMO (100.0kW)"
+        "ev_connectors": "CHADEMO (100.0kW), IEC_62196_T2_COMBO (400.0kW)"
     },
     {
         "name": "🔌 PLTVILN110_EDLT-37",
@@ -10826,7 +10826,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Hesburger Erdvės",
@@ -10956,7 +10956,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (22.0kW), IEC_62196_T2_COMBO (47.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (22.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (47.0kW)"
     },
     {
         "name": "🔌 Norfa XL Vilniaus g. 47B, Joniškis",
@@ -10982,7 +10982,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (240.0kW), IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (47.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW), IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (240.0kW)"
     },
     {
         "name": "🔌 Norfa XXL, Šiaurės pr. 44, Kaunas",
@@ -11060,7 +11060,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Laiko Marios - 2k1",
@@ -11476,7 +11476,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (25.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLTPANJB69_EDLT-46",
@@ -11502,7 +11502,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLTVILU252_EDLT-109",
@@ -11515,7 +11515,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLTDRUVI13_EDLT-15",
@@ -11541,7 +11541,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLTKLAMO45_EDLT-52",
@@ -11606,7 +11606,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 PLTVILN110_EDLT-36",
@@ -11632,7 +11632,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (25.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (25.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 PLTPANSM85_EDLT-206",
@@ -11645,7 +11645,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW), CHADEMO (58.0kW)"
+        "ev_connectors": "CHADEMO (58.0kW), IEC_62196_T2_COMBO (60.0kW)"
     },
     {
         "name": "🔌 PLTKAUPR44_EDLT-180",
@@ -11671,7 +11671,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (150.0kW), CHADEMO (75.0kW)"
+        "ev_connectors": "CHADEMO (75.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 Taikos 259, Vilnius | Vilniaus Apšvietimas | Inbalance grid",
@@ -12385,7 +12385,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (4.0kW)"
     },
     {
@@ -13049,7 +13049,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Užimta / Nežinoma",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 IKI Lazdynai",
@@ -13062,7 +13062,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Maxima Naujininkai",
@@ -13075,7 +13075,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
     },
     {
         "name": "🔌 Vingio parkas",
@@ -13088,7 +13088,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO (45.0kW), CHADEMO (45.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO (45.0kW), IEC_62196_T2_COMBO (45.0kW)"
     },
     {
         "name": "🔌 Vokiečių g. (coming soon)",
@@ -13127,7 +13127,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (150.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (150.0kW)"
     },
     {
         "name": "🔌 PC Žali",
@@ -13140,7 +13140,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Didlaukio 51 | Vilniaus apšvietimas | Inbalance grid",
@@ -13607,7 +13607,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (4.0kW)"
     },
     {
@@ -14569,7 +14569,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2 (4.0kW)"
     },
     {
@@ -14999,7 +14999,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 IKI, Vaišvydava | Inbalance grid",
@@ -16675,7 +16675,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Užimta / Nežinoma",
+        "ev_status": "Laisva",
         "ev_connectors": "IEC_62196_T2_COMBO"
     },
     {
@@ -16871,7 +16871,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Aukštadvaris / Navos Smuklė A16, 54,61km | Via Lietuva | Inbalance grid",
@@ -16884,7 +16884,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), CHADEMO, IEC_62196_T2_COMBO"
     },
     {
         "name": "🔌 Marijampolė A5, 65 km | Via Lietuva | Inbalance grid",
@@ -16897,7 +16897,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Degučiai A6, 165,72km | Via Lietuva | Inbalance grid",
@@ -16910,7 +16910,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Žarija, Šeduva A9, 47,3km | Via Lietuva | Inbalance grid",
@@ -16923,7 +16923,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Raubonys A10, 47,43km | Via Lietuva | Inbalance grid",
@@ -16936,7 +16936,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO, CHADEMO, IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2 (43.0kW), IEC_62196_T2_COMBO, CHADEMO"
     },
     {
         "name": "🔌 Eldrive Lithuania Lietuvos etnografijos muziejus | PARTNERIS",
@@ -17559,7 +17559,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (4.0kW)"
     },
     {
@@ -17859,7 +17859,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 Žirmūnų g. 44 | Vilniaus Apšvietimas | Inbalance grid",
@@ -18599,7 +18599,7 @@ const evStationsData = [
         "prices": {
             "Elektra": 0.0
         },
-        "ev_status": "Laisva",
+        "ev_status": "Užimta / Nežinoma",
         "ev_connectors": "IEC_62196_T2 (4.0kW)"
     },
     {
@@ -18795,7 +18795,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Skulas Geležinis Vilkas",
@@ -18977,7 +18977,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (60.0kW), CHADEMO (58.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "CHADEMO (58.0kW), IEC_62196_T2_COMBO (60.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Prekybos parkas Pušynas",
@@ -19120,7 +19120,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Utenio a. 16, Utena",
@@ -19159,7 +19159,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Aukštakalnio g. 3, Utena",
@@ -19172,7 +19172,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Radviliškio g. 7, Kutiškiai | PARTNERIS",
@@ -19198,7 +19198,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (200.0kW), IEC_62196_T2 (22.0kW)"
+        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 PLTBUKBI36_EDLT-237",
@@ -19237,7 +19237,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (43.0kW), CHADEMO (50.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Eldrive | Porsche Charging Hub Rietavas",
@@ -19250,7 +19250,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (400.0kW), IEC_62196_T2_COMBO (200.0kW), CHADEMO (50.0kW)"
+        "ev_connectors": "CHADEMO (50.0kW), IEC_62196_T2_COMBO (400.0kW), IEC_62196_T2_COMBO (200.0kW)"
     },
     {
         "name": "🔌 PLTPABV116_EDLT-204",
@@ -19276,7 +19276,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Kaunas Vytauto",
@@ -19289,7 +19289,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (22.0kW), IEC_62196_T2_COMBO (50.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (50.0kW), IEC_62196_T2 (22.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Aušros g. 21, Druskininkai",
@@ -19380,7 +19380,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2 (11.0kW), IEC_62196_T2_COMBO (40.0kW), IEC_62196_T2_COMBO (100.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (40.0kW), IEC_62196_T2 (11.0kW), IEC_62196_T2_COMBO (100.0kW)"
     },
     {
         "name": "🔌 Norfa XL, Molėtų pl. 47, Vilnius",
@@ -19406,7 +19406,7 @@ const evStationsData = [
             "Elektra": 0.0
         },
         "ev_status": "Laisva",
-        "ev_connectors": "IEC_62196_T2_COMBO (47.0kW), IEC_62196_T2_COMBO (120.0kW)"
+        "ev_connectors": "IEC_62196_T2_COMBO (120.0kW), IEC_62196_T2_COMBO (47.0kW)"
     },
     {
         "name": "🔌 Eldrive Lithuania Muziejaus g. 35, Telšiai | PARTNERIS",
