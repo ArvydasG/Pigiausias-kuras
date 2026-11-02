@@ -109,10 +109,10 @@ const stationsData = [
         "lat": 56.01488869,
         "lng": 22.95124646,
         "prices": {
-            "A95": 1.95,
+            "A95": 1.93,
             "A98": null,
             "Diesel": 2.25,
-            "LPG": 0.89
+            "LPG": 0.91
         },
         "id": 7
     },
@@ -127,7 +127,7 @@ const stationsData = [
             "A95": 1.92,
             "A98": null,
             "Diesel": 2.22,
-            "LPG": 0.97
+            "LPG": 0.99
         },
         "id": 8
     },
