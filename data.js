@@ -1072,7 +1072,7 @@ const stationsData = [
             "A95": 1.93,
             "A98": null,
             "Diesel": 2.25,
-            "LPG": 0.91
+            "LPG": 0.94
         },
         "id": 71
     },
