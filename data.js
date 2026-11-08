@@ -1,5 +1,5 @@
 // Automatiškai sugeneruoti duomenys iš LEA API (via Playwright)
-const lastUpdated = '2026-11-07';
+const lastUpdated = '2026-11-08';
 const defaultDiscounts = {
     "Circle K": 0.035,
     "Neste": 0.035,
