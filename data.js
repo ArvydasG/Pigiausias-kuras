@@ -132,6 +132,51 @@ const stationsData = [
         "id": 8
     },
     {
+        "name": "Dujovita",
+        "logo": "⛽",
+        "city": "Kaunas",
+        "address": "Kaunas, Islandijos pl. 191D, 49170",
+        "lat": 54.93161139,
+        "lng": 23.95134209,
+        "prices": {
+            "A95": null,
+            "A98": null,
+            "Diesel": null,
+            "LPG": 0.99
+        },
+        "id": 9
+    },
+    {
+        "name": "Dujovita",
+        "logo": "⛽",
+        "city": "Kaunas",
+        "address": "Kaunas, Jonavos g. 110, 44136",
+        "lat": 54.91332994,
+        "lng": 23.91165299,
+        "prices": {
+            "A95": null,
+            "A98": null,
+            "Diesel": null,
+            "LPG": 0.998
+        },
+        "id": 10
+    },
+    {
+        "name": "Dujovita",
+        "logo": "⛽",
+        "city": "Kėdainių",
+        "address": "Kėdainiai, Basanavičiaus g. 91E, 57356",
+        "lat": 55.27806842,
+        "lng": 23.96011207,
+        "prices": {
+            "A95": null,
+            "A98": null,
+            "Diesel": null,
+            "LPG": 1.03
+        },
+        "id": 11
+    },
+    {
         "name": "Gelvybė",
         "logo": "⛽",
         "city": "Vilkaviškio",
@@ -144,7 +189,7 @@ const stationsData = [
             "Diesel": 2.179,
             "LPG": 1.04
         },
-        "id": 9
+        "id": 12
     },
     {
         "name": "Gelvybė",
@@ -159,7 +204,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 10
+        "id": 13
     },
     {
         "name": "Gelvybė",
@@ -174,7 +219,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 11
+        "id": 14
     },
     {
         "name": "Gelvybė",
@@ -189,7 +234,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 12
+        "id": 15
     },
     {
         "name": "Gelvybė",
@@ -204,7 +249,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 13
+        "id": 16
     },
     {
         "name": "Gelvybė",
@@ -219,7 +264,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 14
+        "id": 17
     },
     {
         "name": "Gelvybė",
@@ -234,7 +279,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 15
+        "id": 18
     },
     {
         "name": "Gelvybė",
@@ -249,7 +294,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 16
+        "id": 19
     },
     {
         "name": "Gelvybė",
@@ -264,7 +309,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": null
         },
-        "id": 17
+        "id": 20
     },
     {
         "name": "Gelvybė",
@@ -279,7 +324,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": null
         },
-        "id": 18
+        "id": 21
     },
     {
         "name": "Medelsta",
@@ -294,7 +339,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.07
         },
-        "id": 19
+        "id": 22
     },
     {
         "name": "Mindega",
@@ -309,7 +354,7 @@ const stationsData = [
             "Diesel": 2.13,
             "LPG": null
         },
-        "id": 20
+        "id": 23
     },
     {
         "name": "RV",
@@ -324,7 +369,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 1.03
         },
-        "id": 21
+        "id": 24
     },
     {
         "name": "RV",
@@ -339,7 +384,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 1.01
         },
-        "id": 22
+        "id": 25
     },
     {
         "name": "RV",
@@ -354,7 +399,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 1.04
         },
-        "id": 23
+        "id": 26
     },
     {
         "name": "Plungės lagūna",
@@ -369,7 +414,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.096
         },
-        "id": 24
+        "id": 27
     },
     {
         "name": "Prie Luksto",
@@ -384,7 +429,7 @@ const stationsData = [
             "Diesel": 2.235,
             "LPG": 1.059
         },
-        "id": 25
+        "id": 28
     },
     {
         "name": "Regusa",
@@ -399,7 +444,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.99
         },
-        "id": 26
+        "id": 29
     },
     {
         "name": "Regusa",
@@ -414,7 +459,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.99
         },
-        "id": 27
+        "id": 30
     },
     {
         "name": "Stateta",
@@ -429,7 +474,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 28
+        "id": 31
     },
     {
         "name": "Stateta",
@@ -444,7 +489,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 29
+        "id": 32
     },
     {
         "name": "Stateta",
@@ -459,7 +504,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 30
+        "id": 33
     },
     {
         "name": "Stateta",
@@ -474,7 +519,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 31
+        "id": 34
     },
     {
         "name": "Stateta",
@@ -489,7 +534,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 32
+        "id": 35
     },
     {
         "name": "Stateta",
@@ -504,7 +549,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 33
+        "id": 36
     },
     {
         "name": "Stateta",
@@ -519,7 +564,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 34
+        "id": 37
     },
     {
         "name": "Stateta",
@@ -534,7 +579,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 35
+        "id": 38
     },
     {
         "name": "Stateta",
@@ -549,7 +594,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 36
+        "id": 39
     },
     {
         "name": "Stateta",
@@ -564,7 +609,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 37
+        "id": 40
     },
     {
         "name": "Stateta",
@@ -579,7 +624,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 38
+        "id": 41
     },
     {
         "name": "Stateta",
@@ -594,7 +639,7 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": 1.049
         },
-        "id": 39
+        "id": 42
     },
     {
         "name": "Tomega",
@@ -609,7 +654,7 @@ const stationsData = [
             "Diesel": 2.239,
             "LPG": null
         },
-        "id": 40
+        "id": 43
     },
     {
         "name": "Tomega",
@@ -624,7 +669,7 @@ const stationsData = [
             "Diesel": 2.2,
             "LPG": 1.01
         },
-        "id": 41
+        "id": 44
     },
     {
         "name": "Topgas",
@@ -639,7 +684,7 @@ const stationsData = [
             "Diesel": null,
             "LPG": 1.0
         },
-        "id": 42
+        "id": 45
     },
     {
         "name": "Trevena",
@@ -654,7 +699,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 43
+        "id": 46
     },
     {
         "name": "Trevena",
@@ -669,7 +714,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.02
         },
-        "id": 44
+        "id": 47
     },
     {
         "name": "Trevena",
@@ -684,7 +729,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 45
+        "id": 48
     },
     {
         "name": "Trevena",
@@ -699,7 +744,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 46
+        "id": 49
     },
     {
         "name": "Trevena",
@@ -714,7 +759,7 @@ const stationsData = [
             "Diesel": 2.22,
             "LPG": 1.07
         },
-        "id": 47
+        "id": 50
     },
     {
         "name": "Trevena",
@@ -729,7 +774,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 48
+        "id": 51
     },
     {
         "name": "Trevena",
@@ -744,7 +789,7 @@ const stationsData = [
             "Diesel": 2.18,
             "LPG": 1.03
         },
-        "id": 49
+        "id": 52
     },
     {
         "name": "Trevena",
@@ -759,7 +804,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 50
+        "id": 53
     },
     {
         "name": "Trevena",
@@ -774,7 +819,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 51
+        "id": 54
     },
     {
         "name": "Trevena",
@@ -789,7 +834,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": 1.05
         },
-        "id": 52
+        "id": 55
     },
     {
         "name": "Trevena",
@@ -804,7 +849,7 @@ const stationsData = [
             "Diesel": 2.21,
             "LPG": 1.08
         },
-        "id": 53
+        "id": 56
     },
     {
         "name": "Trevena",
@@ -819,7 +864,7 @@ const stationsData = [
             "Diesel": 2.21,
             "LPG": 1.08
         },
-        "id": 54
+        "id": 57
     },
     {
         "name": "Tripletas",
@@ -834,7 +879,7 @@ const stationsData = [
             "Diesel": 2.22,
             "LPG": 1.03
         },
-        "id": 55
+        "id": 58
     },
     {
         "name": "Tumasa",
@@ -849,7 +894,7 @@ const stationsData = [
             "Diesel": 2.3,
             "LPG": 0.94
         },
-        "id": 56
+        "id": 59
     },
     {
         "name": "Utentra",
@@ -864,7 +909,7 @@ const stationsData = [
             "Diesel": 2.109,
             "LPG": null
         },
-        "id": 57
+        "id": 60
     },
     {
         "name": "Velseka",
@@ -879,7 +924,7 @@ const stationsData = [
             "Diesel": 2.089,
             "LPG": 0.969
         },
-        "id": 58
+        "id": 61
     },
     {
         "name": "Vildega",
@@ -894,7 +939,7 @@ const stationsData = [
             "Diesel": 2.159,
             "LPG": 1.03
         },
-        "id": 59
+        "id": 62
     },
     {
         "name": "Vimijula",
@@ -909,7 +954,7 @@ const stationsData = [
             "Diesel": 2.25,
             "LPG": 1.06
         },
-        "id": 60
+        "id": 63
     },
     {
         "name": "VIRŠI Lietuva",
@@ -924,7 +969,7 @@ const stationsData = [
             "Diesel": 2.184,
             "LPG": 1.034
         },
-        "id": 61
+        "id": 64
     },
     {
         "name": "Žibalas",
@@ -939,7 +984,7 @@ const stationsData = [
             "Diesel": 2.26,
             "LPG": 1.08
         },
-        "id": 62
+        "id": 65
     },
     {
         "name": "Tomega",
@@ -954,7 +999,7 @@ const stationsData = [
             "Diesel": 2.249,
             "LPG": null
         },
-        "id": 63
+        "id": 66
     },
     {
         "name": "UAB GINDANA degalai laivams",
@@ -969,7 +1014,7 @@ const stationsData = [
             "Diesel": 2.2,
             "LPG": null
         },
-        "id": 64
+        "id": 67
     },
     {
         "name": "Stateta",
@@ -984,6 +1029,6 @@ const stationsData = [
             "Diesel": 2.119,
             "LPG": null
         },
-        "id": 65
+        "id": 68
     }
 ];
