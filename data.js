@@ -1,5 +1,5 @@
 // Automatiškai sugeneruoti duomenys iš LEA API (via Playwright)
-const lastUpdated = '2026-11-14';
+const lastUpdated = '2026-11-15';
 const defaultDiscounts = {
     "Circle K": 0.035,
     "Neste": 0.035,
@@ -87,21 +87,6 @@ const stationsData = [
         "id": 5
     },
     {
-        "name": "Autograndas",
-        "logo": "⛽",
-        "city": "Visagino",
-        "address": "Visaginas, Taikos pr. 47, 31217",
-        "lat": 55.59049932,
-        "lng": 26.4632926,
-        "prices": {
-            "A95": 1.698,
-            "A98": null,
-            "Diesel": 2.098,
-            "LPG": null
-        },
-        "id": 6
-    },
-    {
         "name": "Bemija",
         "logo": "⛽",
         "city": "Ukmergės",
@@ -114,7 +99,7 @@ const stationsData = [
             "Diesel": 2.1,
             "LPG": 0.99
         },
-        "id": 7
+        "id": 6
     },
     {
         "name": "Bonsa",
@@ -129,7 +114,7 @@ const stationsData = [
             "Diesel": 2.099,
             "LPG": 0.95
         },
-        "id": 8
+        "id": 7
     },
     {
         "name": "Bonsa",
@@ -144,7 +129,7 @@ const stationsData = [
             "Diesel": 2.12,
             "LPG": 0.98
         },
-        "id": 9
+        "id": 8
     },
     {
         "name": "Gelvybė",
@@ -159,7 +144,7 @@ const stationsData = [
             "Diesel": 2.179,
             "LPG": 1.04
         },
-        "id": 10
+        "id": 9
     },
     {
         "name": "Gelvybė",
@@ -174,7 +159,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 11
+        "id": 10
     },
     {
         "name": "Gelvybė",
@@ -189,7 +174,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 12
+        "id": 11
     },
     {
         "name": "Gelvybė",
@@ -204,7 +189,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 13
+        "id": 12
     },
     {
         "name": "Gelvybė",
@@ -219,7 +204,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 14
+        "id": 13
     },
     {
         "name": "Gelvybė",
@@ -234,7 +219,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 15
+        "id": 14
     },
     {
         "name": "Gelvybė",
@@ -249,7 +234,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 16
+        "id": 15
     },
     {
         "name": "Gelvybė",
@@ -264,7 +249,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": 1.04
         },
-        "id": 17
+        "id": 16
     },
     {
         "name": "Gelvybė",
@@ -279,7 +264,7 @@ const stationsData = [
             "Diesel": 2.199,
             "LPG": null
         },
-        "id": 18
+        "id": 17
     },
     {
         "name": "Gelvybė",
@@ -294,7 +279,7 @@ const stationsData = [
             "Diesel": 2.19,
             "LPG": null
         },
-        "id": 19
+        "id": 18
     },
     {
         "name": "Medelsta",
@@ -308,6 +293,21 @@ const stationsData = [
             "A98": null,
             "Diesel": 2.19,
             "LPG": 1.07
+        },
+        "id": 19
+    },
+    {
+        "name": "Mindega",
+        "logo": "⛽",
+        "city": "Kėdainių",
+        "address": "Šėta, Ramygalos g. 55, 58129",
+        "lat": 55.29043244,
+        "lng": 24.25254785,
+        "prices": {
+            "A95": 1.8,
+            "A98": null,
+            "Diesel": 2.13,
+            "LPG": null
         },
         "id": 20
     },
