@@ -350,20 +350,6 @@ const hgvData = [
         }
     },
     {
-        "name": "Truck parking",
-        "type_label": "Vilkikų stovėjimo aikštelė",
-        "address": "",
-        "lat": 54.359978,
-        "lng": 23.1836812,
-        "logo": "🚛",
-        "is_near_gas_station": false,
-        "near_station_name": "",
-        "capacity": "",
-        "prices": {
-            "Vilkikams": 1
-        }
-    },
-    {
         "name": "🚛 Pakelės poilsio zona",
         "type_label": "Pakelės poilsio zona",
         "address": "",
