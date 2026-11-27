@@ -5766,7 +5766,7 @@ const stationsData = [
         "prices": {
             "A95": 1.779,
             "A98": null,
-            "Diesel": 2.199,
+            "Diesel": 2.189,
             "LPG": 1.059
         },
         "id": 384
